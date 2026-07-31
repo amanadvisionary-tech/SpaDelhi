@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.spadelhi.com/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://www.spadelhi.com/about-us</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi/sandwich-massage-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi/couples-massage-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi/b2b-massage-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi/full-body-massage-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/massage-service-in-delhi/spa-therapist-jobs-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/spa-price-in-delhi</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Location Pages -->
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini/spa-in-aerocity</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini/spa-in-connaught-place</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini/spa-in-lajpat-nagar</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini/spa-in-gurgaon</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/Spa-in-rohini/spa-in-noida</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog & Contact -->
+  <url>
+    <loc>https://www.spadelhi.com/blog</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.spadelhi.com/contact</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

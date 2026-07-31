@@ -1,0 +1,24 @@
+# ==============================
+# Robots.txt for https://www.spadelhi.com/
+# Next.js Compatible Version
+# ==============================
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow unnecessary or internal routes (Next.js friendly)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Removed WordPress-only rules:
+# /wp-admin/, /wp-includes/, /comments/, /trackback/,
+# /search, /*?s=, /*?replytocom=, /tag/, /author/
+# (These do NOT exist in Next.js)
+
+# Optional: block all query-string URLs (uncomment if needed)
+# Disallow: /*?*
+
+# Sitemap Location
+Sitemap: https://www.spadelhi.com/sitemap.xml
