@@ -66,7 +66,7 @@ const blogs = [
   title: "Spa in Connaught Place: Best Hotels, Services, and Massage Options",
   description:
     "Explore the best spa in Connaught Place, luxury hotel spa experiences, massage centre services, wellness therapies, and expert tips for choosing the right spa in Delhi.",
-  image: "/images/spa-in-connaught-place.png",
+  image: "/images/spa-in-Connaught-place.png",
   link: "/blog/spa-in-connaught-place",
 },
 {

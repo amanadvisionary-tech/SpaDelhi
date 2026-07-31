@@ -110,7 +110,7 @@ export default function SpaInConnaughtPlacePage() {
             <div className="relative mb-8 h-[280px] overflow-hidden rounded-[24px] sm:h-[380px]">
 
               <Image
-                src="/images/spa-in-connaught-place1.png"
+                src="/images/spa-in-Connaught-place1.png"
                 alt="Spa in Connaught Place"
                 fill
                 priority
