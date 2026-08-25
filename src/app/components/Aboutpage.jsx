@@ -15,7 +15,6 @@ import {  Star, MapPin, Sparkles, Hotel } from 'lucide-react';
 import {  FaHands, FaHeartbeat, FaClock, FaEye, FaBullseye, FaHandsHelping  } from 'react-icons/fa'
 
 
-
 const raleway = Raleway({
   subsets: ['latin'],
   variable: '--font-raleway',

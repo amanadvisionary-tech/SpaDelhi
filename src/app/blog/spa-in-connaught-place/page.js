@@ -44,6 +44,11 @@ const faqs = [
 
 const relatedBlogs = [
   {
+    title: "Difference Between Spa and Massage",
+    href: "/blog/what-is-the-difference-between-spa-and-massage",
+    image: "/images/spa-treatments.jpg",
+  },
+  {
     title: "Sandwich Massage in Delhi",
     href: "/blog/sandwich-massage-in-delhi",
     image: "/images/sandwich-massage.png",

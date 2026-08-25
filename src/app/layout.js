@@ -6,13 +6,13 @@ import TopBar from "./components/TopBar";
 import Analytics from "./components/Analytics";
 ;
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
   display: 'swap',
 })
 
-export const playfair = Playfair_Display({
+const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
   display: 'swap',

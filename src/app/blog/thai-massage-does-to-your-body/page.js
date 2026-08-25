@@ -40,6 +40,11 @@ const faqs = [
 
 const relatedBlogs = [
   {
+    title: "Difference Between Spa and Massage",
+    href: "/blog/what-is-the-difference-between-spa-and-massage",
+    image: "/images/spa-treatments.jpg",
+  },
+  {
     title: "Swedish Massage vs Deep Tissue Massage",
     href: "/swedish-massage-vs-deep-tissue-massage",
     image: "/images/80535.webp",

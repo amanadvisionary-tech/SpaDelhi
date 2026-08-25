@@ -44,6 +44,11 @@ const faqs = [
 
 const relatedBlogs = [
   {
+    title: "Difference Between Spa and Massage",
+    href: "/blog/what-is-the-difference-between-spa-and-massage",
+    image: "/images/spa-treatments.jpg",
+  },
+  {
     title: "What is a B2B Full Body Massage?",
     href: "/blog/what-is-b2b-full-body-massage",
     image: "/images/b2b-full-body-massage.jpg",

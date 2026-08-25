@@ -79,6 +79,11 @@ const faqs = [
 
 const relatedBlogs = [
   {
+    title: "Difference Between Spa and Massage",
+    href: "/blog/what-is-the-difference-between-spa-and-massage",
+    image: "/images/spa-treatments.jpg",
+  },
+  {
     title: "What Does Thai Massage Do to Your Body?",
     href: "/blog/thai-massage-does-to-your-body",
     image: "/images/thaimassage1.png",

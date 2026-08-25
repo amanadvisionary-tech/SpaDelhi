@@ -76,6 +76,13 @@ const blogs = [
   image: "/images/spaservices1.jpg",
   link: "/blog/best-spa-service-in-delhi-ncr",
 },
+{
+  title: "What Is the Difference Between Spa and Massage? A Simple Guide",
+  description:
+    "Understand the difference between a spa and a massage. Learn how massage is a specific hands-on therapy while a spa offers a complete wellness environment with multiple rejuvenating treatments.",
+  image: "/images/spa-treatments.jpg",
+  link: "/blog/what-is-the-difference-between-spa-and-massage",
+},
 ];
 
 export default function Bolgpage() {
