@@ -17,7 +17,7 @@ export const metadata = {
     siteName: "Spa Delhi",
     images: [
       {
-        url: "/images/luxuryspaicon.png",
+        url: "/images/luxurySpaRoom.jpg",
         width: 1200,
         height: 630,
         alt: "Spa Delhi",

@@ -2,12 +2,12 @@ import Gallerypage from "./Gallerypage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Get Body To Body Massage in Delhi | B2B Massage in Karol Bagh",
-  description: "We offer genuine body to body massage in Delhi. If you are looking for B2B massage or body massage just visit our spa in Karol Bagh. Book Your Session",
+  title: "Spa Gallery Delhi | Photos of Our Luxury Spa Outlets & Ambience",
+  description: "Take a look inside Spa Delhi's luxury outlets — private suites, massage rooms, and premium spa ambience across our 5-star hotel locations in Delhi NCR.",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Spa Gallery Delhi | Photos of Our Luxury Spa Outlets & Ambience",
+    description: "Take a look inside Spa Delhi's luxury outlets — private suites, massage rooms, and premium spa ambience across our 5-star hotel locations in Delhi NCR.",
+    images: ["https://www.spadelhi.com/images/5StarHotelSpa.jpg"],
     type: "website",
   },
    alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/5StarHotelSpa.jpg"]
   }
 };
 

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Best Spa & Massage Service in Delhi By Top Therapists",
     description: "Experience top-notch massage service in Delhi at the best spa centre in Delhi. Our top therapists are ready to give you relaxation in Delhi or NCR Areas. Check Out",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    images: ["https://www.spadelhi.com/images/banner1.jpg"],
     type: "website",
   },
    alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/banner1.jpg"]
   }
 };
 

@@ -5,9 +5,9 @@ export const metadata = {
   title: "About Our Delhi Spa | 5 star outlets in Delhi",
   description: "Explore our Delhi spa for relaxing body, couple, and ayurvedic therapies — delivering unmatched wellness experiences across Delhi NCR.",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "About Our Delhi Spa | 5 star outlets in Delhi",
+    description: "Explore our Delhi spa for relaxing body, couple, and ayurvedic therapies — delivering unmatched wellness experiences across Delhi NCR.",
+    images: ["https://www.spadelhi.com/images/aboutusbanner.jpg"],
     type: "website",
   },
    alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/aboutusbanner.jpg"]
   }
 };
 

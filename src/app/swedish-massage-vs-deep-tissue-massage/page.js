@@ -2,20 +2,20 @@ import Swedishvsdeeptissue from "./Swedishvsdeeptissue";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book 5 star Hotel Spa Outlets in Delhi | Spa in Rohini For complete relaxation ",
-  description: "Our luxury spa outlets in Delhi, including the best Spa in Rohini and Hotel Spa in Pitampura, offering relaxing body massages & complete service. Book Now ",
+  title: "Swedish Massage vs Deep Tissue Massage | Which One is Right for You",
+  description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Spa Delhi.",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Swedish Massage vs Deep Tissue Massage | Which One is Right for You",
+    description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Spa Delhi.",
+    images: ["https://www.spadelhi.com/images/SpecializedTreatments.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/sandwich-massage-in-delhi",
+    canonical: "https://www.spadelhi.com/swedish-massage-vs-deep-tissue-massage",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/SpecializedTreatments.jpg"]
   }
 };
 

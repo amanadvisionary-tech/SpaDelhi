@@ -5,9 +5,9 @@ export const metadata = {
   title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
   description: " Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
+    description: "Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
+    images: ["https://www.spadelhi.com/images/NovotelNewDelhiAerocity.webp"],
     type: "website",
   },
   alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/NovotelNewDelhiAerocity.webp"]
   }
 };
 

@@ -5,9 +5,9 @@ export const metadata = {
   title: "Best Full body massage in Delhi | Starting From Just 1999",
   description: "Looking for Full Body Massage in Delhi? Get Body massage in Karol Bagh by Well trained therapist. We always maintain proper hygiene and cleanliness between your spa session",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Best Full body massage in Delhi | Starting From Just 1999",
+    description: "Looking for Full Body Massage in Delhi? Get Body massage in Karol Bagh by Well trained therapist. We always maintain proper hygiene and cleanliness between your spa session",
+    images: ["https://www.spadelhi.com/images/MassageSession.webp"],
     type: "website",
   },
    alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/MassageSession.webp"]
   }
 };
 

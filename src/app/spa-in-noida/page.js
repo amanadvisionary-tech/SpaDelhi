@@ -5,9 +5,9 @@ export const metadata = {
   title: "visit our spa centre in noida for best Full body massage in noida",
   description: "We are specialists in giving full body massage, B2B massage, hot stone massage and many more. Just visit our spa centre in Noida and get your all therapy solution at home, hotel or in Noida. ",
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "visit our spa centre in noida for best Full body massage in noida",
+    description: "We are specialists in giving full body massage, B2B massage, hot stone massage and many more. Just visit our spa centre in Noida and get your all therapy solution at home, hotel or in Noida.",
+    images: ["https://www.spadelhi.com/images/SandalSuitesbyLemonTreeHotels_Noida.jpg"],
     type: "website",
   },
   alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spadelhi.com/images/SandalSuitesbyLemonTreeHotels_Noida.jpg"]
   }
 };
 
