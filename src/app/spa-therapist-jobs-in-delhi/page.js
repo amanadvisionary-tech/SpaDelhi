@@ -4,6 +4,7 @@ import Hotstone from "./Hotstone";
 export const metadata = {
   title: "Looking for Spa Therapist jobs in Delhi? Part Time & Full Time",
   description: "Get the best Spa Therapist jobs in Delhi. We have part time and full time spa jobs available. Just contact us and get your spa therapist jobs in Delhi, Noida and Gurgaon. Contact Now",
+  keywords: ["spa therapist jobs in delhi", "massage therapist jobs delhi", "spa jobs delhi", "part time spa jobs delhi"],
   openGraph: {
     title: "Looking for Spa Therapist jobs in Delhi? Part Time & Full Time",
     description: "Get the best Spa Therapist jobs in Delhi. We have part time and full time spa jobs available. Just contact us and get your spa therapist jobs in Delhi, Noida and Gurgaon. Contact Now",

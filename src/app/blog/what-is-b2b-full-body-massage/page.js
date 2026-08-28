@@ -10,9 +10,21 @@ export const metadata = {
     "What is a B2B Full Body Massage? Complete Beginner's Guide (2026) | Spa Delhi",
   description:
     "Learn what a B2B full body massage is, how it works, its benefits, safety tips, what to expect during a session, and everything beginners should know.",
+  keywords: ["what is b2b full body massage", "b2b massage guide", "b2b massage beginners guide"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/what-is-a-b2b-full-body-massage",
+      "https://www.spadelhi.com/blog/what-is-b2b-full-body-massage",
+  },
+  openGraph: {
+    title: "What is a B2B Full Body Massage? Complete Beginner's Guide",
+    description:
+      "Learn what a B2B full body massage is, how it works, its benefits, safety tips, and everything beginners should know.",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
   },
 };
 

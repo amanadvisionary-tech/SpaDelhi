@@ -289,7 +289,7 @@ export default function Pitampurapage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/spa-in-pitampura.png" alt="Elegant spa treatment in Pitampura" fill className="object-cover" />
+                <Image src="/images/luxurySpaRoom.jpg" alt="Elegant spa treatment in Pitampura" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">

@@ -4,6 +4,7 @@ import Serpage from "./Serpage";
 export const metadata = {
   title: "Best Spa & Massage Service in Delhi By Top Therapists",
   description: "Experience top-notch massage service in Delhi at the best spa centre in Delhi. Our top therapists are ready to give you relaxation in Delhi or NCR Areas. Check Out",
+  keywords: ["massage service in delhi", "spa and massage service delhi", "top massage therapists delhi", "massage centre in delhi"],
   openGraph: {
     title: "Best Spa & Massage Service in Delhi By Top Therapists",
     description: "Experience top-notch massage service in Delhi at the best spa centre in Delhi. Our top therapists are ready to give you relaxation in Delhi or NCR Areas. Check Out",

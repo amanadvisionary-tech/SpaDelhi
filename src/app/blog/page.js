@@ -4,6 +4,7 @@ import Bolgpage from "./Bolgpage";
 export const metadata = {
   title: "Spa & Massage Blog Delhi | Tips, Guides & Wellness Insights",
   description: "Read the Spa Delhi blog for expert guides on massage types, wellness tips, and spa treatments in Delhi NCR to help you choose the right therapy.",
+  keywords: ["spa blog delhi", "massage tips delhi", "wellness blog delhi", "spa guides delhi"],
   openGraph: {
     title: "Spa & Massage Blog Delhi | Tips, Guides & Wellness Insights",
     description: "Read the Spa Delhi blog for expert guides on massage types, wellness tips, and spa treatments in Delhi NCR to help you choose the right therapy.",

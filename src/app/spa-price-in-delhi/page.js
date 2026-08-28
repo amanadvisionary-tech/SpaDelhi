@@ -4,6 +4,7 @@ import Pricpage from "./Pricpage";
 export const metadata = {
   title: "Get the best spa price in Delhi | Check Full Body massage price",
   description: "Get Best spa price in delhi our spa service starting from just 1999. We have top 5 star outlets to provide you spa sessions in delhi or ncr regions. Check out full body massage price in noida",
+  keywords: ["spa price in delhi", "massage price in delhi", "full body massage price delhi", "spa cost delhi"],
   openGraph: {
     title: "Get the best spa price in Delhi | Check Full Body massage price",
     description: "Get Best spa price in delhi our spa service starting from just 1999. We have top 5 star outlets to provide you spa sessions in delhi or ncr regions. Check out full body massage price in noida",

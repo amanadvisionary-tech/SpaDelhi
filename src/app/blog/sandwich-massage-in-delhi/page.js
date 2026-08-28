@@ -8,9 +8,21 @@ export const metadata = {
     "Sandwich Massage in Delhi: Everything You Need to Know Before Booking | Spa Delhi",
   description:
     "Learn everything about Sandwich Massage in Delhi, its benefits, booking process, professional massage therapy, and what to expect before your session.",
+  keywords: ["sandwich massage guide", "sandwich massage benefits delhi", "what is sandwich massage"],
   alternates: {
     canonical:
       "https://www.spadelhi.com/blog/sandwich-massage-in-delhi",
+  },
+  openGraph: {
+    title: "Sandwich Massage in Delhi: Everything You Need to Know Before Booking",
+    description:
+      "Learn everything about Sandwich Massage in Delhi, its benefits, booking process, and what to expect before your session.",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -462,7 +474,7 @@ export default function SandwichMassageDelhiPage() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/sandwich-massage-4.jpg"
+                    src="/images/MassageSession.webp"
                     alt="Massage Session"
                     fill
                     className="object-cover"
@@ -605,7 +617,7 @@ export default function SandwichMassageDelhiPage() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/sandwich-massage-6.jpg"
+                    src="/images/luxurySpaRoom.jpg"
                     alt="Luxury Massage Services"
                     fill
                     className="object-cover"
@@ -715,7 +727,7 @@ export default function SandwichMassageDelhiPage() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/sandwich-massage-7.jpg"
+                    src="/images/5StarHotelSpa.jpg"
                     alt="Book a Luxury Spa"
                     fill
                     className="object-cover"

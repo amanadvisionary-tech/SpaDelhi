@@ -5,6 +5,7 @@ import Isb2bmassagelegal from "./Isb2bmassagelegal";
 export const metadata = {
   title: "Is B2B Massage Legal in India? Know the Facts",
   description: "Is b2b massage legal in India? Learn the law, risks, and how to choose a professional spa in Delhi for safe, discreet wellness.",
+  keywords: ["is b2b massage legal in india", "b2b massage law india", "b2b massage legality"],
   openGraph: {
     title: "Is B2B Massage Legal in India? Know the Facts",
     description: "Is b2b massage legal in India? Learn the law, risks, and how to choose a professional spa in Delhi for safe, discreet wellness.",

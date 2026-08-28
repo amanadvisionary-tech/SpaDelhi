@@ -6,8 +6,20 @@ import { Breadcrumbs, InfoBox, BenefitCard, FaqAccordion } from "../../component
 export const metadata = {
   title: "What Does Thai Massage Do to Your Body? | Spa Delhi",
   description: "Learn how Thai massage helps reduce stress, improve flexibility, relieve muscle pain, and support better circulation in a relaxing wellness experience.",
+  keywords: ["thai massage benefits", "what does thai massage do", "thai massage stress relief"],
   alternates: {
     canonical: "https://www.spadelhi.com/blog/thai-massage-does-to-your-body",
+  },
+  openGraph: {
+    title: "What Does Thai Massage Do to Your Body?",
+    description:
+      "Learn how Thai massage helps reduce stress, improve flexibility, relieve muscle pain, and support better circulation.",
+    images: ["https://www.spadelhi.com/images/steptodown.com870307.webp"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/steptodown.com870307.webp"],
   },
 };
 

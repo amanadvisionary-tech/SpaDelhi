@@ -4,6 +4,7 @@ import Healthbenefits from "./Healthbenefits";
 export const metadata = {
   title: "Health Benefits of Sandwich Massage | Spa Delhi",
   description: "Discover the health benefits of sandwich massage — deep relaxation, better circulation, and pain relief from two therapists working in sync. Learn more at Spa Delhi.",
+  keywords: ["health benefits of sandwich massage", "sandwich massage benefits", "sandwich massage advantages"],
   openGraph: {
     title: "Health Benefits of Sandwich Massage | Spa Delhi",
     description: "Discover the health benefits of sandwich massage — deep relaxation, better circulation, and pain relief from two therapists working in sync. Learn more at Spa Delhi.",

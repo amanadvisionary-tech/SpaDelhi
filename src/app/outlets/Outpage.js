@@ -1033,7 +1033,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                         transition={{ duration: 0.6 }}
                                       >
                                         <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                        <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h1>
+                                        <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h2>
                                         <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
                                       </motion.div>
             

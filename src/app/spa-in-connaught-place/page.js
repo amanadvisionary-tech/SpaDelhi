@@ -4,6 +4,7 @@ import Conaughtpage from "./Conaughtpage";
 export const metadata = {
   title: "Best Massage centre in connaught place | Get body massage in C.P",
   description: "Visit our Massage centre in connaught place to Experience full body massage, sandwich massage and B2B therapy etc. We have the best therapists to provide you comfort in C.P",
+  keywords: ["spa in connaught place", "massage in connaught place", "body massage cp delhi", "spa in cp"],
   openGraph: {
     title: "Best Massage centre in connaught place | Get body massage in C.P",
     description: "Visit our Massage centre in connaught place to Experience full body massage, sandwich massage and B2B therapy etc. We have the best therapists to provide you comfort in C.P",

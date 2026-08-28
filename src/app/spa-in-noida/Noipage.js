@@ -267,11 +267,11 @@ const SERVICES_RIGHT = [
               <div className="w-12 h-px bg-amber-600"></div>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury </span>
             Massage & Spa
               <span className="block mt-2 font-medium">Services at <span className="text-rose-600">Hotels in Noida</span></span>
-            </h1>
+            </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
             Spa Delhi offers high-quality wellness spa in Noida at leading hotels in Noida. Our trained therapists visit your hotel room to provide professional spa services. You can enjoy these treatments whether you're in town for work, vacation, or just need a break. 
@@ -1046,7 +1046,7 @@ We use quality oils and proven methods to help you feel better. Our therapists h
                                                                                                                      <div className="max-w-6xl mx-auto px-6">
                                                                                                                        {/* Header */}
                                                                                                                        <header className="text-center mb-14">
-                                                                                                                         <motion.h1
+                                                                                                                         <motion.h2
                                                                                                                            initial={{ opacity: 0, y: 20 }}
                                                                                                                            whileInView={{ opacity: 1, y: 0 }}
                                                                                                                            transition={{ duration: 0.6 }}
@@ -1058,7 +1058,7 @@ We use quality oils and proven methods to help you feel better. Our therapists h
                                                                                                                            <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                                                                                                                              Prestigious Hotels?
                                                                                                                            </span>
-                                                                                                                         </motion.h1>
+                                                                                                                         </motion.h2>
                                                                                                                
                                                                                                                          <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
                                                                                                                            Experience luxury massage in your hotel with quick, easy and flexible booking. Our <span className="font-semibold text-amber-700">massage spa in Aerocity</span> comes directly to your room — at your convenience.

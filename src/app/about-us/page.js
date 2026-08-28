@@ -4,6 +4,7 @@ import Abpage from "./Abpage";
 export const metadata = {
   title: "About Our Delhi Spa | 5 star outlets in Delhi",
   description: "Explore our Delhi spa for relaxing body, couple, and ayurvedic therapies — delivering unmatched wellness experiences across Delhi NCR.",
+  keywords: ["about spa delhi", "delhi spa outlets", "5 star spa in delhi", "wellness centre delhi", "ayurvedic massage delhi"],
   openGraph: {
     title: "About Our Delhi Spa | 5 star outlets in Delhi",
     description: "Explore our Delhi spa for relaxing body, couple, and ayurvedic therapies — delivering unmatched wellness experiences across Delhi NCR.",

@@ -11,15 +11,15 @@ const galleryImages = [
   "/images/453.webp",
   "/images/potliMassage.jpg",
   "/images/outletsBanner.jpeg",
-  "/images/haboutus.jpg",
-  "/images/spamodel.jpg",
-  "/images/spamodel2.jpg",
-  "/images/spaExpert4.jpg",
+  "/images/aboutusbanner.jpg",
+  "/images/Reflexology.jpg",
+  "/images/HelpstoDe-Stress.webp",
+  "/images/MassageSession.webp",
   "/images/spaexpert3.webp",
   "/images/spaoutletbanner.jpg",
   "/images/potliMassage.jpg",
   "/images/outletsBanner.jpeg",
-  "/images/haboutus.jpg",
+  "/images/luxurySpaRoom.jpg",
 ];
 
 export default function Gallerypage() {

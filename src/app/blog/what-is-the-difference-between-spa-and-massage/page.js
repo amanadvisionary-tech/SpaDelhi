@@ -8,9 +8,21 @@ export const metadata = {
     "What Is the Difference Between Spa and Massage? A Simple Guide | Spa Delhi",
   description:
     "Learn the difference between a spa and a massage. Understand what each offers, their benefits, what to expect, and how to choose the right wellness option.",
+  keywords: ["difference between spa and massage", "spa vs massage", "spa massage guide"],
   alternates: {
     canonical:
       "https://www.spadelhi.com/blog/what-is-the-difference-between-spa-and-massage",
+  },
+  openGraph: {
+    title: "What Is the Difference Between Spa and Massage? A Simple Guide",
+    description:
+      "Learn the difference between a spa and a massage. Understand what each offers, their benefits, and how to choose the right wellness option.",
+    images: ["https://www.spadelhi.com/images/spaservices1.jpg"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/spaservices1.jpg"],
   },
 };
 

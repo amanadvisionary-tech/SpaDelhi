@@ -8,9 +8,21 @@ export const metadata = {
     "Best Spa Services in Delhi NCR: What Services Should You Choose? | Spa Delhi",
   description:
     "Explore the best spa services in Delhi NCR, including Full Body Massage, Couple Massage, Sandwich Massage, and B2B Massage. Learn how to choose the right wellness treatment for relaxation and self-care.",
+  keywords: ["best spa services in delhi ncr", "spa services delhi ncr", "choosing spa treatment delhi"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/best-spa-services-in-delhi-ncr",
+      "https://www.spadelhi.com/blog/best-spa-service-in-delhi-ncr",
+  },
+  openGraph: {
+    title: "Best Spa Services in Delhi NCR: What Services Should You Choose?",
+    description:
+      "Explore the best spa services in Delhi NCR, including Full Body Massage, Couple Massage, Sandwich Massage, and B2B Massage.",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -366,7 +378,7 @@ export default function BestSpaServicesDelhiNCR() {
                                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/full-body-massage-delhi.jpg"
+                    src="/images/MassageSession.webp"
                     alt="Full Body Massage in Delhi"
                     fill
                     className="object-cover"
@@ -401,7 +413,7 @@ export default function BestSpaServicesDelhiNCR() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/sandwich-massage-delhi.jpg"
+                    src="/images/Sandwich Massage.webp"
                     alt="Sandwich Massage in Delhi"
                     fill
                     className="object-cover"
@@ -448,7 +460,7 @@ export default function BestSpaServicesDelhiNCR() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/couple-massage-delhi.jpg"
+                    src="/images/Couple Massage.webp"
                     alt="Couple Massage in Delhi"
                     fill
                     className="object-cover"
@@ -575,7 +587,7 @@ export default function BestSpaServicesDelhiNCR() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/best-spa-delhi.jpg"
+                    src="/images/luxurySpaRoom.jpg"
                     alt="Best Spa in Delhi"
                     fill
                     className="object-cover"

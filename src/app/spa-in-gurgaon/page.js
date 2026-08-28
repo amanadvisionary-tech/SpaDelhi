@@ -4,6 +4,7 @@ import Gurpage from "./Gurpage";
 export const metadata = {
   title: "Get Full Body Massage At Our Spa In Gurgaon",
   description: "We offer genuine full body massage at our best spa in gurgaon. Experience our top -notch spa service by our top rated spa massage therapists. Claim our First visit offer and enjoy your spa Session.",
+  keywords: ["spa in gurgaon", "massage in gurgaon", "full body massage gurgaon", "body spa gurgaon"],
   openGraph: {
     title: "Get Full Body Massage At Our Spa In Gurgaon",
     description: "We offer genuine full body massage at our best spa in gurgaon. Experience our top -notch spa service by our top rated spa massage therapists. Claim our First visit offer and enjoy your spa Session.",

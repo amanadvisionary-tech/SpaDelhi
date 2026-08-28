@@ -365,11 +365,11 @@ const topSteps = [
               <div className="w-12 h-px bg-amber-600"></div>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
-            at Top Hotels in,
+            at Top Hotels in
               <span className="block mt-2 font-medium">Aerocity – Spa Delhi <span className="text-rose-600">Tranquility</span></span>
-            </h1>
+            </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
             Step into comfort and relaxation with Spa Delhi’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
@@ -1094,7 +1094,7 @@ const topSteps = [
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-14">
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -1106,7 +1106,7 @@ const topSteps = [
             <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
               Prestigious Hotels?
             </span>
-          </motion.h1>
+          </motion.h2>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
             Booking a Spa Delhi session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.

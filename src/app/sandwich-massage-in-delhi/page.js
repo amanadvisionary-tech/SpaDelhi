@@ -4,6 +4,7 @@ import Sandpage from "./Sandpage";
 export const metadata = {
   title: " Visit Best Sandwich Massage in Delhi | Started in just @1999",
   description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
+  keywords: ["sandwich massage in delhi", "sandwich massage price delhi", "sandwich massage karol bagh", "sandwich massage spa delhi"],
   openGraph: {
     title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
     description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",

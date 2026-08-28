@@ -266,11 +266,11 @@ const SERVICES_RIGHT = [
               <div className="w-12 h-px bg-amber-600"></div>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
             & Spa Services at
               <span className="block mt-2 font-medium">Top Hotels <span className="text-rose-600">in Lajpat Nagar</span></span>
-            </h1>
+            </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
             Enjoy the luxury at your exclusive spa in Lajpat Nagar at Spa Delhi, the premier massage centre that offers an array of premium relaxation and top-notch wellness services at the best hotels in the Lajpat Nagar area, New Delhi. Whether you are coming on business trips, travelling around or having a quick timeout, Spa Delhi will provide you with relaxing treatments. 
@@ -964,7 +964,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so y
                                             <div className="max-w-6xl mx-auto px-6">
                                               {/* Header */}
                                               <header className="text-center mb-14">
-                                                <motion.h1
+                                                <motion.h2
                                                   initial={{ opacity: 0, y: 20 }}
                                                   whileInView={{ opacity: 1, y: 0 }}
                                                   transition={{ duration: 0.6 }}
@@ -976,7 +976,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so y
                                                   <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                                                     Prestigious Hotels?
                                                   </span>
-                                                </motion.h1>
+                                                </motion.h2>
                                       
                                                 <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
                                                   The process of beginning to relax with Spa Delhi is easy.<span className="font-semibold text-amber-700">Here is how you can do it:</span> 

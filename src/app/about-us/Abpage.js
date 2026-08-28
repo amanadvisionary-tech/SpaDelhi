@@ -285,9 +285,9 @@ export default function Abpage({
         transition={{ duration: 1 }}
         className="relative z-10 text-center max-w-2xl px-4"
       >
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-wide font-[PlayfairDisplay]">
+        <h2 className="text-4xl md:text-5xl font-semibold tracking-wide font-[PlayfairDisplay]">
           Discover Tranquility
-        </h1>
+        </h2>
         <p className="mt-4 text-lg md:text-xl text-gray-200">
           Welcome to our world of calm and luxury. Rejuvenate your body and soul.
         </p>
@@ -1204,7 +1204,7 @@ export default function Abpage({
                                           transition={{ duration: 0.6 }}
                                         >
                                           <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">Why Guests Choose Our Premium Spa in Delhi Noida Gurgoan</h1>
+                                          <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">Why Guests Choose Our Premium Spa in Delhi, Noida &amp; Gurgaon</h2>
                                           <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
                                         </motion.div>
               

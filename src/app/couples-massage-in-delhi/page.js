@@ -4,6 +4,7 @@ import Couplepage from "./Couplepage";
 export const metadata = {
   title: "Couple Massage in Delhi | Female to male Couple Massage",
   description: "Looking for a couple massage in Delhi? Visit our spa in Karol bagh for the best couples massage. We have certified therapists to provide you perfect relaxation.",
+  keywords: ["couples massage in delhi", "couple massage delhi", "female to male massage delhi", "couple spa delhi"],
   openGraph: {
     title: "Couple Massage in Delhi | Female to male Couple Massage",
     description: "Looking for a couple massage in Delhi? Visit our spa in Karol bagh for the best couples massage. We have certified therapists to provide you perfect relaxation.",

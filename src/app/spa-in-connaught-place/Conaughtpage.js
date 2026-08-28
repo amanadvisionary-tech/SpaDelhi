@@ -327,7 +327,7 @@ export default function Conaughtpage() {
                 <div className="w-12 h-px bg-amber-600"></div>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+              <h2 className="text-4xl md:text-5xl font-light text-gray-800">
                 <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">
                   Luxury Massage
                 </span>
@@ -335,7 +335,7 @@ export default function Conaughtpage() {
                 <span className="block mt-2 font-medium">
                   Place at <span className="text-rose-600">Top Hotels</span>
                 </span>
-              </h1>
+              </h2>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                 Spa Delhi, the premier spa centre in Connaught Place, offers
@@ -1032,9 +1032,9 @@ export default function Conaughtpage() {
               <span className="text-sm font-medium text-amber-700 tracking-widest">
                 OUR SIGNATURE OFFERINGS
               </span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">
                 How to Book Massage Therapy in Connaught Place Hotels
-              </h1>
+              </h2>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 It is easy to book a massage session in the Connaught Place

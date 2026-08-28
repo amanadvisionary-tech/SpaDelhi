@@ -4,6 +4,7 @@ import Aeropage from "./Aeropage";
 export const metadata = {
   title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
   description: " Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
+  keywords: ["spa in aerocity", "massage in aerocity", "hotel spa aerocity", "body massage aerocity"],
   openGraph: {
     title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
     description: "Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",

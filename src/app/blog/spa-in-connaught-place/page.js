@@ -8,9 +8,21 @@ export const metadata = {
     "Spa in Connaught Place: Best Hotels, Services, and Massage Options | Spa Delhi",
   description:
     "Discover the best spa in Connaught Place, hotel spa experiences, massage services, wellness options, and tips for choosing the right massage centre in Delhi.",
+  keywords: ["best hotels connaught place spa", "connaught place spa guide", "cp massage options"],
   alternates: {
     canonical:
       "https://www.spadelhi.com/blog/spa-in-connaught-place",
+  },
+  openGraph: {
+    title: "Spa in Connaught Place: Best Hotels, Services, and Massage Options",
+    description:
+      "Discover the best spa in Connaught Place, hotel spa experiences, massage services, and tips for choosing the right massage centre in Delhi.",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -604,7 +616,7 @@ export default function SpaInConnaughtPlacePage() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/spa-connaught-place-6.jpg"
+                    src="/images/luxurySpaRoom.jpg"
                     alt="Luxury Spa in Delhi"
                     fill
                     className="object-cover"
@@ -682,7 +694,7 @@ export default function SpaInConnaughtPlacePage() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/spa-connaught-place-7.jpg"
+                    src="/images/JwMarriott_CP.jpg"
                     alt="Best Time to Visit a Spa in Connaught Place"
                     fill
                     className="object-cover"

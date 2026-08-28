@@ -277,11 +277,11 @@ const SERVICES_RIGHT = [
               <div className="w-12 h-px bg-amber-600"></div>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Spa</span>
             & Massage Services
               <span className="block mt-2 font-medium">at Top Hotels <span className="text-rose-600">in Gurgaon</span></span>
-            </h1>
+            </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
             Get the best massage with Spa Delhi in the most iconic 5-star hotels in Gurgaon. Our professional therapists are united in offering modern relaxation together with ancient healing, providing you with a refreshing getaway from your hectic lifestyle. Experience unparalleled comfort, custom-designed service, and overall well-being, designed to ensure your stay is memorable.
@@ -982,7 +982,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                                      <div className="max-w-6xl mx-auto px-6">
                                                                                                                        {/* Header */}
                                                                                                                        <header className="text-center mb-14">
-                                                                                                                         <motion.h1
+                                                                                                                         <motion.h2
                                                                                                                            initial={{ opacity: 0, y: 20 }}
                                                                                                                            whileInView={{ opacity: 1, y: 0 }}
                                                                                                                            transition={{ duration: 0.6 }}
@@ -994,7 +994,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                                            <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                                                                                                                              Prestigious Hotels?
                                                                                                                            </span>
-                                                                                                                         </motion.h1>
+                                                                                                                         </motion.h2>
                                                                                                                
                                                                                                                          <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
                                                                                                                           The best hotels in Gurgaon are associated with the idea of class and sophistication - and that is what we offer. Spa Delhi promises you a relaxing experience of making a reservation, which is discreet, comfortable, and professional.

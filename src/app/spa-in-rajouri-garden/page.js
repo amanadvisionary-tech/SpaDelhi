@@ -4,6 +4,7 @@ import SpaInRajourigGrden from "./SpaInRajourigGrden";
 export const metadata = {
   title: "Best Spa in Rajouri Garden Delhi | Full Body Massage Centre",
   description: "Looking for a spa in Rajouri Garden, West Delhi? Experience relaxing full body massage, deep tissue & couple spa with certified therapists in a private setting.",
+  keywords: ["spa in rajouri garden", "massage in rajouri garden", "body massage rajouri garden"],
   openGraph: {
     title: "Best Spa in Rajouri Garden Delhi | Full Body Massage Centre",
     description: "Looking for a spa in Rajouri Garden, West Delhi? Experience relaxing full body massage, deep tissue & couple spa with certified therapists in a private setting.",

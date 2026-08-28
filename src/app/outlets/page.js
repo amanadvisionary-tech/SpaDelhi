@@ -4,6 +4,7 @@ import Outpage from "./Outpage";
 export const metadata = {
   title: "Book 5 star Hotel Spa Outlets in Delhi | Spa in Rohini For complete relaxation ",
   description: "Our luxury spa outlets in Delhi, including the best Spa in Rohini and Hotel Spa in Pitampura, offering relaxing body massages & complete service. Book Now ",
+  keywords: ["spa outlets in delhi", "hotel spa outlets delhi", "spa locations delhi", "spa branches delhi"],
   openGraph: {
     title: "Book 5 star Hotel Spa Outlets in Delhi | Spa in Rohini For complete relaxation",
     description: "Our luxury spa outlets in Delhi, including the best Spa in Rohini and Hotel Spa in Pitampura, offering relaxing body massages & complete service. Book Now",
