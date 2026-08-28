@@ -686,7 +686,7 @@ View All Services
                     
                     
                     <p className="text-stone-600 mb-6 leading-relaxed">
-                      The visitors are subjected to posh oils, hygienic, and peaceful settings to uplift every session. Be it business, leisure or weekend outing, Spa Delhi would guarantee you a spa experience that is elegant, health-wise and unquestionably comfortably so, this makes us the favourite massage area that the hotels have spa services in Delhi.
+                      Every session takes place in a hygienic, peaceful setting with premium oils to elevate the experience. Whether you're here for business, leisure, or a weekend break, Spa Delhi guarantees an elegant, comfortable session — which is why we're a favourite choice for hotel spa services in Delhi.
                     </p>
                     
                     <div className="grid grid-cols-2 gap-4 mb-8">

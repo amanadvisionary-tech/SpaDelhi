@@ -234,7 +234,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-       Experience the luxury and comfort in one of the best Body to Body massage in Delhi. We offer you a massage session that will give you unparalleled comfort and relaxation. If you want to have a massage that is way too different from a normal massage, then look no further.
+       Experience the luxury and comfort of one of the best body to body massage services in Delhi. We offer sessions built around unparalleled comfort and relaxation. If you're looking for something quite different from a regular massage, this is exactly what you need.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -634,7 +634,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      
                      
                      <p className="text-stone-600 mb-6 leading-relaxed">
-                       Your comfort is always in the mind of our therapists. Are you planning to unwind after work, refuel your energy, or simply take care of yourself, whatever the case we will be planning to make every session better than you could have imagined. That is why our customers continue to use us to relax and come back over and over.
+                       Your comfort is always our therapists' priority. Whether you're unwinding after work, recharging your energy, or simply taking time for yourself, we aim to make every session better than the last. That's why our customers keep coming back to relax with us.
                      </p>
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
@@ -1536,8 +1536,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </motion.h2>
 
     <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-      Treat yourself to our premium Swedish massage – a journey to complete physical and mental rejuvenation. 
-      Book now and receive a complimentary aromatherapy session.
+      Treat yourself to our premium B2B massage – a journey to complete physical and mental rejuvenation.
+      Book now to experience it for yourself.
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">

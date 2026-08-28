@@ -645,7 +645,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                  >
                    <div className="max-w-lg">
                      <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       Aerocity, one of the most renowned wellness places within Delhi, has the best Sandwich Massage awaiting you to enjoy. Aerocity spa services package the best therapies, well-trained massage therapists, and a relaxing ambience so that you can relax your body and mind to the maximum. All sessions are designed to remove stress, balance inner energies, and feel energetic. Sandwich Massage in Aerocity is an indulgent massage available to both regular flight travelers and locals of Delhi. 
+                       Aerocity, one of the most renowned wellness hubs in Delhi, is home to some of the best sandwich massage sessions in the city. Our packages combine skilled therapy, well-trained therapists, and a relaxing ambience so you can unwind completely. Every session is designed to relieve stress, restore balance, and leave you feeling energized — a favourite among both regular travelers and Delhi locals alike.
                        {/* <span className="font-medium text-stone-800"> </span> */}
                      </p>
                      
@@ -1534,7 +1534,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </motion.h2>
 
     <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-      Treat yourself to our premium Swedish massage – a journey to complete physical and mental rejuvenation. 
+      Treat yourself to our premium sandwich massage – a journey to complete physical and mental rejuvenation.
       Book now and receive a complimentary aromatherapy session.
     </p>
 

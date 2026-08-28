@@ -235,7 +235,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Spa Delhi is the best spa for couple in Delhi, offering the finest couple massage in Delhi to strengthen the bond between you and your loved one, relax you, and release tension through high-quality spa treatments.
+        Spa Delhi offers one of the finest couples massage experiences in Delhi, designed to help you and your partner relax together, release tension, and reconnect through high-quality spa treatments in a calm, private setting.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -618,8 +618,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                  >
                    <div className="max-w-lg">
                      <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       Want to share chill time with your person? Book our <a><span className="font-medium text-stone-800">Couple massage in Delhi</span></a> and lie side-by-side on soft beds in one private room. We light rose candles, play slow Bollywood love songs, and two expert aunties work on your backs with warm almond oil—one presses your shoulders, the other presses your partner’s, same beat, same relax. No shy, only cosy vibes; you can even hold hands while knots open. After 60 minutes we give free chocolate and ginger tea so you both leave smiling, smelling good, and ready for nice dinner. Many boyfriends, girlfriends, and even mummy-papa come for anniversary surprise. Price is friendly, towels fresh, room fully safe. Try once and you will say, “Yaar, this Couple massage in Delhi is best date plan ever!”
-                       
+                       Want to share quality time with your partner? Book our <a><span className="font-medium text-stone-800">couples massage in Delhi</span></a> and relax side-by-side in a private, softly-lit room. Two experienced therapists work in sync with warm oils, easing tension from both of you at the same gentle pace. Each 60-minute session ends with light refreshments, so you both leave relaxed and refreshed. It's a popular choice for anniversaries and special occasions alike — with clean, fresh towels and a fully private, comfortable space every time.
                      </p>
                      
                      
@@ -825,7 +824,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Why Choose <span className="text-amber-600">Spa Delhi for the Best Couple </span>Massage Centre in Delhi?
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 Spa Delhi is best couple massage spa in Delhi, where we have a team of best massage therapist offering you most soothing massage using massage oils at luxurious space. 
+                                                 Spa Delhi is one of the best couples massage spas in Delhi, with a team of skilled therapists offering a soothing massage experience using quality oils in a luxurious, private space.
                                                </p>
                                              </motion.div>
                                            </div>
@@ -1207,7 +1206,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
                             <h3 className="text-xl font-semibold text-amber-800 mb-4">Couples Candlelight Massage in Delhi</h3>
                             <p className="text-gray-700 mb-6">
-                             Ambience is key to couples. Experience ultimate intimacy in candlelit rooms, surrounded by fragrant oils and relaxing music, as you reconnect with your soul mate.
+                             Ambience matters when you're relaxing as a couple. Enjoy a calming session in candlelit rooms, surrounded by fragrant oils and soothing music, as you both unwind together.
                             </p>
                             <h4 className="text-xl font-semibold text-amber-800 mb-4">Luxury Couple Spa Packages for Stress-Free Getaways</h4>
                             <p className="text-gray-700 mb-6">
@@ -1223,7 +1222,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                           </ul>
                           
                           <p className="text-gray-700 mb-6">
-                              Delhi spa centres give best massage in whole NCR. People love full-body massage, Thai stretch, sandwich four-hand, and good oil rub for pain and stress. Just tell what you need—relax, relief or little extra smile—our friendly staff fix it quick, price clear, room clean.
+                              Our Delhi spa centres offer some of the best massage options in the NCR. Guests love our full-body massage, Thai stretch therapy, four-hand sandwich massage, and oil-based treatments for pain and stress relief. Just tell our team what you're looking for — relaxation, pain relief, or something in between — and we'll get it sorted quickly, with clear pricing and a clean, comfortable room.
                             </p>
                       </div>
                       
@@ -1242,13 +1241,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-amber-800 mb-4">Sweet Couple Massage at Home in Delhi – Feel Closer Together</span>
+                        <span className="font-semibold text-amber-800 mb-4">Couples Massage at Home in Delhi</span>
                         <p className="text-gray-700 mb-6">
-                         Why go out when Couple massage at home in Delhi can come to you? Just WhatsApp your address, we reach in 45 minutes with clean sheets, warm rose oil, and one tiny candle. Both of you lie on your own bed, therapists work same-time on back, neck, legs—like mirror dance. Room smells sweet, music soft, no outside noise; you can even hold hands or giggle between strokes. After one hour we pack up, leave you two loose, shiny, and hugging more. Safe, private, no travel, same price. Book tonight, make tomorrow happy.                  
+                         Prefer to stay in? Our couples massage at home service brings everything to your door — clean linens, warm oils, and a calming setup. Simply share your address on WhatsApp and our therapists arrive within 45 minutes, ready to work on both of you at the same time in a private, comfortable setting. It's a safe, fully private option at the same price as an in-outlet session. Book ahead for same-day appointments.
                         </p>
-                        <span className="font-semibold text-amber-800 mb-4">Hot Stone Massage in Delhi: Warm Stones, Cool Vibes</span>
+                        <span className="font-semibold text-amber-800 mb-4">Hot Stone Massage in Delhi</span>
                         <p>
-                         Feel tired? Try hot stone massage in Delhi. We heat smooth black stones, put on your back; warmth goes inside, melts pain like butter on tawa. Stones slide slow, muscles open, blood runs fast—no ache, only calm. Room smells mint, music slow, you sleep like baby. One hour only, price friendly, towel fresh. Come in lunch break or after flight; step out light, cool, smiling. Book now, feel the heat!
+                         Looking for deeper relief? Our hot stone massage uses smooth, heated stones placed along your back to help release muscle tension and improve circulation. The gentle warmth eases tightness while calming music and light aromatherapy help you fully relax. Sessions run about an hour and are a popular pick on a lunch break or after a long flight — you'll leave feeling lighter and refreshed.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1517,8 +1516,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </motion.h2>
 
     <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-      Treat yourself to our premium Swedish massage – a journey to complete physical and mental rejuvenation. 
-      Book now and receive a complimentary aromatherapy session.
+      Treat yourself and your partner to our premium couples massage – a journey to complete physical and mental rejuvenation.
+      Book now to experience it for yourself.
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">

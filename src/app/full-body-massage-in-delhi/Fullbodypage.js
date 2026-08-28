@@ -246,7 +246,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Want full-body massage in Delhi? Come, lie on soft bed, our expert aunties rub warm oil from head to toe, press pain points slow-slow; office stress, back ache, head heaviness all run away. Mind becomes clear, body light, mood happy; you sleep tight at night and wake fresh.
+        Looking for a full-body massage in Delhi? Lie back and relax while our expert therapists work warm oil from head to toe, gently releasing tension at every pressure point. Office stress, back pain and heavy shoulders melt away, leaving your mind clear and your body light — so you sleep better and wake up refreshed.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -630,7 +630,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                  >
                    <div className="max-w-lg">
                      <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       Lots of people in Delhi choose our popular massages for complete healing and relaxation. There are different types, including massages that relieve stress or use oils to calm your senses. Every visit is designed for your personal comfort. Many repeat clients believe in the reliable quality, professional therapists, and peaceful spa atmosphere.
+                       Many people across Delhi choose our massages for complete healing and relaxation. From stress-relieving deep tissue work to calming aromatherapy oils, every visit is designed around your comfort. Our repeat clients keep coming back for the reliable quality, professional therapists, and peaceful spa atmosphere.
                        {/* <span className="font-medium text-stone-800">hot stone massage</span>, 
                        <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                        and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
@@ -640,7 +640,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      
                      
                      <p className="text-stone-600 mb-6 leading-relaxed">
-                       Massage options can be combined such as aromatherapy, Swedish, or deep tissue, and each option is scheduled to suit you. Regardless of the choice you make, all the sessions will have an uplifting effect and will restore your energy. Book an appointment today to one of the most reliable full body massages in Delhi. 
+                       You can combine techniques like aromatherapy, Swedish, or deep tissue massage, scheduled around what suits you best. Whatever you choose, every session is designed to leave you feeling uplifted and re-energized. Book your appointment today for one of the most reliable full body massages in Delhi.
                        {/* <span className="font-medium text-stone-800">hot stone massage</span>, 
                        <span className="font-medium text-stone-800"> couple experiences</span>, 
                        <span className="font-medium text-stone-800">Thai techniques</span>,  */}
@@ -840,7 +840,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Why Choose Spa Delhi <span className="text-amber-600">for Best Full Body Massage Centre in Delhi?</span>
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                Spa Delhi is a top option in the city for those who want a great massage in a clean and comfortable space, handled by professionals.
+                                                Spa Delhi is a top choice in the city for a great full body massage in a clean, comfortable space, handled entirely by trained professionals.
                                                </p>
                                              </motion.div>
                                            </div>
@@ -1530,8 +1530,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </motion.h2>
 
     <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-      Treat yourself to our premium Swedish massage – a journey to complete physical and mental rejuvenation. 
-      Book now and receive a complimentary aromatherapy session.
+      Treat yourself to our premium full body massage – a journey to complete physical and mental rejuvenation.
+      Book now to experience it for yourself.
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">

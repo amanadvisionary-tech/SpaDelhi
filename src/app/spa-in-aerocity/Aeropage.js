@@ -853,23 +853,16 @@ const topSteps = [
           >
             <div className="max-w-lg">
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
+                Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication.
+                Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis
+                of calm in the heart of Delhi. We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>,
+                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>,
+                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully
                 designed private sanctuaries.
               </p>
-              
-              
-              
+
               <p className="text-stone-600 mb-6 leading-relaxed">
-                We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                of calm in the heart of Delhi.
+                Being close to the airport, our Aerocity spa is a favourite stop for travelers who want to unwind before or after a flight, as well as guests staying at nearby hotels. Every session is private, hygienic, and led by trained therapists who tailor the treatment to your comfort and time available — so even a short layover can feel like a proper reset.
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-8">

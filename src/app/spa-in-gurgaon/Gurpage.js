@@ -26,8 +26,8 @@ export default function Gurpage() {
             const faqs = [
                   
                   {
-                    question: "What makes your spa in gurgaonn Special?",
-                    answer: "Our spa in gurgaonn offers multiple massage therapy like b2b massage, hot stone massage, deep tissue massage and sandwich massage in gurgaon at very affordable prices.",
+                    question: "What makes your spa in Gurgaon special?",
+                    answer: "Our spa in Gurgaon offers multiple massage therapies including B2B massage, hot stone massage, deep tissue massage and sandwich massage, all at very affordable prices.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {

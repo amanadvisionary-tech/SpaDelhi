@@ -186,7 +186,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
        Need a satisfying spa therapist position in Delhi? Spa Delhi provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, Noida and more.
       </p>
       <h2 className="text-2xl md:text-3xl font-light text-gray-800"><span className="block mt-2 font-medium">Our Premium Massage Center in Delhi</span></h2>
-      <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">In the Spa Delhi, there are 5-star hotels, spa and massage therapist employment opportunities in the most lavish places in Delhi. Start your trip with one of the most reliable brands of spa brands in the city.</p>
+      <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">At Spa Delhi, we offer spa and massage therapist employment opportunities across 5-star hotels and the most lavish spa outlets in the city. Start your career with one of Delhi's most reliable spa brands.</p>
 
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
