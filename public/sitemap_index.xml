@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.spadelhi.com/</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,14 +12,14 @@
   <!-- Main Pages -->
   <url>
     <loc>https://www.spadelhi.com/about-us</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.spadelhi.com/massage-service-in-delhi</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -62,7 +62,7 @@
 
   <url>
     <loc>https://www.spadelhi.com/spa-price-in-delhi</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -183,7 +183,7 @@
   <!-- Blog & Contact -->
   <url>
     <loc>https://www.spadelhi.com/blog</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -232,7 +232,7 @@
 
   <url>
     <loc>https://www.spadelhi.com/contact</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
