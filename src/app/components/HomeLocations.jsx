@@ -61,7 +61,18 @@ export default function HomeLocations() {
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
-    description: "We have our massage outlet available at Rohini location. If you want to experience spa in Rohini, we can deliver the best spa services in Delhi.",
+    description: (
+  <>
+    We have a massage outlet available at our Rohini location. Explore all our{" "}
+    <a
+      href="/outlets"
+      className="text-teal-600 font-semibold underline"
+    >
+      spa outlets in Delhi
+    </a>
+    .
+  </>
+),
     link: "https://wa.me/8826482370"
   }
 ];
@@ -97,7 +108,7 @@ const specialFeatures = [
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                 Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="/spa-in-aerocity">Spa in Aerocity</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
+                 Find the perfect spa outlet near you for effortless access to world-class relaxation, from our <span className="font-semibold text-amber-700"><a href="/spa-in-aerocity">spa in Aerocity</a></span> to our <span className="font-semibold text-amber-700"><a href="/spa-in-lajpat-nagar">spa in Lajpat Nagar</a></span> and <span className="font-semibold text-amber-700"><a href="/spa-in-connaught-place">spa in Connaught Place</a></span>.
                 </motion.p>
               </div>
       
@@ -116,12 +127,11 @@ const specialFeatures = [
                     {/* Location Image */}
                     <div className="relative h-56 w-full">
                       <Image
-                      loading="lazy"
+                        loading="lazy"
                         src={location.image}
-                        alt={location.name}
-                        layout="fill"
-                        objectFit="cover"
-                        className="transform group-hover:scale-110 transition-all duration-500"
+                        alt={`Spa in ${location.name}, Delhi`}
+                        fill
+                        className="object-cover transform group-hover:scale-110 transition-all duration-500"
                       />
                       {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-10"></div> */}
                     </div>

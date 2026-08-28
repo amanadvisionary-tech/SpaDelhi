@@ -5,29 +5,6 @@ import Image from "next/image";
 import { FaTelegram } from "react-icons/fa";
 
 export default function AboutSection() {
-  const features = [
-    {
-      title: "Foreigner Therapist",
-      icon: "🌏",
-      desc: "Experts in global massage therapy",
-    },
-    {
-      title: "Female To Male Massage",
-      icon: "💆‍♂️",
-      desc: "Professional, private, and refreshing massage in Delhi",
-    },
-    {
-      title: "5 Star Outlet",
-      icon: "✨",
-      desc: "Premium luxury spa experience",
-    },
-    {
-      title: "Couple Massage",
-      icon: "👩‍❤️‍👨",
-      desc: "Relax together in a private setting",
-    },
-  ];
-
   return (
     <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
@@ -78,19 +55,28 @@ export default function AboutSection() {
           >
             <p className="text-gray-600 text-lg leading-relaxed">
               {" "}
-              Want a relaxing massage in Delhi? Visit our best B2B
+              Looking for a relaxing{" "}
               <strong className="text-amber-600 font-medium">
-                {" "}
                 spa in Delhi
               </strong>
-              for exceptional experiences and deep relaxation. We offer many
-              types of popular massage therapies, like B2B massage, sandwich
-              massage, couples massage and thai spa in Delhi with trained
-              therapists. We help you to remove your daily stress and body pain.
-              Our team of experts is ready to provide a luxurious and healing
-              experience. Transform your spa experience at 24+ spa outlets in
-              Delhi. We also offer our massage service at 5-star hotels with
-              foreign therapists.{" "}
+              ? Spa Delhi is a trusted B2B spa offering genuine relaxation and
+              care. Choose from popular treatments like{" "}
+              <a href="/b2b-massage-in-delhi" className="text-amber-700 underline font-medium">
+                B2B massage
+              </a>
+              ,{" "}
+              <a href="/sandwich-massage-in-delhi" className="text-amber-700 underline font-medium">
+                sandwich massage
+              </a>
+              ,{" "}
+              <a href="/couples-massage-in-delhi" className="text-amber-700 underline font-medium">
+                couples massage
+              </a>
+              , and Thai spa, all delivered by trained, experienced
+              therapists. Whether it's daily stress or body pain, our team is
+              here to help you unwind. With 24+ spa outlets across Delhi,
+              including 5-star hotels with international therapists, a
+              relaxing spa experience is never far away.{" "}
             </p>
           </motion.div>
           {/* Feature Grid with Hover Effects */}
@@ -116,12 +102,12 @@ export default function AboutSection() {
               {
                 title: "5 Star Outlet",
                 icon: "✨",
-                desc: "Relax together in a private setting",
+                desc: "Premium luxury spa experience",
               },
               {
                 title: "Couple Massage",
                 icon: "👩‍❤️‍👨",
-                desc: "Sensual and healing touch",
+                desc: "Relax together in a private setting",
               },
             ].map((feature, index) => (
               <motion.div
@@ -136,10 +122,10 @@ export default function AboutSection() {
                 </div>{" "}
                 <div>
                   {" "}
-                  <h4 className="font-bold text-gray-800 text-base mb-1 group-hover:text-amber-600 transition-colors">
+                  <p className="font-bold text-gray-800 text-base mb-1 group-hover:text-amber-600 transition-colors">
                     {" "}
                     {feature.title}{" "}
-                  </h4>
+                  </p>
                   <p className="text-gray-600 text-xs">{feature.desc}</p>
                 </div>
               </motion.div>
@@ -211,10 +197,9 @@ export default function AboutSection() {
               <Image
                 loading="lazy"
                 src="/images/3777.webp"
-                alt="Spa Interior"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-[2.5rem] z-0"
+                alt="Luxury spa interior at Spa Delhi"
+                fill
+                className="object-cover rounded-[2.5rem] z-0"
               />{" "}
             </div>{" "}
             <motion.div

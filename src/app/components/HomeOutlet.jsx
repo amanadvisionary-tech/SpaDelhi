@@ -13,6 +13,7 @@ export default function HomeOutlet() {
     description: 'Enjoy the best spa in Aerocity with relaxing body massage services at 5-star hotels like Lemon Tree, Andaz, IBIS and more for a truly peaceful experience.',
     image: '/images/NovotelNewDelhiAerocity.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
+    pageLink: '/spa-in-aerocity',
   },
   {
     title: 'Spa in Defence Colony',
@@ -25,6 +26,7 @@ export default function HomeOutlet() {
     description: 'Enjoy a relaxing experience at our spa in Connaught Place with professional body massage services, serving top hotels like Radisson Blu, The Lalit, The Park and more for your complete comfort and relaxation.',
     image: '/images/TheParkConnaughtPlace.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
+    pageLink: '/spa-in-connaught-place',
   },
   {
     title: 'Spa in Dwarka',
@@ -37,12 +39,14 @@ export default function HomeOutlet() {
   description: 'Experience complete relaxation at our spa in Lajpat Nagar with expert body massage therapies and professional female therapists. Whether you are staying at nearby hotels or looking for a premium wellness experience, we provide rejuvenating spa services designed to refresh your body and mind.',
   image: '/images/spa-in-lajpat-nagar.webp',
   link: 'https://api.whatsapp.com/send?phone=918826482370',
+  pageLink: '/spa-in-lajpat-nagar',
 },
 {
   title: 'Spa in Rajouri Garden',
   description: 'Unwind at our luxury spa in Rajouri Garden with relaxing body massage treatments and skilled therapists. We offer personalized spa experiences for residents, travelers, and hotel guests, helping you relieve stress and enjoy complete comfort and relaxation.',
   image: '/images/spa-in-Rajouri-Garden.webp',
   link: 'https://api.whatsapp.com/send?phone=918826482370',
+  pageLink: '/spa-in-rajouri-garden',
 },
 ];
 
@@ -163,11 +167,20 @@ export default function HomeOutlet() {
             {outlet.description}
           </p>
 
+          {outlet.pageLink && (
+            <a
+              href={outlet.pageLink}
+              className="mt-5 text-amber-700 font-semibold underline text-sm"
+            >
+              View {outlet.title} Details
+            </a>
+          )}
+
           <a
             href="https://t.me/yourchannel"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 px-5 rounded-full flex items-center justify-center"
+            className="mt-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 px-5 rounded-full flex items-center justify-center"
           >
             <FaTelegram className="mr-2" />
             Join for Daily Updates

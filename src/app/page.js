@@ -25,6 +25,14 @@ export const metadata = {
     ],
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Spa in Delhi For Complete Relaxation | Spa Delhi",
+    description:
+      "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
+    images: ["/images/luxurySpaRoom.jpg"],
+  },
 };
 
 export default function Page() {
