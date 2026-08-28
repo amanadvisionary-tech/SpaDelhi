@@ -350,7 +350,7 @@ const teamMembers = [
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 1 }}
         >
-          <a href='/Spa-in-rohini'>
+          <a href='/outlets'>
           <button className="px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-lg font-medium hover:opacity-90 transition-opacity shadow-lg shadow-amber-500/30">
             Outlets
           </button>

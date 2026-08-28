@@ -1118,7 +1118,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               Our pricing
             </button>
             </a>
-            <a href='/Spa-in-rohini'>
+            <a href='/outlets'>
             <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
               Outlets
             </button>

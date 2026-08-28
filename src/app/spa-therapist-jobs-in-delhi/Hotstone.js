@@ -343,7 +343,7 @@ className="group-hover:scale-105 transition-transform duration-500"
 
 <div className="flex justify-center mt-10">
 <a
-href="/Spa-in-rohini"
+href="/outlets"
 className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
 >
 View All Cities

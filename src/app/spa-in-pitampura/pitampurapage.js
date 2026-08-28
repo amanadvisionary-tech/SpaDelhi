@@ -443,6 +443,33 @@ export default function Pitampurapage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Our Other Services & Nearby Locations</h2>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
+            { title: "Sandwich Massage", href: "/sandwich-massage-in-delhi" },
+            { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
+            { title: "Couples Massage", href: "/couples-massage-in-delhi" },
+            { title: "Spa in Rajouri Garden", href: "/spa-in-rajouri-garden" },
+            { title: "Spa in Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
+            { title: "Spa in Connaught Place", href: "/spa-in-connaught-place" },
+            { title: "Spa Price in Delhi", href: "/spa-price-in-delhi" },
+          ].map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              {item.title}
+            </a>
+          ))}
+        </div>
+      </section>
+
       <section className="mx-auto max-w-7xl px-6 pb-20">
         <div className="rounded-[32px] bg-gradient-to-r from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">

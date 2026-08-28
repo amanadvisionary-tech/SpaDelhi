@@ -167,6 +167,25 @@ export default function Conpage() {
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Have questions or need assistance? Reach out to us anytime! Our friendly team is here to help you with bookings, services, and more.
           </p>
+          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+            Not sure what to book? Browse our{" "}
+            <a href="/massage-service-in-delhi" className="text-amber-700 font-semibold underline">
+              spa & massage services
+            </a>
+            , check{" "}
+            <a href="/spa-price-in-delhi" className="text-amber-700 font-semibold underline">
+              spa pricing
+            </a>
+            , see all our{" "}
+            <a href="/outlets" className="text-amber-700 font-semibold underline">
+              outlets
+            </a>{" "}
+            or take a look at our{" "}
+            <a href="/gallery" className="text-amber-700 font-semibold underline">
+              gallery
+            </a>
+            .
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">

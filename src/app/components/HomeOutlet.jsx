@@ -117,7 +117,7 @@ export default function HomeOutlet() {
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.4, duration: 0.5 }}
                >
-                 Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/spa-in-rohini">Hotels Spa In Delhi</a>
+                 Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/outlets">Hotels Spa In Delhi</a>
                </motion.p>
                
                <motion.div
@@ -186,7 +186,7 @@ export default function HomeOutlet() {
                viewport={{ once: true }}
              >
                <button className="relative inline-flex items-center gap-3 group">
-                 <a href="/spa-in-rohini"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
+                 <a href="/outlets"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
                    VIEW ALL OUTLETS
                  </span></a>
                  <div className="relative h-0.5 bg-amber-800/30 overflow-hidden w-24">

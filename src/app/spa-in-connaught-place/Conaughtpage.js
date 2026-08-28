@@ -435,7 +435,7 @@ export default function Conaughtpage() {
               </div>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href="/Spa-in-rohini">
+                <a href="/massage-service-in-delhi">
                   <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
                     <span>View All Services</span>
                     <svg
@@ -1213,7 +1213,7 @@ export default function Conaughtpage() {
               transition={{ duration: 0.6, delay: 0.08 }}
             >
               <a
-                href="/Spa-in-rohini"
+                href="/outlets"
                 className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-200"
               >
                 View Our Outlets in Delhi & Book Now

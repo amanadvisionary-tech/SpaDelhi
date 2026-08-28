@@ -896,7 +896,7 @@ const topSteps = [
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href='/Spa-in-rohini'>
+                <a href='/outlets'>
                   <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                   Our Outlets
                 </button>

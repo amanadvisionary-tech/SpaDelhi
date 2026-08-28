@@ -302,6 +302,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                               </a>
         </button>
       </div>
+
+      <p className="mt-4 text-sm text-gray-600">
+        Wondering about the legality of B2B massage?{" "}
+        <a href="/is-b2b-massage-legal-in-india" className="text-amber-700 font-semibold underline">
+          Read our guide on Is B2B Massage Legal in India
+        </a>
+        .
+      </p>
     </div>
 
     {/* Image section */}

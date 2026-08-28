@@ -60,7 +60,7 @@ const relatedBlogs = [
   },
   {
     title: "How Hot Stone Massage Works",
-    href: "/blog/how-hot-stone-massage-works-in-delhi-spa",
+    href: "/how-hot-stone-massage-works-in-delhi-spa",
     image: "/images/1627.jpg",
   },
 ];

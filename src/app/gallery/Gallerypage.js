@@ -105,6 +105,29 @@ export default function Gallerypage() {
           ))}
         </motion.div>
       </section>
+
+      {/* Explore More Section */}
+      <section className="max-w-4xl mx-auto px-6 pb-16 text-center">
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Liked what you saw? Explore our{" "}
+          <a href="/massage-service-in-delhi" className="text-amber-700 font-semibold underline">
+            spa & massage services
+          </a>
+          , check our{" "}
+          <a href="/spa-price-in-delhi" className="text-amber-700 font-semibold underline">
+            spa pricing
+          </a>
+          , or browse our{" "}
+          <a href="/outlets" className="text-amber-700 font-semibold underline">
+            outlets across Delhi
+          </a>
+          . Ready to book?{" "}
+          <a href="/contact" className="text-amber-700 font-semibold underline">
+            Contact us
+          </a>{" "}
+          today.
+        </p>
+      </section>
     </main>
   );
 }

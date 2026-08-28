@@ -90,12 +90,12 @@ const relatedBlogs = [
   },
   {
     title: "Health Benefits of Sandwich Massage",
-    href: "/blog/health-benefits-of-sandwich-massage",
+    href: "/health-benefits-of-sandwich-massage",
     image: "/images/hb1.webp",
   },
   {
     title: "How Hot Stone Massage Works",
-    href: "/blog/how-hot-stone-massage-works-in-delhi-spa",
+    href: "/how-hot-stone-massage-works-in-delhi-spa",
     image: "/images/1627.jpg",
   },
 ];

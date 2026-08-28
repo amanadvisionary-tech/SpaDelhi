@@ -76,9 +76,14 @@ export default function Footer() {
     {[
       { name: 'Aerocity', link: '/spa-in-aerocity' },
       { name: 'Connaught Place', link: '/spa-in-connaught-place' },
-      { name: 'Noida', link: '/spa-in-noida' },
-      { name: 'Gurugram', link: '/spa-in-gurgaon' },
-      { name: 'Lajpat Nagar', link: '/spa-in-lajpat-nagar' },
+      // { name: 'Noida', link: '/spa-in-noida' },
+      // { name: 'Gurugram', link: '/spa-in-gurgaon' },
+      // { name: 'Lajpat Nagar', link: '/spa-in-lajpat-nagar' },
+      // { name: 'Saket', link: '/spa-in-saket' },
+      // { name: 'Rajouri Garden', link: '/spa-in-rajouri-garden' },
+      { name: 'Pitampura', link: '/spa-in-pitampura' },
+      { name: 'Greater Kailash', link: '/spa-in-greater-kailash' },
+      // { name: 'Kalkaji', link: '/spa-in-kalkaji' },
     ].map((loc, i) => (
       <li key={i} className="flex items-start break-words">
         <svg
@@ -124,7 +129,7 @@ export default function Footer() {
     {[
       { name: 'Home', link: '/' },
       { name: 'Services', link: '/massage-service-in-delhi' },
-      { name: 'Outlets', link: '/spa-in-rohini' },
+      { name: 'Outlets', link: '/outlets' },
       { name: 'Pricing', link: '/spa-price-in-delhi' },
       { name: 'Contact', link: '/contact' },
     ].map((item, i) => (

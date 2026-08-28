@@ -878,7 +878,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">High-end luxury experience</h3>
                                                        <p className="text-amber-700">
-                                                         We are experts in offering international standards facilities,  contemporary spa rooms, and skilled therapists to make your Sandwich Massage an unparalleled experience in our <strong className="text-amber-600 font-medium"><a href='/Spa-in-rohini'>hotel spa in Delhi</a></strong>.
+                                                         We are experts in offering international standards facilities,  contemporary spa rooms, and skilled therapists to make your Sandwich Massage an unparalleled experience in our <strong className="text-amber-600 font-medium"><a href='/outlets'>hotel spa in Delhi</a></strong>.
                                                        </p>
                                                      </div>
                                                    </div>
@@ -1142,7 +1142,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               Book Now
             </button>
             </a>
-            <a href='/Spa-in-rohini'>
+            <a href='/outlets'>
             <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
               View Outlets
             </button>

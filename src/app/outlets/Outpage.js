@@ -271,18 +271,18 @@ export default function Outpage() {
               ];
   // Features for the 18+ section  
   const cities = [
-{ name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: 'LAJPATNAGAR', img: '/images/lajpatnagahotel.avif' },
-{ name: 'AEROCITY', img: '/images/RoseateHouse.jpg' },
-{ name: 'PASHIMVIVAR', img: '/images/paschimvihar.jpg' },
-{ name: 'CP', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg' },
-{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'KALKAJI', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'kAROL BAGH', img: '/images/paschimvihar.jpg' },
-{ name: 'MAHIPALPURE', img: '/images/hotel2.jpg' },
-{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg' },
-{ name: 'GREATER KAILASH', img: '/images/jwmarriott.jpeg' },
+{ name: 'DELHI', img: '/images/hotel3.webp', href: '/massage-service-in-delhi' },
+{ name: 'LAJPATNAGAR', img: '/images/lajpatnagahotel.avif', href: '/spa-in-lajpat-nagar' },
+{ name: 'AEROCITY', img: '/images/RoseateHouse.jpg', href: '/spa-in-aerocity' },
+{ name: 'PASHIMVIVAR', img: '/images/paschimvihar.jpg', href: '/contact' },
+{ name: 'CP', img: '/images/JwMarriott_CP.jpg', href: '/spa-in-connaught-place' },
+{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg', href: '/contact' },
+{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg', href: '/spa-in-gurgaon' },
+{ name: 'KALKAJI', img: '/images/tajmahalhotel_lajpatnagar.jpg', href: '/spa-in-kalkaji' },
+{ name: 'kAROL BAGH', img: '/images/paschimvihar.jpg', href: '/contact' },
+{ name: 'MAHIPALPURE', img: '/images/hotel2.jpg', href: '/contact' },
+{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg', href: '/contact' },
+{ name: 'GREATER KAILASH', img: '/images/jwmarriott.jpeg', href: '/spa-in-greater-kailash' },
 ]
   return (
     <>
@@ -450,7 +450,7 @@ export default function Outpage() {
 {cities.map((c, i) => (
 <motion.a
 key={c.name}
-href={`#/cities/${c.name.toLowerCase()}`}
+href={c.href}
 initial={{ opacity: 0, y: 8 }}
 animate={{ opacity: 1, y: 0 }}
 transition={{ delay: i * 0.04, duration: 0.35 }}

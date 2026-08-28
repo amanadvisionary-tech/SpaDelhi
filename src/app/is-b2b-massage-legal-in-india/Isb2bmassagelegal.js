@@ -214,6 +214,14 @@ Common spa services include:
                   Read More → <a href="/health-benefits-of-sandwich-massage">Health Benefits of Sandwich massage</a>
                 </p>
 
+        <p className="text-gray-800 mb-10">
+          Looking for a trusted, professional B2B massage service in Delhi?{" "}
+          <a href="/b2b-massage-in-delhi" className="text-amber-600 hover:text-amber-800 font-semibold underline">
+            Visit our B2B Massage in Delhi page
+          </a>{" "}
+          to learn about our certified therapists and hygienic, private sessions.
+        </p>
+
         {/* DEEP TISSUE */}
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
           Why people choose professional spa services

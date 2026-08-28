@@ -97,7 +97,7 @@ const specialFeatures = [
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                 Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="spa-in-aerocity">Spa in Aerocity</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
+                 Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="/spa-in-aerocity">Spa in Aerocity</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
                 </motion.p>
               </div>
       

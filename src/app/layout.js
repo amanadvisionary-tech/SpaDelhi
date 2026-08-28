@@ -20,6 +20,7 @@ const playfair = Playfair_Display({
 
 
 export const metadata = {
+  metadataBase: new URL("https://www.spadelhi.com"),
   verification: {
     google: "O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE",
   },
