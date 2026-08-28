@@ -166,7 +166,7 @@ export default function AboutSection() {
               </span>{" "}
             </motion.a>{" "}
             <a
-              href="#"
+              href="https://t.me/+a5Bu6FBPN9FlOWM9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"

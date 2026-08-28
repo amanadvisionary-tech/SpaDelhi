@@ -5,6 +5,19 @@ export const metadata = {
   description:
     "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
 
+  keywords: [
+    "spa in delhi",
+    "best spa in delhi",
+    "massage in delhi",
+    "massage centre in delhi",
+    "massage parlour in delhi",
+    "hotel spa in delhi",
+    "home spa in delhi",
+    "body massage in delhi",
+    "thai massage in delhi",
+    "luxury spa in delhi",
+  ],
+
   alternates: {
     canonical: "https://www.spadelhi.com/",
   },

@@ -9,7 +9,7 @@ const teamMembers = [
     image: "/images/spamodel.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
-      telegram: "https://t.me/your_username",
+      telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
   },
@@ -19,7 +19,7 @@ const teamMembers = [
     image: "/images/spaExper2.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
-      telegram: "https://t.me/your_username",
+      telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
   },
@@ -29,7 +29,7 @@ const teamMembers = [
     image: "/images/spamodel2.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
-      telegram: "https://t.me/your_username",
+      telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
   },
@@ -39,7 +39,7 @@ const teamMembers = [
     image: "/images/spaExpert4.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
-      telegram: "https://t.me/your_username",
+      telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
   },

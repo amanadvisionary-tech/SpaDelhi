@@ -54,7 +54,7 @@ export default function HomeBanner() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#"
+                    href="https://t.me/+a5Bu6FBPN9FlOWM9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center"

@@ -13,7 +13,7 @@ export default function Footer() {
   {
     name: "Telegram",
     icon: <FaTelegramPlane className="text-sky-500 text-xl" />,
-    link: "https://t.me/your_username"
+    link: "https://t.me/+a5Bu6FBPN9FlOWM9"
   },
 
   {
