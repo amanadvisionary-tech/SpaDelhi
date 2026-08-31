@@ -279,7 +279,7 @@ export default function Outpage() {
 { name: 'AHMEDABAD', img: '/images/Andazhat.jpg', href: '/contact' },
 { name: 'GURGAON', img: '/images/holidayIn_CP.jpg', href: '/spa-in-gurgaon' },
 { name: 'KALKAJI', img: '/images/tajmahalhotel_lajpatnagar.jpg', href: '/spa-in-kalkaji' },
-{ name: 'kAROL BAGH', img: '/images/paschimvihar.jpg', href: '/contact' },
+{ name: 'KAROL BAGH', img: '/images/paschimvihar.jpg', href: '/spa-in-karol-bagh' },
 { name: 'MAHIPALPURE', img: '/images/hotel2.jpg', href: '/contact' },
 { name: 'ROHINI', img: '/images/pullmanAerocity.jpg', href: '/contact' },
 { name: 'GREATER KAILASH', img: '/images/jwmarriott.jpeg', href: '/spa-in-greater-kailash' },

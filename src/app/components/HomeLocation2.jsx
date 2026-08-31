@@ -18,6 +18,7 @@ const locations = [
   { name: "Spa in Pitampura", link: "/spa-in-pitampura" },
   { name: "Spa in Greater Kailash", link: "/spa-in-greater-kailash" },
   { name: "Spa in Kalkaji", link: "/spa-in-kalkaji" },
+  { name: "Spa in Karol Bagh", link: "/spa-in-karol-bagh" },
   { name: "All Outlets", link: "/outlets" },
   { name: "About Us", link: "/about-us" },
   { name: "Gallery", link: "/gallery" },

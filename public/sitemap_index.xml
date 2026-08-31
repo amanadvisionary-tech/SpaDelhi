@@ -180,6 +180,13 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.spadelhi.com/spa-in-karol-bagh</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Blog & Contact -->
   <url>
     <loc>https://www.spadelhi.com/blog</loc>
