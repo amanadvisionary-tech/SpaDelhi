@@ -42,7 +42,7 @@ export default function Navbar() {
     { name: "Couple Massage", href: "/couples-massage-in-delhi" },
     { name: "B2B Massage", href: "/b2b-massage-in-delhi" },
     { name: "Full Body Massage", href: "/full-body-massage-in-delhi" },
-    { name: "We Are Hiring", href: "/spa-therapist-jobs-in-delhi" },
+    { name: "Thai Massage", href: "/thai-massage-in-delhi" },
   ];
 
   const outletDropdown = [
