@@ -444,17 +444,17 @@ export default function ThaiMassageBlogPage() {
                     If you are looking for a relaxing and professional Thai massage experience in Delhi, choose a spa that has trained therapists, maintains high hygiene standards, and focuses on customer comfort.
                   </p>
                   <p className="text-lg leading-8 text-gray-700">
-                    Book your appointment today and experience the benefits of Thai massage for yourself.
+                    Spa Delhi offers a dedicated <a href="/thai-massage-in-delhi" className="font-semibold text-amber-700 underline hover:text-amber-800">Thai massage in Delhi</a> service across 24+ outlets, including home and hotel spa options. Book your appointment today and experience the benefits of Thai massage for yourself.
                   </p>
                 </section>
 
                 <section className="rounded-[24px] bg-gradient-to-r from-amber-600 to-amber-700 p-8 text-white shadow-lg">
-                  <h2 className="text-2xl font-semibold">Book Your Appointment</h2>
+                  <h2 className="text-2xl font-semibold">Book Your Thai Massage in Delhi</h2>
                   <p className="mt-3 max-w-2xl text-amber-50">
                     Experience a relaxing, professional Thai massage session in Delhi with trained therapists and a soothing atmosphere.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-4">
-                    <a href="/contact" className="rounded-full bg-white px-6 py-3 font-semibold text-amber-700 transition hover:bg-amber-50">Contact Us</a>
+                    <a href="/thai-massage-in-delhi" className="rounded-full bg-white px-6 py-3 font-semibold text-amber-700 transition hover:bg-amber-50">View Thai Massage Service</a>
                     <a href="https://api.whatsapp.com/send?phone=9650684501" className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10">Book on WhatsApp</a>
                   </div>
                 </section>

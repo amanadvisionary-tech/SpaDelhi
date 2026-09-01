@@ -11,7 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
 import { FaClock, FaPhoneAlt, FaCreditCard } from 'react-icons/fa'
 
-export default function KarolBaghPage() {
+export default function ThaiMassagePage() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
@@ -24,85 +24,95 @@ export default function KarolBaghPage() {
 
   const faqs = [
     {
-      question: "What is the first visit offer for Spa in Karol Bagh?",
-      answer: "Our Spa in Karol Bagh offers a special first visit package starting at just ₹1999. This introductory offer is designed for new guests who want to enjoy a premium spa experience at an affordable price, right in the heart of Central Delhi.",
+      question: "What is Thai massage and how is it different from other massages?",
+      answer: "Thai massage is a traditional therapy that combines acupressure, assisted stretching, and rhythmic compression along the body's energy lines. Unlike Swedish or deep tissue massage, which focus purely on muscle kneading, Thai massage also improves flexibility and joint mobility.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Do you have foreign therapists at your Spa in Karol Bagh?",
-      answer: "Yes, our Spa in Karol Bagh has experienced foreign therapists from Russia, Thailand, and Uzbekistan, along with highly trained Indian staff. Many clients prefer our international therapists for their professional techniques and relaxing service style.",
+      question: "Is Thai massage painful?",
+      answer: "Thai massage involves firm pressure and stretching, so you may feel intensity in tight areas, but it should never be sharply painful. Our therapists always adjust pressure to your comfort level throughout the session.",
       icon: <FaHandSparkles className="text-teal-600" />
     },
     {
-      question: "Is your staff trained and professional?",
-      answer: "Absolutely. We have a team of high-profile Indian staff and international therapists who are trained to provide a comfortable, hygienic, and relaxing spa service in a clean and peaceful environment.",
+      question: "How much does a Thai massage cost in Delhi?",
+      answer: "Our Thai massage in Delhi starts at just ₹1999 for a first-visit outlet session, with premium home spa and hotel spa packages available from ₹15,000 depending on duration and setting.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
-      question: "Is your spa near Karol Bagh Metro Station?",
-      answer: "Yes, our spa in Karol Bagh is easily accessible from Karol Bagh Metro Station on the Blue Line, making it convenient for customers travelling from Rajendra Place, Patel Nagar, Jhandewalan, and nearby areas.",
+      question: "Is there a Thai massage spa near me in Delhi?",
+      answer: "Yes, Spa Delhi operates 24+ outlets across Delhi NCR, including a centrally located outlet in Karol Bagh, so you can easily find a Thai massage spa near you.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Do you offer home spa and hotel spa services in Karol Bagh?",
-      answer: "Yes, along with our outlet in Karol Bagh, we also provide home spa and hotel spa service for guests who prefer to relax in their own room. Whether at our outlet or your location, you can expect a calm atmosphere, expert care, and professional hospitality.",
+      question: "How long does a Thai massage session take?",
+      answer: "A full body Thai massage in Delhi typically lasts 60 to 90 minutes, giving our therapists enough time to work through every muscle group using traditional stretching and pressure techniques.",
       icon: <FaHotTub className="text-teal-600" />
     },
   ];
 
-  const nearbyAreas = [
+  const benefits = [
+    { title: "Deep Stress Relief", description: "Rhythmic pressure and stretching calm the nervous system, easing everyday stress and mental fatigue.", icon: "🧘" },
+    { title: "Improved Flexibility", description: "Assisted stretches gently open tight joints and muscles, improving your range of motion over time.", icon: "🤸" },
+    { title: "Better Blood Circulation", description: "Compression along energy lines boosts blood flow, helping muscles recover and feel refreshed.", icon: "❤️" },
+    { title: "Muscle Tension Release", description: "Firm palm and thumb pressure works out knots built up from long hours at a desk or on your feet.", icon: "💆" },
+    { title: "Mental Clarity", description: "The meditative rhythm of Thai massage leaves your mind calm, focused, and refreshed.", icon: "🌿" },
+    { title: "Energy Boost", description: "By releasing blocked tension along the body's energy lines, this therapy leaves you feeling lighter and re-energised.", icon: "✨" },
+  ];
+
+  const relatedServices = [
     {
-      title: "Rajendra Place",
-      image: "/images/imagee22.webp",
-      description:
-        "Working near Rajendra Place? Our spa in Karol Bagh is just minutes away, making it easy to unwind after a long day at the office with a relaxing full body massage.",
+      title: "Full Body Massage",
+      description: "A complete head-to-toe massage that eases stress, improves circulation, and uplifts your energy levels.",
+      icon: "🪨",
+      url: "/full-body-massage-in-delhi",
+      linkText: "Book Full Body Massage in Delhi",
     },
     {
-      title: "Patel Nagar",
-      image: "/images/staff10.jpg",
-      description:
-        "Guests from Patel Nagar regularly visit our Karol Bagh outlet for deep tissue and aromatherapy sessions, appreciating the short travel time and calm, private setting.",
+      title: "B2B Massage",
+      description: "Body-to-body massage using fine oils and skilled strokes to help you relax fully after a tiring day.",
+      icon: "💆‍♂️",
+      url: "/b2b-massage-in-delhi",
+      linkText: "Explore B2B Massage in Delhi",
     },
     {
-      title: "Jhandewalan",
-      image: "/images/foreignetherapist.webp",
-      description:
-        "A short ride from Jhandewalan, our Karol Bagh spa is a popular choice for those looking to relax before or after visiting nearby offices and markets.",
+      title: "Sandwich Massage",
+      description: "A dual-therapist massage that works both sides of the body at once for total, layered relaxation.",
+      icon: "🌸",
+      url: "/sandwich-massage-in-delhi",
+      linkText: "Book Sandwich Massage in Delhi",
     },
     {
-      title: "Paharganj",
-      image: "/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg",
-      description:
-        "Travellers and locals near Paharganj often choose our Karol Bagh spa for its convenient location, hygienic setup, and professional massage therapists.",
+      title: "Couple Massage",
+      description: "Relax together in the same room with our Couple Massage, designed for two people to unwind side by side.",
+      icon: "👫",
+      url: "/couples-massage-in-delhi",
+      linkText: "Explore Couples Massage in Delhi",
     },
   ];
 
   const pricingPlans = [
     {
-      title: "Spa Outlet",
+      title: "Thai Massage Outlet",
       price: "₹1999/-",
-      description: "Perfect for individual relaxation sessions",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
+      description: "Perfect for a first-time Thai massage session",
+      features: ["Traditional Thai Technique", "Assisted Stretching", "Herbal Oil Massage", "60 min Session"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
       icon: <FaSpa className="text-amber-500" />
     },
     {
-      title: "Home Spa",
+      title: "Home Thai Spa",
       price: "₹15000/-",
-      description: "Premium at-home experience with full privacy",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Setting", "Complimentary Refreshments", "90 min Session"],
+      description: "Premium Thai massage at your own location",
+      features: ["Traditional Thai Technique", "Private Setting", "Aromatherapy Add-on", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
       icon: <FaHotel className="text-amber-500" />
     },
     {
-      title: "5 Star Hotel Spa",
+      title: "5 Star Hotel Thai Spa",
       price: "₹20000/-",
-      description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Aromatherapy", "Facial Session", "120 min Session"],
+      description: "Luxury Thai massage experience with added treatments",
+      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,
-      ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -117,7 +127,7 @@ export default function KarolBaghPage() {
     {
       number: '02',
       title: 'Treatment',
-      description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
+      description: 'Your Thai massage begins with a short consultation, followed by traditional stretching and pressure techniques.',
       image: '/images/spa-treatments.jpg',
     },
     {
@@ -128,45 +138,14 @@ export default function KarolBaghPage() {
     },
   ];
 
-  const services = [
-    {
-      title: "Swedish Massage",
-      description: "Swedish Massage involves slow and gentle movements that provide total relaxation and pain relief in the muscles, ideal for those who want a light and gentle treatment.",
-      icon: "🌸",
-      url: "/sandwich-massage-in-delhi",
-      linkText: "Book Sandwich Massage in Delhi",
-    },
-    {
-      title: "B2B Massage",
-      description: "The Body-to-Body Massage at our spa in Karol Bagh helps you relax fully. This treatment is ideal for tiredness, using fine oils and skilled moves to refresh your senses.",
-      icon: "💆‍♂️",
-      url: "/b2b-massage-in-delhi",
-      linkText: "Explore B2B Massage in Delhi",
-    },
-    {
-      title: "Full Body Massage",
-      description: "Our team of experts offers full body massage in Karol Bagh that eases stress, improves blood circulation, and uplifts your energy levels.",
-      icon: "🪨",
-      url: "/full-body-massage-in-delhi",
-      linkText: "Book Full Body Massage in Delhi",
-    },
-    {
-      title: "Couple Massage",
-      description: "Get closer and unwind together with our Couple Massage, designed to let two people relax in the same room and enjoy a peaceful session.",
-      icon: "👫",
-      url: "/couples-massage-in-delhi",
-      linkText: "Explore Couples Massage in Delhi",
-    },
-  ];
-
   const SERVICES_LEFT = [
     {
       id: 'foreigner',
       title: 'Skilled International Therapists',
-      subtitle: 'International therapists for authentic treatments',
+      subtitle: 'Authentic Thai technique from trained therapists',
       desc:
-        "Our team of therapists is trained both in India and abroad, using genuine techniques from different parts of the world.",
-      chips: ['Russian Therapist', 'Thai Therapist', 'Uzbeki Therapist'],
+        "Our therapists are trained in traditional Thai stretching and pressure methods, delivering an authentic experience in every session.",
+      chips: ['Thai Therapist', 'Russian Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
       image: '/images/spamodel.webp',
@@ -176,11 +155,11 @@ export default function KarolBaghPage() {
       title: 'Premium Oils & Hygiene Standards',
       subtitle: 'Mastery across specialised modalities',
       desc:
-        "Quality oils are used in every session. Every guest is first welcomed with strict cleanliness and safety practices.",
+        "Quality herbal oils are used in every session. Every guest is first welcomed with strict cleanliness and safety practices.",
       chips: [
         'Thai Herbal Compress',
-        'Shiatsu',
-        'Lymphatic Drainage',
+        'Assisted Stretching',
+        'Acupressure',
         'Ayurvedic Abhyanga',
         'Hot Stone',
         'Aromatherapy',
@@ -194,33 +173,33 @@ export default function KarolBaghPage() {
   const SERVICES_RIGHT = [
     {
       id: 'top',
-      title: 'Central Delhi Location',
-      subtitle: 'Easy access from Karol Bagh Metro Station',
+      title: '24+ Outlets Across Delhi NCR',
+      subtitle: 'A Thai massage spa near you, wherever you are',
       desc:
-        "Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, our outlet is easy to reach for a relaxing session.",
-      chips: ['Blue Line Metro', 'Central Delhi', 'Easy Parking'],
+        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for an authentic Thai massage session.",
+      chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/spaservices4.jpg',
     },
     {
       id: 'packages',
       title: '24/7 Appointment Assistance',
-      subtitle: 'Outlet, home & hotel spa journeys',
+      subtitle: 'Outlet, home & hotel Thai spa journeys',
       desc:
         "Book anytime — our help desk answers and helps with bookings around the clock, whether at our outlet or your location.",
       chips: ['Same-Day Booking', 'Flexible Timing', 'WhatsApp Support'],
       time: '3-6 hours',
       price: 'From ₹8,500',
-      image: '/images/RoseateHouse.jpg',
+      image: '/images/thaimassage2.png',
     },
   ]
 
   const topSteps = [
     {
       icon: <FaHotel className="text-amber-700 text-xl" />,
-      title: 'Select Your Desired Massage',
-      text: 'Choose your treatment — B2B, Aromatherapy, Couple, or Full Body massage.',
+      title: 'Select Your Treatment',
+      text: 'Choose a full body Thai massage, Thai combo, or a hotel/home spa session.',
     },
     {
       icon: <FaClock className="text-amber-700 text-xl" />,
@@ -237,8 +216,8 @@ export default function KarolBaghPage() {
   const bottomSteps = [
     {
       icon: <FaSpa className="text-amber-700 text-2xl" />,
-      title: 'Visit the Outlet & Unwind',
-      text: 'Visit our Karol Bagh outlet at any time of your choice. Our trained staff will greet you and begin your session.',
+      title: 'Visit & Unwind',
+      text: 'Visit your nearest outlet, or have our therapist reach you, at any time of your choice.',
     },
     {
       icon: <FaCreditCard className="text-amber-700 text-2xl" />,
@@ -260,24 +239,23 @@ export default function KarolBaghPage() {
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center space-x-2 mb-6">
                 <div className="w-12 h-px bg-amber-600"></div>
-                <span className="text-amber-600 font-light tracking-widest">OUR OUTLETS</span>
+                <span className="text-amber-600 font-light tracking-widest">SIGNATURE TREATMENT</span>
                 <div className="w-12 h-px bg-amber-600"></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl font-light text-gray-800">
-                <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Spa in Karol Bagh</span>
-                <span className="block mt-1 text-2xl md:text-3xl font-normal text-gray-600">Full Body, B2B & Sandwich Massage</span>
+                <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Thai Massage in Delhi</span>
+                <span className="block mt-1 text-2xl md:text-3xl font-normal text-gray-600">Traditional Technique for Deep Relaxation</span>
               </h2>
               <div className="inline-flex items-center gap-2 mt-5 bg-rose-50 border border-rose-200 rounded-full px-5 py-2">
                 <span className="text-rose-600 font-bold text-lg md:text-xl">First Visit Offer ₹1999</span>
               </div>
 
-    
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a spa in Karol Bagh that genuinely relaxes your body? At Spa Delhi, we offer premium massage services in Karol Bagh, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
+                Searching for authentic Thai massage in Delhi? At Spa Delhi, our therapists use traditional Thai stretching, acupressure, and rhythmic compression to relieve stress, ease tight muscles, and improve flexibility — a full body Thai massage experience unlike a typical oil massage.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Our spa in Karol Bagh is located close to Karol Bagh Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or body to body massage, our trained therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
+                Looking for a Thai massage spa near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a relaxing Thai massage session near you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -302,13 +280,11 @@ export default function KarolBaghPage() {
 
             <div className="relative h-80 md:h-96 lg:h-[450px]">
               <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-                <div className="relative w-full h-full">
-                  <img
-                    src="/images/imagee22.webp"
-                    alt="Spa Environment in Karol Bagh"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                <img
+                  src="/images/thai massage.avif"
+                  alt="Thai Massage Spa in Delhi"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <div className="absolute -bottom-6 -right-6">
@@ -369,7 +345,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                A Trusted Massage Centre in Karol Bagh <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">for Spa, Hotel Spa & Home Spa Services</span>
+                A Trusted Thai Massage Spa in Delhi <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">for Traditional & Full Body Treatments</span>
               </motion.h2>
               <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
             </div>
@@ -386,8 +362,8 @@ export default function KarolBaghPage() {
                     <div className="bg-white p-6 rounded-2xl shadow-sm">
                       <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                         <img
-                          src="/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg"
-                          alt="Premium Body Spa in Karol Bagh"
+                          src="/images/thaimassage1.png"
+                          alt="Traditional Thai Massage Technique"
                           className="w-full h-full object-cover rounded-xl"
                         />
                         <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
@@ -397,7 +373,7 @@ export default function KarolBaghPage() {
 
                       <div className="mt-6">
                         <div className="flex justify-between items-start">
-                          <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
+                          <h3 className="text-2xl font-serif font-bold text-stone-800">Full Body Thai Massage</h3>
                           <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
                             <span className="font-bold">₹1999</span> First Visit
                           </div>
@@ -406,15 +382,15 @@ export default function KarolBaghPage() {
                         <ul className="mt-4 space-y-2">
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Couple Massage</span>
+                            <span className="text-stone-700">Assisted Stretching</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Jacuzzi Bath</span>
+                            <span className="text-stone-700">Acupressure Technique</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Private Room</span>
+                            <span className="text-stone-700">Herbal Compress</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
@@ -452,18 +428,18 @@ export default function KarolBaghPage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for a trusted massage centre in Karol Bagh? Welcome to Spa Delhi, where you can enjoy professional spa services including body massage, deep tissue massage, aromatherapy, hotel spa, and home spa services. Our relaxing spa experience is designed to help you reduce stress, relieve body pain, and feel refreshed after a long day.
+                    Looking for the best Thai massage in Delhi? Welcome to Spa Delhi, where our therapists blend traditional Thai stretching with acupressure and rhythmic compression to relieve stress, improve flexibility, and boost circulation. It's a more active, therapeutic experience than a typical oil-only massage.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
-                    Our spa in Karol Bagh is conveniently located near Karol Bagh Metro Station, making it easy to visit from nearby areas like Rajendra Place, Patel Nagar, Jhandewalan, and Paharganj. Whether you prefer a deep tissue massage, a soothing aromatherapy session, or a relaxing body to body massage, our trained therapists provide each service with care, privacy, and professional technique.
+                    Our Thai massage spa in Delhi is available at outlets across the city, including a centrally located spa in Karol Bagh, along with home spa and hotel spa options. Whether you prefer a full body Thai massage, a soothing aromatherapy blend, or a combination session, our trained therapists provide each service with care, privacy, and professional technique.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 mb-8">
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                       <div className="text-amber-600 text-2xl mb-2">★</div>
-                      <h4 className="font-medium text-stone-800">Trusted & Rated</h4>
-                      <p className="text-sm text-stone-600 mt-1">Well-reviewed spa in Central Delhi</p>
+                      <h4 className="font-medium text-stone-800">Authentic Technique</h4>
+                      <p className="text-sm text-stone-600 mt-1">Traditional Thai stretching</p>
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                       <div className="text-amber-600 text-2xl mb-2">♨</div>
@@ -501,7 +477,7 @@ export default function KarolBaghPage() {
         </section>
         {/* end content */}
 
-        {/* About Us Section */}
+        {/* About Section */}
         <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
             <motion.div
@@ -517,7 +493,7 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <span className="mr-2">✦</span> About Our Karol Bagh Spa Outlet
+                <span className="mr-2">✦</span> About Our Thai Massage Therapists
               </motion.div>
 
               <motion.h2
@@ -527,16 +503,16 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Spa in Karol Bagh with <span className="relative">
+                Thai Massage in Delhi with <span className="relative">
                   <span className="text-amber-600 z-10 relative">Foreign Therapists</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                 </span>
               </motion.h2>
               <p className="text-gray-700 text-lg">
-                Looking for the best spa in Karol Bagh with experienced foreign therapists? Welcome to Spa Delhi, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Uzbeki therapists who are trained in different massage styles to provide a soothing and memorable spa session.
+                Looking for the best Thai massage in Delhi with experienced foreign therapists? Welcome to Spa Delhi, where we offer authentic Thai techniques designed to help you relax, recharge, and enjoy a genuine wellness experience. Our team includes skilled Thai, Russian, and Uzbeki therapists trained in traditional stretching and pressure methods.
               </p>
               <p className="text-gray-700 text-lg">
-                At our massage centre in Karol Bagh, you can choose from a wide range of treatments including <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/swedish-massage-vs-deep-tissue-massage" className="text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>, aromatherapy, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, <Link href="/blog/thai-massage-does-to-your-body" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
+                At our Thai massage spa in Delhi, you can also choose from related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve flexibility, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
               </p>
             </motion.div>
 
@@ -547,16 +523,16 @@ export default function KarolBaghPage() {
               className="grid grid-cols-2 gap-4"
             >
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/staff10.jpg" alt="Spa Room in Karol Bagh" className="w-full h-full object-cover" />
+                <img src="/images/staff7.jpg" alt="Thai Massage Therapist in Delhi" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/foreignetherapist.webp" alt="Massage Session in Karol Bagh" className="w-full h-full object-cover" />
+                <img src="/images/staff2.jpg" alt="Thai Massage Session in Delhi" className="w-full h-full object-cover" />
               </div>
             </motion.div>
           </div>
         </section>
 
-        {/* Areas We Serve Section */}
+        {/* Benefits Section */}
         <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
@@ -573,7 +549,7 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
                 <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+                <span className="text-amber-700 font-medium tracking-wider">WHY THAI MASSAGE</span>
               </motion.div>
 
               <motion.h2
@@ -582,7 +558,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                Areas We Serve <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Near Karol Bagh</span>
+                Benefits of <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Thai Massage</span>
               </motion.h2>
 
               <motion.p
@@ -591,7 +567,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
-                Conveniently located in Central Delhi, our Karol Bagh spa is easy to reach from these nearby neighbourhoods. Prefer another part of the city? Browse <Link href="/outlets" className="text-amber-700 underline hover:text-amber-800 font-medium">all Spa Delhi outlets in Delhi NCR</Link>.
+                A traditional Thai massage in Delhi does more than relax you — here's what regular sessions can do for your body and mind.
               </motion.p>
 
               <motion.div
@@ -604,50 +580,27 @@ export default function KarolBaghPage() {
               </motion.div>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {nearbyAreas.map((area, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {benefits.map((benefit, index) => (
                 <motion.div
                   key={index}
-                  className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                  className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50"
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
+                  viewport={{ once: true }}
                 >
-                  <div className="relative h-48 w-full">
-                    <Image
-                      src={area.image}
-                      alt={area.title}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-
-                  <div className="p-5 flex flex-col flex-grow">
-                    <h3 className="text-lg font-semibold text-amber-800 font-serif mb-2">
-                      {area.title}
-                    </h3>
-                    <p className="text-gray-600 text-sm flex-grow mb-4">
-                      {area.description}
-                    </p>
-
-                    <a
-                      href="https://t.me/+a5Bu6FBPN9FlOWM9"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                    >
-                      <FaTelegram className="text-xl mr-3" />
-                      Meet Our Team
-                    </a>
-                  </div>
+                  <div className="text-4xl mb-4">{benefit.icon}</div>
+                  <h3 className="text-xl font-semibold text-amber-800 mb-3 font-serif">{benefit.title}</h3>
+                  <p className="text-gray-600">{benefit.description}</p>
                 </motion.div>
               ))}
             </div>
           </div>
         </section>
-        {/* End Areas We Serve */}
+        {/* End Benefits */}
 
-        {/* Services Section */}
+        {/* Related Services Section */}
         <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
@@ -658,7 +611,7 @@ export default function KarolBaghPage() {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                Our Premium Services
+                Explore More Services
               </motion.p>
               <motion.h2
                 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
@@ -667,12 +620,12 @@ export default function KarolBaghPage() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Our Massage <span className="text-amber-500">Services in Karol Bagh</span>
+                Other Massage <span className="text-amber-500">Services in Delhi</span>
               </motion.h2>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service, index) => (
+              {relatedServices.map((service, index) => (
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
@@ -709,7 +662,7 @@ export default function KarolBaghPage() {
             </div>
           </div>
         </section>
-        {/* End Services Section */}
+        {/* End Related Services */}
 
         {/* content section */}
         <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-20 px-6 md:px-16">
@@ -722,10 +675,10 @@ export default function KarolBaghPage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Best Spa in Karol Bagh for Body Massage & Relaxing Spa Treatments</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Spa Delhi Is the Best Thai Massage Spa in Delhi</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From full body massage to couple spa and home spa in Karol Bagh, Spa Delhi blends skilled therapists, hygienic settings and personal care for every guest who walks in.
+                From traditional Thai stretching to hygienic outlets and 24/7 booking support, Spa Delhi blends authenticity, comfort and personal care for every guest.
               </p>
             </motion.div>
 
@@ -838,9 +791,9 @@ export default function KarolBaghPage() {
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div>
-                      <h4 className="text-2xl font-bold">Book Your Massage in Karol Bagh Today!</h4>
+                      <h4 className="text-2xl font-bold">Book Your Thai Massage in Delhi Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, Spa Delhi brings comfort at every step. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
+                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring authentic Thai massage to you. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -887,7 +840,7 @@ export default function KarolBaghPage() {
                 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
               >
                 <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-                  How to Book a Spa in Karol Bagh
+                  How to Book a Thai Massage in Delhi
                 </span>
                 <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                   It's Simple
@@ -974,7 +927,7 @@ export default function KarolBaghPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
               >
-                Our <span className="text-amber-600">Pricing Packages</span>
+                Thai Massage <span className="text-amber-600">Pricing Packages</span>
               </motion.h2>
               <motion.p
                 className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -983,7 +936,7 @@ export default function KarolBaghPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                Authentic Thai massage experiences starting from just ₹1999. Choose the option that fits your schedule and setting.
               </motion.p>
               <motion.div
                 className="flex justify-center mt-10"
@@ -1158,7 +1111,7 @@ export default function KarolBaghPage() {
                 Frequently Asked <span className="text-amber-600">Questions</span>
               </h2>
               <p className="text-amber-800 max-w-2xl mx-auto text-lg">
-                Everything you need to know about our spa services in Karol Bagh and how to book them.
+                Everything you need to know about Thai massage in Delhi and how to book it.
               </p>
               <div className="flex justify-center mt-6">
                 <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>

@@ -111,8 +111,9 @@ const teamMembers = [
     {
       title: "Thai Massage",
       image: "/images/thaimassage.jpg",
-      description: "Book our spa home service in Delhi for real Thai massage; lady therapist stretches your full body, kills pain, boosts energy, no need to step out.",
-      duration: "60 min"
+      description: "Authentic Thai massage in Delhi combining traditional stretching and acupressure to relieve stress, improve flexibility, and boost circulation.",
+      duration: "60 min",
+      url: "/thai-massage-in-delhi",
     },
     {
       title: "Female To Male Massage",
@@ -667,7 +668,13 @@ const faqs = [
                         <span className="text-amber-600 font-medium">Treatment</span>
                       </div>
                       <h3 className="text-2xl md:text-3xl font-serif font-semibold text-amber-900 mb-4">
-                        {service.title}
+                        {service.url ? (
+                          <a href={service.url} className="hover:text-amber-700 hover:underline">
+                            {service.title}
+                          </a>
+                        ) : (
+                          service.title
+                        )}
                       </h3>
                       <p className="text-amber-800 mb-6">
                         {service.description}
