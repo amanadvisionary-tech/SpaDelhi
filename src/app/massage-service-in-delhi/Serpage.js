@@ -144,8 +144,15 @@ const teamMembers = [
       image: "/images/Reflexology.jpg",
       description: "Reflexology in Delhi spa presses right foot points to heal full body. No medicine, only thumb and finger magic—headache, back pain, sleep problem all gone in 30 min. Clean rooms, sweet smell, happy faces. Come for free tea, leave with light steps and big smile every time.",
       duration: "60 min"
+    },
+    {
+      title: "Deep Tissue Massage",
+      image: "/images/2147816920.jpg",
+      description: "Deep tissue massage in Delhi uses slow, firm pressure to reach chronic knots and tension that a lighter massage can't touch — ideal for back, neck, and shoulder pain.",
+      duration: "60-90 min",
+      url: "/deep-tissue-massage-in-delhi",
     }
-    
+
   ];
 
   const container = {

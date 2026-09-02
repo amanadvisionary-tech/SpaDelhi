@@ -9,13 +9,13 @@ export const metadata = {
     "spa in delhi",
     "best spa in delhi",
     "massage in delhi",
-    "massage centre in delhi",
     "massage parlour in delhi",
+    "top rated spa delhi",
     "hotel spa in delhi",
     "home spa in delhi",
     "body massage in delhi",
-    "thai massage in delhi",
     "luxury spa in delhi",
+    "spa near me delhi",
   ],
 
   alternates: {

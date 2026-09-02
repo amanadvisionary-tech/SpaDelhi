@@ -434,16 +434,14 @@ export default function Swedishvsdeeptissue() {
         </h2>
         <p className="text-gray-700 leading-8 mb-10">
           Choose Swedish massage if you want deep relaxation, gentle pressure, or
-          you’re new to massage therapy. Choose deep tissue massage if you need
+          you’re new to massage therapy. Choose <a href="/deep-tissue-massage-in-delhi" className="text-[#c65a00] hover:underline font-medium">deep tissue massage</a> if you need
           focused work on knots, postural strain, or athletic soreness.
         </p>
 
         {/* CTA */}
         <div className="bg-[#fff3e8] border-l-4 border-[#c65a00] p-6 rounded">
           <p className="text-gray-800 font-medium">
-            Searching for the <a href="/" className="text-[#c65a00] hover:underline">spa in Delhi</a>? Experience expert Swedish and
-            deep tissue massage therapy that melts stress and eases muscle
-            tension.
+            Ready to book? Explore our dedicated <a href="/deep-tissue-massage-in-delhi" className="text-[#c65a00] hover:underline">deep tissue massage in Delhi</a> service for chronic pain relief, or our <a href="/sandwich-massage-in-delhi" className="text-[#c65a00] hover:underline">Swedish-style sandwich massage</a> for full-body relaxation.
           </p>
         </div>
 

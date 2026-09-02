@@ -11,7 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
 import { FaClock, FaPhoneAlt, FaCreditCard } from 'react-icons/fa'
 
-export default function KarolBaghPage() {
+export default function DeepTissueMassagePage() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
@@ -24,85 +24,95 @@ export default function KarolBaghPage() {
 
   const faqs = [
     {
-      question: "What is the first visit offer for Spa in Karol Bagh?",
-      answer: "Our Spa in Karol Bagh offers a special first visit package starting at just ₹1999. This introductory offer is designed for new guests who want to enjoy a premium spa experience at an affordable price, right in the heart of Central Delhi.",
+      question: "What is deep tissue massage and how does it work?",
+      answer: "Deep tissue massage uses slow, firm strokes and focused pressure to reach the deeper layers of muscle and connective tissue. It targets stubborn knots and chronic tension that a lighter, relaxation-style massage usually can't reach.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Do you have foreign therapists at your Spa in Karol Bagh?",
-      answer: "Yes, our Spa in Karol Bagh has experienced foreign therapists from Russia, Thailand, and Uzbekistan, along with highly trained Indian staff. Many clients prefer our international therapists for their professional techniques and relaxing service style.",
+      question: "Is deep tissue massage painful?",
+      answer: "You may feel some soreness during and shortly after the session, especially over tight areas, but it should stay within a 'good hurt' range. Our therapists check in throughout and adjust pressure so it never crosses into sharp pain.",
       icon: <FaHandSparkles className="text-teal-600" />
     },
     {
-      question: "Is your staff trained and professional?",
-      answer: "Absolutely. We have a team of high-profile Indian staff and international therapists who are trained to provide a comfortable, hygienic, and relaxing spa service in a clean and peaceful environment.",
+      question: "How is deep tissue massage different from a regular full body massage?",
+      answer: "A regular full body massage uses lighter, flowing strokes mainly for relaxation. Deep tissue massage works more slowly and with more pressure, specifically targeting chronic muscle tension, knots, and pain in areas like the back, neck, and shoulders.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
-      question: "Is your spa near Karol Bagh Metro Station?",
-      answer: "Yes, our spa in Karol Bagh is easily accessible from Karol Bagh Metro Station on the Blue Line, making it convenient for customers travelling from Rajendra Place, Patel Nagar, Jhandewalan, and nearby areas.",
-      icon: <FaSpa className="text-teal-600" />
+      question: "How often should I get a deep tissue massage for chronic pain?",
+      answer: "For ongoing pain or stiffness, once every one to two weeks is a common starting point, tapering to monthly sessions as your muscles loosen up. Your therapist can suggest a schedule based on how your body responds.",
+      icon: <FaHotTub className="text-teal-600" />
     },
     {
-      question: "Do you offer home spa and hotel spa services in Karol Bagh?",
-      answer: "Yes, along with our outlet in Karol Bagh, we also provide home spa and hotel spa service for guests who prefer to relax in their own room. Whether at our outlet or your location, you can expect a calm atmosphere, expert care, and professional hospitality.",
-      icon: <FaHotTub className="text-teal-600" />
+      question: "What does a deep tissue massage cost in Delhi?",
+      answer: "Our deep tissue massage in Delhi starts at ₹1999 for a first-visit outlet session, with home spa and hotel spa packages available from ₹15,000 depending on duration and setting.",
+      icon: <FaSpa className="text-teal-600" />
     },
   ];
 
-  const nearbyAreas = [
+  const benefits = [
+    { title: "Chronic Pain Relief", description: "Focused pressure works into the muscle layers behind long-standing back, neck, and shoulder pain.", icon: "🩹" },
+    { title: "Muscle Knot Release", description: "Slow, firm strokes break up adhesions and knots that build up from sitting, driving, or repetitive strain.", icon: "🪢" },
+    { title: "Improved Posture", description: "Loosening tight muscles around the spine and shoulders makes it easier to sit and stand without slouching.", icon: "🧍" },
+    { title: "Faster Muscle Recovery", description: "Deeper circulation helps flush out tension after intense workouts or physically demanding workdays.", icon: "🏃" },
+    { title: "Reduced Stiffness", description: "Regular sessions keep joints and muscles more mobile, especially if you sit at a desk most of the day.", icon: "🔓" },
+    { title: "Better Sleep Quality", description: "Releasing deep-seated tension helps the body relax fully, making it easier to fall and stay asleep.", icon: "😴" },
+  ];
+
+  const relatedServices = [
     {
-      title: "Rajendra Place",
-      image: "/images/imagee22.webp",
-      description:
-        "Working near Rajendra Place? Our spa in Karol Bagh is just minutes away, making it easy to unwind after a long day at the office with a relaxing full body massage.",
+      title: "Full Body Massage",
+      description: "A complete head-to-toe massage that eases stress, improves circulation, and uplifts your energy levels.",
+      icon: "🪨",
+      url: "/full-body-massage-in-delhi",
+      linkText: "Book Full Body Massage in Delhi",
     },
     {
-      title: "Patel Nagar",
-      image: "/images/staff10.jpg",
-      description:
-        "Guests from Patel Nagar regularly visit our Karol Bagh outlet for deep tissue and aromatherapy sessions, appreciating the short travel time and calm, private setting.",
+      title: "Thai Massage",
+      description: "Traditional Thai stretching and acupressure that improves flexibility along with muscle relief.",
+      icon: "🧘",
+      url: "/thai-massage-in-delhi",
+      linkText: "Explore Thai Massage in Delhi",
     },
     {
-      title: "Jhandewalan",
-      image: "/images/foreignetherapist.webp",
-      description:
-        "A short ride from Jhandewalan, our Karol Bagh spa is a popular choice for those looking to relax before or after visiting nearby offices and markets.",
+      title: "Sandwich Massage",
+      description: "A dual-therapist massage that works both sides of the body at once for total, layered relaxation.",
+      icon: "🌸",
+      url: "/sandwich-massage-in-delhi",
+      linkText: "Book Sandwich Massage in Delhi",
     },
     {
-      title: "Paharganj",
-      image: "/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg",
-      description:
-        "Travellers and locals near Paharganj often choose our Karol Bagh spa for its convenient location, hygienic setup, and professional massage therapists.",
+      title: "Deep Tissue vs Swedish Massage",
+      description: "Not sure which one you need? Read our comparison to see which technique suits your body better.",
+      icon: "📖",
+      url: "/swedish-massage-vs-deep-tissue-massage",
+      linkText: "Compare Deep Tissue vs Swedish",
     },
   ];
 
   const pricingPlans = [
     {
-      title: "Spa Outlet",
+      title: "Deep Tissue Outlet",
       price: "₹1999/-",
-      description: "Perfect for individual relaxation sessions",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
+      description: "Perfect for a first-time deep tissue session",
+      features: ["Firm Pressure Technique", "Knot & Trigger Point Focus", "Warm Oil Massage", "60 min Session"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
       icon: <FaSpa className="text-amber-500" />
     },
     {
-      title: "Home Spa",
+      title: "Home Deep Tissue Spa",
       price: "₹15000/-",
-      description: "Premium at-home experience with full privacy",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Setting", "Complimentary Refreshments", "90 min Session"],
+      description: "Premium deep tissue massage at your own location",
+      features: ["Firm Pressure Technique", "Private Setting", "Aromatherapy Add-on", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
       icon: <FaHotel className="text-amber-500" />
     },
     {
-      title: "5 Star Hotel Spa",
+      title: "5 Star Hotel Deep Tissue Spa",
       price: "₹20000/-",
-      description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Aromatherapy", "Facial Session", "120 min Session"],
+      description: "Luxury deep tissue massage experience with added treatments",
+      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,
-      ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -117,7 +127,7 @@ export default function KarolBaghPage() {
     {
       number: '02',
       title: 'Treatment',
-      description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
+      description: 'Your deep tissue massage begins with a short consultation to identify tight areas, followed by firm, focused strokes.',
       image: '/images/spa-treatments.jpg',
     },
     {
@@ -128,59 +138,28 @@ export default function KarolBaghPage() {
     },
   ];
 
-  const services = [
-    {
-      title: "Swedish Massage",
-      description: "Swedish Massage involves slow and gentle movements that provide total relaxation and pain relief in the muscles, ideal for those who want a light and gentle treatment.",
-      icon: "🌸",
-      url: "/sandwich-massage-in-delhi",
-      linkText: "Book Sandwich Massage in Delhi",
-    },
-    {
-      title: "B2B Massage",
-      description: "The Body-to-Body Massage at our spa in Karol Bagh helps you relax fully. This treatment is ideal for tiredness, using fine oils and skilled moves to refresh your senses.",
-      icon: "💆‍♂️",
-      url: "/b2b-massage-in-delhi",
-      linkText: "Explore B2B Massage in Delhi",
-    },
-    {
-      title: "Full Body Massage",
-      description: "Our team of experts offers full body massage in Karol Bagh that eases stress, improves blood circulation, and uplifts your energy levels.",
-      icon: "🪨",
-      url: "/full-body-massage-in-delhi",
-      linkText: "Book Full Body Massage in Delhi",
-    },
-    {
-      title: "Couple Massage",
-      description: "Get closer and unwind together with our Couple Massage, designed to let two people relax in the same room and enjoy a peaceful session.",
-      icon: "👫",
-      url: "/couples-massage-in-delhi",
-      linkText: "Explore Couples Massage in Delhi",
-    },
-  ];
-
   const SERVICES_LEFT = [
     {
-      id: 'foreigner',
+      id: 'therapists',
       title: 'Skilled International Therapists',
-      subtitle: 'International therapists for authentic treatments',
+      subtitle: 'Firm, focused technique from trained therapists',
       desc:
-        "Our team of therapists is trained both in India and abroad, using genuine techniques from different parts of the world.",
+        "Our therapists are trained in deep tissue technique, applying controlled, firm pressure to release chronic tension safely.",
       chips: ['Russian Therapist', 'Thai Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
       image: '/images/spamodel.webp',
     },
     {
-      id: 'body',
+      id: 'technique',
       title: 'Premium Oils & Hygiene Standards',
       subtitle: 'Mastery across specialised modalities',
       desc:
-        "Quality oils are used in every session. Every guest is first welcomed with strict cleanliness and safety practices.",
+        "Quality warming oils are used in every session. Every guest is first welcomed with strict cleanliness and safety practices.",
       chips: [
-        'Thai Herbal Compress',
-        'Shiatsu',
-        'Lymphatic Drainage',
+        'Trigger Point Therapy',
+        'Myofascial Release',
+        'Sports Massage',
         'Ayurvedic Abhyanga',
         'Hot Stone',
         'Aromatherapy',
@@ -193,34 +172,34 @@ export default function KarolBaghPage() {
 
   const SERVICES_RIGHT = [
     {
-      id: 'top',
-      title: 'Central Delhi Location',
-      subtitle: 'Easy access from Karol Bagh Metro Station',
+      id: 'outlets',
+      title: '24+ Outlets Across Delhi NCR',
+      subtitle: 'A deep tissue massage spa near you, wherever you are',
       desc:
-        "Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, our outlet is easy to reach for a relaxing session.",
-      chips: ['Blue Line Metro', 'Central Delhi', 'Easy Parking'],
+        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for a focused deep tissue session.",
+      chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/HelpstoDe-Stress.webp',
     },
     {
       id: 'packages',
       title: '24/7 Appointment Assistance',
-      subtitle: 'Outlet, home & hotel spa journeys',
+      subtitle: 'Outlet, home & hotel deep tissue journeys',
       desc:
         "Book anytime — our help desk answers and helps with bookings around the clock, whether at our outlet or your location.",
       chips: ['Same-Day Booking', 'Flexible Timing', 'WhatsApp Support'],
       time: '3-6 hours',
       price: 'From ₹8,500',
-      image: '/images/RoseateHouse.jpg',
+      image: '/images/SpecializedTreatments.jpg',
     },
   ]
 
   const topSteps = [
     {
       icon: <FaHotel className="text-amber-700 text-xl" />,
-      title: 'Select Your Desired Massage',
-      text: 'Choose your treatment — B2B, Aromatherapy, Couple, or Full Body massage.',
+      title: 'Select Your Treatment',
+      text: 'Choose a deep tissue massage, a combo session, or a hotel/home spa visit.',
     },
     {
       icon: <FaClock className="text-amber-700 text-xl" />,
@@ -237,8 +216,8 @@ export default function KarolBaghPage() {
   const bottomSteps = [
     {
       icon: <FaSpa className="text-amber-700 text-2xl" />,
-      title: 'Visit the Outlet & Unwind',
-      text: 'Visit our Karol Bagh outlet at any time of your choice. Our trained staff will greet you and begin your session.',
+      title: 'Visit & Unwind',
+      text: 'Visit your nearest outlet, or have our therapist reach you, at any time of your choice.',
     },
     {
       icon: <FaCreditCard className="text-amber-700 text-2xl" />,
@@ -260,24 +239,23 @@ export default function KarolBaghPage() {
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center space-x-2 mb-6">
                 <div className="w-12 h-px bg-amber-600"></div>
-                <span className="text-amber-600 font-light tracking-widest">OUR OUTLETS</span>
+                <span className="text-amber-600 font-light tracking-widest">THERAPEUTIC TREATMENT</span>
                 <div className="w-12 h-px bg-amber-600"></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl font-light text-gray-800">
-                <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Spa in Karol Bagh</span>
-                <span className="block mt-1 text-2xl md:text-3xl font-normal text-gray-600">Full Body, B2B & Sandwich Massage</span>
+                <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Deep Tissue Massage in Delhi</span>
+                <span className="block mt-1 text-2xl md:text-3xl font-normal text-gray-600">Real Relief for Chronic Pain & Muscle Knots</span>
               </h2>
               <div className="inline-flex items-center gap-2 mt-5 bg-rose-50 border border-rose-200 rounded-full px-5 py-2">
                 <span className="text-rose-600 font-bold text-lg md:text-xl">First Visit Offer ₹1999</span>
               </div>
 
-  
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a spa in Karol Bagh that genuinely relaxes your body? At Spa Delhi, we offer premium massage services in Karol Bagh, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
+                Living with back pain, stiff shoulders, or muscle knots that never seem to go away? At Spa Delhi, our deep tissue massage uses slow, firm pressure to work into the deeper muscle layers — a more targeted approach than a typical relaxation massage.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Our spa in Karol Bagh is located close to Karol Bagh Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or body to body massage, our trained therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
+                Looking for a deep tissue massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -302,13 +280,11 @@ export default function KarolBaghPage() {
 
             <div className="relative h-80 md:h-96 lg:h-[450px]">
               <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-                <div className="relative w-full h-full">
-                  <img
-                    src="/images/imagee22.webp"
-                    alt="Spa Environment in Karol Bagh"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                <img
+                  src="/images/446979.jpg"
+                  alt="Deep Tissue Massage Therapy in Delhi"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <div className="absolute -bottom-6 -right-6">
@@ -360,7 +336,7 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
                 <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
+                <span className="text-amber-700 font-medium tracking-wider">TARGETED RELIEF</span>
               </motion.div>
 
               <motion.h2
@@ -369,7 +345,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                A Trusted Massage Centre in Karol Bagh <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">for Spa, Hotel Spa & Home Spa Services</span>
+                A Trusted Deep Tissue Massage Spa in Delhi <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">for Real Pain Relief</span>
               </motion.h2>
               <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
             </div>
@@ -386,18 +362,18 @@ export default function KarolBaghPage() {
                     <div className="bg-white p-6 rounded-2xl shadow-sm">
                       <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                         <img
-                          src="/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg"
-                          alt="Premium Body Spa in Karol Bagh"
+                          src="/images/2147816920.jpg"
+                          alt="Deep Tissue Massage Technique for Muscle Relief"
                           className="w-full h-full object-cover rounded-xl"
                         />
                         <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
-                          Most Popular
+                          Most Requested
                         </div>
                       </div>
 
                       <div className="mt-6">
                         <div className="flex justify-between items-start">
-                          <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
+                          <h3 className="text-2xl font-serif font-bold text-stone-800">Full Body Deep Tissue</h3>
                           <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
                             <span className="font-bold">₹1999</span> First Visit
                           </div>
@@ -406,19 +382,19 @@ export default function KarolBaghPage() {
                         <ul className="mt-4 space-y-2">
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Couple Massage</span>
+                            <span className="text-stone-700">Trigger Point Focus</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Jacuzzi Bath</span>
+                            <span className="text-stone-700">Firm Pressure Technique</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Private Room</span>
+                            <span className="text-stone-700">Warm Oil Massage</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
-                            <span className="text-stone-700">Oil & Cream Massage</span>
+                            <span className="text-stone-700">Back, Neck & Shoulder Focus</span>
                           </li>
                           <li className="flex items-center">
                             <span className="text-amber-600 mr-2">✓</span>
@@ -452,18 +428,18 @@ export default function KarolBaghPage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for a trusted massage centre in Karol Bagh? Welcome to Spa Delhi, where you can enjoy professional spa services including body massage, deep tissue massage, aromatherapy, hotel spa, and home spa services. Our relaxing spa experience is designed to help you reduce stress, relieve body pain, and feel refreshed after a long day.
+                    Looking for the best deep tissue massage in Delhi? Welcome to Spa Delhi, where our therapists use slow, focused pressure to reach the muscle layers behind chronic back pain, tight shoulders, and stubborn knots — not just a surface-level rubdown.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
-                    Our spa in Karol Bagh is conveniently located near Karol Bagh Metro Station, making it easy to visit from nearby areas like Rajendra Place, Patel Nagar, Jhandewalan, and Paharganj. Whether you prefer a deep tissue massage, a soothing aromatherapy session, or a relaxing body to body massage, our trained therapists provide each service with care, privacy, and professional technique.
+                    Our deep tissue massage spa in Delhi is available at outlets across the city, including a centrally located spa in Karol Bagh, along with home spa and hotel spa options. Whether your pain comes from long desk hours, travel, or an old injury, our trained therapists tailor pressure to what your body actually needs.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 mb-8">
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                      <div className="text-amber-600 text-2xl mb-2">★</div>
-                      <h4 className="font-medium text-stone-800">Trusted & Rated</h4>
-                      <p className="text-sm text-stone-600 mt-1">Well-reviewed spa in Central Delhi</p>
+                      <div className="text-amber-600 text-2xl mb-2">🎯</div>
+                      <h4 className="font-medium text-stone-800">Targeted Pressure</h4>
+                      <p className="text-sm text-stone-600 mt-1">Focused on problem areas</p>
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                       <div className="text-amber-600 text-2xl mb-2">♨</div>
@@ -471,9 +447,9 @@ export default function KarolBaghPage() {
                       <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                      <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                      <h4 className="font-medium text-stone-800">Couples Welcome</h4>
-                      <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
+                      <div className="text-amber-600 text-2xl mb-2">🧑‍⚕️</div>
+                      <h4 className="font-medium text-stone-800">Trained Therapists</h4>
+                      <p className="text-sm text-stone-600 mt-1">Skilled in deep tissue work</p>
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                       <div className="text-amber-600 text-2xl mb-2">🌿</div>
@@ -501,7 +477,7 @@ export default function KarolBaghPage() {
         </section>
         {/* end content */}
 
-        {/* About Us Section */}
+        {/* About Section */}
         <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
             <motion.div
@@ -517,7 +493,7 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <span className="mr-2">✦</span> About Our Karol Bagh Spa Outlet
+                <span className="mr-2">✦</span> About Our Deep Tissue Therapists
               </motion.div>
 
               <motion.h2
@@ -527,16 +503,16 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Spa in Karol Bagh with <span className="relative">
-                  <span className="text-amber-600 z-10 relative">Foreign Therapists</span>
+                Deep Tissue Massage in Delhi with <span className="relative">
+                  <span className="text-amber-600 z-10 relative">Trained Therapists</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                 </span>
               </motion.h2>
               <p className="text-gray-700 text-lg">
-                Looking for the best spa in Karol Bagh with experienced foreign therapists? Welcome to Spa Delhi, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Uzbeki therapists who are trained in different massage styles to provide a soothing and memorable spa session.
+                Not every ache needs a light, relaxing massage — sometimes it needs real pressure applied in the right place. Our therapists are trained specifically in deep tissue technique, working slowly through tense muscle layers instead of rushing over them.
               </p>
               <p className="text-gray-700 text-lg">
-                At our massage centre in Karol Bagh, you can choose from a wide range of treatments including <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/swedish-massage-vs-deep-tissue-massage" className="text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>, aromatherapy, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, <Link href="/blog/thai-massage-does-to-your-body" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
+                At our deep tissue massage spa in Delhi, you can also pair your session with related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/thai-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether your goal is pain relief, better mobility, or simply unwinding after a long week, our therapists tailor every session to your body.
               </p>
             </motion.div>
 
@@ -547,16 +523,16 @@ export default function KarolBaghPage() {
               className="grid grid-cols-2 gap-4"
             >
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/staff10.jpg" alt="Spa Room in Karol Bagh" className="w-full h-full object-cover" />
+                <img src="/images/447701.jpg" alt="Deep Tissue Massage Oils in Delhi" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/foreignetherapist.webp" alt="Massage Session in Karol Bagh" className="w-full h-full object-cover" />
+                <img src="/images/MassageSession.webp" alt="Deep Tissue Massage Session in Delhi" className="w-full h-full object-cover" />
               </div>
             </motion.div>
           </div>
         </section>
 
-        {/* Areas We Serve Section */}
+        {/* Benefits Section */}
         <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
@@ -573,7 +549,7 @@ export default function KarolBaghPage() {
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
                 <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+                <span className="text-amber-700 font-medium tracking-wider">WHY DEEP TISSUE</span>
               </motion.div>
 
               <motion.h2
@@ -582,7 +558,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                Areas We Serve <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Near Karol Bagh</span>
+                Benefits of <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Deep Tissue Massage</span>
               </motion.h2>
 
               <motion.p
@@ -591,7 +567,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
-                Conveniently located in Central Delhi, our Karol Bagh spa is easy to reach from these nearby neighbourhoods. Prefer another part of the city? Browse <Link href="/outlets" className="text-amber-700 underline hover:text-amber-800 font-medium">all Spa Delhi outlets in Delhi NCR</Link>.
+                A deep tissue massage in Delhi does more than relax you — here's what regular sessions can do for chronic pain and stiffness.
               </motion.p>
 
               <motion.div
@@ -604,50 +580,27 @@ export default function KarolBaghPage() {
               </motion.div>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {nearbyAreas.map((area, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {benefits.map((benefit, index) => (
                 <motion.div
                   key={index}
-                  className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                  className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50"
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
+                  viewport={{ once: true }}
                 >
-                  <div className="relative h-48 w-full">
-                    <Image
-                      src={area.image}
-                      alt={area.title}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-
-                  <div className="p-5 flex flex-col flex-grow">
-                    <h3 className="text-lg font-semibold text-amber-800 font-serif mb-2">
-                      {area.title}
-                    </h3>
-                    <p className="text-gray-600 text-sm flex-grow mb-4">
-                      {area.description}
-                    </p>
-
-                    <a
-                      href="https://t.me/+a5Bu6FBPN9FlOWM9"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                    >
-                      <FaTelegram className="text-xl mr-3" />
-                      Meet Our Team
-                    </a>
-                  </div>
+                  <div className="text-4xl mb-4">{benefit.icon}</div>
+                  <h3 className="text-xl font-semibold text-amber-800 mb-3 font-serif">{benefit.title}</h3>
+                  <p className="text-gray-600">{benefit.description}</p>
                 </motion.div>
               ))}
             </div>
           </div>
         </section>
-        {/* End Areas We Serve */}
+        {/* End Benefits */}
 
-        {/* Services Section */}
+        {/* Related Services Section */}
         <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
@@ -658,7 +611,7 @@ export default function KarolBaghPage() {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                Our Premium Services
+                Explore More Services
               </motion.p>
               <motion.h2
                 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
@@ -667,12 +620,12 @@ export default function KarolBaghPage() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Our Massage <span className="text-amber-500">Services in Karol Bagh</span>
+                Other Massage <span className="text-amber-500">Services in Delhi</span>
               </motion.h2>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service, index) => (
+              {relatedServices.map((service, index) => (
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
@@ -709,7 +662,7 @@ export default function KarolBaghPage() {
             </div>
           </div>
         </section>
-        {/* End Services Section */}
+        {/* End Related Services */}
 
         {/* content section */}
         <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-20 px-6 md:px-16">
@@ -722,10 +675,10 @@ export default function KarolBaghPage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Best Spa in Karol Bagh for Body Massage & Relaxing Spa Treatments</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Best Deep Tissue Massage in Delhi for Chronic Pain Relief</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From full body massage to couple spa and home spa in Karol Bagh, Spa Delhi blends skilled therapists, hygienic settings and personal care for every guest who walks in.
+                From trained therapists to hygienic outlets and 24/7 booking support, Spa Delhi blends real pain relief with comfort and personal care.
               </p>
             </motion.div>
 
@@ -838,9 +791,9 @@ export default function KarolBaghPage() {
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div>
-                      <h4 className="text-2xl font-bold">Book Your Massage in Karol Bagh Today!</h4>
+                      <h4 className="text-2xl font-bold">Book Your Deep Tissue Massage Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, Spa Delhi brings comfort at every step. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
+                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring real, focused pain relief to you. For anyone tired of muscle knots that just won't quit, just call and let our team guide you toward lasting relief.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -887,7 +840,7 @@ export default function KarolBaghPage() {
                 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
               >
                 <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-                  How to Book a Spa in Karol Bagh
+                  How to Book a Deep Tissue Massage in Delhi
                 </span>
                 <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                   It's Simple
@@ -965,7 +918,7 @@ export default function KarolBaghPage() {
                 viewport={{ once: true }}
               >
                 <FaStar className="text-amber-500" />
-                Affordable Luxury
+                Affordable Relief
               </motion.div>
               <motion.h2
                 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
@@ -974,7 +927,7 @@ export default function KarolBaghPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
               >
-                Our <span className="text-amber-600">Pricing Packages</span>
+                Deep Tissue <span className="text-amber-600">Pricing Packages</span>
               </motion.h2>
               <motion.p
                 className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -983,7 +936,7 @@ export default function KarolBaghPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                Focused pain-relief sessions starting from just ₹1999. Choose the option that fits your schedule and setting.
               </motion.p>
               <motion.div
                 className="flex justify-center mt-10"
@@ -1158,7 +1111,7 @@ export default function KarolBaghPage() {
                 Frequently Asked <span className="text-amber-600">Questions</span>
               </h2>
               <p className="text-amber-800 max-w-2xl mx-auto text-lg">
-                Everything you need to know about our spa services in Karol Bagh and how to book them.
+                Everything you need to know about deep tissue massage in Delhi and how to book it.
               </p>
               <div className="flex justify-center mt-6">
                 <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>

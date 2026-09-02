@@ -4,7 +4,7 @@ import Swedishvsdeeptissue from "./Swedishvsdeeptissue";
 export const metadata = {
   title: "Swedish Massage vs Deep Tissue Massage | Which One is Right for You",
   description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Spa Delhi.",
-  keywords: ["swedish massage vs deep tissue massage", "swedish massage delhi", "deep tissue massage delhi"],
+  keywords: ["swedish massage vs deep tissue massage", "swedish massage delhi", "difference between swedish and deep tissue massage"],
   openGraph: {
     title: "Swedish Massage vs Deep Tissue Massage | Which One is Right for You",
     description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Spa Delhi.",
