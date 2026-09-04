@@ -2,8 +2,8 @@ import Fullbodypage from "./Fullbodypage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Full body massage in Delhi | Starting From Just 1999",
-  description: "Looking for Full Body Massage in Delhi? Get Body massage in Karol Bagh by Well trained therapist. We always maintain proper hygiene and cleanliness between your spa session",
+  title: "Full Body Massage in Delhi - Starting From ₹1999 | Spa Delhi",
+  description: "Full body massage in Delhi at our Karol Bagh spa by well-trained therapists. Hygienic, relaxing sessions starting from just ₹1999. Book your appointment now!",
   keywords: ["full body massage in delhi", "full body massage near me delhi", "full body spa delhi karol bagh"],
   openGraph: {
     title: "Best Full body massage in Delhi | Starting From Just 1999",

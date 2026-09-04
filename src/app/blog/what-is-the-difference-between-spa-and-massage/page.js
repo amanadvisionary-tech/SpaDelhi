@@ -5,9 +5,9 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "What Is the Difference Between Spa and Massage? A Simple Guide | Spa Delhi",
+    "Spa vs Massage - What's the Real Difference? | Spa Delhi",
   description:
-    "Learn the difference between a spa and a massage. Understand what each offers, their benefits, what to expect, and how to choose the right wellness option.",
+    "Difference between spa and massage explained simply - services, benefits & how to choose. Trusted advice from Spa Delhi's wellness experts. Read the guide now!",
   keywords: ["difference between spa and massage", "spa vs massage", "spa massage guide"],
   alternates: {
     canonical:

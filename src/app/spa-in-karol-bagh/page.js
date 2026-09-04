@@ -2,8 +2,8 @@ import KarolBaghPage from "./KarolBaghPage";
 // src/app/spa-in-karol-bagh/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Spa in Karol Bagh | Best Full Body Massage & Wellness Centre",
-  description: "Best spa in Karol Bagh, Central Delhi for full body, deep tissue & couple massage by certified therapists in a private, hygienic setting. Book from ₹1999.",
+  title: "Spa in Karol Bagh - Full Body Massage From ₹1999 | Spa Delhi",
+  description: "Spa in Karol Bagh, Central Delhi for full body, deep tissue & couple massage. Certified therapists in a private, hygienic setting. Book from ₹1999 today!",
   keywords: ["spa in karol bagh", "massage in karol bagh", "full body massage karol bagh", "massage centre karol bagh", "body massage karol bagh", "couple massage in karol bagh", "home spa in karol bagh", "hotel spa in karol bagh", "spa near karol bagh metro station"],
   openGraph: {
     title: "Spa in Karol Bagh | Best Full Body Massage & Wellness Centre",

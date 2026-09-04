@@ -2,8 +2,8 @@ import Conpage from "./Conpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Contact Us | Best Luxury Spa in Delhi for Body & Thai Massage",
-  description: "Get in touch with Spa Delhi for soothing body massages, Thai therapy, and relaxation treatments. Call or visit us today for your spa session..",
+  title: "Contact Spa Delhi - Book Luxury Body & Thai Massage | Spa Delhi",
+  description: "Contact Spa Delhi for luxury body & Thai massage across Delhi NCR. Certified therapists, hygienic private rooms, quick response. Call or book your session today!",
   keywords: ["contact spa delhi", "book spa delhi", "spa delhi phone number", "spa delhi booking"],
   openGraph: {
     title: "Contact Us | Best Luxury Spa in Delhi for Body & Thai Massage",

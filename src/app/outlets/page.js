@@ -2,8 +2,8 @@ import Outpage from "./Outpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book 5 star Hotel Spa Outlets in Delhi | Spa in Rohini For complete relaxation ",
-  description: "Our luxury spa outlets in Delhi, including the best Spa in Rohini and Hotel Spa in Pitampura, offering relaxing body massages & complete service. Book Now ",
+  title: "5-Star Hotel Spa Outlets in Delhi - Rohini & Pitampura | Spa Delhi",
+  description: "Spa outlets in Delhi including Rohini & Pitampura at luxury 5-star hotels. Relaxing body massages by certified therapists. Find your nearest outlet - book now!",
   keywords: ["spa outlets in delhi", "hotel spa outlets delhi", "spa locations delhi", "spa branches delhi"],
   openGraph: {
     title: "Book 5 star Hotel Spa Outlets in Delhi | Spa in Rohini For complete relaxation",

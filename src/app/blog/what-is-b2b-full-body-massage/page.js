@@ -7,9 +7,9 @@ import {
 
 export const metadata = {
   title:
-    "What is a B2B Full Body Massage? Complete Beginner's Guide (2026) | Spa Delhi",
+    "What Is a B2B Full Body Massage - Beginner's Guide | Spa Delhi",
   description:
-    "Learn what a B2B full body massage is, how it works, its benefits, safety tips, what to expect during a session, and everything beginners should know.",
+    "B2B full body massage explained for beginners - how it works, benefits & safety tips. Trusted guide from Spa Delhi's certified therapists. Read now & book!",
   keywords: ["what is b2b full body massage", "b2b massage guide", "b2b massage beginners guide"],
   alternates: {
     canonical:

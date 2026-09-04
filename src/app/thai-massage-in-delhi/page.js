@@ -50,8 +50,8 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Thai Massage in Delhi | Best Thai Massage Spa Near Me",
-  description: "Authentic Thai massage in Delhi at Spa Delhi — traditional techniques, certified therapists, relaxing hygienic setting. First visit from ₹1999.",
+  title: "Thai Massage in Delhi - Authentic Spa Near Me | Spa Delhi",
+  description: "Thai massage in Delhi using authentic traditional techniques by certified therapists. Relaxing, hygienic setting, first visit from ₹1999. Book your session now!",
   keywords: ["thai massage in delhi", "thai massage in delhi near me", "best thai massage in delhi", "thai massage spa delhi", "full body thai massage in delhi", "thai massage price in delhi"],
   openGraph: {
     title: "Thai Massage in Delhi | Best Thai Massage Spa Near Me",

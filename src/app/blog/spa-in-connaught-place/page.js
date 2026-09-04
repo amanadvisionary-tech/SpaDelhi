@@ -5,9 +5,9 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Spa in Connaught Place: Best Hotels, Services, and Massage Options | Spa Delhi",
+    "Spa in Connaught Place - Best Hotels & Massage Guide | Spa Delhi",
   description:
-    "Discover the best spa in Connaught Place, hotel spa experiences, massage services, wellness options, and tips for choosing the right massage centre in Delhi.",
+    "Spa in Connaught Place guide to top hotel spas & massage options in Central Delhi. Trusted tips from Spa Delhi's wellness experts. Read the guide & book now!",
   keywords: ["best hotels connaught place spa", "connaught place spa guide", "cp massage options"],
   alternates: {
     canonical:

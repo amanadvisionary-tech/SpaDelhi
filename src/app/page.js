@@ -1,9 +1,9 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Best Spa in Delhi For Complete Relaxation | Spa Delhi Offer @1999",
+  title: "Spa in Delhi - Full Body & Couple Massage From ₹1999 | Spa Delhi",
   description:
-    "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
+    "Spa in Delhi for full body, sandwich & couple massage across Delhi NCR. Certified therapists, hygienic private rooms, 5-star outlets. Book your session today!",
 
   keywords: [
     "spa in delhi",

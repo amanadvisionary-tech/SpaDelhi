@@ -50,8 +50,8 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Deep Tissue Massage in Delhi | Relief From Chronic Pain",
-  description: "Deep tissue massage in Delhi for chronic pain, muscle knots & stiffness. Certified therapists, private rooms, hygienic setting. First visit from ₹1999.",
+  title: "Deep Tissue Massage in Delhi - Relief From Chronic Pain | Spa Delhi",
+  description: "Deep tissue massage in Delhi for chronic pain & muscle knots. Certified therapists, private hygienic rooms, first visit from ₹1999. Book your session today!",
   keywords: ["deep tissue massage in delhi", "deep tissue massage near me delhi", "deep tissue massage for back pain", "best deep tissue massage in delhi", "deep tissue massage price in delhi", "deep tissue massage benefits delhi"],
   openGraph: {
     title: "Deep Tissue Massage in Delhi | Relief From Chronic Pain",

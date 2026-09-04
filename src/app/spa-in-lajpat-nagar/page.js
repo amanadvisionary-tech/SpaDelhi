@@ -2,8 +2,8 @@ import Lajpatpage from "./Lajpatpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Visit Spa Centre in Lajpat Nagar | Get Body Massage in Lajpat nagar",
-  description: "Looking to get a body massage in lajpat nagar? Visit our spa centre in lajpat nagar. We are the best spa in lajpat nagar for top massage services like B2B, Full Body Massage, Sandwich Massage Etc.",
+  title: "Spa in Lajpat Nagar - Best Body Massage Centre | Spa Delhi",
+  description: "Spa in Lajpat Nagar offering B2B, full body & sandwich massage services. Trusted certified therapists in a comfortable setting. Book your session today!",
   keywords: ["spa in lajpat nagar", "massage in lajpat nagar", "body massage lajpat nagar"],
   openGraph: {
     title: "Visit Spa Centre in Lajpat Nagar | Get Body Massage in Lajpat nagar",

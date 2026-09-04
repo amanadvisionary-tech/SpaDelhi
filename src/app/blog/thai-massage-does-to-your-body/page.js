@@ -4,8 +4,8 @@ import WhatsappFloat from "../../components/WhatsappFloat";
 import { Breadcrumbs, InfoBox, BenefitCard, FaqAccordion } from "../../components/BlogComponents";
 
 export const metadata = {
-  title: "What Does Thai Massage Do to Your Body? | Spa Delhi",
-  description: "Learn how Thai massage helps reduce stress, improve flexibility, relieve muscle pain, and support better circulation in a relaxing wellness experience.",
+  title: "What Thai Massage Does to Your Body - Benefits | Spa Delhi",
+  description: "Thai massage benefits for your body explained - stress relief, flexibility & pain relief. Backed by Spa Delhi's certified therapists. Read the full guide now!",
   keywords: ["thai massage benefits", "what does thai massage do", "thai massage stress relief"],
   alternates: {
     canonical: "https://www.spadelhi.com/blog/thai-massage-does-to-your-body",

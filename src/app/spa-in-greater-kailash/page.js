@@ -2,8 +2,8 @@ import SpaInGreaterkailash from "./SpaInGreaterkailash";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in Greater Kailash Delhi | Luxury Body Massage Centre",
-  description: "Looking for a spa in Greater Kailash, South Delhi? Enjoy premium full body massage, deep tissue & couple spa sessions with certified therapists in a private setting.",
+  title: "Spa in Greater Kailash - Luxury Body Massage Centre | Spa Delhi",
+  description: "Spa in Greater Kailash, South Delhi for full body, deep tissue & couple massage. Certified therapists in a private, hygienic setting. Book your session now!",
   keywords: ["spa in greater kailash", "massage in greater kailash", "gk spa delhi", "body massage greater kailash"],
   openGraph: {
     title: "Best Spa in Greater Kailash Delhi | Luxury Body Massage Centre",

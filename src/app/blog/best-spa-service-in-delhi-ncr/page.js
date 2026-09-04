@@ -5,9 +5,9 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Best Spa Services in Delhi NCR: What Services Should You Choose? | Spa Delhi",
+    "Best Spa Services in Delhi NCR - How to Choose | Spa Delhi",
   description:
-    "Explore the best spa services in Delhi NCR, including Full Body Massage, Couple Massage, Sandwich Massage, and B2B Massage. Learn how to choose the right wellness treatment for relaxation and self-care.",
+    "Best spa services in Delhi NCR explained - full body, couple, sandwich & B2B massage. Certified therapists guide your choice. Read the full guide & book today!",
   keywords: ["best spa services in delhi ncr", "spa services delhi ncr", "choosing spa treatment delhi"],
   alternates: {
     canonical:

@@ -2,8 +2,8 @@ import Hotstonemassagework from "./Hotstonemassagework";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "How Hot Stone Massage Works | Best Spa in Delhi",
-  description: "Learn how hot stone massage works and what it is. Relax muscles, reduce stress & pain at the best hot stone massage spa in Delhi NCR. Book now!",
+  title: "How Hot Stone Massage Works - Relieve Stress & Pain | Spa Delhi",
+  description: "Hot stone massage in Delhi to relax muscles, reduce stress & ease pain. Trusted certified therapists at our best-rated spa in Delhi NCR. Book your session now!",
   keywords: ["hot stone massage delhi", "how hot stone massage works", "hot stone therapy delhi"],
   openGraph: {
     title: "How Hot Stone Massage Works | Best Spa in Delhi",

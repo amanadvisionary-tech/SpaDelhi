@@ -5,9 +5,9 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Sandwich Massage in Delhi: Everything You Need to Know Before Booking | Spa Delhi",
+    "Sandwich Massage in Delhi - Complete Booking Guide | Spa Delhi",
   description:
-    "Learn everything about Sandwich Massage in Delhi, its benefits, booking process, professional massage therapy, and what to expect before your session.",
+    "Sandwich massage in Delhi guide covering benefits, process & what to expect. Trusted by certified therapists at Spa Delhi. Read the full guide and book now!",
   keywords: ["sandwich massage guide", "sandwich massage benefits delhi", "what is sandwich massage"],
   alternates: {
     canonical:

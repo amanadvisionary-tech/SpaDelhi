@@ -2,8 +2,8 @@ import B2Bpage from "./B2Bpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Get Body To Body Massage in Delhi | B2B Massage in Karol Bagh",
-  description: "We offer genuine body to body massage in Delhi. If you are looking for B2B massage or body massage just visit our spa in Karol Bagh. Book Your Session",
+  title: "B2B Massage in Delhi - Genuine Body to Body Therapy | Spa Delhi",
+  description: "B2B massage in Delhi at our Karol Bagh spa for genuine body to body therapy. Certified therapists, private hygienic rooms, trusted service. Book your session now!",
   keywords: ["b2b massage in delhi", "body to body massage delhi", "b2b massage karol bagh", "body to body spa delhi", "b2b spa delhi"],
   openGraph: {
     title: "Get Body To Body Massage in Delhi | B2B Massage in Karol Bagh",

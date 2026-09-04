@@ -2,9 +2,9 @@ import SpaInSaket from "./spainsaket";
 
 // src/app/spa-in-saket/page.js
 export const metadata = {
-  title: "Best Spa in Saket Delhi | Luxury Body Massage & Spa Near Me",
+  title: "Spa in Saket - Luxury Body Massage Near Select Citywalk | Spa Delhi",
   description:
-    "Looking for the best spa in Saket, South Delhi? Experience luxury full body massage, deep tissue, Swedish & couple spa at 5-star hotels near Select Citywalk starting @ ₹1999.",
+    "Spa in Saket, South Delhi for luxury full body, deep tissue, Swedish & couple massage. 5-star hotels near Select Citywalk from ₹1999. Book your session now!",
 
   keywords: [
     "spa in saket",

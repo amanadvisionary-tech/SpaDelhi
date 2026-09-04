@@ -2,8 +2,8 @@ import Spainkalkaji from "./Spainkalkaji";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in Kalkaji Delhi | Full Body Massage & Wellness Centre",
-  description: "Looking for a spa in Kalkaji, South Delhi? Experience relaxing full body massage, deep tissue & couple spa with certified therapists in a private, hygienic setting.",
+  title: "Spa in Kalkaji - Full Body Massage & Wellness Centre | Spa Delhi",
+  description: "Spa in Kalkaji, South Delhi for relaxing full body, deep tissue & couple massage. Certified therapists in a private, hygienic setting. Book your session now!",
   keywords: ["spa in kalkaji", "massage in kalkaji", "full body massage kalkaji"],
   openGraph: {
     title: "Best Spa in Kalkaji Delhi | Full Body Massage & Wellness Centre",

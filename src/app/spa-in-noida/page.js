@@ -2,8 +2,8 @@ import Noipage from "./Noipage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "visit our spa centre in noida for best Full body massage in noida",
-  description: "We are specialists in giving full body massage, B2B massage, hot stone massage and many more. Just visit our spa centre in Noida and get your all therapy solution at home, hotel or in Noida. ",
+  title: "Spa in Noida - Best Full Body Massage Service | Spa Delhi",
+  description: "Spa in Noida for full body, B2B & hot stone massage by trained specialists. Home, hotel & centre sessions available across Noida. Book your session now!",
   keywords: ["spa in noida", "massage in noida", "full body massage noida", "body spa noida"],
   openGraph: {
     title: "visit our spa centre in noida for best Full body massage in noida",

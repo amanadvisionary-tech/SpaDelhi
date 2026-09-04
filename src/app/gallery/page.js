@@ -2,8 +2,8 @@ import Gallerypage from "./Gallerypage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Spa Gallery Delhi | Photos of Our Luxury Spa Outlets & Ambience",
-  description: "Take a look inside Spa Delhi's luxury outlets — private suites, massage rooms, and premium spa ambience across our 5-star hotel locations in Delhi NCR.",
+  title: "Spa Gallery Delhi - See Our Luxury Outlets & Ambience | Spa Delhi",
+  description: "Spa gallery for Delhi's luxury outlets showcasing private suites & massage rooms. Premium 5-star hotel ambience across Delhi NCR. View photos & book a visit!",
   keywords: ["spa gallery delhi", "spa photos delhi", "luxury spa ambience delhi"],
   openGraph: {
     title: "Spa Gallery Delhi | Photos of Our Luxury Spa Outlets & Ambience",

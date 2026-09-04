@@ -2,8 +2,8 @@ import Aeropage from "./Aeropage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
-  description: " Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
+  title: "Spa in Aerocity - 5-Star Hotel Massage Near Airport | Spa Delhi",
+  description: "Spa in Aerocity offering 5-star hotel massage service near Delhi airport. Certified therapists deliver true relaxation and comfort. Book your visit today!",
   keywords: ["spa in aerocity", "massage in aerocity", "hotel spa aerocity", "body massage aerocity"],
   openGraph: {
     title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
