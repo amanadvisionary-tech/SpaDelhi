@@ -43,23 +43,23 @@ const faqSchema = {
       name: "Can I book a couple massage in Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Rohini outlet has private rooms designed for couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you have foreign therapists available in Rohini?",
+      name: "Do you have Russian or other foreign therapists available in Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, select packages at our Rohini spa include experienced foreign therapists alongside our highly trained Indian staff, offering guests more variety in massage styles.",
+        text: "Yes, our Russian spa in Rohini packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff, offering guests more variety in massage styles. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
       },
     },
     {
       "@type": "Question",
-      name: "What are your spa timings in Rohini?",
+      name: "What are your spa timings in Rohini? Do you offer night spa appointments?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Our Rohini outlet and home spa booking support are available with flexible daily timings. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
+        text: "Our Rohini outlet and home spa booking support are available with flexible daily timings, including evening and night spa appointments booked in advance. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
       },
     },
     {
@@ -68,6 +68,22 @@ const faqSchema = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer spa in Rohini Sector 16 or near City Centre Mall Rohini?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is body to body massage legal in India?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Body to body massage is a legal wellness treatment in India when offered by a professional, licensed spa that follows proper hygiene and conduct standards.",
       },
     },
   ],
@@ -88,6 +104,14 @@ export const metadata = {
     "hotel spa in rohini",
     "couple massage in rohini",
     "best spa in rohini delhi",
+    "spa in rohini sector 7",
+    "spa in rohini sector 16",
+    "spa in rohini sector 3",
+    "spa in rohini sector 24",
+    "russian spa in rohini",
+    "female to male spa in rohini",
+    "night spa in rohini",
+    "spa in rohini city centre mall",
   ],
   openGraph: {
     title: "Spa in Rohini - Full Body Massage From ₹1999 | Spa Delhi",

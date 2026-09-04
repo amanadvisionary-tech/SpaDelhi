@@ -181,22 +181,32 @@ const faqs = [
   {
     question: "Can I book a couple massage in Rohini?",
     answer:
-      "Yes, our Rohini outlet has private rooms designed for couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+      "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
   },
   {
-    question: "Do you have foreign therapists available in Rohini?",
+    question: "Do you have Russian or other foreign therapists available in Rohini?",
     answer:
-      "Yes, select packages at our Rohini spa include experienced foreign therapists alongside our highly trained Indian staff, offering guests more variety in massage styles.",
+      "Yes, our Russian spa in Rohini packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff, offering guests more variety in massage styles. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
   },
   {
-    question: "What are your spa timings in Rohini?",
+    question: "What are your spa timings in Rohini? Do you offer night spa appointments?",
     answer:
-      "Our Rohini outlet and home spa booking support are available with flexible daily timings. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
+      "Our Rohini outlet and home spa booking support are available with flexible daily timings, including evening and night spa appointments booked in advance. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
   },
   {
     question: "How much does a full body massage cost in Rohini?",
     answer:
       "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+  },
+  {
+    question: "Do you offer spa in Rohini Sector 16 or near City Centre Mall Rohini?",
+    answer:
+      "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
+  },
+  {
+    question: "Is body to body massage legal in India?",
+    answer:
+      "Body to body massage is a legal wellness treatment in India when offered by a professional, licensed spa that follows proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture before booking.",
   },
 ];
 
@@ -223,7 +233,7 @@ export default function RohiniPage() {
               Best Spa in <span className="text-amber-700">Rohini</span> for Full Body & Couple Massage
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a trusted spa in Rohini? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Rohini Sector 3, 7, 9, 11 and 24, just minutes from Rohini Metro Station. Every session is performed by certified therapists in a clean, private, and relaxing setting.
+              Looking for a trusted spa in Rohini? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Rohini Sector 3, 7, 9, 11, 16 and 24, just minutes from Rohini Metro Station. Every session is performed by certified therapists in a clean, private, and relaxing setting.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -294,19 +304,19 @@ export default function RohiniPage() {
               <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and aromatherapy. Whether you live in Rohini Sector 7, work near Sector 24, or are simply visiting North West Delhi, our spa is designed to give you a calm escape from your busy schedule at prices that start from just ₹1999 for your first visit.
             </p>
             <p>
-              Our Rohini spa outlet is conveniently located close to Rohini Metro Station on the Red Line, making it an easy stop for guests travelling from Rohini West, Rohini East,{" "}
-              <Link href="/spa-in-pitampura" className="font-medium text-amber-700 underline hover:text-amber-800">Pitampura</Link>, and Netaji Subhash Place. Popular landmarks like Japanese Park, Adventure Island, and Madhuban Chowk are all a short distance away, so you can plan your massage in Rohini around a day out with family or a break after work. If you prefer not to travel at all, we also offer{" "}
-              <Link href="/spa-price-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">home spa in Rohini</Link> and hotel spa in Rohini for guests who want to relax without stepping outside.
+              Our Rohini spa outlet is conveniently located close to Rohini Metro Station on the Red Line, making it an easy stop for guests travelling from Rohini West, Rohini East, Sector 16,{" "}
+              <Link href="/spa-in-pitampura" className="font-medium text-amber-700 underline hover:text-amber-800">Pitampura</Link>, and Netaji Subhash Place. Popular landmarks like City Centre Mall Rohini, Japanese Park, Adventure Island, and Madhuban Chowk are all a short distance away, so you can plan your massage in Rohini around a day out with family or a break after work. If you prefer not to travel at all, we also offer{" "}
+              home spa in Rohini and hotel spa in Rohini for guests who want to relax without stepping outside.
             </p>
             <p>
-              Every therapist at our{" "}
-              <Link href="/massage-service-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">massage centre in Rohini</Link> is trained and experienced, with several sessions available with foreign therapists from Thailand, Russia, and Uzbekistan alongside our skilled Indian staff. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Rohini for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
+              Every therapist at our massage centre in Rohini is trained and experienced. Our Russian spa in Rohini packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, so you can choose the style and pace that suits you best. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Rohini for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
             </p>
             <p>
-              Booking a spa in Rohini with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, same-day bookings when slots are available, and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a couple massage in Rohini, Spa Delhi makes it easy to prioritise your wellness close to home.
+              Booking a spa in Rohini with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Rohini, Spa Delhi makes it easy to prioritise your wellness close to home.
             </p>
             <p>
-              Many of our regular guests first search for a spa near me in Rohini before discovering that Spa Delhi offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Rohini team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
+              Many of our regular guests first search for a spa near me in Rohini before discovering that Spa Delhi offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session — you can read our guide on{" "}
+              <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether body to body massage is legal in India</Link> if you have questions before booking. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Rohini team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
             </p>
           </div>
         </div>

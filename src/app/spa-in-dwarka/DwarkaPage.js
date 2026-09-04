@@ -181,12 +181,12 @@ const faqs = [
   {
     question: "Can I book a couple massage in Dwarka?",
     answer:
-      "Yes, our Dwarka outlet has private rooms designed for couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+      "Yes, our Dwarka outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
   },
   {
-    question: "Do you have foreign therapists available in Dwarka?",
+    question: "Do you have Russian or other foreign therapists available in Dwarka?",
     answer:
-      "Yes, select packages at our Dwarka spa include experienced foreign therapists alongside our highly trained Indian staff, offering guests more variety in massage styles.",
+      "Yes, our Russian spa in Dwarka packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff, offering guests more variety in massage styles. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
   },
   {
     question: "Is Spa Delhi in Dwarka convenient for business travellers?",
@@ -197,6 +197,16 @@ const faqs = [
     question: "How much does a full body massage cost in Dwarka?",
     answer:
       "A full body massage at our Dwarka outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+  },
+  {
+    question: "Do you offer spa in Dwarka Sector 7 or Sector 12?",
+    answer:
+      "Yes, our Dwarka outlet serves guests across all major sectors, including Sector 7, Sector 12, and Sector 21, along with home spa visits to your exact address within these areas.",
+  },
+  {
+    question: "Can I book a night spa appointment in Dwarka?",
+    answer:
+      "Yes, evening and late-night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, subject to therapist availability at the time you need.",
   },
 ];
 
@@ -223,7 +233,7 @@ export default function DwarkaPage() {
               Best Spa in <span className="text-amber-700">Dwarka</span> Near IGI Airport & Sector 21
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a trusted spa in Dwarka? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Dwarka's residential sectors, just minutes from Dwarka Sector 21 Metro Station and IGI Airport. Every session is performed by certified therapists in a clean, private, and relaxing setting.
+              Looking for a trusted spa in Dwarka? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Dwarka's residential sectors, including Sector 7, Sector 12, and Sector 21, just minutes from Dwarka Sector 21 Metro Station and IGI Airport. Every session is performed by certified therapists in a clean, private, and relaxing setting.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -234,7 +244,7 @@ export default function DwarkaPage() {
               </a>
             </div>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {[
+              {[ 
                 ["12+", "Years of spa expertise"],
                 ["4.9/5", "Guest comfort rating"],
                 ["24/7", "Booking support"],
@@ -294,15 +304,14 @@ export default function DwarkaPage() {
               <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and aromatherapy. Whether you live in one of Dwarka's many sectors, are flying out of IGI Airport, or are simply visiting South West Delhi, our spa is designed to give you a calm escape at prices that start from just ₹1999 for your first visit.
             </p>
             <p>
-              Our Dwarka spa outlet is conveniently located close to Dwarka Sector 21 Metro Station, the last stop on the Airport Express and Blue Line, making it an easy stop for guests travelling from Dwarka Mor, Uttam Nagar, Janakpuri, and even Vasant Kunj. Its proximity to IGI Airport also makes our spa near Dwarka Sector 21 a popular choice among business travellers and frequent flyers looking to unwind before a flight or after a long journey. If you prefer not to travel at all, we also offer{" "}
-              <Link href="/spa-price-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">home spa in Dwarka</Link> and hotel spa in Dwarka for guests who want to relax without stepping outside.
+              Our Dwarka spa outlet is conveniently located close to Dwarka Sector 21 Metro Station, the last stop on the Airport Express and Blue Line, making it an easy stop for guests travelling from Dwarka Sector 7, Sector 12, Dwarka Mor, Uttam Nagar, Janakpuri, and even Vasant Kunj. Guests coming via the Dwarka Expressway from Gurgaon also find our outlet an easy, convenient stop. Its proximity to IGI Airport also makes our spa near Dwarka Sector 21 a popular choice among business travellers and frequent flyers looking to unwind before a flight or after a long journey. If you prefer not to travel at all, we also offer{" "}
+              home spa in Dwarka and hotel spa in Dwarka for guests who want to relax without stepping outside.
             </p>
             <p>
-              Every therapist at our{" "}
-              <Link href="/massage-service-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">massage centre in Dwarka</Link> is trained and experienced, with several sessions available with foreign therapists from Thailand, Russia, and Uzbekistan alongside our skilled Indian staff. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Dwarka for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
+              Every therapist at our massage centre in Dwarka is trained and experienced. Our Russian spa in Dwarka packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, so you can choose the style and pace that suits you best. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Dwarka for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
             </p>
             <p>
-              Booking a spa in Dwarka with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, same-day bookings when slots are available, and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a couple massage in Dwarka, Spa Delhi makes it easy to prioritise your wellness close to home or before your next flight.
+              Booking a spa in Dwarka with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Dwarka, Spa Delhi makes it easy to prioritise your wellness close to home or before your next flight.
             </p>
             <p>
               Many of our regular guests first search for a spa near me in Dwarka before discovering that Spa Delhi offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session. Whether you have a long layover at IGI Airport, are recovering from a busy work week, or simply want a regular self-care routine, our Dwarka team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.

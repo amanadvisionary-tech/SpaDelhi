@@ -43,15 +43,15 @@ const faqSchema = {
       name: "Can I book a couple massage in Dwarka?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Dwarka outlet has private rooms designed for couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Dwarka outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you have foreign therapists available in Dwarka?",
+      name: "Do you have Russian or other foreign therapists available in Dwarka?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, select packages at our Dwarka spa include experienced foreign therapists alongside our highly trained Indian staff, offering guests more variety in massage styles.",
+        text: "Yes, our Russian spa in Dwarka packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff, offering guests more variety in massage styles. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
       },
     },
     {
@@ -68,6 +68,22 @@ const faqSchema = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "A full body massage at our Dwarka outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer spa in Dwarka Sector 7 or Sector 12?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our Dwarka outlet serves guests across all major sectors, including Sector 7, Sector 12, and Sector 21, along with home spa visits to your exact address within these areas.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I book a night spa appointment in Dwarka?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, evening and late-night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, subject to therapist availability at the time you need.",
       },
     },
   ],
@@ -89,6 +105,12 @@ export const metadata = {
     "hotel spa in dwarka",
     "couple massage in dwarka",
     "best spa in dwarka delhi",
+    "spa in dwarka sector 7",
+    "spa in dwarka sector 12",
+    "russian spa in dwarka",
+    "russian spa in dwarka price",
+    "female to male spa in dwarka",
+    "night spa in dwarka",
   ],
   openGraph: {
     title: "Spa in Dwarka - Full Body Massage Near IGI Airport | Spa Delhi",
