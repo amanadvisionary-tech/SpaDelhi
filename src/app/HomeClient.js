@@ -77,6 +77,33 @@ export default function HomeClient() {
             </p> </div> <div className="order-1 md:order-2"> <Image src="/images/453.webp" alt="Full Body Massage in Connaught Place" width={600} height={400} loading="lazy" className="rounded-2xl shadow-md w-full h-auto" /> </div> </div> </div> 
             </section>
 
+      {/* From Our Blog - real server-rendered links so every guide stays reachable from the homepage */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">
+            Spa & Massage <span className="text-amber-600">Guides</span>
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { title: "Best Spa Services in Delhi NCR", href: "/blog/best-spa-service-in-delhi-ncr" },
+              { title: "Sandwich Massage in Delhi", href: "/blog/sandwich-massage-in-delhi" },
+              { title: "Spa in Connaught Place", href: "/blog/spa-in-connaught-place" },
+              { title: "What Does Thai Massage Do to Your Body?", href: "/blog/thai-massage-does-to-your-body" },
+              { title: "What is a B2B Full Body Massage?", href: "/blog/what-is-b2b-full-body-massage" },
+              { title: "Difference Between Spa and Massage", href: "/blog/what-is-the-difference-between-spa-and-massage" },
+            ].map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="block rounded-xl border border-amber-100 bg-amber-50/40 p-5 font-medium text-gray-800 shadow-sm transition hover:-translate-y-1 hover:shadow-md hover:text-amber-700"
+              >
+                {item.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <HomeLocations />
       <Relaxinghomecontent />
       <HomeTherapyest />

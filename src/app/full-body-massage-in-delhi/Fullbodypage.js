@@ -1137,7 +1137,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               Our Packages
             </button>
             </a>
-           <a href='/https://api.whatsapp.com/send?phone=919217255113'>
+           <a href='https://api.whatsapp.com/send?phone=919217255113'>
             <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
               Book Now
             </button>

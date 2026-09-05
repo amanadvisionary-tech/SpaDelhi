@@ -393,9 +393,7 @@ export default function Outpage() {
           </div>
 
           <a
-            href="https://spadelhi.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/"
             className="text-sm text-gray-500 hover:text-amber-600"
           >
             🌐 www.spadelhi.com
