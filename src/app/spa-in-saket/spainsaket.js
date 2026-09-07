@@ -225,7 +225,7 @@ export default function SpaInSaket() {
       description:
         "A private room for you and your partner with twin massage tables, gentle aroma oils, and an optional warm Jacuzzi bath.",
       icon: <FaHotTub className="text-2xl" />,
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage-in-saket",
       badge: "Private Suite",
     },
   ];

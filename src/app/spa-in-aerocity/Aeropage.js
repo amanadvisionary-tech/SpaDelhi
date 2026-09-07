@@ -189,6 +189,13 @@ const services = [
     icon: "🪨",
     url: "/full-body-massage-in-delhi",
   },
+  {
+    title: "Full Body Massage in Aerocity",
+    description:
+      "A complete head-to-toe session minutes from Terminal 3 — outlet, hotel, or home spa, built for travellers on tight schedules.",
+    icon: "✈️",
+    url: "/full-body-massage-in-aerocity",
+  },
 ];
   const services1 = [
   {

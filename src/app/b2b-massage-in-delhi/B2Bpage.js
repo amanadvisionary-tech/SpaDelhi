@@ -310,6 +310,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         </a>
         .
       </p>
+      <p className="mt-2 text-sm text-gray-600">
+        Based near Central Delhi?{" "}
+        <a href="/b2b-massage-in-connaught-place" className="text-amber-700 font-semibold underline">
+          Book B2B Massage in Connaught Place
+        </a>
+        , minutes from Rajiv Chowk.
+      </p>
     </div>
 
     {/* Image section */}

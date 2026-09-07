@@ -1142,8 +1142,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               Book Now
             </button>
            </a>
-            
+
           </div>
+
+          <p className="text-sm text-gray-600 mb-6">
+            Flying out of IGI Airport?{" "}
+            <a href="/full-body-massage-in-aerocity" className="text-amber-700 font-semibold underline">
+              Book Full Body Massage in Aerocity
+            </a>
+            .
+          </p>
 
           <div className="flex items-center space-x-4">
             <div className="flex -space-x-3">

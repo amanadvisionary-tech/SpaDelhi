@@ -1124,6 +1124,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             </a>
           </div>
 
+          <p className="text-sm text-gray-600 mb-6">
+            Planning a date near Select Citywalk?{" "}
+            <a href="/couple-massage-in-saket" className="text-amber-700 font-semibold underline">
+              Book Couple Massage in Saket
+            </a>
+            .
+          </p>
+
           <div className="flex items-center space-x-4">
             <div className="flex -space-x-3">
               {[...Array(3)].map((_, i) => (

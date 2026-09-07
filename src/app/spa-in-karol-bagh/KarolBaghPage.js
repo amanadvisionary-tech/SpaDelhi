@@ -157,6 +157,13 @@ export default function KarolBaghPage() {
       url: "/couples-massage-in-delhi",
       linkText: "Explore Couples Massage in Delhi",
     },
+    {
+      title: "Deep Tissue Massage",
+      description: "Firm, focused pressure that reaches chronic knots and stiffness — a Karol Bagh favourite for real, lasting pain relief.",
+      icon: "🩹",
+      url: "/deep-tissue-massage-in-karol-bagh",
+      linkText: "Book Deep Tissue Massage in Karol Bagh",
+    },
   ];
 
   const SERVICES_LEFT = [

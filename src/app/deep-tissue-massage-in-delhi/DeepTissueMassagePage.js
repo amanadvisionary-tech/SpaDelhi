@@ -88,6 +88,13 @@ export default function DeepTissueMassagePage() {
       url: "/swedish-massage-vs-deep-tissue-massage",
       linkText: "Compare Deep Tissue vs Swedish",
     },
+    {
+      title: "Deep Tissue Massage in Karol Bagh",
+      description: "Our original outlet, and where a lot of our most experienced deep tissue therapists work — steps from Karol Bagh Metro.",
+      icon: "📍",
+      url: "/deep-tissue-massage-in-karol-bagh",
+      linkText: "Book Deep Tissue Massage in Karol Bagh",
+    },
   ];
 
   const pricingPlans = [

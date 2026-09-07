@@ -191,7 +191,7 @@ export default function Conaughtpage() {
       description:
         "Our Body-to-Body massage allows the guests to relax to the greatest extent possible because the professionals apply rich oils and tried techniques to combat fatigue, relax nervousness, and increase your energy levels throughout the body.",
       icon: "🌸",
-      url: "/b2b-massage-in-delhi",
+      url: "/b2b-massage-in-connaught-place",
     },
     {
       title: "Swedish Massage",
