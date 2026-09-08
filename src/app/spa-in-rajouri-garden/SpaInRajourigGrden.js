@@ -159,6 +159,12 @@ export default function SpaInRajourigGrden() {
       icon: "👫",
       url: "/couples-massage-in-delhi",
     },
+    {
+      title: "Gentle Swedish Massage",
+      description: "Long, gliding strokes for genuine relaxation, close to City Square Mall — the easiest starting point if you're new to massage.",
+      icon: "🌊",
+      url: "/swedish-massage-in-rajouri-garden",
+    },
   ];
   const SERVICES_LEFT = [
     {

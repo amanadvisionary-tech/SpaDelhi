@@ -50,24 +50,24 @@ const benefits = [
 
 const nearbyAreas = [
   {
-    title: "Rajiv Chowk",
+    title: "Radisson Blu, C.P.",
     image: "/images/radissonblu_CP.jpg",
-    description: "A two-minute walk from Rajiv Chowk Metro Station (Blue & Yellow Line interchange) brings you right to our C.P. outlet.",
+    description: "Staying at Radisson Blu? We can send a therapist straight to your room for a private B2B session.",
   },
   {
-    title: "Janpath",
+    title: "Holiday Inn, C.P.",
     image: "/images/holidayIn_CP.jpg",
-    description: "Finished shopping at Janpath Market? Our outlet is a short walk away for a proper wind-down.",
+    description: "A short walk from Holiday Inn — hotel spa bookings available if you'd rather not travel to our outlet.",
   },
   {
-    title: "Barakhamba Road",
+    title: "JW Marriott, C.P.",
     image: "/images/JwMarriott_CP.jpg",
-    description: "Office-goers from the Barakhamba Road business district often book us for a session after a long work day.",
+    description: "Guests at JW Marriott can book our outlet or request a therapist directly to their room.",
   },
   {
-    title: "Inner & Outer Circle",
+    title: "The Park, C.P.",
     image: "/images/TheParkConnaughtPlace.webp",
-    description: "Wherever you are in C.P.'s Inner or Outer Circle, our outlet is a short, easy trip away.",
+    description: "Close to The Park hotel, with discreet, private hotel spa sessions available on request.",
   },
 ];
 
@@ -92,6 +92,11 @@ const faqs = [
   { question: "Can I book a night B2B massage appointment in Connaught Place?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
   { question: "Do you offer B2B massage at hotels near Connaught Place?", answer: "Yes, we regularly serve guests staying at hotels around C.P. — just share your hotel and room details when booking." },
   { question: "How much does a B2B massage cost in Connaught Place?", answer: "A B2B massage at our Connaught Place outlet starts from ₹2999 for the first visit. Home and hotel packages start from ₹18,000 depending on duration." },
+  { question: "How long does a B2B massage session last?", answer: "Our standard B2B massage session runs 60 minutes at the outlet, with 90-minute home spa and 120-minute hotel spa options available for a longer, more thorough session." },
+  { question: "What is the difference between B2B massage and a full body massage?", answer: "B2B massage is a full-contact, body-to-body technique focused on deep relaxation, while a full body massage is a broader head-to-toe session using hands-only technique. Both are available at our Connaught Place outlet." },
+  { question: "What oils are used during a B2B massage session?", answer: "We use premium, aromatherapy-grade massage oils selected for skin comfort and smooth, controlled movement throughout the session — your therapist can adjust based on any preference or sensitivity." },
+  { question: "Is B2B massage available for corporate or business travellers near Connaught Place?", answer: "Yes — a large share of our C.P. bookings are corporate professionals and business travellers looking for genuine stress relief between meetings, which is why we keep flexible daytime and evening slots available." },
+  { question: "Do I need to book in advance for a B2B massage in Connaught Place?", answer: "Same-day appointments are usually possible, but we recommend booking a couple of hours ahead over WhatsApp or Telegram, especially for evening and night slots, to guarantee your preferred time." },
 ];
 
 export default function B2BMassageConnaughtPlacePage() {
@@ -161,37 +166,65 @@ export default function B2BMassageConnaughtPlacePage() {
         </div>
       </section>
 
-      {/* Long-form SEO content */}
+      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="mb-10 text-center">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
             <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">B2B Massage in Connaught Place — What It Is & How to Book</h2>
           </div>
-          <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-            <p>
-              Connaught Place is where a lot of Delhi does business, shops, and occasionally just passes through between meetings — which makes a central, reliable{" "}
-              <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>{" "}
-              option genuinely useful here. Our C.P. outlet is a short walk from Rajiv Chowk Metro Station, so whether you're coming from the Inner Circle, Janpath, or the Barakhamba Road office district, you're rarely more than a few minutes away.
-            </p>
-            <p>
-              B2B massage in Connaught Place at our outlet is a specialised, full-contact therapy performed by trained therapists using premium oils and controlled, smooth movements — it's meant to help with deeper relaxation and genuine stress relief, not just a rubdown. Sessions start from ₹2999, with home and hotel spa options available if you're staying at one of the many hotels around C.P. and would rather not travel.
-            </p>
-            <p>
-              We know this is a service people sometimes have questions about before booking, so we'd rather be upfront: this is a professional wellness treatment, performed with proper hygiene standards in a fully private room, by therapists who treat it the same way as any other service on our menu. If you're curious about the legal side of things, we've written a straightforward answer on{" "}
-              <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether B2B massage is legal in India</Link>{" "}
-              — worth a read if you have questions before your first visit.
-            </p>
-            <p>
-              Our Russian spa in Connaught Place packages bring in Russian, Thai, and Uzbek therapists alongside experienced Indian staff, so there's real variety in technique if you're looking for something specific. Booking takes a couple of minutes over WhatsApp or Telegram, with clear pricing upfront — no surprises once you're in the room. We keep flexible timings through the week, including evening and night appointments booked in advance through our 24/7 desk, which works well for the C.P. office crowd finishing up late.
-            </p>
-            <p>
-              Whether you're squeezing in a session on a lunch break, unwinding after a long day of meetings, or staying at a hotel nearby and want us to come to you, our Connaught Place team can talk you through the right package for your time and budget.
-            </p>
-            <p>
-              We get a fair number of first-time questions about what actually happens during a session, and we'd rather answer them upfront than have you wondering. You'll be shown into a private room, given a few minutes to get comfortable, and your therapist will check your preferences before starting — pressure, oil type, anything you'd rather they avoid. The room stays closed for the full session, and everything is handled the same way it would be for any other treatment on our menu, with the same hygiene standards and the same professional conduct.
-            </p>
+
+          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
+            >
+              <Image src="/images/b2b-massage1.png" alt="B2B massage session in Connaught Place" fill className="object-cover" />
+            </motion.div>
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Central, Minutes From Rajiv Chowk</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Our <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link> is a short walk from the Inner Circle, Janpath, and Barakhamba Road.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">A Specialised, Full-Contact Therapy</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Premium oils and controlled, smooth movements for genuine deep relaxation — not just a rubdown. From ₹2999.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">A Professional Wellness Treatment</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Fully private, hygienic, professionally conducted. Curious about the legal side?{" "}
+                  <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">Read our guide</Link>.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Variety, Transparent Pricing</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Russian, Thai, and Uzbek therapists alongside our Indian staff. No surprises once you're in the room.
+                </p>
+              </motion.div>
+            </div>
           </div>
+
+          <p className="mt-8 text-center text-gray-600">
+            Evening and night appointments available through our 24/7 desk —{" "}
+            <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
+          </p>
         </div>
       </section>
 
@@ -209,6 +242,43 @@ export default function B2BMassageConnaughtPlacePage() {
             <Link href="/spa-in-connaught-place" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Connaught Place page</Link>{" "}
             covers everything from full body to couple massage.
           </p>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            We're a licensed wellness centre, not a one-off pop-up — every therapist on our Connaught Place team goes through structured training in body-to-body technique, oil selection, and client comfort before they're ever paired with a guest. That's part of why corporate professionals in C.P. keep coming back for post-meeting relaxation instead of trying a new place each time: consistency matters when you're booking a service like this.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How It Compares</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">B2B massage vs. our other Connaught Place treatments.</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not sure which session is right for you? Here's a quick, honest comparison.</p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Full Body Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              A <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>{" "}
+              is a broader, gentler head-to-toe session — a good fit if you want general relaxation without the full-contact B2B format.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Deep Tissue Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Deep tissue massage</Link>{" "}
+              targets stiff muscles and knots with firm pressure — better suited to physical recovery than the B2B format's full-contact relaxation.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Thai Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/thai-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Thai massage</Link>{" "}
+              uses stretching and rhythmic pressure along the body's energy lines — a more active, therapeutic technique compared to B2B's smooth, oil-based approach.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -230,8 +300,8 @@ export default function B2BMassageConnaughtPlacePage() {
       <section className="bg-[#f7efe8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently located across Connaught Place.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">5-Star Hotels Nearby</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">B2B Massage Delivered to Your Connaught Place Hotel Room</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Want the full picture of what our C.P. outlet offers? Visit our <Link href="/spa-in-connaught-place" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Connaught Place</Link> page for all services.
             </p>
@@ -269,7 +339,32 @@ export default function B2BMassageConnaughtPlacePage() {
         </div>
       </section>
 
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">First Time Here?</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What to expect during your session.</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Check-in & Consultation</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A quick chat about pressure, oil preference, and anything you'd rather your therapist avoid — nothing is assumed.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Private, Closed Room</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">Your room stays closed for the full session — no shared spaces, no one walking in, no interruptions from booking to checkout.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Premium Oils, Controlled Technique</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">Aromatherapy-grade oils and smooth, controlled movements — this is a wellness treatment, handled the same way as any other service on our menu.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Aftercare & Checkout</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A few minutes to ease back before you head out — plus water and a quiet space if you'd like to sit for a bit after your session.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>

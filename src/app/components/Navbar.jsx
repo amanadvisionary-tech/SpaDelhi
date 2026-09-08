@@ -43,9 +43,6 @@ export default function Navbar() {
     { name: "B2B Massage", href: "/b2b-massage-in-delhi" },
     { name: "Full Body Massage", href: "/full-body-massage-in-delhi" },
     { name: "Deep Tissue Massage", href: "/deep-tissue-massage-in-delhi" },
-    { name: "Thai Massage", href: "/thai-massage-in-delhi" },
-    { name: "Swedish Massage", href: "/swedish-massage-in-delhi" },
-    { name: "Aromatherapy Massage", href: "/aromatherapy-massage-in-delhi" },
   ];
 
   const outletDropdown = [
@@ -54,17 +51,6 @@ export default function Navbar() {
     { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
     { name: "Gurugram", href: "/spa-in-gurgaon" },
     { name: "Noida", href: "/spa-in-noida" },
-    { name: "Rajouri Garden", href: "/spa-in-rajouri-garden" },
-    { name: "Pitampura", href: "/spa-in-pitampura" },
-    { name: "Saket", href: "/spa-in-saket" },
-    { name: "Greater Kailash", href: "/spa-in-greater-kailash" },
-    { name: "Kalkaji", href: "/spa-in-kalkaji" },
-    { name: "Rohini", href: "/spa-in-rohini" },
-    { name: "Dwarka", href: "/spa-in-dwarka" },
-    { name: "Vasant Kunj", href: "/spa-in-vasant-kunj" },
-    { name: "Janakpuri", href: "/spa-in-janakpuri" },
-    { name: "Uttam Nagar", href: "/spa-in-uttam-nagar" },
-    { name: "Mahipalpur", href: "/spa-in-mahipalpur" },
   ];
 
   return (

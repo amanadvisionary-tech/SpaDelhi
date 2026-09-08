@@ -152,7 +152,7 @@ export default function Noipage() {
       title: "Aromatherapy Massage",
       description: "We apply perfumed oils that scent well during this treatment. The nice scents make your mood better and your muscles are relaxed with the help of the massage",
       icon: "🪨",
-      url: "/massage-service-in-delhi",
+      url: "/aromatherapy-massage-in-noida",
     },
     {
       title: "Couples Massage",

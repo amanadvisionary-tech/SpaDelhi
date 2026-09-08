@@ -82,14 +82,6 @@ export default function Footer() {
       { name: 'Saket', link: '/spa-in-saket' },
       { name: 'Rajouri Garden', link: '/spa-in-rajouri-garden' },
       { name: 'Pitampura', link: '/spa-in-pitampura' },
-      { name: 'Greater Kailash', link: '/spa-in-greater-kailash' },
-      { name: 'Kalkaji', link: '/spa-in-kalkaji' },
-      { name: 'Rohini', link: '/spa-in-rohini' },
-      { name: 'Dwarka', link: '/spa-in-dwarka' },
-      { name: 'Vasant Kunj', link: '/spa-in-vasant-kunj' },
-      { name: 'Janakpuri', link: '/spa-in-janakpuri' },
-      { name: 'Uttam Nagar', link: '/spa-in-uttam-nagar' },
-      { name: 'Mahipalpur', link: '/spa-in-mahipalpur' },
     ].map((loc, i) => (
       <li key={i} className="flex items-start break-words">
         <svg

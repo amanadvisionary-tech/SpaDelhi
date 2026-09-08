@@ -103,6 +103,13 @@ export default function SwedishMassagePage() {
       url: "/swedish-massage-vs-deep-tissue-massage",
       linkText: "Compare Swedish vs Deep Tissue",
     },
+    {
+      title: "Swedish Massage in Rajouri Garden",
+      description: "Gentle, genuine relaxation close to City Square Mall — a favourite easy starting point for first-time guests.",
+      icon: "📍",
+      url: "/swedish-massage-in-rajouri-garden",
+      linkText: "Book Swedish Massage in Rajouri Garden",
+    },
   ];
 
   const pricingPlans = [
@@ -550,30 +557,80 @@ export default function SwedishMassagePage() {
           </div>
         </section>
 
-        {/* Long-form SEO content */}
+        {/* Long-form SEO content — scannable card layout */}
         <section className="bg-[#fdf2e8] py-16 lg:py-20">
-          <div className="mx-auto max-w-5xl px-6">
-            <div className="mb-10 text-center">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="mb-12 text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Complete Guide</p>
               <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Swedish Massage in Delhi — Technique, Benefits & How to Choose It</h2>
-            </div>
-            <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-              <p>
-                If you have searched for a Swedish massage near me in Delhi, you have likely come across dozens of spas claiming to offer it — but genuine Swedish technique takes real training. At Spa Delhi, our therapists use five classic movements: effleurage (long gliding strokes), petrissage (kneading), friction (deeper circular pressure on specific spots), tapotement (light rhythmic tapping), and vibration. Together, these techniques create a full body Swedish massage in Delhi that relaxes muscles, improves circulation, and leaves you feeling noticeably lighter by the end of the session.
-              </p>
-              <p>
-                One of the most common questions we hear is about the difference between Swedish massage and deep tissue massage. Both are full body treatments, but they serve different purposes. Swedish massage uses lighter to medium pressure and is designed primarily for relaxation, stress relief, and general wellness — making it ideal for people who are new to spa treatments or who simply want to de-stress without any discomfort. Deep tissue massage, on the other hand, uses slower, firmer strokes to reach deeper muscle layers and target chronic pain. If you are unsure which is right for you, our <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">Swedish vs deep tissue massage comparison</Link> breaks down the differences in detail.
-              </p>
-              <p>
-                Swedish massage in Delhi is a popular choice for office professionals dealing with everyday stress, travellers looking to unwind after a long journey, and anyone who wants a calming self-care ritual. Beyond relaxation, regular Swedish massage sessions are known to support better sleep quality, reduce mild muscle tension from sitting or travel, and even improve mood by lowering stress hormones in the body. Many of our guests book a Swedish full body massage in Delhi specifically to reset after a demanding work week.
-              </p>
-              <p>
-                Booking your Swedish massage price in Delhi is transparent and simple with Spa Delhi — sessions start from just ₹1999 at our outlet, with home spa and hotel spa packages available from ₹15,000 depending on duration and location. Every therapist follows strict hygiene protocols, using fresh towels, sanitised treatment rooms, and premium massage oils for each guest, so you can relax knowing your session is both safe and professional.
-              </p>
-              <p>
-                Whether you are looking for the best Swedish massage spa in Delhi for a first-time visit, a regular relaxation ritual, or a gentle alternative to deep tissue therapy, Spa Delhi's certified therapists are ready to help. Book a solo session, add on aromatherapy for extra calm, or explore our other massage services to build the wellness routine that fits your needs and budget.
+              <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+                Everything you'd ask before booking a Swedish massage near me in Delhi, in four quick sections.
               </p>
             </div>
+
+            <div className="grid gap-6 md:grid-cols-2">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Five Classic Movements, Done Properly</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Genuine Swedish technique takes real training. Our therapists use effleurage, petrissage, friction, tapotement, and vibration together — a full body session that relaxes muscles and improves circulation.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.05 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Swedish vs Deep Tissue</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Swedish uses lighter, relaxing pressure; deep tissue goes firmer for chronic pain. Unsure which fits you? Read our{" "}
+                  <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">full comparison</Link>.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.1 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Who It's Really For</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  A favourite among office professionals, travellers unwinding after a long journey, and anyone wanting a calming self-care ritual and better sleep.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.15 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hygiene & Safety First</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Fresh towels, sanitised treatment rooms, and premium oils for every guest — every therapist follows strict hygiene protocols, no exceptions.
+                </p>
+              </motion.div>
+            </div>
+
+            <p className="mt-8 text-center text-gray-600">
+              Looking for the <span className="font-semibold text-amber-700">best Swedish massage spa in Delhi</span>? First visit from ₹1999 —{" "}
+              <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
+            </p>
           </div>
         </section>
 

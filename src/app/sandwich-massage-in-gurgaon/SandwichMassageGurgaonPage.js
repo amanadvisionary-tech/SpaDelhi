@@ -15,7 +15,6 @@ import {
   FaHotTub,
   FaLeaf,
   FaPhoneAlt,
-  FaPlaneDeparture,
   FaSpa,
   FaStar,
   FaTelegram,
@@ -24,96 +23,80 @@ import {
 
 const highlights = [
   {
-    icon: <FaHandSparkles className="text-2xl text-teal-600" />,
-    title: "Complete head-to-toe coverage",
-    desc: "A genuine full body session — back, shoulders, arms, legs, and feet — not a rushed version squeezed into a layover.",
+    icon: <FaSpa className="text-2xl text-amber-600" />,
+    title: "Two therapists, one session",
+    desc: "A sandwich massage means two therapists working in sync on both sides of your body at once — deeper relaxation in the same amount of time.",
   },
   {
-    icon: <FaPlaneDeparture className="text-2xl text-sky-600" />,
-    title: "Built for the hotel district",
-    desc: "Minutes from every major hotel in Aerocity, with hotel spa as one of our most requested services here.",
+    icon: <FaHandSparkles className="text-2xl text-teal-600" />,
+    title: "Close to Cyber Hub",
+    desc: "A short drive from Cyber Hub and MG Road, easy to fit in after work or between meetings.",
   },
   {
     icon: <FaLeaf className="text-2xl text-emerald-600" />,
-    title: "Certified, experienced therapists",
-    desc: "Trained in full body technique, so the pace and pressure stay consistent from start to finish.",
+    title: "Certified, coordinated therapists",
+    desc: "Our sandwich massage teams train together so both therapists move in sync, not just working independently side by side.",
   },
 ];
 
 const benefits = [
-  { title: "Complete Relaxation", desc: "Works through your entire body — back, shoulders, arms, legs, feet — rather than focusing on just one problem area." },
-  { title: "Eases Travel Fatigue", desc: "A long flight or a packed meeting schedule leaves your whole body stiff, not just one spot — full body massage addresses all of it at once." },
-  { title: "Improved Circulation", desc: "Long, flowing strokes across the whole body encourage healthy blood flow after hours of sitting on a plane or in meetings." },
-  { title: "Reduced Jet Lag Symptoms", desc: "Many travellers find a full body session genuinely helps them reset their body clock after a long-haul flight." },
-  { title: "Stress Relief Before or After Flights", desc: "A calm, unhurried session to bookend a stressful travel day, whether you're arriving frazzled or departing anxious." },
-  { title: "Better Sleep That Night", desc: "A relaxed body makes it easier to get real rest, whether you're flying out again soon or staying the night at your hotel." },
+  { title: "Deeper Relaxation, Faster", desc: "Two therapists working in sync cover more ground in less time than a single-therapist session, so you leave more thoroughly relaxed." },
+  { title: "Relief for Long Work Hours", desc: "Gurgaon's corporate pace means long days at a desk — a sandwich massage tackles tension on both sides of your body at once instead of one area at a time." },
+  { title: "A Genuinely Different Experience", desc: "If you've had a standard massage before, the coordinated two-therapist technique feels noticeably different from the very first few minutes." },
+  { title: "Improved Circulation", desc: "The layered, synchronized strokes encourage healthy blood flow more thoroughly than a single-therapist session ever could." },
+  { title: "Time-Efficient Relaxation", desc: "For busy professionals with limited free time, this is a way to get a more complete session without booking extra hours you don't have." },
+  { title: "Premium, Memorable Experience", desc: "A popular choice for guests wanting something beyond a routine massage — genuinely worth trying at least once." },
 ];
 
 const nearbyAreas = [
-  {
-    title: "Pullman Aerocity",
-    image: "/images/pullmanAerocity.jpg",
-    description: "Staying at Pullman? We can send a therapist straight to your room for an in-room full body massage.",
-  },
-  {
-    title: "Novotel Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "A few minutes from Novotel — hotel spa bookings available if you'd rather not travel before your flight.",
-  },
-  {
-    title: "IBIS Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
-    description: "Guests at IBIS can book our outlet or request a therapist directly to their room.",
-  },
-  {
-    title: "Lemon Tree Premier",
-    image: "/images/LemonTreePremierAerocity.jpg",
-    description: "Close to Lemon Tree Premier, with hotel spa sessions available on request for guests on tight schedules.",
-  },
+  { title: "Hyatt Regency Gurgaon", image: "/images/Hyatt_Regency_Gurgaon.jpg", description: "Staying at Hyatt Regency? We can send two therapists straight to your room for an in-room sandwich massage." },
+  { title: "Radisson Gurgaon", image: "/images/Radisson_Gurgaon_Udyog_Vihar.jpg", description: "A short drive from Radisson, Udyog Vihar — hotel spa bookings available if you'd rather not travel." },
+  { title: "The Oberoi, Gurgaon", image: "/images/The_Oberoi,_Gurgaon.jpg", description: "Guests at The Oberoi can book our outlet or request a coordinated two-therapist session in their room." },
+  { title: "Trident, Gurgaon", image: "/images/Trident,_Gurgaon.jpg", description: "Close to Trident, with hotel spa sessions available on request for a premium, private experience." },
 ];
 
 const processSteps = [
-  { number: "01", title: "Book ahead or same-day", text: "Message us on WhatsApp or Telegram — we're used to short-notice bookings from travellers passing through.", icon: <FaPhoneAlt className="text-amber-700" /> },
-  { number: "02", title: "Choose outlet or hotel room", text: "Come to our outlet, or have your therapist meet you directly at your Aerocity hotel.", icon: <FaClock className="text-amber-700" /> },
-  { number: "03", title: "Full body session", text: "60 to 90 minutes of complete, head-to-toe massage designed to actually reset you.", icon: <FaCheckCircle className="text-amber-700" /> },
+  { number: "01", title: "Book your slot", text: "Share your preferred time — evenings and weekends fill up fast in Gurgaon, so a little notice helps.", icon: <FaPhoneAlt className="text-amber-700" /> },
+  { number: "02", title: "Meet both therapists", text: "A quick consultation with both therapists so they know exactly where to focus.", icon: <FaClock className="text-amber-700" /> },
+  { number: "03", title: "Synchronized session", text: "Two therapists work in coordinated rhythm on both sides of your body for the full session.", icon: <FaCheckCircle className="text-amber-700" /> },
 ];
 
 const pricingPlans = [
-  { title: "Full Body Outlet", price: "₹1999", desc: "A complete session at our Aerocity outlet, close to Terminal 3.", features: ["Full Body Technique", "Oil or Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Hotel Spa", price: "₹20000", desc: "Delivered straight to your Aerocity hotel room — ideal for layovers and business trips.", features: ["5 Star Property", "Private Suite", "Foreign Therapist", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "Home Spa", price: "₹15000", desc: "The same full body technique at a home or serviced apartment near Aerocity.", features: ["Full Body Massage", "Aromatherapy", "Private Setting", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "Sandwich Outlet", price: "₹2999", desc: "A synchronized two-therapist session at our Gurgaon outlet, close to Cyber Hub.", features: ["Two Therapists", "Oil or Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home Sandwich Spa", price: "₹18000", desc: "The same two-therapist experience delivered to your home anywhere in Gurgaon.", features: ["Two Therapists", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Sandwich Spa", price: "₹25000", desc: "A longer, indulgent sandwich session at your Gurgaon hotel with added treatments.", features: ["Foreign Therapists", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
-  { question: "What is the first visit offer for full body massage in Aerocity?", answer: "Our full body massage in Aerocity starts at just ₹1999 for a first-visit outlet session, minutes from IGI Airport Terminal 3." },
-  { question: "Can I book a full body massage before my flight?", answer: "Yes, our Aerocity outlet is a few minutes from Terminal 3, and we take same-day bookings depending on availability — message us as early as you can." },
-  { question: "Do you offer hotel spa for full body massage at Aerocity hotels?", answer: "Yes, hotel spa is one of our most requested services here given the density of hotels in Aerocity — your therapist comes straight to your room." },
-  { question: "How long does a full body massage session take?", answer: "A full body massage typically takes 60 to 90 minutes, giving the therapist time to properly work through your back, shoulders, arms, legs, and feet." },
-  { question: "Do you have Russian or other foreign therapists for full body massage in Aerocity?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available alongside our experienced Indian staff, from ₹2,800 depending on the package." },
-  { question: "Can I book a night full body massage appointment in Aerocity?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, useful for late-night arrivals." },
-  { question: "Is full body massage good for jet lag or travel fatigue?", answer: "Many travellers find a full body session genuinely helps — the combination of full-body coverage and relaxed pacing helps you reset after a long flight." },
-  { question: "How much does a full body massage cost in Aerocity?", answer: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹15,000 depending on duration." },
+  { question: "What is the first visit offer for sandwich massage in Gurgaon?", answer: "Our sandwich massage in Gurgaon starts at ₹2999 for a first-visit session at our outlet, close to Cyber Hub." },
+  { question: "What exactly is a sandwich massage?", answer: "A sandwich massage involves two therapists working in sync on both sides of your body at once, delivering deeper, more layered relaxation than a single-therapist session." },
+  { question: "Is your sandwich massage spa near Cyber Hub or MG Road?", answer: "Yes, our Gurgaon outlet is a short drive from Cyber Hub, MG Road, and Golf Course Road, making it an easy stop after work." },
+  { question: "Do you have Russian or other foreign therapists for sandwich massage in Gurgaon?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available for sandwich sessions alongside our experienced Indian staff, from ₹2,800 per therapist depending on the package." },
+  { question: "Can I book a night sandwich massage appointment in Gurgaon?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
+  { question: "Do you offer home sandwich massage near Gurgaon?", answer: "Yes, alongside our outlet, we send two therapists to your home anywhere in and around Gurgaon for the same synchronized experience." },
+  { question: "Is sandwich massage worth trying if I've never had one?", answer: "Most first-timers say it's noticeably different from a standard massage — the coordinated, two-therapist technique is worth trying at least once." },
+  { question: "How much does a sandwich massage cost in Gurgaon?", answer: "A sandwich massage at our Gurgaon outlet starts from ₹2999 for the first visit. Home and hotel packages start from ₹18,000 depending on duration." },
 ];
 
-export default function FullBodyMassageAerocityPage() {
+export default function SandwichMassageGurgaonPage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/Hyatt_Regency_Gurgaon.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
-              <FaStar className="text-amber-500" /> AEROCITY HOTEL DISTRICT
+              <FaStar className="text-amber-500" /> GURGAON OUTLET
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
-              Full Body Massage in <span className="text-amber-700">Aerocity</span> Near IGI Airport
+              Sandwich Massage in <span className="text-amber-700">Gurgaon</span> Near Cyber Hub
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              A long flight or a packed schedule leaves your whole body tired, not just one spot. Our full body massage in Aerocity works head to toe, minutes from Terminal 3 — at our outlet or delivered straight to your hotel room.
+              Our sandwich massage in Gurgaon brings a genuinely different kind of relaxation to the city's corporate district — two therapists working in sync, minutes from Cyber Hub and MG Road. First visit from ₹2999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -135,12 +118,12 @@ export default function FullBodyMassageAerocityPage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg" alt="Full body massage session in Aerocity" fill className="object-cover" />
+                <Image src="/images/Hyatt_Regency_Gurgaon.jpg" alt="Sandwich massage session in Gurgaon" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
               <p className="text-sm text-gray-600">Starting from</p>
-              <p className="font-semibold text-amber-700">₹1999 first visit</p>
+              <p className="font-semibold text-amber-700">₹2999 first visit</p>
             </div>
           </motion.div>
         </div>
@@ -149,7 +132,7 @@ export default function FullBodyMassageAerocityPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why This Combination Works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Complete relaxation, built around the airport district.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">A premium experience for Gurgaon's corporate pace.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
@@ -162,50 +145,44 @@ export default function FullBodyMassageAerocityPage() {
         </div>
       </section>
 
-      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full Body Massage in Aerocity — Why It Fits This Location So Well</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Sandwich Massage in Gurgaon — What It Is & Why It Fits Here</h2>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
             <div className="grid gap-5 sm:grid-cols-2">
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaPlaneDeparture /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built for Travellers, Minutes From T3</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Two Therapists, Twice the Depth</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  A whole body stiff from hours of flying or meetings — exactly what{" "}
-                  <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>{" "}
-                  is built for. From ₹1999.
+                  Our <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link> is built for people who want a genuinely deeper session without sitting twice as long.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotel /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hotel Spa, Genuinely Popular Here</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Close to Cyber Hub</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Therapist comes straight to your room. Nearby in{" "}
-                  <Link href="/spa-in-vasant-kunj" className="font-medium text-amber-700 underline hover:text-amber-800">Vasant Kunj</Link>{" "}
-                  or{" "}
-                  <Link href="/spa-in-mahipalpur" className="font-medium text-amber-700 underline hover:text-amber-800">Mahipalpur</Link>? We cover those too.
+                  A short drive from Cyber Hub, MG Road, Golf Course Road, and Udyog Vihar. First visit from ₹2999, home and hotel spa available.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Head-to-Toe, Not One Sore Spot</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Genuinely Coordinated Teams</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Back, shoulders, arms, legs, and feet. Russian, Thai, and Uzbek therapists alongside our Indian staff for real choice of technique.
+                  Our sandwich teams train together, not two therapists who just happen to share a room. Russian, Thai, and Uzbek therapists available on request.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaClock /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built Around Flight Times</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">First Time? Don't Overthink It</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Short-notice bookings and 24/7 evening/night slots. Tell us your window and we'll match the session to it.
+                  It takes a few minutes to adjust to two sets of hands at once — then it just feels like a more complete, efficient massage.
                 </p>
               </motion.div>
             </div>
@@ -217,38 +194,21 @@ export default function FullBodyMassageAerocityPage() {
               transition={{ duration: 0.5 }}
               className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
             >
-              <Image src="/images/b2b-full-body-massage.jpg" alt="Full body massage session in Aerocity" fill className="object-cover" />
+              <Image src="/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg" alt="Sandwich massage technique in Gurgaon" fill className="object-cover" />
             </motion.div>
           </div>
 
           <p className="mt-8 text-center text-gray-600">
-            Booking around a tight flight window? Build in a little buffer either side —{" "}
+            We're used to short-notice bookings between meetings —{" "}
             <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
-          </p>
-        </div>
-      </section>
-
-      {/* Why choose us */}
-      <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
-        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
-          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">A reliable full body massage option right by the airport.</h2>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            More than a decade of experience, with{" "}
-            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>. Serving Aerocity specifically means dealing with tight, unpredictable schedules constantly — flights delayed, meetings running long, layovers cut short. Our therapists are used to working around that instead of expecting you to work around them.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            For the complete list of services and hotel partnerships in the area, our{" "}
-            <Link href="/spa-in-aerocity" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Aerocity page</Link>{" "}
-            has the full picture beyond full body massage.
           </p>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Full Body Massage</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Especially useful before or after a flight.</h2>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Sandwich Massage</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">More relaxation, in the same amount of time.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((b) => (
@@ -264,25 +224,19 @@ export default function FullBodyMassageAerocityPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">5-Star Hotels Nearby</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full Body Massage Delivered to Your Aerocity Hotel Room</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Sandwich Massage Delivered to Your Gurgaon Hotel Room</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-              Want the full picture of what our Aerocity outlet offers? Visit our <Link href="/spa-in-aerocity" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Aerocity</Link> page for all services and hotel partnerships.
+              Want the full picture of what our Gurgaon outlet offers? Visit our <Link href="/spa-in-gurgaon" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Gurgaon</Link> page for all services.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {nearbyAreas.map((area) => (
               <motion.div key={area.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="group overflow-hidden rounded-[24px] border border-amber-100 bg-white shadow-sm">
                 <div className="relative h-48 overflow-hidden">
-                  <Image src={area.image} alt={`Full body massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
+                  <Image src={area.image} alt={`Sandwich massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-5">
-                  <h3 className="text-lg font-semibold text-[#3a2e2a]">
-                    {area.href ? (
-                      <Link href={area.href} className="hover:text-amber-700 hover:underline">{area.title}</Link>
-                    ) : (
-                      area.title
-                    )}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-[#3a2e2a]">{area.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-gray-600">{area.description}</p>
                 </div>
               </motion.div>
@@ -294,7 +248,7 @@ export default function FullBodyMassageAerocityPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How it works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Fast to book, easy to fit around your schedule.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Fast to book, easy to fit around a busy schedule.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {processSteps.map((step) => (
@@ -312,7 +266,7 @@ export default function FullBodyMassageAerocityPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Transparent pricing for every kind of traveller.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Transparent pricing, no surprises.</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
@@ -335,6 +289,22 @@ export default function FullBodyMassageAerocityPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
+        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
+          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">The most trusted sandwich massage near Cyber Hub.</h2>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            More than a decade of experience, with{" "}
+            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>. Coordinating two therapists for one guest takes real practice — our teams have been doing it long enough that the timing feels effortless from your side of the table.
+          </p>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            For the full range of services at our Gurgaon outlet beyond sandwich massage, our{" "}
+            <Link href="/spa-in-gurgaon" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Gurgaon page</Link>{" "}
+            has everything you need.
+          </p>
         </div>
       </section>
 
@@ -371,10 +341,10 @@ export default function FullBodyMassageAerocityPage() {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { title: "Spa in Aerocity", href: "/spa-in-aerocity" },
-            { title: "Full Body Massage in Delhi", href: "/full-body-massage-in-delhi" },
-            { title: "Spa in Mahipalpur", href: "/spa-in-mahipalpur" },
-            { title: "Spa in Vasant Kunj", href: "/spa-in-vasant-kunj" },
+            { title: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
+            { title: "Sandwich Massage in Delhi", href: "/sandwich-massage-in-delhi" },
+            { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
+            { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
               {item.title}
@@ -388,8 +358,8 @@ export default function FullBodyMassageAerocityPage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
-              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Reset before or after your flight.</h3>
-              <p className="mt-3 leading-relaxed text-white/80">Book our Aerocity outlet or have your therapist meet you directly at your hotel.</p>
+              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Experience it for yourself in Gurgaon.</h3>
+              <p className="mt-3 leading-relaxed text-white/80">Book our outlet, or have two therapists come straight to your home or hotel.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>

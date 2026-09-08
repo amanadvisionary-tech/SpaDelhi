@@ -103,6 +103,13 @@ export default function AromatherapyMassagePage() {
       url: "/couples-massage-in-delhi",
       linkText: "Explore Couples Massage in Delhi",
     },
+    {
+      title: "Aromatherapy Massage in Noida",
+      description: "Calming essential oil blends close to Sector 18 — built for Noida's IT and corporate crowd.",
+      icon: "📍",
+      url: "/aromatherapy-massage-in-noida",
+      linkText: "Book Aromatherapy Massage in Noida",
+    },
   ];
 
   const pricingPlans = [
@@ -550,30 +557,79 @@ export default function AromatherapyMassagePage() {
           </div>
         </section>
 
-        {/* Long-form SEO content */}
+        {/* Long-form SEO content — scannable card layout */}
         <section className="bg-[#fdf2e8] py-16 lg:py-20">
-          <div className="mx-auto max-w-5xl px-6">
-            <div className="mb-10 text-center">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="mb-12 text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Complete Guide</p>
               <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Aromatherapy Massage in Delhi — Oils, Benefits & How to Choose It</h2>
-            </div>
-            <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-              <p>
-                If you have searched for an aromatherapy massage near me in Delhi, you have probably noticed that not every spa uses genuine essential oils. At Spa Delhi, our aromatherapy massage combines gentle, Swedish-style strokes with pure essential oil blends such as lavender, eucalyptus, rosemary, chamomile, and peppermint. Each oil is chosen for a specific effect — lavender for deep relaxation, eucalyptus and peppermint for a refreshing, decongesting feel, rosemary for mental clarity, and chamomile for calming sensitive skin — so your therapist can tailor the blend to exactly how you want to feel afterward.
-              </p>
-              <p>
-                A common question we hear is how aromatherapy massage differs from a regular full body or Swedish massage. The massage technique itself is very similar — long, gliding strokes designed to relax the muscles and calm the nervous system. What makes aromatherapy massage different is the addition of therapeutic-grade essential oils, which are absorbed through the skin and inhaled throughout the session. This dual approach is why many guests report feeling a deeper, more complete sense of calm compared to a standard massage in Delhi.
-              </p>
-              <p>
-                Aromatherapy massage in Delhi is especially popular among guests dealing with everyday anxiety, sleep difficulties, and mental fatigue from work or travel. Lavender and chamomile blends are frequently requested for their calming, sleep-supporting properties, while peppermint and eucalyptus are popular for tension headaches and a refreshing pick-me-up. Beyond the wellness benefits, the natural oils used in our sessions also help nourish and soften the skin, so you leave feeling relaxed both inside and out.
-              </p>
-              <p>
-                Booking your aromatherapy massage price in Delhi is transparent with Spa Delhi — sessions start from just ₹1999 at our outlet, with home spa and hotel spa packages available from ₹15,000 depending on duration and location. Before your session, we always check for any allergies or sensitivities so your therapist can select oils that are safe and comfortable for you, or adjust the treatment if needed.
-              </p>
-              <p>
-                Whether you are looking for the best aromatherapy spa in Delhi to unwind after a stressful week, support better sleep, or simply enjoy a more sensory spa experience, Spa Delhi's certified therapists are ready to guide you to the right essential oil blend. You can also combine aromatherapy with other treatments, or explore our full range of massage services to build a wellness routine that suits your needs.
+              <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+                Everything you'd ask before booking an aromatherapy massage near me in Delhi, in four quick sections.
               </p>
             </div>
+
+            <div className="grid gap-6 md:grid-cols-2">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Essential Oils, Chosen With Intent</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Not every spa uses genuine oils. We blend pure lavender, eucalyptus, rosemary, chamomile, and peppermint — each picked for a specific effect — so your therapist can tailor the blend to how you want to feel afterward.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.05 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">How It Differs From a Regular Massage</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  The technique is close to a Swedish massage — long, gliding strokes to relax the muscles and calm the nervous system. What's different is the therapeutic-grade oils, absorbed through the skin and inhaled throughout the session.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.1 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Who It's Really For</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  A popular pick for everyday anxiety, sleep trouble, and mental fatigue from work or travel. Lavender and chamomile support sleep; peppermint and eucalyptus help with tension headaches and a refreshing lift.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.15 }}
+                className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
+              >
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hygiene & Safety First</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  We always check for allergies or skin sensitivities before your session, so your therapist can pick oils that are genuinely safe — or adjust the treatment entirely if needed.
+                </p>
+              </motion.div>
+            </div>
+
+            <p className="mt-8 text-center text-gray-600">
+              Looking for the <span className="font-semibold text-amber-700">best aromatherapy spa in Delhi</span>? First visit from ₹1999 —{" "}
+              <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
+            </p>
           </div>
         </section>
 

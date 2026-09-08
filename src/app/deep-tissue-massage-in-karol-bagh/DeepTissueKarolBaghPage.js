@@ -161,36 +161,65 @@ export default function DeepTissueKarolBaghPage() {
         </div>
       </section>
 
-      {/* Long-form SEO content */}
+      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="mb-10 text-center">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
             <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Deep Tissue Massage in Karol Bagh — Technique, Pricing & What to Expect</h2>
           </div>
-          <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-            <p>
-              Not every ache calls for a light, relaxing rubdown. If you've been dealing with a stiff lower back after standing all day at the Karol Bagh market, or your shoulders are locked up from a desk job near Rajendra Place, what you actually need is real pressure applied in the right place — which is exactly what deep tissue massage is built for. Unlike a{" "}
-              <Link href="/swedish-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Swedish massage</Link>, which stays gentle throughout, deep tissue work uses slow, deliberate strokes to reach the muscle layers underneath — the ones actually holding onto your tension.
-            </p>
-            <p>
-              Our deep tissue massage spa in Karol Bagh sits close to Karol Bagh Metro Station on the Blue Line, which makes it an easy stop whether you're coming from Ajmal Khan Road, Rajendra Place, Patel Nagar, or even Paharganj. A lot of our regulars are people who spend hours on their feet in the market, or sit hunched at a desk all day — both create the exact kind of chronic tension deep tissue technique is designed to release. First-visit sessions start at ₹1999, with home and hotel spa options available if you'd rather not travel.
-            </p>
-            <p>
-              Every therapist here has actually been trained in deep tissue work — it's not just "the same massage but pushed harder." Our Russian spa in Karol Bagh packages bring in Russian, Thai, and Uzbek therapists alongside experienced Indian staff, all trained to apply controlled, firm pressure without crossing into genuinely painful territory. You'll feel a "good hurt" in the tight spots, not sharp pain — and your therapist checks in throughout so pressure stays where you want it.
-            </p>
-            <p>
-              Booking is simple over WhatsApp or Telegram, no hidden charges once you're in the room. We keep flexible hours through the week, including evening and night appointments booked ahead through our 24/7 desk — handy if you're only free after the shops close. Whether you need a quick session to loosen up before a long day, or a longer deep tissue massage near Karol Bagh Metro to properly work through chronic pain, we can match the session length to what you actually need.
-            </p>
-            <p>
-              A lot of people searching for deep tissue massage near me in Karol Bagh are dealing with something specific — a bad back from an old injury, tight shoulders from stress, stiff legs from standing all day. If that's you, tell us where it hurts when you book, and we'll build the session around it rather than running through a generic routine. For a broader comparison of techniques, our{" "}
-              <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">Swedish vs deep tissue guide</Link>{" "}
-              breaks down which one actually fits your situation.
-            </p>
-            <p>
-              What tends to surprise first-time guests is how methodical a proper deep tissue session actually is — it isn't just "more pressure everywhere." Your therapist works in stages, starting lighter to warm the muscle before applying real depth, and spends more time on the areas you flag rather than rushing through a fixed routine. If you carry tension in your lower back from long hours on your feet at the market, or your neck and shoulders lock up after a desk-bound week near Rajendra Place, that's exactly the kind of localised, chronic tightness this technique is meant to address — as opposed to general full-body relaxation, which spreads attention evenly and rarely digs in deep enough to shift anything long-standing.
-            </p>
+
+          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
+            >
+              <Image src="/images/446979.jpg" alt="Deep tissue massage technique in Karol Bagh" fill className="object-cover" />
+            </motion.div>
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Pressure, Not a Light Rubdown</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Unlike a <Link href="/swedish-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Swedish massage</Link>, deep tissue work uses slow, deliberate strokes to reach the muscle layers actually holding your tension.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Close to Karol Bagh Metro</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Easy to reach from Ajmal Khan Road, Rajendra Place, and Patel Nagar. First visit from ₹1999, home and hotel spa too.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Trained in Deep Tissue, Not Just "Firmer"</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Russian, Thai, and Uzbek therapists apply controlled, firm pressure — a "good hurt," never sharp pain, with check-ins throughout.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built Around Where It Hurts</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Tell us where it hurts when you book. Curious which technique fits you? Read our{" "}
+                  <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">comparison guide</Link>.
+                </p>
+              </motion.div>
+            </div>
           </div>
+
+          <p className="mt-8 text-center text-gray-600">
+            Evening and night appointments available through our 24/7 desk —{" "}
+            <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
+          </p>
         </div>
       </section>
 
@@ -269,7 +298,7 @@ export default function DeepTissueKarolBaghPage() {
         </div>
       </section>
 
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>

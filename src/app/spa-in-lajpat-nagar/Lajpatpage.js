@@ -159,6 +159,12 @@ export default function Lajpatpage() {
       icon: "👫",
       url: "/couples-massage-in-delhi",
     },
+    {
+      title: "Thai Massage",
+      description: "Traditional Thai stretching and acupressure, a short walk from Central Market — great for shaking off shopping fatigue and improving flexibility.",
+      icon: "🧘",
+      url: "/thai-massage-in-lajpat-nagar",
+    },
   ];
   const SERVICES_LEFT = [
   {

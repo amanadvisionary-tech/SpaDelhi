@@ -514,6 +514,9 @@ export default function ThaiMassagePage() {
               <p className="text-gray-700 text-lg">
                 At our Thai massage spa in Delhi, you can also choose from related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve flexibility, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
               </p>
+              <p className="text-gray-700 text-lg">
+                Based near Central Market? Our <Link href="/thai-massage-in-lajpat-nagar" className="text-amber-700 underline hover:text-amber-800">Thai massage in Lajpat Nagar</Link> outlet is a short walk from the metro, ideal after a long day of shopping.
+              </p>
             </motion.div>
 
             <motion.div

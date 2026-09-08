@@ -14,6 +14,11 @@ const faqSchema = {
     { "@type": "Question", name: "Can we book a night couple massage appointment in Saket?", acceptedAnswer: { "@type": "Answer", text: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." } },
     { "@type": "Question", name: "Do you offer home couple massage near Saket?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send two therapists to your home anywhere in and around Saket for the same private couple experience." } },
     { "@type": "Question", name: "How much does a couple massage cost in Saket?", acceptedAnswer: { "@type": "Answer", text: "A couple massage at our Saket outlet starts from ₹3999 for the first visit. Home and hotel packages start from ₹18,000 depending on duration." } },
+    { "@type": "Question", name: "How long does a couple massage session last?", acceptedAnswer: { "@type": "Answer", text: "Our standard couple massage session runs 60 minutes at the outlet, with 90-minute home spa and 120-minute hotel spa options for a longer, more indulgent experience." } },
+    { "@type": "Question", name: "Is couple massage a good gift for an anniversary or birthday?", acceptedAnswer: { "@type": "Answer", text: "Yes — couple massage is one of our most-booked anniversary and birthday experiences, especially paired with an aromatherapy add-on and a dinner or movie at Select Citywalk." } },
+    { "@type": "Question", name: "Do both partners have to choose the same massage type?", acceptedAnswer: { "@type": "Answer", text: "No, each partner can pick a different technique — Swedish, deep tissue, or aromatherapy — since you're each assigned a dedicated therapist." } },
+    { "@type": "Question", name: "Is couple massage only for married couples?", acceptedAnswer: { "@type": "Answer", text: "No, couple massage is open to any two adults booking together — partners, friends, or family members are all welcome." } },
+    { "@type": "Question", name: "Do you need advance booking for a couple massage in Saket?", acceptedAnswer: { "@type": "Answer", text: "Weekday slots are often available same-day, but weekends fill up faster, so we recommend booking a few hours ahead over WhatsApp or Telegram." } },
   ],
 };
 

@@ -51,23 +51,23 @@ const benefits = [
 const nearbyAreas = [
   {
     title: "Select Citywalk",
-    image: "/images/couple-bathrobes-posing-embraced.jpg",
-    description: "Pair your couple massage with a movie or dinner at Select Citywalk — we're a short drive from the mall.",
+    image: "/images/Couple Massage.webp",
+    description: "Located inside Saket itself — pair your couple massage with a movie or dinner at Select Citywalk without leaving the neighbourhood.",
   },
   {
-    title: "Malviya Nagar",
-    image: "/images/fpkdl.com_960_1758982953_pleasant-ladies-enjoy-drinking-champagne-spa-three-beautiful-women-wearing-bathrobes-having-cool-resting-holidays_183219-7172.jpg",
-    description: "Couples from Malviya Nagar often book us for a weekend session — close enough not to feel like a trek.",
+    title: "MGF Metropolitan Mall",
+    image: "/images/fpkdl.com_960_1758982921_two-female-friends-relaxing-spa-holding-cocktails_1157-49807.jpg",
+    description: "A few minutes from MGF Metropolitan Mall, right here in Saket — easy to fit in before or after a shopping trip.",
   },
   {
-    title: "Panchsheel Park",
-    image: "/images/fpkdl.com_960_1758982977_friendly-nice-women-amusing-each-other-talking-laughing-spa-center-after-getting-beauty-procedures-white-bathrobes-relaxed-cheerful-ladies-resort_183219-7421.jpg",
-    description: "A short drive from Panchsheel Park brings you to our private, hygienic Saket outlet.",
+    title: "The Suryaa New Delhi",
+    image: "/images/TheSuryaaNewDelhi(NFC).webp",
+    description: "Staying at The Suryaa? We can send two therapists straight to your room for an in-room couple massage.",
   },
   {
-    title: "Chattarpur",
-    image: "/images/fpkdl.com_450_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg",
-    description: "Residents near Chattarpur appreciate the short travel time for a proper couple spa evening.",
+    title: "Saket Metro Station",
+    image: "/images/fpkdl.com_960_1758982027_two-asian-young-woman-friends-lying-down-relaxing-massage-bed-prepared_470400-431.jpg",
+    description: "Steps from Saket Metro Station on the Yellow Line, making our outlet easy to reach without a car.",
   },
 ];
 
@@ -92,6 +92,11 @@ const faqs = [
   { question: "Can we book a night couple massage appointment in Saket?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
   { question: "Do you offer home couple massage near Saket?", answer: "Yes, alongside our outlet, we send two therapists to your home anywhere in and around Saket for the same private couple experience." },
   { question: "How much does a couple massage cost in Saket?", answer: "A couple massage at our Saket outlet starts from ₹3999 for the first visit. Home and hotel packages start from ₹18,000 depending on duration." },
+  { question: "How long does a couple massage session last?", answer: "Our standard couple massage session runs 60 minutes at the outlet, with 90-minute home spa and 120-minute hotel spa options for a longer, more indulgent experience." },
+  { question: "Is couple massage a good gift for an anniversary or birthday?", answer: "Yes — couple massage is one of our most-booked anniversary and birthday experiences, especially paired with an aromatherapy add-on and a dinner or movie at Select Citywalk." },
+  { question: "Do both partners have to choose the same massage type?", answer: "No, each partner can pick a different technique — Swedish, deep tissue, or aromatherapy — since you're each assigned a dedicated therapist." },
+  { question: "Is couple massage only for married couples?", answer: "No, couple massage is open to any two adults booking together — partners, friends, or family members are all welcome." },
+  { question: "Do you need advance booking for a couple massage in Saket?", answer: "Weekday slots are often available same-day, but weekends fill up faster, so we recommend booking a few hours ahead over WhatsApp or Telegram." },
 ];
 
 export default function CoupleMassageSaketPage() {
@@ -161,35 +166,64 @@ export default function CoupleMassageSaketPage() {
         </div>
       </section>
 
-      {/* Long-form SEO content */}
+      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="mb-10 text-center">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
             <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Couple Massage in Saket — What to Expect & How to Book</h2>
           </div>
-          <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-            <p>
-              A lot of couples land on Saket by accident — you're already there for Select Citywalk or a movie at PVR, and someone mentions a couple massage nearby. It works well precisely because of that: our{" "}
-              <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>{" "}
-              here isn't tucked away somewhere inconvenient, it's genuinely close to where South Delhi already goes for an evening out. One room, two therapists working together, so you're actually sharing the experience instead of just being in the building at the same time.
-            </p>
-            <p>
-              Our couple massage spa in Saket is a short drive from Malviya Nagar, Panchsheel Park, and Chattarpur, which makes it an easy stop whether you're starting your evening here or ending it here after dinner. Sessions start at ₹3999 for two, and you don't have to pick identical treatments — one of you can go for a gentle Swedish massage while the other opts for something firmer, and the therapists will adjust independently.
-            </p>
-            <p>
-              Every therapist working couple sessions is trained and experienced, including Russian, Thai, and Uzbek therapists alongside our Indian staff if you'd like variety in technique. Hygiene is handled the same way for every guest — fresh towels, sanitised rooms, proper oils, no shortcuts because it's a shared session. If either of you has a sensitivity or a specific area that needs extra attention, just mention it when you book.
-            </p>
-            <p>
-              Booking takes a couple of minutes on WhatsApp or Telegram. We keep flexible timings through the week — weekday evenings tend to be popular for couples winding down after work, and weekends fill up faster, so a bit of notice helps. Night appointments can also be arranged in advance through our 24/7 desk if you're planning something later in the evening.
-            </p>
-            <p>
-              Whether it's an anniversary, a first proper date night in months, or just an excuse to actually spend an unhurried hour together, our Saket team can help you plan the timing around whatever else you've got on for the evening — dinner reservation, movie showtime, or just heading home relaxed instead of wired from a busy week.
-            </p>
-            <p>
-              A lot of couples tell us the same thing after their first visit — it's oddly rare to actually be in the same room, doing the same calming thing, at the same time, without a phone in reach. Most "together time" ends up being dinner where you're both tired, or a movie where you can't actually talk. A couple massage sidesteps both problems: you're physically together, there's nothing to half-pay-attention to, and you leave the room in the same relaxed state instead of one of you dozing off on the couch later while the other scrolls their phone.
-            </p>
+
+          <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+            <div className="grid gap-5 sm:grid-cols-2">
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHeart /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Actually Shared, Not Just Side-by-Side</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  One room, two therapists working together — our <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link> is a genuinely shared experience.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Close to Select Citywalk</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Steps from Select Citywalk, MGF Metropolitan Mall, and Saket Metro Station. From ₹3999 for two — pick different treatments if you like.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Variety in Technique</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Russian, Thai, and Uzbek therapists available alongside our Indian staff. Same hygiene standard for every guest, every time.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Planned Around Your Evening</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Anniversary, date night, or just an unhurried hour together — we'll time it around your dinner or movie plans.
+                </p>
+              </motion.div>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
+            >
+              <Image src="/images/fpkdl.com_960_1758982953_pleasant-ladies-enjoy-drinking-champagne-spa-three-beautiful-women-wearing-bathrobes-having-cool-resting-holidays_183219-7172.jpg" alt="Couple massage relaxation room in Saket" fill className="object-cover" />
+            </motion.div>
           </div>
+
+          <p className="mt-8 text-center text-gray-600">
+            Weekends fill up faster, so a little notice helps —{" "}
+            <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
+          </p>
         </div>
       </section>
 
@@ -207,6 +241,44 @@ export default function CoupleMassageSaketPage() {
             <Link href="/spa-in-saket" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Saket page</Link>{" "}
             covers everything beyond the couple experience.
           </p>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            Every therapist pair on our couple massage team trains together before they're ever booked as a duo — matching pressure, pacing, and timing so neither of you finishes early and sits there waiting. It's a small detail most spas skip, but it's the difference between a couple spa session that feels genuinely synchronized and one that just happens to have two people in the same room.
+          </p>
+        </div>
+      </section>
+
+      {/* How It Compares */}
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How It Compares</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Couple massage vs. our other Saket treatments.</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">Booking for two but not sure which style to pick? Here's a quick, honest comparison.</p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Full Body Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              A <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>{" "}
+              is our standard solo, head-to-toe session — book it separately if only one of you wants a treatment.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Deep Tissue Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Deep tissue massage</Link>{" "}
+              is firmer, muscle-focused work — either partner can request this instead of Swedish within the same couple session.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Aromatherapy Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/aromatherapy-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Aromatherapy massage</Link>{" "}
+              adds scented essential oils for a calmer, more sensory session — popular as an add-on for anniversaries and celebrations.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -228,8 +300,8 @@ export default function CoupleMassageSaketPage() {
       <section className="bg-[#f7efe8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently located near these Saket neighbourhoods.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Hotel & Landmark Access</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Couple Massage Near The Suryaa & Saket's Favourite Spots</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Want the full picture of what our Saket outlet offers? Visit our <Link href="/spa-in-saket" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Saket</Link> page for all services.
             </p>
@@ -238,7 +310,7 @@ export default function CoupleMassageSaketPage() {
             {nearbyAreas.map((area) => (
               <motion.div key={area.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="group overflow-hidden rounded-[24px] border border-amber-100 bg-white shadow-sm">
                 <div className="relative h-48 overflow-hidden">
-                  <Image src={area.image} alt={`Couple massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
+                  <Image src={area.image} alt={`Couple massage in Saket near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-5">
                   <h3 className="text-lg font-semibold text-[#3a2e2a]">{area.title}</h3>
@@ -267,7 +339,32 @@ export default function CoupleMassageSaketPage() {
         </div>
       </section>
 
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">First Time Here?</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What to expect during your couple session.</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Arrival & Preferences</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A short chat with both of you about pressure, technique, and any occasion you're celebrating — nothing is assumed.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">One Private Room</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">You're settled in together, side by side, with the door closed for the entire session — no shared waiting areas, no interruptions.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Two Therapists, In Sync</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">Trained to start and finish together, so neither of you is left sitting around waiting for the other to wrap up.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Unwind Before You Leave</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A few quiet minutes afterward with water, before you head out for dinner or a movie nearby.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>

@@ -172,6 +172,12 @@ export default function Gurpage() {
       icon: "👫",
       url: "/massage-service-in-delhi",
     },
+    {
+      title: "Sandwich Massage",
+      description: "Two therapists working in sync, close to Cyber Hub — a premium, time-efficient option for Gurgaon's busy corporate crowd.",
+      icon: "🌿",
+      url: "/sandwich-massage-in-gurgaon",
+    },
   ];
     const SERVICES_LEFT = [
   {

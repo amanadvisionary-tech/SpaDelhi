@@ -15,7 +15,6 @@ import {
   FaHotTub,
   FaLeaf,
   FaPhoneAlt,
-  FaPlaneDeparture,
   FaSpa,
   FaStar,
   FaTelegram,
@@ -24,96 +23,80 @@ import {
 
 const highlights = [
   {
-    icon: <FaHandSparkles className="text-2xl text-teal-600" />,
-    title: "Complete head-to-toe coverage",
-    desc: "A genuine full body session — back, shoulders, arms, legs, and feet — not a rushed version squeezed into a layover.",
-  },
-  {
-    icon: <FaPlaneDeparture className="text-2xl text-sky-600" />,
-    title: "Built for the hotel district",
-    desc: "Minutes from every major hotel in Aerocity, with hotel spa as one of our most requested services here.",
-  },
-  {
     icon: <FaLeaf className="text-2xl text-emerald-600" />,
-    title: "Certified, experienced therapists",
-    desc: "Trained in full body technique, so the pace and pressure stay consistent from start to finish.",
+    title: "Pure essential oil blends",
+    desc: "Lavender, eucalyptus, rosemary, and chamomile — chosen for how you want to feel afterward, not a one-size-fits-all oil.",
+  },
+  {
+    icon: <FaSpa className="text-2xl text-amber-600" />,
+    title: "Built for Noida's IT crowd",
+    desc: "A calming counterpoint to long screen hours and back-to-back calls at the Sector 62 and Sector 63 tech hubs.",
+  },
+  {
+    icon: <FaHeart className="text-2xl text-rose-500" />,
+    title: "Certified, considerate therapists",
+    desc: "Trained in aromatherapy blending and gentle massage technique, so the whole session feels intentional, not routine.",
   },
 ];
 
 const benefits = [
-  { title: "Complete Relaxation", desc: "Works through your entire body — back, shoulders, arms, legs, feet — rather than focusing on just one problem area." },
-  { title: "Eases Travel Fatigue", desc: "A long flight or a packed meeting schedule leaves your whole body stiff, not just one spot — full body massage addresses all of it at once." },
-  { title: "Improved Circulation", desc: "Long, flowing strokes across the whole body encourage healthy blood flow after hours of sitting on a plane or in meetings." },
-  { title: "Reduced Jet Lag Symptoms", desc: "Many travellers find a full body session genuinely helps them reset their body clock after a long-haul flight." },
-  { title: "Stress Relief Before or After Flights", desc: "A calm, unhurried session to bookend a stressful travel day, whether you're arriving frazzled or departing anxious." },
-  { title: "Better Sleep That Night", desc: "A relaxed body makes it easier to get real rest, whether you're flying out again soon or staying the night at your hotel." },
+  { title: "Deep Stress Relief", desc: "The combination of touch and calming scents like lavender helps quiet a busy, screen-fatigued mind after back-to-back meetings." },
+  { title: "Better Sleep Quality", desc: "Calming oils such as lavender and chamomile are widely used to support more restful sleep after long work hours in front of a screen." },
+  { title: "Mood Boost", desc: "Certain essential oils genuinely lift mood, useful after a demanding week of deadlines, standups, and client calls." },
+  { title: "Muscle Relaxation", desc: "Gentle strokes combined with warm oils ease the neck and shoulder tension that builds up from hours at a desk." },
+  { title: "Headache & Tension Relief", desc: "Peppermint and eucalyptus oils are often used to ease tension headaches from long screen time and poor posture." },
+  { title: "Nourished Skin", desc: "Natural oils moisturise and nourish your skin, leaving it feeling soft and refreshed well after your session ends." },
 ];
 
 const nearbyAreas = [
-  {
-    title: "Pullman Aerocity",
-    image: "/images/pullmanAerocity.jpg",
-    description: "Staying at Pullman? We can send a therapist straight to your room for an in-room full body massage.",
-  },
-  {
-    title: "Novotel Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "A few minutes from Novotel — hotel spa bookings available if you'd rather not travel before your flight.",
-  },
-  {
-    title: "IBIS Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
-    description: "Guests at IBIS can book our outlet or request a therapist directly to their room.",
-  },
-  {
-    title: "Lemon Tree Premier",
-    image: "/images/LemonTreePremierAerocity.jpg",
-    description: "Close to Lemon Tree Premier, with hotel spa sessions available on request for guests on tight schedules.",
-  },
+  { title: "Sector 18", image: "/images/noidahotel.jpeg", description: "A short drive from Sector 18's DLF Mall of India and Atta Market brings you to our Noida outlet." },
+  { title: "Sector 62", image: "/images/SandalSuitesbyLemonTreeHotels_Noida.jpg", description: "Guests from the Sector 62 IT hub regularly book aromatherapy sessions after long work days." },
+  { title: "City Centre", image: "/images/Sandal_Suites_by_Lemon_Tree_Hotels.jpg", description: "Close to Noida City Centre Metro Station, an easy stop on your way home." },
+  { title: "Sector 63", image: "/images/Crowne_Plaza_Greater_Noida.jpg", description: "A quick drive from the Sector 63 office belt brings you to our hygienic, professionally staffed outlet." },
 ];
 
 const processSteps = [
-  { number: "01", title: "Book ahead or same-day", text: "Message us on WhatsApp or Telegram — we're used to short-notice bookings from travellers passing through.", icon: <FaPhoneAlt className="text-amber-700" /> },
-  { number: "02", title: "Choose outlet or hotel room", text: "Come to our outlet, or have your therapist meet you directly at your Aerocity hotel.", icon: <FaClock className="text-amber-700" /> },
-  { number: "03", title: "Full body session", text: "60 to 90 minutes of complete, head-to-toe massage designed to actually reset you.", icon: <FaCheckCircle className="text-amber-700" /> },
+  { number: "01", title: "Choose your oil blend", text: "Lavender for calm, peppermint for a refresh, or let your therapist recommend one based on how you want to feel.", icon: <FaPhoneAlt className="text-amber-700" /> },
+  { number: "02", title: "Warm oil application", text: "Your session starts with warm, scented oil and gentle Swedish-style strokes to ease you into relaxation.", icon: <FaClock className="text-amber-700" /> },
+  { number: "03", title: "Full body session", text: "Calming strokes work through your entire body while the essential oils do their part.", icon: <FaCheckCircle className="text-amber-700" /> },
 ];
 
 const pricingPlans = [
-  { title: "Full Body Outlet", price: "₹1999", desc: "A complete session at our Aerocity outlet, close to Terminal 3.", features: ["Full Body Technique", "Oil or Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Hotel Spa", price: "₹20000", desc: "Delivered straight to your Aerocity hotel room — ideal for layovers and business trips.", features: ["5 Star Property", "Private Suite", "Foreign Therapist", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "Home Spa", price: "₹15000", desc: "The same full body technique at a home or serviced apartment near Aerocity.", features: ["Full Body Massage", "Aromatherapy", "Private Setting", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "Aromatherapy Outlet", price: "₹1999", desc: "A calming first session at our Noida outlet, close to Sector 18.", features: ["Essential Oil Blend", "Gentle Full Body Technique", "Warm Oil Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home Aromatherapy Spa", price: "₹15000", desc: "The same calming technique delivered to your home anywhere in Noida.", features: ["Custom Oil Selection", "Private Setting", "Full Body Technique", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Aromatherapy Spa", price: "₹20000", desc: "A longer, more indulgent session at your Noida hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
-  { question: "What is the first visit offer for full body massage in Aerocity?", answer: "Our full body massage in Aerocity starts at just ₹1999 for a first-visit outlet session, minutes from IGI Airport Terminal 3." },
-  { question: "Can I book a full body massage before my flight?", answer: "Yes, our Aerocity outlet is a few minutes from Terminal 3, and we take same-day bookings depending on availability — message us as early as you can." },
-  { question: "Do you offer hotel spa for full body massage at Aerocity hotels?", answer: "Yes, hotel spa is one of our most requested services here given the density of hotels in Aerocity — your therapist comes straight to your room." },
-  { question: "How long does a full body massage session take?", answer: "A full body massage typically takes 60 to 90 minutes, giving the therapist time to properly work through your back, shoulders, arms, legs, and feet." },
-  { question: "Do you have Russian or other foreign therapists for full body massage in Aerocity?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available alongside our experienced Indian staff, from ₹2,800 depending on the package." },
-  { question: "Can I book a night full body massage appointment in Aerocity?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, useful for late-night arrivals." },
-  { question: "Is full body massage good for jet lag or travel fatigue?", answer: "Many travellers find a full body session genuinely helps — the combination of full-body coverage and relaxed pacing helps you reset after a long flight." },
-  { question: "How much does a full body massage cost in Aerocity?", answer: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹15,000 depending on duration." },
+  { question: "What is the first visit offer for aromatherapy massage in Noida?", answer: "Our aromatherapy massage in Noida starts at just ₹1999 for a first-visit outlet session, close to Sector 18." },
+  { question: "Is your aromatherapy spa near Noida City Centre?", answer: "Yes, our outlet is close to Noida City Centre Metro Station, easy to reach from Sector 18, Sector 62, and Sector 63." },
+  { question: "Which essential oils do you use for aromatherapy massage in Noida?", answer: "We offer lavender for relaxation, eucalyptus and peppermint for a refreshing effect, and chamomile for calming, sensitive skin — your therapist can recommend the right blend." },
+  { question: "Is aromatherapy massage safe for people with allergies?", answer: "We always ask about allergies and skin sensitivities before your session, and can adjust the oil blend or skip aromatherapy oils altogether if needed." },
+  { question: "Do you have Russian or other foreign therapists for aromatherapy massage in Noida?", answer: "Yes, our Russian, Thai, and Uzbek therapists are trained in aromatherapy blending alongside our experienced Indian staff, with sessions available from ₹2,800." },
+  { question: "Can I book a night aromatherapy massage appointment in Noida?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
+  { question: "Do you offer home aromatherapy massage near Noida?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in Noida for the same calming, essential-oil-based technique." },
+  { question: "How much does an aromatherapy massage cost in Noida?", answer: "An aromatherapy massage at our Noida outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." },
 ];
 
-export default function FullBodyMassageAerocityPage() {
+export default function AromatherapyMassageNoidaPage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/noidahotel.jpeg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
-              <FaStar className="text-amber-500" /> AEROCITY HOTEL DISTRICT
+              <FaStar className="text-amber-500" /> NOIDA OUTLET
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
-              Full Body Massage in <span className="text-amber-700">Aerocity</span> Near IGI Airport
+              Aromatherapy Massage in <span className="text-amber-700">Noida</span> Near Sector 18
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              A long flight or a packed schedule leaves your whole body tired, not just one spot. Our full body massage in Aerocity works head to toe, minutes from Terminal 3 — at our outlet or delivered straight to your hotel room.
+              Our aromatherapy massage in Noida blends calming essential oils with gentle massage technique — a proper reset for the city's IT and corporate crowd, close to Sector 18 and Noida City Centre. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -135,7 +118,7 @@ export default function FullBodyMassageAerocityPage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg" alt="Full body massage session in Aerocity" fill className="object-cover" />
+                <Image src="/images/noidahotel.jpeg" alt="Aromatherapy massage session in Noida" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
@@ -149,7 +132,7 @@ export default function FullBodyMassageAerocityPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why This Combination Works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Complete relaxation, built around the airport district.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Calming, scent-guided relaxation for a screen-heavy city.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
@@ -162,50 +145,44 @@ export default function FullBodyMassageAerocityPage() {
         </div>
       </section>
 
-      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full Body Massage in Aerocity — Why It Fits This Location So Well</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Aromatherapy Massage in Noida — Oils, Benefits & How to Book</h2>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
             <div className="grid gap-5 sm:grid-cols-2">
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaPlaneDeparture /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built for Travellers, Minutes From T3</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built for Noida's Screen-Heavy Days</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  A whole body stiff from hours of flying or meetings — exactly what{" "}
-                  <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>{" "}
-                  is built for. From ₹1999.
+                  Our <Link href="/aromatherapy-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">aromatherapy massage</Link> blends gentle strokes with essential oils chosen for how you want to feel.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotel /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hotel Spa, Genuinely Popular Here</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Close to Noida City Centre</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Therapist comes straight to your room. Nearby in{" "}
-                  <Link href="/spa-in-vasant-kunj" className="font-medium text-amber-700 underline hover:text-amber-800">Vasant Kunj</Link>{" "}
-                  or{" "}
-                  <Link href="/spa-in-mahipalpur" className="font-medium text-amber-700 underline hover:text-amber-800">Mahipalpur</Link>? We cover those too.
+                  Easy to reach from Sector 18, Sector 62, and Sector 63. First visit from ₹1999, home and hotel spa options too.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Head-to-Toe, Not One Sore Spot</h3>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Oils, Chosen With Intent</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Back, shoulders, arms, legs, and feet. Russian, Thai, and Uzbek therapists alongside our Indian staff for real choice of technique.
+                  Lavender for relaxation, peppermint for a lift, rosemary for clarity, chamomile for sensitive skin — blended by trained therapists.
                 </p>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaClock /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built Around Flight Times</h3>
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Safe for Sensitive Skin</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Short-notice bookings and 24/7 evening/night slots. Tell us your window and we'll match the session to it.
+                  We check for allergies before every session, so your therapist can pick oils that are genuinely safe and comfortable for you.
                 </p>
               </motion.div>
             </div>
@@ -217,38 +194,21 @@ export default function FullBodyMassageAerocityPage() {
               transition={{ duration: 0.5 }}
               className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
             >
-              <Image src="/images/b2b-full-body-massage.jpg" alt="Full body massage session in Aerocity" fill className="object-cover" />
+              <Image src="/images/fpkdl.com_750_1758980084_composition-various-objects-used-spa-treatments_138888-664.jpg" alt="Essential oils used for aromatherapy massage in Noida" fill className="object-cover" />
             </motion.div>
           </div>
 
           <p className="mt-8 text-center text-gray-600">
-            Booking around a tight flight window? Build in a little buffer either side —{" "}
+            Many guests book monthly, timed around demanding project phases —{" "}
             <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
-          </p>
-        </div>
-      </section>
-
-      {/* Why choose us */}
-      <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
-        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
-          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">A reliable full body massage option right by the airport.</h2>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            More than a decade of experience, with{" "}
-            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>. Serving Aerocity specifically means dealing with tight, unpredictable schedules constantly — flights delayed, meetings running long, layovers cut short. Our therapists are used to working around that instead of expecting you to work around them.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            For the complete list of services and hotel partnerships in the area, our{" "}
-            <Link href="/spa-in-aerocity" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Aerocity page</Link>{" "}
-            has the full picture beyond full body massage.
           </p>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Full Body Massage</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Especially useful before or after a flight.</h2>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Aromatherapy Massage</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Essential oils and touch, working together.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((b) => (
@@ -263,26 +223,20 @@ export default function FullBodyMassageAerocityPage() {
       <section className="bg-[#f7efe8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">5-Star Hotels Nearby</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full Body Massage Delivered to Your Aerocity Hotel Room</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently located across Noida.</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-              Want the full picture of what our Aerocity outlet offers? Visit our <Link href="/spa-in-aerocity" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Aerocity</Link> page for all services and hotel partnerships.
+              Want the full picture of what our Noida outlet offers? Visit our <Link href="/spa-in-noida" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Noida</Link> page for all services.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {nearbyAreas.map((area) => (
               <motion.div key={area.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="group overflow-hidden rounded-[24px] border border-amber-100 bg-white shadow-sm">
                 <div className="relative h-48 overflow-hidden">
-                  <Image src={area.image} alt={`Full body massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
+                  <Image src={area.image} alt={`Aromatherapy massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-5">
-                  <h3 className="text-lg font-semibold text-[#3a2e2a]">
-                    {area.href ? (
-                      <Link href={area.href} className="hover:text-amber-700 hover:underline">{area.title}</Link>
-                    ) : (
-                      area.title
-                    )}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-[#3a2e2a]">{area.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-gray-600">{area.description}</p>
                 </div>
               </motion.div>
@@ -294,7 +248,7 @@ export default function FullBodyMassageAerocityPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How it works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Fast to book, easy to fit around your schedule.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Fast to book, tailored to how you want to feel.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {processSteps.map((step) => (
@@ -312,7 +266,7 @@ export default function FullBodyMassageAerocityPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Transparent pricing for every kind of traveller.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Transparent pricing for every kind of calm.</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
@@ -335,6 +289,22 @@ export default function FullBodyMassageAerocityPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
+        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
+          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">The most trusted aromatherapy massage near Sector 18.</h2>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            More than a decade of experience, with{" "}
+            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>. Genuine aromatherapy takes real knowledge of which oils do what — our therapists don't just splash scented oil on and call it a day, they choose blends deliberately based on what you actually need.
+          </p>
+          <p className="mt-4 leading-relaxed text-gray-700">
+            For the full range of services at our Noida outlet beyond aromatherapy, our{" "}
+            <Link href="/spa-in-noida" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Noida page</Link>{" "}
+            covers everything.
+          </p>
         </div>
       </section>
 
@@ -371,10 +341,10 @@ export default function FullBodyMassageAerocityPage() {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { title: "Spa in Aerocity", href: "/spa-in-aerocity" },
-            { title: "Full Body Massage in Delhi", href: "/full-body-massage-in-delhi" },
-            { title: "Spa in Mahipalpur", href: "/spa-in-mahipalpur" },
-            { title: "Spa in Vasant Kunj", href: "/spa-in-vasant-kunj" },
+            { title: "Spa in Noida", href: "/spa-in-noida" },
+            { title: "Aromatherapy Massage in Delhi", href: "/aromatherapy-massage-in-delhi" },
+            { title: "Swedish Massage", href: "/swedish-massage-in-delhi" },
+            { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
               {item.title}
@@ -388,8 +358,8 @@ export default function FullBodyMassageAerocityPage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
-              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Reset before or after your flight.</h3>
-              <p className="mt-3 leading-relaxed text-white/80">Book our Aerocity outlet or have your therapist meet you directly at your hotel.</p>
+              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Reset properly in Noida today.</h3>
+              <p className="mt-3 leading-relaxed text-white/80">Whether it's your outlet, hotel, or home, our therapists bring calming aromatherapy technique to you.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>
