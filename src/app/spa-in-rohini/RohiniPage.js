@@ -174,11 +174,6 @@ const faqs = [
       "Yes, along with our outlet, we offer home spa service across Rohini and North West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence.",
   },
   {
-    question: "Are your therapists trained and certified?",
-    answer:
-      "Absolutely. Every therapist at our Rohini spa is trained and certified in techniques like Swedish massage, deep tissue therapy, and aromatherapy, ensuring a safe and professional experience.",
-  },
-  {
     question: "Can I book a couple massage in Rohini?",
     answer:
       "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
@@ -189,24 +184,19 @@ const faqs = [
       "Yes, our Russian spa in Rohini packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff, offering guests more variety in massage styles. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
   },
   {
-    question: "What are your spa timings in Rohini? Do you offer night spa appointments?",
-    answer:
-      "Our Rohini outlet and home spa booking support are available with flexible daily timings, including evening and night spa appointments booked in advance. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
-  },
-  {
     question: "How much does a full body massage cost in Rohini?",
     answer:
       "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
   },
   {
-    question: "Do you offer spa in Rohini Sector 16 or near City Centre Mall Rohini?",
+    question: "Do you offer spa Rohini Sector 16 or near City Centre Mall Rohini?",
     answer:
-      "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
+      "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, 17, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
   },
   {
-    question: "Is body to body massage legal in India?",
+    question: "I searched for spa near me Rohini — will you actually come to my area?",
     answer:
-      "Body to body massage is a legal wellness treatment in India when offered by a professional, licensed spa that follows proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture before booking.",
+      "Yes, if you searched spa near me Rohini or spa near Rohini, our outlet, home spa, and hotel spa options are built to cover the whole of Rohini and North West Delhi, not just the area right around our door.",
   },
 ];
 
@@ -233,7 +223,7 @@ export default function RohiniPage() {
               Best Spa in <span className="text-amber-700">Rohini</span> for Full Body & Couple Massage
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a trusted spa in Rohini? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Rohini Sector 3, 7, 9, 11, 16 and 24, just minutes from Rohini Metro Station. Every session is performed by certified therapists in a clean, private, and relaxing setting.
+              Looking for the best spa in Rohini? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Rohini Sector 3, 7, 9, 11, 16, 17 and 24, just minutes from Rohini Metro Station and City Centre Mall Rohini. Every session is performed by certified therapists in a clean, private, and relaxing setting.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -287,38 +277,91 @@ export default function RohiniPage() {
         </div>
       </section>
 
-      {/* Long-form SEO content */}
+      {/* Sector-by-sector coverage — targets each long-tail sector search individually */}
+      <section className="mx-auto max-w-7xl px-6 pb-16">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Sector-Wise Coverage</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Rohini, Sector by Sector</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">Outlet, home spa, and hotel spa — the same standard, wherever you are in Rohini.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          {[
+            { sector: "Spa in Rohini Sector 3", desc: "Close to Rohini West, with home spa visits to your exact address." },
+            { sector: "Spa in Rohini Sector 7", desc: "A short ride from our outlet, popular with residents and offices nearby." },
+            { sector: "Spa Rohini Sector 16", desc: "Minutes from City Centre Mall Rohini and the metro station." },
+            { sector: "Spa in Rohini Sector 17", desc: "Covered by the same certified therapists and hygiene standard." },
+            { sector: "Spa in Rohini Sector 24", desc: "Near Rohini East, with outlet, home, and hotel spa options." },
+          ].map((item) => (
+            <motion.div key={item.sector} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
+              <h3 className="text-base font-semibold text-[#3a2e2a]">{item.sector}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">{item.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* Long-form SEO content — scannable card layout */}
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="mb-10 text-center">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">About Our Rohini Outlet</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Rohini — A Trusted Full Body Massage & Wellness Centre</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Rohini — A Trusted Full Body Massage &amp; Wellness Centre</h2>
           </div>
-          <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-            <p>
-              If you have been searching for a genuine spa in Rohini, Spa Delhi is here to help you relax, recharge, and relieve everyday stress. We offer a complete range of massage services in Rohini, including{" "}
-              <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>,{" "}
-              <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>,{" "}
-              <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
-              <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>,{" "}
-              <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and aromatherapy. Whether you live in Rohini Sector 7, work near Sector 24, or are simply visiting North West Delhi, our spa is designed to give you a calm escape from your busy schedule at prices that start from just ₹1999 for your first visit.
-            </p>
-            <p>
-              Our Rohini spa outlet is conveniently located close to Rohini Metro Station on the Red Line, making it an easy stop for guests travelling from Rohini West, Rohini East, Sector 16,{" "}
-              <Link href="/spa-in-pitampura" className="font-medium text-amber-700 underline hover:text-amber-800">Pitampura</Link>, and Netaji Subhash Place. Popular landmarks like City Centre Mall Rohini, Japanese Park, Adventure Island, and Madhuban Chowk are all a short distance away, so you can plan your massage in Rohini around a day out with family or a break after work. If you prefer not to travel at all, we also offer{" "}
-              home spa in Rohini and hotel spa in Rohini for guests who want to relax without stepping outside.
-            </p>
-            <p>
-              Every therapist at our massage centre in Rohini is trained and experienced. Our Russian spa in Rohini packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, so you can choose the style and pace that suits you best. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Rohini for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
-            </p>
-            <p>
-              Booking a spa in Rohini with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Rohini, Spa Delhi makes it easy to prioritise your wellness close to home.
-            </p>
-            <p>
-              Many of our regular guests first search for a spa near me in Rohini before discovering that Spa Delhi offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session — you can read our guide on{" "}
-              <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether body to body massage is legal in India</Link> if you have questions before booking. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Rohini team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
-            </p>
+
+          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
+            >
+              <Image src="/images/fpkdl.com_960_1758980912_relaxing-spa-area-with-lounge-chairs-pool-waterfall_1189569-10802.jpg" alt="Spa in Rohini treatment room" fill className="object-cover" />
+            </motion.div>
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">A Genuine Massage Centre in Rohini</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Full body</Link>,{" "}
+                  <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue</Link>,{" "}
+                  <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich</Link>, and{" "}
+                  <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link> — all from ₹1999 for your first visit.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Near Rohini Metro &amp; City Centre Mall</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Our spa in City Centre Mall Rohini area is a short walk from the metro, Japanese Park, and Madhuban Chowk — easy to fit around a day out.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotel /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Covers Every Rohini Sector</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  Spa Rohini Sector 16, Sector 3, 7, 9, 11, 17, and 24 — home spa and hotel spa reach your exact address in each.
+                </p>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">Searching "Spa Near Me" in Rohini?</h3>
+                <p className="mt-2 leading-relaxed text-gray-600">
+                  If you typed spa near me Rohini or spa near Rohini, you've found it — certified therapists, hygienic rooms, transparent pricing.
+                </p>
+              </motion.div>
+            </div>
           </div>
+
+          <p className="mt-8 text-center text-gray-600">
+            Wondering about the legal side of B2B massage?{" "}
+            <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">Read our guide</Link>{" "}
+            — worth checking before your first visit.
+          </p>
         </div>
       </section>
 
@@ -344,8 +387,8 @@ export default function RohiniPage() {
       <section className="bg-[#f7efe8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently located near these Rohini neighbourhoods.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Landmarks Nearby</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Minutes From These Rohini Landmarks</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
             </p>
@@ -389,6 +432,32 @@ export default function RohiniPage() {
         </div>
       </section>
 
+      {/* What to Expect */}
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">First Time Here?</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What to expect at our Rohini spa.</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Check-in & Consultation</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A quick chat about pressure, oil preference, and anything you'd rather your therapist avoid.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Private, Closed Room</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">Your room stays closed for the full session — no shared spaces, no interruptions from booking to checkout.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Premium Oils, Controlled Technique</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">Aromatherapy-grade oils and smooth, controlled movements — a wellness treatment, handled properly every time.</p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Aftercare & Checkout</h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">A few minutes to ease back before you head out — plus water and a quiet space if you'd like to sit for a bit.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
@@ -428,19 +497,84 @@ export default function RohiniPage() {
         </div>
       </section>
 
-      {/* Why choose us — additional SEO block */}
-      <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
-        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
-          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">The best spa in Rohini for trusted, professional care.</h2>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            With more than a decade of experience and{" "}
-            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>, Spa Delhi has become a name that guests in Rohini and North West Delhi trust for genuine, professional massage services. When you search for a massage centre in Rohini or a body massage near me, you want assurance of safety, hygiene, and skilled hands — and that is exactly what we deliver at every session. Our therapists undergo regular training, our treatment rooms are cleaned and sanitised between every guest, and our pricing stays transparent from the moment you enquire to the moment you book.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Beyond our Rohini outlet, we also serve nearby areas including Pitampura, Rithala, Prashant Vihar, and Shalimar Bagh with the same quality of home spa and hotel spa service. Whether you need a spa near Rohini Metro Station for a quick visit after work, or a longer, more indulgent wellness package on the weekend near our{" "}
-            <Link href="/spa-in-dwarka" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Dwarka</Link> or other Delhi NCR outlets, Spa Delhi is ready to help you feel your best.
-          </p>
+      {/* Why choose us — trust banner */}
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="overflow-hidden rounded-[32px] bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-12"
+        >
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Why Choose Spa Delhi</p>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">The Best Spa in Rohini for Trusted, Professional Care</h2>
+            <p className="mt-4 leading-relaxed text-white/80">
+              More than a decade of experience across{" "}
+              <Link href="/outlets" className="font-medium text-amber-300 underline hover:text-amber-200">24+ outlets in Delhi NCR</Link> — Rohini included. When you search for a massage centre in Rohini or a spa near me Rohini, safety and skilled hands are exactly what you get.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[["12+", "Years of experience"], ["24+", "Outlets in Delhi NCR"], ["7", "Rohini sectors covered"], ["24/7", "Booking support"]].map(([value, label]) => (
+              <div key={label} className="rounded-2xl border border-white/15 bg-white/5 p-4 text-center backdrop-blur-sm">
+                <p className="text-2xl font-bold text-amber-300">{value}</p>
+                <p className="mt-1 text-sm text-white/70">{label}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
+            {[
+              { icon: <FaCheckCircle />, text: "Treatment rooms are cleaned and sanitised between every guest, with fresh towels and premium oils each session." },
+              { icon: <FaHotel />, text: "We also serve Pitampura, Rithala, Prashant Vihar, and Shalimar Bagh with the same home and hotel spa quality." },
+              { icon: <FaLeaf />, text: "Spa near Rohini Metro Station for a quick after-work visit, or a longer weekend wellness package." },
+              { icon: <FaSpa />, text: "See our full range beyond Rohini, including spa in Dwarka and other Delhi NCR outlets." },
+            ].map((item) => (
+              <div key={item.text} className="flex items-start gap-3 rounded-2xl bg-white/5 p-4">
+                <span className="mt-0.5 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-amber-300">{item.icon}</span>
+                <p className="text-sm leading-relaxed text-white/85">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+      </section>
+
+      {/* How It Compares */}
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How It Compares</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Which Rohini massage is right for you?</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not sure what to book? Here's a quick, honest comparison of our most popular treatments.</p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Full Body vs. Deep Tissue</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Full body massage</Link>{" "}
+              is broad, head-to-toe relaxation; <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue</Link>{" "}
+              uses firmer pressure for stiff, knotted muscles.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">B2B vs. Sandwich Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>{" "}
+              is a full-contact solo session, while{" "}
+              <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>{" "}
+              uses two therapists working in sync for faster relief.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHeart /></div>
+            <h3 className="text-lg font-semibold text-[#3a2e2a]">Couple Massage</h3>
+            <p className="mt-2 leading-relaxed text-gray-600">
+              <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Couple massage</Link>{" "}
+              is a shared, side-by-side session in a private room — ideal for a date night or weekend reset.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -470,30 +604,36 @@ export default function RohiniPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
-        <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Our Other Services & Nearby Locations</h2>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
-            { title: "Sandwich Massage", href: "/sandwich-massage-in-delhi" },
-            { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
-            { title: "Couples Massage", href: "/couples-massage-in-delhi" },
-            { title: "Spa in Pitampura", href: "/spa-in-pitampura" },
-            { title: "Spa in Rajouri Garden", href: "/spa-in-rajouri-garden" },
-            { title: "Spa in Dwarka", href: "/spa-in-dwarka" },
-            { title: "Spa Price in Delhi", href: "/spa-price-in-delhi" },
-          ].map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
-            >
-              {item.title}
-            </Link>
-          ))}
+      {/* 10 Spa Locations across Delhi NCR — dedicated location internal linking */}
+      <section className="bg-[#f7efe8] py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-10 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Other Locations</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa Locations Across Delhi NCR</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not based in Rohini? We run 24+ outlets across Delhi NCR — find the one closest to you.</p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {[
+              { title: "Spa in Pitampura", href: "/spa-in-pitampura" },
+              { title: "Spa in Rajouri Garden", href: "/spa-in-rajouri-garden" },
+              { title: "Spa in Janakpuri", href: "/spa-in-janakpuri" },
+              { title: "Spa in Uttam Nagar", href: "/spa-in-uttam-nagar" },
+              { title: "Spa in Dwarka", href: "/spa-in-dwarka" },
+              { title: "Spa in Vasant Kunj", href: "/spa-in-vasant-kunj" },
+              { title: "Spa in Karol Bagh", href: "/spa-in-karol-bagh" },
+              { title: "Spa in Connaught Place", href: "/spa-in-connaught-place" },
+              { title: "Spa in Noida", href: "/spa-in-noida" },
+              { title: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              >
+                {item.title}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

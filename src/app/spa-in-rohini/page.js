@@ -32,14 +32,6 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Are your therapists trained and certified?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Absolutely. Every therapist at our Rohini spa is trained and certified in techniques like Swedish massage, deep tissue therapy, and aromatherapy, ensuring a safe and professional experience.",
-      },
-    },
-    {
-      "@type": "Question",
       name: "Can I book a couple massage in Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -56,14 +48,6 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What are your spa timings in Rohini? Do you offer night spa appointments?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our Rohini outlet and home spa booking support are available with flexible daily timings, including evening and night spa appointments booked in advance. Message us on WhatsApp or Telegram to check same-day availability and confirm your slot.",
-      },
-    },
-    {
-      "@type": "Question",
       name: "How much does a full body massage cost in Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -72,27 +56,27 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you offer spa in Rohini Sector 16 or near City Centre Mall Rohini?",
+      name: "Do you offer spa Rohini Sector 16 or near City Centre Mall Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
+        text: "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 9, 11, 16, 17, and 24, and is a short distance from City Centre Mall Rohini, along with home spa visits to your exact address within these areas.",
       },
     },
     {
       "@type": "Question",
-      name: "Is body to body massage legal in India?",
+      name: "I searched for spa near me Rohini — will you actually come to my area?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Body to body massage is a legal wellness treatment in India when offered by a professional, licensed spa that follows proper hygiene and conduct standards.",
+        text: "Yes, if you searched spa near me Rohini or spa near Rohini, our outlet, home spa, and hotel spa options are built to cover the whole of Rohini and North West Delhi, not just the area right around our door.",
       },
     },
   ],
 };
 
 export const metadata = {
-  title: "Spa in Rohini - Full Body Massage From ₹1999 | Spa Delhi",
+  title: "Best Spa in Rohini - All Sectors & City Centre Mall | Spa Delhi",
   description:
-    "Spa in Rohini for full body, deep tissue & couple massage near Rohini Metro Station. Certified therapists, private hygienic rooms, trusted service. Book your session today!",
+    "Best spa in Rohini covering Sector 3 to 24 & City Centre Mall. Full body, deep tissue & couple massage near Rohini Metro. Certified therapists. Book from ₹1999!",
   keywords: [
     "spa in rohini",
     "massage in rohini",
@@ -104,19 +88,23 @@ export const metadata = {
     "hotel spa in rohini",
     "couple massage in rohini",
     "best spa in rohini delhi",
+    "spa in rohini sector 3",
     "spa in rohini sector 7",
     "spa in rohini sector 16",
-    "spa in rohini sector 3",
+    "spa in rohini sector 17",
     "spa in rohini sector 24",
+    "spa rohini sector 16",
+    "spa near me rohini",
+    "spa near rohini",
+    "spa in city centre mall rohini",
     "russian spa in rohini",
     "female to male spa in rohini",
     "night spa in rohini",
-    "spa in rohini city centre mall",
   ],
   openGraph: {
-    title: "Spa in Rohini - Full Body Massage From ₹1999 | Spa Delhi",
+    title: "Best Spa in Rohini - All Sectors & City Centre Mall | Spa Delhi",
     description:
-      "Spa in Rohini for full body, deep tissue & couple massage near Rohini Metro Station. Certified therapists, private hygienic rooms, trusted service. Book your session today!",
+      "Best spa in Rohini covering Sector 3 to 24 & City Centre Mall. Full body, deep tissue & couple massage near Rohini Metro. Certified therapists. Book from ₹1999!",
     images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-rohini",
