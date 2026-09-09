@@ -808,7 +808,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                  
                                  <div>
                                    {/* <a 
-                                     href="tel:+919211235800" 
+                                     href="tel:+919217255113" 
                                      className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
                                    >
                                      <a 
@@ -1417,7 +1417,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               </div>
             </section>
             {/* End Pricing Section */}
-            <LuxuryHotelShowcase />
+            <LuxuryHotelShowcase service="Sandwich Massage" serviceHref="/sandwich-massage-in-delhi" serviceLower="sandwich massage" />
         {/* Testimonials */}
         <section className="py-20 bg-amber-50">
           <div className="container mx-auto px-4">

@@ -874,7 +874,7 @@ export default function BestSpaServicesDelhiNCR() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=9650684501"
+                      href="https://api.whatsapp.com/send?phone=919217255113"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"

@@ -792,7 +792,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                  
                                  <div>
                                    {/* <a 
-                                     href="tel:+919211235800" 
+                                     href="tel:+919217255113" 
                                      className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
                                    >
                                      <a 
@@ -1418,7 +1418,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               </div>
             </section>
             {/* End Pricing Section */}
-            <LuxuryHotelShowcase />
+            <LuxuryHotelShowcase service="Full Body Massage" serviceHref="/full-body-massage-in-delhi" serviceLower="full body massage" />
         {/* Testimonials */}
         <section className="py-20 bg-amber-50">
           <div className="container mx-auto px-4">
@@ -1543,7 +1543,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      <a href="https://api.whatsapp.com/send?phone=918826482370">
+      <a href="https://api.whatsapp.com/send?phone=919217255113">
         <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-medium py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
           Book Your Session
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

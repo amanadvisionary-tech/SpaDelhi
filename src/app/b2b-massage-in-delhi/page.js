@@ -1,30 +1,69 @@
 import B2Bpage from "./B2Bpage";
-// src/app/page.js
+// src/app/b2b-massage-in-delhi/page.js
 // <-- NO "use client" here -->
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    { "@type": "Question", name: "Is there a B2B massage spa in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, Spa Delhi operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." } },
+    { "@type": "Question", name: "What happens in a body-to-body massage?", acceptedAnswer: { "@type": "Answer", text: "After a short consultation about your preferences, your therapist applies premium oils and uses a full-contact, body-to-body technique with smooth, controlled movements — performed in a private, closed room from start to finish." } },
+    { "@type": "Question", name: "Are body-to-body massages legal in India?", acceptedAnswer: { "@type": "Answer", text: "Yes, body-to-body massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards." } },
+    { "@type": "Question", name: "What does a body-to-body massage include?", acceptedAnswer: { "@type": "Answer", text: "A standard session includes a consultation, full-contact massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." } },
+    { "@type": "Question", name: "How much does a body to body massage cost in Delhi?", acceptedAnswer: { "@type": "Answer", text: "A body to body massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration and location." } },
+    { "@type": "Question", name: "Do you provide body to body massage at hotels in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, we regularly serve guests at five-star hotels across Delhi, including Andaz, The Park, The Suryaa, and JW Marriott — just share your hotel and room details when booking." } },
+    { "@type": "Question", name: "Do you have Russian or other foreign therapists for body to body massage?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Russian, Thai, and Uzbek therapists are available for B2B sessions alongside our experienced Indian staff, depending on the package you choose." } },
+    { "@type": "Question", name: "Do you offer female to male body to body massage in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, female to male body to body massage in Delhi is available at all our outlets, along with male and female therapist options — just mention your preference when booking." } },
+  ],
+};
+
 export const metadata = {
-  title: "B2B Massage in Delhi - Genuine Body to Body Therapy | Spa Delhi",
-  description: "B2B massage in Delhi at our Karol Bagh spa for genuine body to body therapy. Certified therapists, private hygienic rooms, trusted service. Book your session now!",
-  keywords: ["b2b massage in delhi", "body to body massage delhi", "b2b massage karol bagh", "body to body spa delhi", "b2b spa delhi"],
+  title: "Best Body to Body Massage in Delhi - 24+ Outlets | Spa Delhi",
+  description:
+    "Best body to body massage in Delhi at 24+ outlets across Delhi NCR. Certified therapists, private rooms, hotel & home spa available. Book from ₹1999 today!",
+  keywords: [
+    "body to body massage in delhi",
+    "best body to body massage in delhi",
+    "b2b massage in delhi",
+    "female to male body to body massage in delhi",
+    "full body to body massage in delhi",
+    "body to body massage at home in delhi",
+    "body to body massage in delhi connaught place",
+    "body to body massage in delhi ncr",
+    "body to body massage near airport delhi",
+    "body to body massage in dwarka delhi",
+    "body to body massage spa in delhi",
+    "body to body massage in saket delhi",
+    "body to body massage in south delhi",
+    "body to body massage in new delhi",
+    "body to body massage price in delhi",
+  ],
   openGraph: {
-    title: "Get Body To Body Massage in Delhi | B2B Massage in Karol Bagh",
-    description: "We offer genuine body to body massage in Delhi. If you are looking for B2B massage or body massage just visit our spa in Karol Bagh. Book Your Session",
+    title: "Best Body to Body Massage in Delhi - 24+ Outlets | Spa Delhi",
+    description:
+      "Best body to body massage in Delhi at 24+ outlets across Delhi NCR. Certified therapists, private rooms, hotel & home spa available. Book from ₹1999 today!",
     images: ["https://www.spadelhi.com/images/b2b-massage.jpg"],
     type: "website",
+    url: "https://www.spadelhi.com/b2b-massage-in-delhi",
   },
-   alternates: {
+  alternates: {
     canonical: "https://www.spadelhi.com/b2b-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/b2b-massage.jpg"]
-  }
+    images: ["https://www.spadelhi.com/images/b2b-massage.jpg"],
+  },
 };
 
-// import dynamic from "next/dynamic";
-
-// dynamic import is optional but helps to avoid SSR issues with some libs
-// const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
-
 export default function page() {
-  return <B2Bpage />;
+  return (
+    <>
+      <script
+        id="faq-schema-b2b-massage-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <B2Bpage />
+    </>
+  );
 }

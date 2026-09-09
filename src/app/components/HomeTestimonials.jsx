@@ -128,7 +128,7 @@ export default function HomeTestimonials() {
         <div className="grid md:grid-cols-3 gap-4">
     
           <a
-            href="tel:+919650684501"
+            href="tel:+919217255113"
             className="bg-white text-amber-800 py-4 px-6 rounded-xl font-semibold"
           >
             📞 Call to Book

@@ -22,7 +22,7 @@ export default function HomeLocations() {
     massage service. Reach out to us.
   </>
 ),
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Aerocity",
@@ -39,7 +39,7 @@ export default function HomeLocations() {
     . Get perfect massage service near Delhi airport. At Aerocity, we have
     foreign therapists from all across the world.
   </>),
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Connaught Place",
@@ -56,7 +56,7 @@ export default function HomeLocations() {
      for giving extra ordinary massage service in the heart of Delhi.
 
     </>),
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Rohini",
@@ -73,7 +73,7 @@ export default function HomeLocations() {
     .
   </>
 ),
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   }
 ];
 

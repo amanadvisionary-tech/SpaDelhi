@@ -38,7 +38,7 @@ export default function Analytics() {
             url: "https://www.spadelhi.com/",
             logo: "https://www.spadelhi.com/images/spadelhilogo22.webp",
             image: "https://www.spadelhi.com/images/luxurySpaRoom.jpg",
-            telephone: "+91-9650684501",
+            telephone: "+91-9217255113",
             priceRange: "₹₹₹",
             address: {
               "@type": "PostalAddress",
@@ -93,7 +93,7 @@ export default function Analytics() {
             logo: "https://www.spadelhi.com/images/spadelhilogo22.webp",
             contactPoint: {
               "@type": "ContactPoint",
-              telephone: "+91-9650684501",
+              telephone: "+91-9217255113",
               contactType: "customer support",
               areaServed: "IN",
               availableLanguage: ["English", "Hindi"],

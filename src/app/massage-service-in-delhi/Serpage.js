@@ -690,7 +690,7 @@ const faqs = [
                     
                     <div>
                       <a 
-                        href="tel:+919211235800" 
+                        href="tel:+919217255113" 
                         className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
                       >
                         <a 

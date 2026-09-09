@@ -118,25 +118,25 @@ export default function Pricpage() {
     title: 'Aerocity',
     description: 'Experience the ultimate spa in Aerocity Delhi without straining your wallet—our transparent spa price in Aerocity lists every Thai massage, couple spa and full-body ritual up-front, making us the best spa in Aerocity with price honesty. Open inside luxury hotels near IGI, we deliver 24×7 body-spa in Aerocity with price menus that start at just ₹1,999 and include free steam & shower.',
     image: '/images/RoseateHouse.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=919217255113',
   },
   {
     title: 'New Friends Colony (NFC)',
     description: 'Looking for a spa in New Friends Colony with price clarity? Our NFC centre lists every body-spa, Swedish and couple spa in New Friends Colony price board online, so “spa near me with price” searches end here. Rated best spa in NFC with price fairness, we offer hotel-style rooms, organic oils and late-night slots, keeping full-body massage in New Friends Colony price-friendly from ₹1,799.',
     image: '/images/fpkdl.com_960_1758981740_exterior-view-bellagio-caesars-palace-hotel-las-vegas-nevada-march-6-2024_943860-2321.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=919217255113',
   },
   {
     title: 'Connaught Place',
     description: 'Right on Janpath, our spa in Connaught Place with price transparency welcomes shoppers and office-goers alike. Check live Thai massage price in Connaught Place or book a couple spa in CP price plan starting ₹2,099; both include shower, steam & complimentary foot ritual. The centrally located retreat is voted best spa in Connaught Place with price honesty and 60-120 min body-spa in CP with price deals running daily.',
     image: '/images/pexels-pavel-danilyuk-9119782.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=919217255113',
   },
   {
     title: 'Grand Vasant Kunj',
     description: 'Unwind at the luxury spa in Vasant Kunj with price tags you can trust. Hidden inside premium malls, we publish every full-body massage in Vasant Kunj price online—no hidden costs. Choose solo or couple spa in Vasant Kunj price packages from ₹1,899, enjoy Himalayan salt rooms, Thai therapists and free pickup within 5 km. It’s why locals call us the best spa in Vasant Kunj with price integrity and five-star hygiene.',
     image: '/images/lajpatnagar.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=919217255113',
   },
 ];
 const teamMembers = [

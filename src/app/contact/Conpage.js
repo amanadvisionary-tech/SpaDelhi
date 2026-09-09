@@ -197,7 +197,7 @@ export default function Conpage() {
           <div className="flex flex-col items-center text-center">
             <FaPhoneAlt className="text-amber-600 text-3xl mb-4" />
             <h3 className="text-xl font-semibold text-amber-800 mb-2">Contact</h3>
-            <p className="text-gray-600">+91-9650684501</p>
+            <p className="text-gray-600">+91-9217255113</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-amber-600 text-3xl mb-4" />

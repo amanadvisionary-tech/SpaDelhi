@@ -84,7 +84,7 @@ export default function RelaxingHomeContent() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://api.whatsapp.com/send?phone=9650684501"
+                href="https://api.whatsapp.com/send?phone=919217255113"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 text-center bg-amber-600 hover:bg-amber-700 text-white py-3 px-6 rounded-full font-semibold"

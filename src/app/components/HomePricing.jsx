@@ -15,7 +15,7 @@ const pricingPlans = [
       "Shower",
     ],
     highlight: false,
-    ctaLink: "https://api.whatsapp.com/send?phone=919650684501",
+    ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
     icon: <FaSpa className="text-amber-500" />,
   },
   {
@@ -31,7 +31,7 @@ const pricingPlans = [
       "90 min Session",
     ],
     highlight: true,
-    ctaLink: "https://api.whatsapp.com/send?phone=919650684501",
+    ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
     icon: <FaHotel className="text-amber-500" />,
   },
   {
@@ -46,7 +46,7 @@ const pricingPlans = [
       "120 min Session",
     ],
     highlight: false,
-    ctaLink: "https://api.whatsapp.com/send?phone=919650684501",
+    ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
     icon: <FaCrown className="text-amber-500" />,
   },
 ];

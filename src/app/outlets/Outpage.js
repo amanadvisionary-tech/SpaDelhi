@@ -81,42 +81,42 @@ const hotelOutlets = [
       id: 1,
       title: "Spa in Lajpat Nagar",
       location: "Central Market, Lajpat Nagar Metro Gate No. 1",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
        image: "/images/hb3.jpg",
     },
     {
       id: 2,
       title: "Spa in Rajouri Garden",
       location: "Rajouri Garden Metro Gate No. 1",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
        image: "/images/spa-treatments.jpg",
     },
     {
       id: 3,
       title: "Spa in Connaught Place",
       location: "Connaught Place, Metro Gate No. 1",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
        image: "/images/steptodown.com800611.jpg",
     },
     {
       id: 4,
       title: "Spa in Noida",
       location: " Noida Sec 18, Noida sec 16, Electronic City, Noida City Center.",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
       image: "/images/SkincareTreatments.jpg",
     },
     {
       id: 5,
       title: "Spa in Greater Kailash",
       location: "Greater Kailash, New Delhi. ",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
       image: "/images/pricebanner.jpeg",
     },
     {
       id: 6,
       title: "Spa in Kalka Ji",
       location: "Kalka Ji, New delhi.",
-      phone: "+91 9211235800",
+      phone: "+91 9217255113",
       image: "/images/MassageSession.webp",
     }
   ];
@@ -125,49 +125,49 @@ const locations = [
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
     description: "Lajpat Nagar the city is regarded to be the place of the most excellent massage treatments with professional attention and relaxing environment.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.webp",
     description: "Spa in Aerocity, in which Spa Delhi provides a wide range of luxury services and well-being to all clients.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.webp",
     description: "Take a break and refuel at Paschim Vihar with Spa Delhi through a special massage session to regain your lost energy.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
     description: "Experience a serene escape in Rohini with Spa Delhi’s expertly delivered massage services for body and mind.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Paharganj",
     image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
     description: "Get the high-quality spa in Paharganj, which are stress reliever and soothing.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Pitampura",
     image: "/images/NovotelNewDelhiAerocity.webp",
     description: "At Spa Delhi, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.webp",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/9217255113"
   }
 ];
 const teamMembers = [
