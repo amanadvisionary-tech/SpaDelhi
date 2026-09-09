@@ -20,8 +20,34 @@ import {
   FaTelegram,
   FaWhatsapp,
 } from "react-icons/fa";
-import LuxuryHotelShowcase from "../components/LuxuryHotelShowcase";
 import WhatsappFloat from "../components/WhatsappFloat";
+
+const luxuryHotels = [
+  {
+    name: "Andaz Delhi",
+    location: "Aerocity, New Delhi",
+    image: "/images/Andazhat.jpg",
+    desc: "Staying at Andaz Delhi? We send a therapist straight to your room for a private full body massage, no need to travel to our outlet.",
+  },
+  {
+    name: "The Park, Connaught Place",
+    location: "Connaught Place, New Delhi",
+    image: "/images/TheParkConnaughtPlace.webp",
+    desc: "A short walk from The Park — hotel spa bookings available if you'd rather have your full body massage right in your room.",
+  },
+  {
+    name: "Radisson Blu, Connaught Place",
+    location: "Connaught Place, New Delhi",
+    image: "/images/radissonblu_CP.jpg",
+    desc: "Guests at Radisson Blu can book our outlet nearby or request a therapist directly to their room for a genuine session.",
+  },
+  {
+    name: "JW Marriott, Aerocity",
+    location: "Aerocity, New Delhi",
+    image: "/images/JW Marriott Hotel Aerocity.jpg",
+    desc: "Close to JW Marriott Aerocity, with discreet, private hotel spa sessions available for guests on request.",
+  },
+];
 
 const highlights = [
   {
@@ -63,19 +89,18 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private full body massage session at any of our 24+ Delhi NCR outlets.", features: ["Head-to-Toe Coverage", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Massage Spa", price: "₹15000", desc: "The same affordable full body massage delivered to your home anywhere in Delhi NCR.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Massage Spa", price: "₹15000", desc: "Our full body massage at home in Delhi price, delivered anywhere in Delhi NCR — same technique, same hygiene standard.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
   { title: "Luxury Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury full body massage in Delhi at your five-star hotel.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
-  { question: "Is full body massage in Delhi affordable?", answer: "Yes, our full body massage in Delhi starts from ₹1999 for the first visit at any outlet — genuinely affordable without cutting corners on hygiene or technique." },
   { question: "What is a full body massage spa in Delhi?", answer: "A full body massage spa in Delhi is an outlet offering a complete head-to-toe massage — back, shoulders, arms, legs, and feet — performed by trained therapists in a private room." },
   { question: "Do you offer luxury full body massage in Delhi?", answer: "Yes, our luxury full body massage in Delhi is available at select five-star hotels across the city, with a longer session, private suite, and optional facial add-on." },
   { question: "What is the difference between body massage and full body massage in Delhi?", answer: "Body massage is often used loosely to mean any massage service, while a full body massage in Delhi specifically covers every major muscle group — not just one targeted area." },
-  { question: "How much does a full body massage cost in Delhi?", answer: "A full body massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and luxury hotel spa from ₹20,000, depending on duration." },
-  { question: "Do you provide full body massage at home in Delhi?", answer: "Yes, alongside our outlets and hotel spa, we send a therapist to your home anywhere in Delhi NCR for the same private, professional experience." },
-  { question: "Which oils are used for a full body massage?", answer: "We use premium, aromatherapy-grade massage oils selected for skin comfort and smooth movement — your therapist can adjust based on any preference or sensitivity." },
-  { question: "Can I book a full body massage at a hotel in Delhi?", answer: "Yes, we regularly serve guests staying at hotels across Delhi — just share your hotel and room details when booking." },
+  { question: "What is the full body massage price in Delhi?", answer: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹15,000 for home spa, and ₹20,000 for luxury hotel spa, depending on duration and location." },
+  { question: "What is the full body massage at home in Delhi price?", answer: "Full body massage at home in Delhi starts from ₹15,000 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." },
+  { question: "Do you offer female to male body massage in Delhi?", answer: "Yes, female to male body massage in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." },
+  { question: "Can I book a full body massage at a hotel in Delhi?", answer: "Yes, we regularly serve guests staying at hotels across Delhi, including Roseate House, The Oberoi, and The Suryaa — just share your hotel and room details when booking." },
 ];
 
 export default function Fullbodypage() {
@@ -96,7 +121,7 @@ export default function Fullbodypage() {
               Full Body Massage in <span className="text-amber-700">Delhi</span> — Affordable Luxury
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for an affordable full body massage in Delhi? Spa Delhi runs a genuine full body massage spa in Delhi across 24+ outlets — with luxury full body massage options at five-star hotels and home visits anywhere in Delhi NCR. Certified therapists, private rooms. First visit from ₹1999.
+              Looking for an affordable full body massage in Delhi? Spa Delhi runs a genuine full body massage spa in Delhi across 24+ outlets — with luxury full body massage options at five-star hotels and home visits anywhere in Delhi NCR, including Mahipalpur, Lajpat Nagar, Saket, and Rohini. A transparent full body massage price in Delhi, certified therapists, private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -296,6 +321,53 @@ export default function Fullbodypage() {
         </div>
       </section>
 
+      {/* Locations We Cover */}
+      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Locations We Cover</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full body massage across Delhi NCR.</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A full body massage in Delhi shouldn't mean a long commute — including in-room service at these Delhi 5-star hotels.</p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <Link href="/spa-in-mahipalpur" className="group overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="relative h-40 overflow-hidden">
+              <Image src="/images/RoseateHouse.jpg" alt="Body massage near Roseate House Mahipalpur" fill className="object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div className="p-5">
+              <h3 className="text-lg font-semibold text-[#3a2e2a]">Roseate House, Mahipalpur</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">A Russian body spa in Mahipalpur is one of our most-booked in-room packages here, close to IGI Airport.</p>
+            </div>
+          </Link>
+          <Link href="/spa-in-lajpat-nagar" className="group overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="relative h-40 overflow-hidden">
+              <Image src="/images/TheOberoi_Lajpatnagar.webp" alt="Body massage near The Oberoi Lajpat Nagar" fill className="object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div className="p-5">
+              <h3 className="text-lg font-semibold text-[#3a2e2a]">The Oberoi, Lajpat Nagar</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">Body massage in Lajpat Nagar at our outlet, or in-room service if you're staying at The Oberoi nearby.</p>
+            </div>
+          </Link>
+          <Link href="/spa-in-saket" className="group overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="relative h-40 overflow-hidden">
+              <Image src="/images/TheSuryaaNewDelhi(NFC).webp" alt="Body massage near The Suryaa Saket" fill className="object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div className="p-5">
+              <h3 className="text-lg font-semibold text-[#3a2e2a]">The Suryaa, Saket</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">Body massage in Saket close to Select Citywalk, with in-room bookings for guests at The Suryaa.</p>
+            </div>
+          </Link>
+          <Link href="/spa-in-rohini" className="group overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="relative h-40 overflow-hidden">
+              <Image src="/images/fpkdl.com_750_1758779588_beautiful-young-girl-spa-salon_392895-8485.jpg" alt="Full body massage in Rohini" fill className="object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div className="p-5">
+              <h3 className="text-lg font-semibold text-[#3a2e2a]">Full Body Massage in Rohini</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">Full body massage in Rohini, Delhi is covered across every major sector, plus home spa on request.</p>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {/* Benefits */}
       <section className="bg-[#f7efe8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
@@ -315,7 +387,45 @@ export default function Fullbodypage() {
       </section>
 
       {/* Real hotel showcase */}
-      <LuxuryHotelShowcase service="Full Body Massage" serviceHref="/full-body-massage-in-delhi" serviceLower="full body massage" />
+      <section className="py-16 lg:py-20 bg-gradient-to-b from-white to-amber-50">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-12 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">5-Star Hotels in Delhi</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Luxury Hotel Spa for Full Body Massage in Delhi</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">Staying at one of these hotels? We send a therapist straight to your room for a private full body massage.</p>
+          </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            {luxuryHotels.map((hotel) => (
+              <motion.div
+                key={hotel.name}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.45 }}
+                className="group overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm"
+              >
+                <div className="relative h-56 overflow-hidden">
+                  <Image src={hotel.image} alt={`Full body massage near ${hotel.name}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
+                </div>
+                <div className="p-6 text-center">
+                  <h3 className="text-xl font-bold text-[#3a2e2a]">{hotel.name}</h3>
+                  <p className="mt-1 text-xs font-medium uppercase tracking-wide text-amber-600">{hotel.location}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-gray-600">{hotel.desc}</p>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=919217255113"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-amber-600 to-amber-700 px-6 py-3 font-medium text-white shadow-lg transition-all hover:from-amber-700 hover:to-amber-800"
+                  >
+                    <FaTelegram className="text-lg" />
+                    See available staff
+                  </a>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* What to Expect */}
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
