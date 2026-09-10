@@ -12,8 +12,8 @@ import {
   FaHandSparkles,
   FaHeart,
   FaHotel,
+  FaHotTub,
   FaLeaf,
-  FaPlaneDeparture,
   FaRupeeSign,
   FaSpa,
   FaStar,
@@ -25,92 +25,88 @@ import WhatsappFloat from "../components/WhatsappFloat";
 const highlights = [
   {
     icon: <FaSpa className="text-2xl text-amber-600" />,
-    title: "Genuine Spa in Mahipalpur",
-    desc: "A real massage in Mahipalpur — trained therapists, premium oils, and a private room for every session.",
+    title: "Genuine Spa Center in Paharganj",
+    desc: "A real massage spa in Paharganj — trained therapists, premium oils, and a private room for every session.",
   },
   {
-    icon: <FaPlaneDeparture className="text-2xl text-sky-600" />,
-    title: "Minutes From IGI Airport",
-    desc: "Right in the NH8 hotel belt, just minutes from IGI Airport Terminal 3 — ideal before or after a flight.",
+    icon: <FaHandSparkles className="text-2xl text-emerald-600" />,
+    title: "Minutes From New Delhi Station",
+    desc: "Right next to New Delhi Railway Station and a short walk from Main Bazaar and Connaught Place.",
   },
   {
-    icon: <FaHeart className="text-2xl text-rose-500" />,
-    title: "Outlet, Home & Hotel Spa Options",
-    desc: "Visit our Mahipalpur outlet, or book a home spa or hotel spa session anywhere nearby.",
+    icon: <FaLeaf className="text-2xl text-teal-600" />,
+    title: "24 Hours Booking Support",
+    desc: "Our 24 hours spa in Paharganj desk is open on WhatsApp and Telegram, day or night.",
   },
 ];
 
 const services = [
-  { title: "Full Body Massage", desc: "A complete full body massage in Mahipalpur that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
+  { title: "Full Body Massage", desc: "A complete full body massage in Paharganj that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
+  { title: "B2B Massage", desc: "Our B2B spa Paharganj session is a full-contact, full-body therapy for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "Thai Massage", desc: "A traditional Thai spa in Paharganj session using stretching and pressure to ease stiffness.", href: "/thai-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage-in-delhi" },
-  { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes, perfect after a long flight.", href: "/aromatherapy-massage-in-delhi" },
 ];
 
 const nearbyAreas = [
   {
-    title: "Vasant Kunj",
-    href: "/spa-in-vasant-kunj",
-    image: "/images/hotel1.jpeg",
-    description: "Guests from Vasant Kunj regularly visit our Mahipalpur outlet for a relaxing full body or deep tissue massage session.",
+    title: "New Delhi Railway Station",
+    image: "/images/fpkdl.com_750_1758779588_beautiful-young-girl-spa-salon_392895-8485.jpg",
+    description: "A short walk from the station — easy to fit in before or after a train journey.",
   },
   {
-    title: "Aerocity",
-    href: "/spa-in-aerocity",
-    image: "/images/hotel2.jpg",
-    description: "A short drive from Aerocity's 5-star hotels brings you to our hygienic, professionally staffed Mahipalpur outlet.",
+    title: "Main Bazaar Paharganj",
+    image: "/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg",
+    description: "Steps from the markets and guesthouses of Main Bazaar.",
   },
   {
-    title: "Rangpuri",
-    image: "/images/hotel3.webp",
-    description: "Residents near Rangpuri and the NH8 service road appreciate the short travel time and calm, private setting at our Mahipalpur spa.",
+    title: "Connaught Place",
+    image: "/images/fpkdl.com_750_1758779863_woman-having-massage-spa-salon_952135-8315.jpg",
+    description: "A short ride from Connaught Place, ideal for a break in Central Delhi.",
   },
   {
-    title: "Samalka",
-    image: "/images/hotel4.jpg",
-    description: "A quick drive from Samalka and the surrounding areas brings you to our hygienic, professionally staffed Mahipalpur outlet.",
+    title: "Ramakrishna Ashram Metro",
+    image: "/images/fpkdl.com_750_1758962478_woman-receives-neck-massage-from-hands-physical-therapisthealthy-therapy-conceptcopy-space_1144978-6056.jpg",
+    description: "Close to the metro station, easy to reach without a car.",
   },
 ];
 
 const pricingPlans = [
-  { title: "Spa Outlet", price: "₹1999", desc: "A private massage in Mahipalpur at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage in Mahipalpur, delivered to your home or nearby residence.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel in the Mahipalpur belt, ideal for layovers and business trips.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Spa Outlet", price: "₹1999", desc: "A private massage session at our Paharganj outlet.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage spa in Paharganj, delivered to your home.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel near Paharganj or Connaught Place.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Mahipalpur near IGI Airport?", answer: "Yes, Spa Delhi runs a genuine spa in Mahipalpur, right in the NH8 hotel belt just minutes from IGI Airport Terminal 3, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Mahipalpur?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Mahipalpur for both residents and airport travellers." },
-  { question: "Do you offer a Russian spa in Mahipalpur?", answer: "Yes, our russian spa in Mahipalpur packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best russian spa in Mahipalpur for guests wanting a genuine russian body spa mahipalpur experience." },
-  { question: "How much does a body massage in Mahipalpur cost?", answer: "A body massage in Mahipalpur at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
-  { question: "Do you provide hotel spa service in Mahipalpur?", answer: "Yes, hotel spa is one of our most popular services in Mahipalpur given the dense concentration of hotels here — our therapist arrives with everything needed for a relaxing, hygienic session at your room." },
-  { question: "Can I book a couple massage in Mahipalpur?", answer: "Yes, our Mahipalpur outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
-  { question: "What are your spa timings in Mahipalpur? Do you offer night appointments?", answer: "Our Mahipalpur outlet and hotel spa booking support run with flexible daily timings, including evening and night appointments booked in advance through our 24/7 help desk — ideal for guests with late-night flights." },
-  { question: "Is massage in Mahipalpur available for both men and women?", answer: "Yes, massage in Mahipalpur is available for men and women with male and female therapist options — just mention your preference when booking your session." },
+  { question: "Is there a spa in Paharganj?", answer: "Yes, Spa Delhi runs a genuine spa in Paharganj, right next to New Delhi Railway Station, offering full body, B2B, Thai, and couple massage in a private, hygienic setting." },
+  { question: "Do you offer a 24 hours spa in Paharganj?", answer: "Yes, our booking desk runs 24 hours — message us on WhatsApp or Telegram anytime and we'll confirm your massage in Paharganj session." },
+  { question: "Where can I find a body massage spa in Paharganj?", answer: "Our Paharganj spa center is a short walk from New Delhi Railway Station and Main Bazaar, offering full body, B2B, and Thai spa options." },
+  { question: "Do you provide home spa service near Paharganj?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in Central Delhi, including areas around Paharganj." },
+  { question: "How much does a body spa in Paharganj cost?", answer: "A session at our Paharganj outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000." },
+  { question: "Do you provide spa services at hotels near Paharganj?", answer: "Yes, we regularly serve guests staying at hotels around Paharganj and Connaught Place — just share your hotel and room details when booking." },
 ];
 
-export default function MahipalpurPage() {
+export default function PaharganjPage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
-              <FaStar className="text-amber-500" /> MAHIPALPUR OUTLET
+              <FaStar className="text-amber-500" /> PAHARGANJ OUTLET
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
-              Best Spa in <span className="text-amber-700">Mahipalpur</span> Near IGI Airport
+              Best Spa in <span className="text-amber-700">Paharganj</span> Near New Delhi Station
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Mahipalpur close to IGI Airport? Spa Delhi brings professional full body massage, body massage in Mahipalpur, deep tissue therapy, and hotel spa services to Mahipalpur's hotel belt. Our russian spa in Mahipalpur packages are especially popular with airport travellers wanting a genuine russian body spa mahipalpur experience with certified foreign therapists. First visit from ₹1999.
+              Looking for a spa in Paharganj? Spa Delhi runs a genuine massage spa in Paharganj right next to New Delhi Railway Station, offering full body, B2B, and Thai massage in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -132,7 +128,7 @@ export default function MahipalpurPage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg" alt="Therapist giving a massage at our spa in Mahipalpur" fill className="object-cover" />
+                <Image src="/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg" alt="Therapist giving a massage at our spa in Paharganj" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
@@ -147,7 +143,7 @@ export default function MahipalpurPage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Advantages</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What Makes Our Mahipalpur Spa Different?</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Why Choose Our Spa in Paharganj?</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
@@ -163,13 +159,13 @@ export default function MahipalpurPage() {
       {/* Simple about section */}
       <section className="bg-[#fdf2e8] py-16">
         <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-center text-3xl font-bold text-[#3a2e2a] md:text-4xl">Massage in Mahipalpur — Your Trusted Spa Destination</h2>
+          <h2 className="text-center text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Trusted Spa Center in Paharganj</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
             <p>
-              If you've been searching for a genuine spa in Mahipalpur, Spa Delhi is here to help you relax and recharge. We offer a complete range of treatments, from a relaxing body massage in Mahipalpur to a specialised B2B massage session — full body, deep tissue, sandwich, couple, and aromatherapy massage in Mahipalpur are all available at prices starting from just ₹1999 for your first visit.
+              Our Paharganj spa center offers a full range of treatments, from a relaxing body massage in Paharganj to a specialised B2B spa Paharganj session. Whether you want a full body massage in Paharganj, a Thai spa in Paharganj, or a quick body spa in Paharganj between meetings, our massage spa in Paharganj covers it all.
             </p>
             <p>
-              Many guests tell us we run the best spa Mahipalpur has to offer, and it's easy to see why — every massage in Mahipalpur is performed by certified, experienced hands. Whether you want a quick body massage in Mahipalpur before a flight or the best massage in Mahipalpur for deeper muscle recovery, our therapists tailor pressure, duration, and technique to your comfort level.
+              Searching for a spa near Paharganj? Our outlet is a short walk from New Delhi Railway Station and Main Bazaar, with home and hotel spa options across Central Delhi. Our booking desk runs as a 24 hours spa in Paharganj service — message us anytime and we'll confirm your session in minutes.
             </p>
           </div>
         </div>
@@ -179,21 +175,20 @@ export default function MahipalpurPage() {
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Why Choose Spa Delhi in Mahipalpur?</h2>
+            <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">What to Expect at Our Paharganj Spa</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Choosing a spa is about more than booking a massage. At our Mahipalpur outlet, we focus on creating a calm, comfortable experience where you can take a break from travel or your day.
+              Choosing a spa is about more than booking a massage. At our Paharganj spa center, we focus on creating a calm, comfortable experience where you can take a break from your journey or your day.
             </p>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Whether you're passing through IGI Airport, dealing with travel fatigue, or simply want some personal time, our spa experience is built around your comfort.
+              Whether you're passing through New Delhi Railway Station, dealing with travel fatigue, or simply want some personal time, our spa experience is built around your comfort.
             </p>
-            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Why guests choose us:</h3>
+            <h3 className="mt-6 font-semibold text-[#3a2e2a]">What you can expect:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
               <li><span className="font-semibold text-[#3a2e2a]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
-              <li><span className="font-semibold text-[#3a2e2a]">Russian Body Spa Specialists</span> — Widely regarded as the best russian spa in Mahipalpur, with Russian, Thai, and Uzbek therapists available.</li>
-              <li><span className="font-semibold text-[#3a2e2a]">Range of Massage Therapies</span> — Full body, deep tissue, B2B, and more, suited to different relaxation needs.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Range of Massage Therapies</span> — Full body, B2B, Thai, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#3a2e2a]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
-              <li><span className="font-semibold text-[#3a2e2a]">Convenient Location</span> — Minutes from IGI Airport Terminal 3 and the NH8 hotel belt.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Convenient Location</span> — Minutes from New Delhi Railway Station and Main Bazaar.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Personalised Experience</span> — Your session tailored around your preferred treatment and comfort level.</li>
               <li><span className="font-semibold text-[#3a2e2a]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
             </ul>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#3a2e2a] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#2b211d]">
@@ -226,19 +221,45 @@ export default function MahipalpurPage() {
         </div>
       </section>
 
+      {/* Related Services — chip-style row */}
+      {/* <section className="mx-auto max-w-5xl px-6 py-16 text-center">
+        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
+        <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Related Services</h2>
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          {[
+            { title: "Full Body Massage in Delhi", icon: <FaSpa />, href: "/full-body-massage-in-delhi" },
+            { title: "B2B Massage in Delhi", icon: <FaHandSparkles />, href: "/b2b-massage-in-delhi" },
+            { title: "Thai Massage in Delhi", icon: <FaHotTub />, href: "/thai-massage-in-delhi" },
+            { title: "Deep Tissue Massage in Delhi", icon: <FaCheckCircle />, href: "/deep-tissue-massage-in-delhi" },
+            { title: "Couples Massage in Delhi", icon: <FaHeart />, href: "/couples-massage-in-delhi" },
+            { title: "Sandwich Massage in Delhi", icon: <FaSpa />, href: "/sandwich-massage-in-delhi" },
+            { title: "Aromatherapy Massage in Delhi", icon: <FaLeaf />, href: "/aromatherapy-massage-in-delhi" },
+            { title: "Spa Price in Delhi", icon: <FaRupeeSign />, href: "/spa-price-in-delhi" },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-white px-5 py-3 text-sm font-semibold text-amber-700 shadow-sm transition hover:-translate-y-0.5 hover:bg-amber-50 hover:shadow-md"
+            >
+              <span className="text-amber-500">{item.icon}</span> {item.title}
+            </Link>
+          ))}
+        </div>
+      </section> */}
+
       {/* Meet Our Therapists */}
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Meet Our Expert Massage Therapists in Mahipalpur</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Trained Hands Behind Every Session</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
-            { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff8.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff1.jpg" },
-            { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff11.jpg" },
+            { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff5.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "6+ yrs", image: "/images/staff8.jpg" },
+            { role: "Foreigner Therapist", specialty: "Thai & Aromatherapy", experience: "5+ yrs", image: "/images/staff9.jpg" },
+            { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "7+ yrs", image: "/images/staff11.jpg" },
           ].map((t, index) => (
             <motion.div
               key={t.role}
@@ -248,7 +269,7 @@ export default function MahipalpurPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Mahipalpur`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Spa Delhi Paharganj`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1f1712] via-[#1f1712]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}
@@ -267,7 +288,7 @@ export default function MahipalpurPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Services</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Explore Our Massage Services in Mahipalpur</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Explore Our Massage Services in Paharganj</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
@@ -286,7 +307,7 @@ export default function MahipalpurPage() {
       {/* Hygiene & Amenities */}
       <section className="bg-[#fdf2e8] py-16">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">100% Hygienic &amp; Professional Spa in Mahipalpur — Your Safety First</h2>
+          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">100% Hygienic &amp; Professional Spa Centre in Paharganj — Your Safety First</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             From a hot shower to a full steam bath, these are the small details that turn a massage into a complete spa visit.
           </p>
@@ -312,14 +333,11 @@ export default function MahipalpurPage() {
         </div>
       </section>
 
-      {/* Areas We Serve */}
+      {/* Landmarks Nearby */}
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently Located Near These Mahipalpur Neighbourhoods</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-            Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
-          </p>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Landmarks Nearby</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Minutes From These Paharganj Landmarks</h2>
         </div>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {nearbyAreas.map((area) => (
@@ -328,13 +346,7 @@ export default function MahipalpurPage() {
                 <Image src={area.image} alt={`Spa near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
               </div>
               <div className="p-5">
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">
-                  {area.href ? (
-                    <Link href={area.href} className="hover:text-amber-700 hover:underline">{area.title}</Link>
-                  ) : (
-                    area.title
-                  )}
-                </h3>
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">{area.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-gray-600">{area.description}</p>
               </div>
             </motion.div>
@@ -347,7 +359,7 @@ export default function MahipalpurPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Mahipalpur Pricing — Transparent &amp; Affordable</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Paharganj Pricing — Transparent &amp; Affordable</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
@@ -380,7 +392,7 @@ export default function MahipalpurPage() {
       <section className="mx-auto max-w-4xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently Asked Questions</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Spa in Mahipalpur Questions, Answered</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Spa in Paharganj Questions, Answered</h2>
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
@@ -401,24 +413,24 @@ export default function MahipalpurPage() {
         </div>
       </section>
 
-      {/* Other Spa Locations */}
+      {/* Other Spa Locations — location pagination */}
       <section className="bg-[#f7efe8] py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Other Locations</p>
             <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa Locations Across Delhi NCR</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not based in Mahipalpur? We run 24+ outlets across Delhi NCR — find the one closest to you.</p>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not based in Paharganj? We run 24+ outlets across Delhi NCR — find the one closest to you.</p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {[
-              { title: "Spa in Vasant Kunj", href: "/spa-in-vasant-kunj" },
-              { title: "Spa in Aerocity", href: "/spa-in-aerocity" },
               { title: "Spa in Connaught Place", href: "/spa-in-connaught-place" },
               { title: "Spa in Karol Bagh", href: "/spa-in-karol-bagh" },
               { title: "Spa in Rohini", href: "/spa-in-rohini" },
-              { title: "Spa in Paharganj", href: "/spa-in-paharganj" },
+              { title: "Spa in Pitampura", href: "/spa-in-pitampura" },
+              { title: "Spa in Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
               { title: "Spa in Dwarka", href: "/spa-in-dwarka" },
               { title: "Spa in Saket", href: "/spa-in-saket" },
+              { title: "Spa in Aerocity", href: "/spa-in-aerocity" },
               { title: "Spa in Noida", href: "/spa-in-noida" },
               { title: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
             ].map((item) => (
@@ -440,8 +452,8 @@ export default function MahipalpurPage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your visit</p>
-              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Book the Best Spa in Mahipalpur — Today</h3>
-              <p className="mt-3 leading-relaxed text-white/80">Walk in near the NH8 hotel belt, or connect with us for a home or hotel spa booking anywhere in Mahipalpur before or after your flight.</p>
+              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Book the Best Spa in Paharganj — Today</h3>
+              <p className="mt-3 leading-relaxed text-white/80">Walk in near New Delhi Railway Station, or connect with us for a home or hotel spa booking.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>

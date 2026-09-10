@@ -105,7 +105,7 @@ export const metadata = {
     title: "Best Spa in Rohini - All Sectors & City Centre Mall | Spa Delhi",
     description:
       "Best spa in Rohini covering Sector 3 to 24 & City Centre Mall. Full body, deep tissue & couple massage near Rohini Metro. Certified therapists. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg"],
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-rohini",
   },
@@ -114,7 +114,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg"],
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
   },
 };
 

@@ -76,12 +76,12 @@ export default function Footer() {
     {[
       { name: 'Aerocity', link: '/spa-in-aerocity' },
       { name: 'Connaught Place', link: '/spa-in-connaught-place' },
-      { name: 'Noida', link: '/spa-in-noida' },
-      { name: 'Gurugram', link: '/spa-in-gurgaon' },
+      // { name: 'Noida', link: '/spa-in-noida' },
+      // { name: 'Gurugram', link: '/spa-in-gurgaon' },
       { name: 'Lajpat Nagar', link: '/spa-in-lajpat-nagar' },
       { name: 'Saket', link: '/spa-in-saket' },
       { name: 'Rajouri Garden', link: '/spa-in-rajouri-garden' },
-      { name: 'Pitampura', link: '/spa-in-pitampura' },
+      // { name: 'Pitampura', link: '/spa-in-pitampura' },
     ].map((loc, i) => (
       <li key={i} className="flex items-start break-words">
         <svg
@@ -128,9 +128,9 @@ export default function Footer() {
       { name: 'Home', link: '/' },
       { name: 'Services', link: '/massage-service-in-delhi' },
       { name: 'Outlets', link: '/outlets' },
-      { name: 'Pricing', link: '/spa-price-in-delhi' },
+      // { name: 'Pricing', link: '/spa-price-in-delhi' },
       { name: 'Blog', link: '/blog' },
-      { name: 'Is B2B Massage Legal?', link: '/is-b2b-massage-legal-in-india' },
+      // { name: 'Is B2B Massage Legal?', link: '/is-b2b-massage-legal-in-india' },
       { name: 'Contact', link: '/contact' },
     ].map((item, i) => (
       <li key={i} className="flex items-center space-x-2">
