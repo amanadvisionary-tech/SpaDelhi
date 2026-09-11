@@ -10,10 +10,10 @@ import {
   FaClock,
   FaCrown,
   FaHandSparkles,
+  FaHeart,
   FaHotel,
-  FaHotTub,
   FaLeaf,
-  FaPhoneAlt,
+  FaRupeeSign,
   FaSpa,
   FaStar,
   FaTelegram,
@@ -25,22 +25,17 @@ const highlights = [
   {
     icon: <FaSpa className="text-2xl text-amber-600" />,
     title: "Genuine Massage Spa in Noida",
-    desc: "A real massage spa in Noida, not a guessing game — trained therapists, premium oils, and a private room for every session.",
+    desc: "A real massage spa in Noida — trained therapists, premium oils, and a private room for every session.",
   },
   {
     icon: <FaHandSparkles className="text-2xl text-emerald-600" />,
-    title: "Covers Sector 18 & Greater Noida",
-    desc: "Whether you're near Noida Sector 18 or further out toward Greater Noida, our outlets and home spa keep you covered.",
+    title: "Covers Every Sector & Greater Noida",
+    desc: "From Sector 18 to Sector 104 and out to Greater Noida, our outlets and home spa keep you covered.",
   },
   {
-    icon: <FaHotTub className="text-2xl text-rose-500" />,
+    icon: <FaHeart className="text-2xl text-rose-500" />,
     title: "Hotel Spa at Top Noida Properties",
     desc: "In-room body spa in Noida at Radisson Blu, Crowne Plaza, and other leading hotels — no need to leave your room.",
-  },
-  {
-    icon: <FaLeaf className="text-2xl text-teal-600" />,
-    title: "Certified, Considerate Therapists",
-    desc: "Every therapist follows proper technique and hygiene protocol, so your session stays professional from start to finish.",
   },
 ];
 
@@ -49,15 +44,8 @@ const services = [
   { title: "B2B Massage", desc: "A specialised, full-contact therapy performed with premium oils for genuinely deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Aromatherapy Massage", desc: "Scented essential oils paired with massage technique for a calmer, more sensory session.", href: "/aromatherapy-massage-in-noida" },
   { title: "Couples Massage", desc: "One private room, two therapists — a genuinely shared spa experience for two.", href: "/couples-massage-in-delhi" },
-];
-
-const benefits = [
-  { title: "Premium Locations", desc: "Available at our Noida outlets and at select hotels in Noida and Greater Noida, so you get privacy and comfort wherever you book." },
-  { title: "Professional Therapists", desc: "Trained, experienced therapists at every Spa Delhi massage centre in Noida — every session is genuine relief, not a rushed rubdown." },
-  { title: "Wide Range of Therapies", desc: "Full body, B2B, Thai, deep tissue, and aromatherapy are all available at our spa centre in Noida, customised to your body." },
-  { title: "Hygienic, Private Rooms", desc: "Every session happens behind a closed door in a fully private, hygienically maintained room — no shared spaces, no interruptions." },
-  { title: "Home Spa in Noida", desc: "Can't make it to an outlet? We send a therapist to your home anywhere in Noida, Sector 18, and Greater Noida." },
-  { title: "Secure Online Payment", desc: "Pay online, by UPI, card, or cash — booking a massage spa in Noida shouldn't be complicated." },
+  { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
+  { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage-in-delhi" },
 ];
 
 const luxuryHotels = [
@@ -87,12 +75,6 @@ const luxuryHotels = [
   },
 ];
 
-const processSteps = [
-  { number: "01", title: "Reach out", text: "Message us on WhatsApp or Telegram with your preferred outlet, hotel, or home address in Noida.", icon: <FaPhoneAlt className="text-amber-700" /> },
-  { number: "02", title: "Confirm your slot", text: "We confirm timing and pricing upfront over chat — no surprises when your therapist arrives.", icon: <FaClock className="text-amber-700" /> },
-  { number: "03", title: "Relax, privately", text: "Your session takes place in a private, closed room with a trained therapist, from consultation to checkout.", icon: <FaCheckCircle className="text-amber-700" /> },
-];
-
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage session at our Noida spa centre.", features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
   { title: "Home Spa in Noida", price: "₹15000", desc: "The same genuine massage delivered to your home anywhere in Noida.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
@@ -107,8 +89,6 @@ const faqs = [
   { question: "How much does a massage spa in Noida cost?", answer: "Sessions at our spa centre in Noida start from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration." },
   { question: "Do you provide home spa service in Noida?", answer: "Yes, we offer home spa in Noida at affordable prices with certified, well-trained therapists visiting your address." },
   { question: "Which hotels in Noida offer your spa service?", answer: "We're available at Radisson Blu, Sandal Suites by Lemon Tree, Crowne Plaza Greater Noida, and Jaypee Greens Golf & Spa Resort, among others." },
-  { question: "Can I pay online for spa services in Noida?", answer: "Yes, we offer secure online payment options — UPI, card, or cash — for your convenience." },
-  { question: "How long does a session at your spa centre in Noida last?", answer: "Our standard session runs 60 minutes at the outlet, with 90-minute home spa and 120-minute hotel spa options for a longer, more thorough experience." },
   { question: "Can I book a night appointment at your massage spa in Noida?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
 ];
 
@@ -117,20 +97,21 @@ export default function Noipage() {
 
   return (
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
+      {/* Hero */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/noidahotel.jpeg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
-              <FaStar className="text-amber-500" /> LUXURY MASSAGE SPA
+              <FaStar className="text-amber-500" /> NOIDA OUTLET
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
-              Spa in <span className="text-amber-700">Noida</span> — Luxury Massage Spa Near You
+              Best Spa in <span className="text-amber-700">Noida</span> — Sector 18 to Greater Noida
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a genuine massage spa in Noida? Spa Delhi runs a trusted spa centre in Noida covering Sector 18, Greater Noida, and every major hotel in between — plus home spa options anywhere in the city. Certified therapists, private rooms. First visit from ₹1999.
+              Looking for a genuine massage spa in Noida? Spa Delhi runs a trusted spa centre in Noida covering Sector 18, Sector 62, Greater Noida, and every major hotel in between — plus home spa options anywhere in the city. Certified therapists, private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -152,7 +133,7 @@ export default function Noipage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/new7.jpeg" alt="Massage spa in Noida" fill className="object-cover" />
+                <Image src="/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg" alt="Therapist giving a massage at our spa in Noida" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
@@ -163,171 +144,249 @@ export default function Noipage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+      {/* Highlights */}
+      <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why It Works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">A Genuine Massage Centre in Noida, Done Right</h2>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Advantages</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Experience the Best Spa in Noida &amp; Greater Noida</h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
-            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-3xl border border-amber-100 bg-white p-6 shadow-sm">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50">{item.icon}</div>
-              <h3 className="text-xl font-semibold text-[#3a2e2a]">{item.title}</h3>
-              <p className="mt-3 leading-relaxed text-gray-600">{item.desc}</p>
+            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+              <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50">{item.icon}</div>
+              <h3 className="text-lg font-semibold text-[#3a2e2a]">{item.title}</h3>
+              <p className="mt-2 leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
           ))}
         </div>
       </section>
 
-      {/* Long-form SEO content — scannable card layout */}
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="mb-12 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Noida — What We Offer & Where to Find Us</h2>
-          </div>
-
-          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
-            >
-              <Image src="/images/spaexpert3.webp" alt="Spa in Noida session" fill className="object-cover" />
+      {/* Sector-by-sector coverage — targets each long-tail sector search individually */}
+      <section className="mx-auto max-w-7xl px-6 pb-16">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Sector-Wise Coverage</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Book Spa in Noida — Sector 18, 62, 63, 104 &amp; Greater Noida</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">Outlet, home spa, and hotel spa — the same standard, wherever you are in Noida or Greater Noida.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { sector: "Spa in Noida Sector 18", desc: "Minutes from the Sector 18 market, home to some of Noida's busiest hotels and offices." },
+            { sector: "Spa in Noida Sector 50", desc: "Covered by the same certified therapists and hygiene standard as our outlet." },
+            { sector: "Spa in Noida Sector 52", desc: "A short ride from our outlet, popular with residents and offices nearby." },
+            { sector: "Spa in Noida Sector 62", desc: "Close to the IT and corporate hub, with home spa visits to your office or residence." },
+            { sector: "Spa in Noida Sector 63", desc: "Serving the industrial and residential belt with outlet, home, and hotel spa options." },
+            { sector: "Spa in Noida Sector 104", desc: "Near the Noida Expressway, with quick home spa booking to your exact address." },
+            { sector: "Spa in Greater Noida", desc: "Serving Crowne Plaza, Jaypee Greens, and homes across Greater Noida West." },
+          ].map((item) => (
+            <motion.div key={item.sector} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
+              <h3 className="text-base font-semibold text-[#3a2e2a]">{item.sector}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
-
-            <div className="grid gap-5 sm:grid-cols-2">
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">A Genuine Massage Spa in Noida</h3>
-                <p className="mt-2 leading-relaxed text-gray-600">
-                  Trained therapists, premium oils, and a private room — every session at our spa centre in Noida follows the same standard.
-                </p>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Sector 18 & Greater Noida Covered</h3>
-                <p className="mt-2 leading-relaxed text-gray-600">
-                  Our spa in Noida Sector 18 and spa in Greater Noida both run on the same booking desk — one number for the whole city.
-                </p>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotel /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hotel Spa at Top Properties</h3>
-                <p className="mt-2 leading-relaxed text-gray-600">
-                  In-room body spa in Noida at Radisson Blu, Crowne Plaza, and more — no need to leave your room.
-                </p>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Home Spa, No Extra Hassle</h3>
-                <p className="mt-2 leading-relaxed text-gray-600">
-                  Can't travel? A therapist comes to your home anywhere in Noida — same standard, same hygiene.
-                </p>
-              </motion.div>
-            </div>
-          </div>
-
-          <p className="mt-8 text-center text-gray-600">
-            Evening appointments available through our 24/7 desk —{" "}
-            <a href="#Pricing" className="font-medium text-amber-700 underline hover:text-amber-800">see full pricing below</a>.
-          </p>
+          ))}
         </div>
       </section>
 
-      {/* Why choose us — trust banner, deliberately different layout from the section above */}
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="overflow-hidden rounded-[32px] bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-12"
-        >
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Why Choose Spa Delhi</p>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Trusted as Noida's Best Massage Spa Centre</h2>
-            <p className="mt-4 leading-relaxed text-white/80">
-              A decade-plus reputation, built one private session at a time across{" "}
-              <Link href="/outlets" className="font-medium text-amber-300 underline hover:text-amber-200">24+ Delhi NCR outlets</Link> — including our massage spa in Noida.
+      {/* Sector 18 spotlight — image collage + signature treatments */}
+      <section className="mx-auto max-w-7xl px-6 pb-16">
+        <div className="grid gap-10 overflow-hidden rounded-[32px] border border-amber-100 bg-white p-6 shadow-lg lg:grid-cols-2 lg:items-center lg:p-10">
+          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="relative min-h-[420px]">
+            <div className="absolute left-0 top-0 z-10 w-40">
+              <p className="font-serif text-lg text-[#3a2e2a]">Luxury Spa with</p>
+              <p className="font-serif text-3xl italic text-amber-700">Luxury Hotel</p>
+              <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-500">Luxury Spa Outlet in 5-Star Hotels</p>
+            </div>
+
+            <div className="absolute right-0 top-0 w-[55%] overflow-hidden rounded-2xl bg-gradient-to-br from-amber-600 to-amber-800 p-2 shadow-xl sm:w-[60%]">
+              <div className="relative h-32 w-full overflow-hidden rounded-xl sm:h-40">
+                <Image src="/images/Radisson_Blu_MBD_Hotel,_Noida.jpg" alt="Luxury hotel spa in Noida" fill className="object-cover" />
+              </div>
+            </div>
+
+            <div className="absolute bottom-0 left-0 h-64 w-[65%] overflow-hidden rounded-[24px] border-4 border-white shadow-xl sm:h-72">
+              <Image src="/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg" alt="Massage spa in Noida Sector 18" fill className="object-cover" />
+            </div>
+
+            <div className="absolute bottom-4 right-0 text-5xl text-amber-200/70" aria-hidden="true">✿</div>
+          </motion.div>
+
+          <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="mt-6 lg:mt-0">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">1st Visit @ ₹1999</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Best Massage Spa in Noida Sector 18</h2>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Looking for a spa in Noida Sector 18? Our spa centre sits close to Sector 18's malls and corporate hubs, offering calm interiors, soothing music, and premium aromatic oils. Whether it's after a hectic workday or a weekend outing, our massage spa in Noida ensures complete rejuvenation.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Our therapists are trained professionals from India and abroad, specialising in traditional and modern massage technique. Whether you prefer a gentle aromatherapy massage, an invigorating deep tissue massage, or a full body massage, every session is personalised to your body's needs.
+            </p>
+            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Signature Treatments:</h3>
+            <ul className="mt-3 grid gap-2 text-gray-700 sm:grid-cols-2">
+              {["Full Body Massage", "Deep Tissue Massage", "Thai Massage", "Aromatherapy Massage", "B2B Massage", "Sandwich Massage"].map((item) => (
+                <li key={item} className="flex items-center gap-2">
+                  <FaCheckCircle className="text-amber-600" /> {item}
+                </li>
+              ))}
+            </ul>
+            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <FaTelegram /> Join Telegram Channel
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Simple about section */}
+      <section className="bg-[#fdf2e8] py-16">
+        <div className="mx-auto max-w-4xl px-6">
+          <h2 className="text-center text-3xl font-bold text-[#3a2e2a] md:text-4xl">Relax &amp; Rejuvenate at the Best Massage Spa in Noida</h2>
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
+            <p>
+              Our spa centre in Noida offers a full range of treatments, from a relaxing full body massage to a specialised B2B massage session. Whether you want a body spa in Noida near Sector 18, a session in Sector 62 or 104, or a quick body spa in Noida between meetings, our massage spa in Noida covers it all.
+            </p>
+            <p>
+              Searching for a spa near Noida? Our outlet is easy to reach from across the city, with home and hotel spa options extending all the way to Greater Noida. Our booking desk runs 24/7 — message us anytime and we'll confirm your session in minutes.
             </p>
           </div>
-
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[["12+", "Years of experience"], ["24+", "Outlets in Delhi NCR"], ["2", "Zones: Sector 18 & Greater Noida"], ["24/7", "Booking support"]].map(([value, label]) => (
-              <div key={label} className="rounded-2xl border border-white/15 bg-white/5 p-4 text-center backdrop-blur-sm">
-                <p className="text-2xl font-bold text-amber-300">{value}</p>
-                <p className="mt-1 text-sm text-white/70">{label}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 grid gap-4 md:grid-cols-2">
-            {[
-              { icon: <FaHandSparkles />, text: "Tailored to your preferences — pressure level, oil scent, and technique, every session." },
-              { icon: <FaHotel />, text: "Same certified therapists and hygiene standard whether you're in Sector 18 or Greater Noida." },
-              { icon: <FaCheckCircle />, text: "International and skilled Indian therapists, trained in full body, B2B, and aromatherapy technique." },
-              { icon: <FaSpa />, text: "See our full range beyond Noida on the Delhi NCR services page." },
-            ].map((item) => (
-              <div key={item.text} className="flex items-start gap-3 rounded-2xl bg-white/5 p-4">
-                <span className="mt-0.5 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-amber-300">{item.icon}</span>
-                <p className="text-sm leading-relaxed text-white/85">{item.text}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-8 text-center">
-            <Link href="/massage-service-in-delhi" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
-              See All Delhi NCR Services <FaArrowRight className="text-sm" />
-            </Link>
-          </div>
-        </motion.div>
+        </div>
       </section>
 
-      {/* Services grid */}
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+      {/* Why choose us */}
+      <section className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
+          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Why Choose Spa Delhi in Noida?</h2>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Choosing a spa is about more than booking a massage. At our Noida outlet, we focus on creating a calm, comfortable experience wherever you are in the city.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Whether you're near Sector 18, working out of Sector 62, or based further out in Greater Noida, our spa experience is built around your comfort.
+            </p>
+            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Why guests choose us:</h3>
+            <ul className="mt-3 space-y-2 text-gray-700">
+              <li><span className="font-semibold text-[#3a2e2a]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Range of Massage Therapies</span> — Full body, B2B, deep tissue, and more, suited to different relaxation needs.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Citywide Coverage</span> — From Sector 18 to Greater Noida, the same certified team and standard.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Home Spa in Noida</span> — Same quality treatment delivered to your address anywhere in the city.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
+            </ul>
+            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#3a2e2a] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#2b211d]">
+              <FaTelegram /> See Available Staff
+            </a>
+          </motion.div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
+              <FaLeaf className="mx-auto text-3xl" />
+              <h4 className="mt-3 font-semibold">Experienced Therapists</h4>
+              <p className="mt-2 text-sm text-white/85">Skilled therapists deliver personalised massage with expert care for complete relaxation.</p>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
+              <FaRupeeSign className="mx-auto text-3xl" />
+              <h4 className="mt-3 font-semibold">₹1999 First Visit Offer</h4>
+              <p className="mt-2 text-sm text-white/85">Enjoy our first-visit offer with premium spa therapies and exceptional value.</p>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
+              <FaClock className="mx-auto text-3xl" />
+              <h4 className="mt-3 font-semibold">24x7 Booking</h4>
+              <p className="mt-2 text-sm text-white/85">Available 24x7 for outlet, home, and hotel spa bookings.</p>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
+              <FaHeart className="mx-auto text-3xl" />
+              <h4 className="mt-3 font-semibold">Private &amp; Hygienic Rooms</h4>
+              <p className="mt-2 text-sm text-white/85">Every session ensures complete hygiene, comfort, and privacy for every guest.</p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Our Therapists */}
+      <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Services</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Explore Our Massage Services in Noida</h2>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Meet Our Expert Massage Therapists in Noida</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {services.map((service) => (
-            <Link key={service.title} href={service.href} className="group rounded-2xl border border-amber-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">{service.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-600">{service.desc}</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-amber-700 group-hover:underline">
-                Learn more <FaArrowRight className="text-xs" />
-              </span>
-            </Link>
+          {[
+            { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff4.jpg" },
+            { role: "Foreigner Therapist", specialty: "Aromatherapy & Thai", experience: "6+ yrs", image: "/images/staff9.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff7.jpg" },
+            { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff12.jpg" },
+          ].map((t, index) => (
+            <motion.div
+              key={t.role}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45, delay: index * 0.08 }}
+              className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
+            >
+              <Image src={t.image} alt={`${t.role} at Spa Delhi Noida`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1f1712] via-[#1f1712]/40 to-transparent" />
+              <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
+                <FaStar className="text-amber-500" /> {t.experience}
+              </div>
+              <div className="absolute inset-x-0 bottom-0 p-5">
+                <h3 className="text-lg font-semibold text-white">{t.role}</h3>
+                <p className="mt-1 text-sm text-amber-300">{t.specialty}</p>
+              </div>
+            </motion.div>
           ))}
         </div>
       </section>
 
-      {/* Benefits */}
-      <section className="bg-[#f7efe8] py-16 lg:py-20">
-        <div className="mx-auto max-w-7xl px-6">
+      {/* Services */}
+      <section className="bg-[#f7efe8] py-16">
+        <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why This Works</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What Makes Our Body Spa in Noida Different</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Services</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Explore Our Massage Services in Noida</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {benefits.map((b) => (
-              <motion.div key={b.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">{b.title}</h3>
-                <p className="mt-2 text-gray-600">{b.desc}</p>
+            {services.map((service) => (
+              <motion.div key={service.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+                <h3 className="text-lg font-semibold text-[#3a2e2a]">{service.title}</h3>
+                <p className="mt-2 text-gray-600">{service.desc}</p>
+                <Link href={service.href} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-amber-700 hover:underline">
+                  Learn more <FaArrowRight className="text-xs" />
+                </Link>
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Hygiene & Amenities */}
+      <section className="bg-[#fdf2e8] py-16">
+        <div className="mx-auto max-w-5xl px-6 text-center">
+          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">100% Hygienic &amp; Professional Spa in Noida — Your Safety First</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+            From a hot shower to a full steam bath, these are the small details that turn a massage into a complete spa visit.
+          </p>
+          <div className="mt-10 grid grid-cols-2 justify-items-center gap-x-6 gap-y-10 sm:grid-cols-5 sm:gap-x-10">
+            {[
+              { label: "Shower", image: "/images/icons8-shower-64.webp" },
+              { label: "Hammam", image: "/images/icons8-bathhouse-64.webp" },
+              { label: "Jacuzzi Bath", image: "/images/icons8-jacuzzi-64.webp" },
+              { label: "Steam Bath", image: "/images/icons8-spa-care-64.webp" },
+              { label: "Sauna", image: "/images/icons8-sauna-64.webp" },
+            ].map((item) => (
+              <motion.div key={item.label} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex flex-col items-center">
+                <div className="relative flex h-[100px] w-[100px] items-center justify-center rounded-full border border-amber-200 bg-white shadow-sm">
+                  <Image src={item.image} alt={item.label} fill className="object-contain p-5" />
+                </div>
+                <p className="mt-3 text-sm font-medium text-[#3a2e2a]">{item.label}</p>
+              </motion.div>
+            ))}
+          </div>
+          <Link href="/massage-service-in-delhi" className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            Explore All Services
+          </Link>
         </div>
       </section>
 
       {/* Real hotel showcase */}
-      <section className="py-16 lg:py-20 bg-gradient-to-b from-white to-amber-50">
+      <section className="py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Hotels We Serve</p>
@@ -358,34 +417,16 @@ export default function Noipage() {
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
-        <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How it works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Book Your Noida Spa Session in 3 Easy Steps</h2>
-        </div>
-        <div className="grid gap-6 md:grid-cols-3">
-          {processSteps.map((step) => (
-            <motion.div key={step.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-[24px] border border-amber-100 bg-white p-6 shadow-sm">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-amber-50 text-xl font-semibold text-amber-700">{step.number}</div>
-              <div className="mb-3 text-amber-700">{step.icon}</div>
-              <h3 className="text-xl font-semibold text-[#3a2e2a]">{step.title}</h3>
-              <p className="mt-3 text-gray-600">{step.text}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* Pricing */}
-      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
-        <div className="mx-auto max-w-7xl px-6">
+      <section id="Pricing" className="bg-[#fdf2e8] py-16">
+        <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Noida Pricing — Transparent, No Surprises</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Noida Pricing — Transparent &amp; Affordable</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff7ed] to-[#fffaf3]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff7ed] to-[#fffaf3]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
                 <h3 className="text-2xl font-semibold text-[#3a2e2a]">{plan.title}</h3>
@@ -411,53 +452,60 @@ export default function Noipage() {
       </section>
 
       {/* FAQ */}
-      <section className="mx-auto max-w-6xl px-6 pb-20 pt-16">
-        <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-xl">
-          <div className="mb-8 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently asked questions</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Spa in Noida Questions, Answered</h2>
-          </div>
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-[#fffaf5] p-5">
-                <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
-                  <span className="text-lg font-semibold text-[#3a2e2a]">{faq.question}</span>
-                  <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />
-                </button>
-                <AnimatePresence initial={false}>
-                  {activeIndex === index && (
-                    <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.25 }} className="overflow-hidden">
-                      <p className="mt-3 text-gray-600">{faq.answer}</p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            ))}
-          </div>
+      <section className="mx-auto max-w-4xl px-6 py-16">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently Asked Questions</p>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Spa in Noida Questions, Answered</h2>
+        </div>
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
+              <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
+                <span className="text-lg font-semibold text-[#3a2e2a]">{faq.question}</span>
+                <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />
+              </button>
+              <AnimatePresence initial={false}>
+                {activeIndex === index && (
+                  <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.25 }} className="overflow-hidden">
+                    <p className="mt-3 text-gray-600">{faq.answer}</p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
+          ))}
         </div>
       </section>
 
-      {/* Related Services */}
-      <section className="mx-auto max-w-7xl px-6 pb-16">
-        <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Related Services</h2>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            { title: "Full Body Massage in Delhi", href: "/full-body-massage-in-delhi" },
-            { title: "B2B Massage in Delhi", href: "/b2b-massage-in-delhi" },
-            { title: "Aromatherapy Massage in Noida", href: "/aromatherapy-massage-in-noida" },
-            { title: "Couples Massage in Delhi", href: "/couples-massage-in-delhi" },
-            { title: "Deep Tissue Massage in Delhi", href: "/deep-tissue-massage-in-delhi" },
-            { title: "Thai Massage in Delhi", href: "/thai-massage-in-delhi" },
-            { title: "Swedish Massage in Delhi", href: "/swedish-massage-in-delhi" },
-            { title: "Sandwich Massage in Delhi", href: "/sandwich-massage-in-delhi" },
-          ].map((item) => (
-            <Link key={item.href} href={item.href} className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              {item.title}
-            </Link>
-          ))}
+      {/* Other Spa Locations */}
+      <section className="bg-[#f7efe8] py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-10 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Other Locations</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa Locations Across Delhi NCR</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not based in Noida? We run 24+ outlets across Delhi NCR — find the one closest to you.</p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {[
+              { title: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
+              { title: "Spa in Connaught Place", href: "/spa-in-connaught-place" },
+              { title: "Spa in Karol Bagh", href: "/spa-in-karol-bagh" },
+              { title: "Spa in Rohini", href: "/spa-in-rohini" },
+              { title: "Spa in Paharganj", href: "/spa-in-paharganj" },
+              { title: "Spa in Dwarka", href: "/spa-in-dwarka" },
+              { title: "Spa in Saket", href: "/spa-in-saket" },
+              { title: "Spa in Aerocity", href: "/spa-in-aerocity" },
+              { title: "Spa in Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
+              { title: "Spa in Pitampura", href: "/spa-in-pitampura" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-2xl border border-amber-100 bg-white p-5 text-center font-semibold text-amber-700 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              >
+                {item.title}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -468,7 +516,7 @@ export default function Noipage() {
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
               <h3 className="mt-2 text-3xl font-bold md:text-4xl">Book the Best Spa in Noida — Today</h3>
-              <p className="mt-3 leading-relaxed text-white/80">Walk into our outlet, or have us come to your hotel or home anywhere in Noida.</p>
+              <p className="mt-3 leading-relaxed text-white/80">Walk into our outlet, or have us come to your hotel or home anywhere in Noida and Greater Noida.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>

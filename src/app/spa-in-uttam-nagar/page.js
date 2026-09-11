@@ -8,34 +8,50 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is the first visit offer for spa in Uttam Nagar?",
+      name: "Is there a good spa in Uttam Nagar near the metro?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Our spa in Uttam Nagar offers a special first visit package starting at just ₹1999. This introductory offer is designed for new guests who want to experience a premium massage in Uttam Nagar at an affordable price.",
+        text: "Yes, Spa Delhi runs a genuine spa in Uttam Nagar, close to both Uttam Nagar East and West Metro Stations on the Blue Line, offering full body, Thai, and deep tissue massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "Is your spa near Uttam Nagar East or West Metro Station?",
+      name: "What makes Spa Delhi the best spa in Uttam Nagar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Uttam Nagar spa outlet is conveniently located close to both Uttam Nagar East and Uttam Nagar West Metro Stations on the Blue Line, making it easy to reach from across West Delhi.",
+        text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Uttam Nagar for residents across West Delhi.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you provide home spa service in Uttam Nagar?",
+      name: "Do you offer body massage spa in Uttam Nagar for both men and women?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, along with our outlet, we offer home spa service across Uttam Nagar and West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence.",
+        text: "Yes, our body massage spa in Uttam Nagar welcomes both men and women, with male and female therapist options — just mention your preference when booking your session.",
       },
     },
     {
       "@type": "Question",
-      name: "Are your therapists trained and certified?",
+      name: "Is home service available — spa in Uttam Nagar home service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. Every therapist at our Uttam Nagar spa is trained and certified in techniques like Swedish massage, deep tissue therapy, and aromatherapy, ensuring a safe and professional experience.",
+        text: "Yes, alongside our outlet, we offer spa in Uttam Nagar home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the Spa Delhi Uttam Nagar spa contact number?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you have Thai massage or foreign therapists in Uttam Nagar?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, thai massage is one of our most requested treatments in Uttam Nagar, delivered by experienced Thai, Russian, and Uzbek therapists alongside our skilled Indian staff.",
       },
     },
     {
@@ -43,42 +59,34 @@ const faqSchema = {
       name: "Can I book a couple massage in Uttam Nagar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you have Russian or other foreign therapists available in Uttam Nagar?",
+      name: "How much does a body spa in Uttam Nagar cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Russian spa in Uttam Nagar packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff. Russian therapist sessions are available from ₹2,800 depending on the package you choose.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What are your spa timings in Uttam Nagar? Do you offer night spa appointments?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our Uttam Nagar outlet and home spa booking support are available with flexible daily timings, including evening and night spa appointments booked in advance through our 24/7 help desk.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How much does a full body massage cost in Uttam Nagar?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A full body massage at our Uttam Nagar outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+        text: "A body spa in Uttam Nagar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment.",
       },
     },
   ],
 };
 
 export const metadata = {
-  title: "Spa in Uttam Nagar - Full Body Massage From ₹1999 | Spa Delhi",
+  title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Spa Delhi",
   description:
-    "Spa in Uttam Nagar for full body, deep tissue & couple massage near Uttam Nagar Metro. Certified therapists, private hygienic rooms, trusted service. Book your session today!",
+    "Best spa in Uttam Nagar for body massage, body spa & Thai massage near the metro. Certified therapists, hygienic private rooms, home service. Book from ₹1999!",
   keywords: [
     "spa in uttam nagar",
+    "uttam nagar spa",
+    "best spa in uttam nagar",
+    "body massage spa in uttam nagar",
+    "body spa in uttam nagar",
+    "spa in uttam nagar home service",
+    "uttam nagar spa contact number",
+    "thai massage",
+    "thai massage in uttam nagar",
     "massage in uttam nagar",
     "full body massage in uttam nagar",
     "massage centre in uttam nagar",
@@ -87,16 +95,14 @@ export const metadata = {
     "home spa in uttam nagar",
     "hotel spa in uttam nagar",
     "couple massage in uttam nagar",
-    "best spa in uttam nagar",
-    "russian spa in uttam nagar",
     "female to male spa in uttam nagar",
     "night spa in uttam nagar",
   ],
   openGraph: {
-    title: "Spa in Uttam Nagar - Full Body Massage From ₹1999 | Spa Delhi",
+    title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Spa Delhi",
     description:
-      "Spa in Uttam Nagar for full body, deep tissue & couple massage near Uttam Nagar Metro. Certified therapists, private hygienic rooms, trusted service. Book your session today!",
-    images: ["https://www.spadelhi.com/images/pexels-reza-khavarani-115341161-12310632.jpg"],
+      "Best spa in Uttam Nagar for body massage, body spa & Thai massage near the metro. Certified therapists, hygienic private rooms, home service. Book from ₹1999!",
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-uttam-nagar",
   },
@@ -105,7 +111,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/pexels-reza-khavarani-115341161-12310632.jpg"],
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
   },
 };
 

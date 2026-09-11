@@ -31,6 +31,11 @@ export const metadata = {
     "massage centre in noida",
     "spa in greater noida",
     "spa in noida sector 18",
+    "spa in noida sector 50",
+    "spa in noida sector 52",
+    "spa in noida sector 62",
+    "spa in noida sector 63",
+    "spa in noida sector 104",
     "body spa in noida",
     "best spa in noida",
     "home spa in noida",
@@ -40,7 +45,7 @@ export const metadata = {
     title: "Massage Spa in Noida - Luxury Spa Centre | Spa Delhi",
     description:
       "Best massage spa in Noida covering Sector 18 & Greater Noida. Certified therapists, private rooms, hotel & home spa available. Book your session from ₹1999!",
-    images: ["https://www.spadelhi.com/images/SandalSuitesbyLemonTreeHotels_Noida.jpg"],
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-noida",
   },
@@ -49,7 +54,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/SandalSuitesbyLemonTreeHotels_Noida.jpg"],
+    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
   },
 };
 
