@@ -72,10 +72,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you offer spa in Dwarka Sector 7 or Sector 12?",
+      name: "Do you have a dwarka sec 7 spa or spa in dwarka sec 12?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Dwarka outlet serves guests across all major sectors, including Sector 7, Sector 12, and Sector 21, along with home spa visits to your exact address within these areas.",
+        text: "Yes, our dwarka sector 7 spa and spa in dwarka sec 12 coverage serves guests across all major sectors, including Sector 21, along with home spa visits to your exact address within these areas.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is there a spa in Dwarka Mor?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our spa in Dwarka Mor coverage includes both easy access to our nearby outlet and home spa visits, making it convenient for guests across that stretch of Dwarka and Uttam Nagar.",
       },
     },
     {
@@ -90,32 +98,35 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Spa in Dwarka - Full Body Massage Near IGI Airport | Spa Delhi",
+  title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Spa Delhi",
   description:
-    "Spa in Dwarka for full body, deep tissue & couple massage near IGI Airport. Certified therapists, hygienic private rooms. Book your session now!",
+    "Best spa in Dwarka for luxury body massage & body spa near IGI Airport. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
     "spa in dwarka",
+    "best spa in dwarka",
+    "body massage dwarka",
+    "body spa dwarka",
+    "dwarka sec 7 spa",
+    "dwarka sector 7 spa",
+    "luxury spa in dwarka",
+    "russian spa in dwarka",
+    "spa dwarka sec 7",
+    "spa in dwarka mor",
+    "spa in dwarka sec 12",
+    "best massage spa in dwarka",
     "massage in dwarka",
     "full body massage in dwarka",
-    "massage centre in dwarka",
-    "body massage near me dwarka",
-    "spa near dwarka sector 21",
-    "spa near igi airport",
+    "couple massage in dwarka",
     "home spa in dwarka",
     "hotel spa in dwarka",
-    "couple massage in dwarka",
-    "best spa in dwarka delhi",
-    "spa in dwarka sector 7",
-    "spa in dwarka sector 12",
-    "russian spa in dwarka",
-    "russian spa in dwarka price",
-    "female to male spa in dwarka",
+    "spa near igi airport",
+    "spa near dwarka sector 21",
     "night spa in dwarka",
   ],
   openGraph: {
-    title: "Spa in Dwarka - Full Body Massage Near IGI Airport | Spa Delhi",
+    title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Spa Delhi",
     description:
-      "Spa in Dwarka for full body, deep tissue & couple massage near IGI Airport. Certified therapists, hygienic private rooms. Book your session now!",
+      "Best spa in Dwarka for luxury body massage & body spa near IGI Airport. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
     images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-dwarka",

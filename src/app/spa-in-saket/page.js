@@ -1,6 +1,77 @@
 import SpaInSaket from "./spainsaket";
-
 // src/app/spa-in-saket/page.js
+// <-- NO "use client" here -->
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Is there a good spa in Saket near Select Citywalk?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, Spa Delhi runs a genuine spa in Saket, close to Select Citywalk and Saket District Centre, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What makes Spa Delhi the best spa in Saket?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Saket and the best massage spa in Saket for guests across South Delhi.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer body massage in Saket for both men and women?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our body massage in Saket welcomes both men and women, with male and female therapist options — just mention your preference when booking your session.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is there a massage center in Saket near Malviya Nagar or Pushp Vihar?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our massage center in Saket is easy to reach from Malviya Nagar, Pushp Vihar, Saidulajab, and Saket Metro Station, with home spa options across all of these areas.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer a full body massage in Saket at home?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, alongside our saket spa centre, we offer full body massage in Saket as a home service across South Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I find a spa near Saket for a quick session?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Search spa near Saket and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day slot.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I book a couple massage in Saket?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our Saket outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does a full body massage in Saket cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A full body massage in Saket at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment.",
+      },
+    },
+  ],
+};
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -12,41 +83,41 @@ const breadcrumbSchema = {
 };
 
 export const metadata = {
-  title: "Spa in Saket - Luxury Body Massage Near Select Citywalk | Spa Delhi",
+  title: "Spa in Saket - Best Body Massage Near Select Citywalk | Spa Delhi",
   description:
-    "Spa in Saket, South Delhi for luxury full body, deep tissue, Swedish & couple massage. 5-star hotels near Select Citywalk from ₹1999. Book your session now!",
-
+    "Best spa in Saket for full body & body massage near Select Citywalk. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
     "spa in saket",
     "best spa in saket",
     "body massage in saket",
-    "massage centre in saket",
+    "massage in saket",
+    "saket spa centre",
+    "spa near saket",
+    "best massage spa in saket",
+    "body massage near saket",
+    "body spa in saket",
+    "full body massage in saket",
+    "massage center in saket",
+    "massage spa in saket",
+    "spa center in saket",
     "couple massage in saket",
-    "deep tissue massage saket",
-    "swedish massage saket",
+    "deep tissue massage in saket",
     "spa near select citywalk",
-    "luxury spa in south delhi",
-    "b2b massage in saket",
-    "hotel spa saket"
+    "spa near saket metro station",
   ],
-
   openGraph: {
-    title: "Best Spa in Saket Delhi | Luxury Body Massage & Wellness Centre",
+    title: "Spa in Saket - Best Body Massage Near Select Citywalk | Spa Delhi",
     description:
-      "Visit Spa Delhi in Saket for authentic full body massage, deep tissue therapy & premium spa packages in top 5-star hotels. Certified therapists & private suites.",
+      "Best spa in Saket for full body & body massage near Select Citywalk. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
     images: ["https://www.spadelhi.com/images/steptodown.com800611.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-saket",
   },
-
   alternates: {
     canonical: "https://www.spadelhi.com/spa-in-saket",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Best Spa in Saket Delhi | Body Massage & Spa Services",
-    description: "Rejuvenate with top massage therapies and luxury spa sessions in Saket, South Delhi. Book your slot today.",
     images: ["https://www.spadelhi.com/images/steptodown.com800611.jpg"],
   },
 };
@@ -54,6 +125,11 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script
+        id="faq-schema-saket"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <script
         id="breadcrumb-schema-spa-in-saket"
         type="application/ld+json"

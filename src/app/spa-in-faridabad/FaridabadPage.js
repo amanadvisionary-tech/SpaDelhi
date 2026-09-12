@@ -27,23 +27,23 @@ import WhatsappFloat from "../components/WhatsappFloat";
 const highlights = [
   {
     icon: <FaSpa className="text-2xl text-amber-600" />,
-    title: "A Genuine Spa in Dwarka You Can Trust",
-    desc: "A real luxury spa in Dwarka outlet — trained therapists, premium oils, and a private room for every session.",
+    title: "Genuine Spa in Faridabad",
+    desc: "A real body spa Faridabad outlet — trained therapists, premium oils, and a private room for every session.",
   },
   {
     icon: <FaHandSparkles className="text-2xl text-emerald-600" />,
-    title: "Just Minutes From Dwarka Mor & IGI Airport",
-    desc: "Close to Dwarka Mor, Dwarka Sector 21 Metro, and IGI Airport, easy to reach from across South West Delhi.",
+    title: "Minutes From NIT & Sector 15",
+    desc: "Close to NIT Faridabad, Sector 15, and Neelam Chowk, easy to reach across Faridabad and NCR.",
   },
   {
     icon: <FaHeart className="text-2xl text-rose-500" />,
-    title: "Your Spa, Your Way — Outlet, Home or Hotel",
-    desc: "Visit our spa Dwarka Sec 7 outlet, or book a body spa Dwarka home service anywhere nearby.",
+    title: "Outlet, Home & Hotel Spa Options",
+    desc: "Visit our Faridabad spa outlet, or book a body massage Faridabad home service anywhere nearby.",
   },
 ];
 
 const services = [
-  { title: "Full Body Massage", desc: "A complete full body massage in Dwarka that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
+  { title: "Full Body Massage", desc: "A complete full body massage Faridabad session that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
@@ -52,42 +52,42 @@ const services = [
 ];
 
 const pricingPlans = [
-  { title: "Spa Outlet", price: "₹1999", desc: "A private massage in Dwarka session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage Dwarka experience, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury spa in Dwarka session at your hotel, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Spa Outlet", price: "₹1999", desc: "A private body spa Faridabad session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage Faridabad session, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent hotel spa session near Faridabad, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Dwarka near IGI Airport?", answer: "Yes, Spa Delhi runs a genuine spa in Dwarka, close to IGI Airport and Dwarka Sector 21 Metro Station, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Dwarka?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Dwarka and the best massage spa in Dwarka for residents across South West Delhi." },
-  { question: "Do you offer body massage Dwarka for both men and women?", answer: "Yes, our body massage Dwarka service welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
-  { question: "Do you have a spa Dwarka Sec 7 or Dwarka sector 7 spa outlet?", answer: "Yes, our Dwarka sec 7 spa outlet is easy to reach, and we also serve guests across Dwarka sector 12 spa, Dwarka Mor, and Uttam Nagar with home spa options." },
-  { question: "Is there a spa in Dwarka Mor?", answer: "Yes, our spa in Dwarka Mor coverage includes home spa visits and an easy commute to our nearby outlet, making it convenient for guests across that stretch of Dwarka." },
-  { question: "Do you offer a Russian spa in Dwarka?", answer: "Yes, our russian spa in Dwarka packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best body spa Dwarka for guests wanting genuine variety in technique." },
-  { question: "Can I book a couple massage in Dwarka?", answer: "Yes, our Dwarka outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
-  { question: "How much does a full body massage in Dwarka cost?", answer: "A full body massage in Dwarka at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "Is there a good spa in Faridabad near NIT?", answer: "Yes, Spa Delhi runs a genuine spa in Faridabad, close to NIT Faridabad and Sector 15, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Spa Delhi the best spa in Faridabad?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Faridabad for residents across NCR." },
+  { question: "Do you offer body massage Faridabad for both men and women?", answer: "Yes, our body massage Faridabad service welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
+  { question: "Are there good Faridabad massage centres near Neelam Chowk?", answer: "Yes, our Faridabad massage centre is easy to reach from Neelam Chowk, Ballabhgarh, and NIT Faridabad, with home spa options across all of these areas." },
+  { question: "Do you offer a Russian spa in Faridabad?", answer: "Yes, our russian spa in Faridabad packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best body spa in Faridabad for guests wanting genuine variety in technique." },
+  { question: "Can I book a night spa in Faridabad?", answer: "Yes, our Faridabad outlet and home spa booking support run with flexible daily timings, including a night spa in Faridabad booked in advance through our 24/7 help desk." },
+  { question: "Can I book a couple massage in Faridabad?", answer: "Yes, our Faridabad outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "How much does a full body massage Faridabad session cost?", answer: "A full body massage Faridabad session at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
 ];
 
-export default function DwarkaPage() {
+export default function FaridabadPage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
-              <FaStar className="text-amber-500" /> DWARKA OUTLET
+              <FaStar className="text-amber-500" /> FARIDABAD OUTLET
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
-              Melt Your Stress Away at the Best Spa in <span className="text-amber-700">Dwarka</span>
+              Best Spa in <span className="text-amber-700">Faridabad</span> — Relax, Recharge &amp; Feel Brand New
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Dwarka? Spa Delhi is a trusted luxury spa in Dwarka destination for full body massage, deep tissue therapy, and body spa Dwarka sessions, just minutes from Dwarka Mor, IGI Airport, and Dwarka Sector 21 Metro Station. Every body massage Dwarka session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Faridabad? Spa Delhi is a trusted destination for body massage Faridabad residents rely on, delivering full body massage, deep tissue therapy, and B2B massage just minutes from NIT Faridabad and Sector 15. Every body spa Faridabad session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -109,7 +109,7 @@ export default function DwarkaPage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg" alt="Therapist giving a massage at our spa in Dwarka" fill className="object-cover" priority />
+                <Image src="/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg" alt="Therapist giving a massage at our spa in Faridabad" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
@@ -124,7 +124,7 @@ export default function DwarkaPage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Advantages</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What Makes Our Dwarka Spa Impossible to Resist?</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What Makes Our Faridabad Spa Different?</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
@@ -144,17 +144,17 @@ export default function DwarkaPage() {
             <div className="absolute left-0 top-0 z-10 w-40">
               <p className="font-serif text-lg text-[#3a2e2a]">Luxury Spa with</p>
               <p className="font-serif text-3xl italic text-amber-700">Luxury Hotel</p>
-              <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-500">Luxury Spa Outlet in Dwarka</p>
+              <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-500">Luxury Spa Outlet in Faridabad</p>
             </div>
 
             <div className="absolute right-0 top-0 w-[55%] overflow-hidden rounded-2xl bg-gradient-to-br from-amber-600 to-amber-800 p-2 shadow-xl sm:w-[60%]">
               <div className="relative h-32 w-full overflow-hidden rounded-xl sm:h-40">
-                <Image src="/images/hotel2.jpg" alt="Luxury hotel spa in Dwarka" fill className="object-cover" />
+                <Image src="/images/fpkdl.com_750_1758981239_hotel-with-sunset-background_1000124-308478.jpg" alt="Luxury hotel spa in Faridabad" fill className="object-cover" />
               </div>
             </div>
 
             <div className="absolute bottom-0 left-0 h-64 w-[65%] overflow-hidden rounded-[24px] border-4 border-white shadow-xl sm:h-72">
-              <Image src="/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg" alt="Body massage in Dwarka" fill className="object-cover" />
+              <Image src="/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg" alt="Body massage Faridabad" fill className="object-cover" />
             </div>
 
             <div className="absolute bottom-4 right-0 text-5xl text-amber-200/70" aria-hidden="true">✿</div>
@@ -162,14 +162,14 @@ export default function DwarkaPage() {
 
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="mt-6 lg:mt-0">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">1st Visit @ ₹1999</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Discover the Best Massage Spa in Dwarka</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Faridabad's Favourite Massage Spa Escape</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Looking for a best massage spa in Dwarka? Our spa centre sits close to Dwarka Mor, IGI Airport, and Dwarka Sector 21 Metro, offering calm interiors, soothing music, and premium aromatic oils. Whether after a hectic workday or a long flight, our body massage Dwarka session ensures complete rejuvenation.
+              Looking for a massage spa in Faridabad? Our spa centre sits close to NIT Faridabad and Sector 15, offering calm interiors, soothing music, and premium aromatic oils. Whether after a hectic workday or a weekend outing, our body massage Faridabad session ensures complete rejuvenation.
             </p>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Our therapists are trained professionals from India and abroad, specialising in traditional and modern massage technique. Whether you prefer a gentle aromatherapy massage, an invigorating deep tissue massage, or a full body massage in Dwarka, every session is personalised to your body's needs.
+              Our therapists are trained professionals from India and abroad, specialising in traditional and modern massage technique. Whether you prefer a gentle aromatherapy massage, an invigorating deep tissue massage, or a full body massage Faridabad session, every visit is personalised to your body's needs.
             </p>
-            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Signature Treatments You'll Fall in Love With:</h3>
+            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Signature Treatments:</h3>
             <ul className="mt-3 grid gap-2 text-gray-700 sm:grid-cols-2">
               {["Full Body Massage", "Deep Tissue Massage", "B2B Massage", "Aromatherapy Massage", "Sandwich Massage", "Couples Massage"].map((item) => (
                 <li key={item} className="flex items-center gap-2">
@@ -187,12 +187,12 @@ export default function DwarkaPage() {
       {/* Welcome section — intro + amenity icon row */}
       <section className="bg-[#f7efe8] py-16">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">The Best Spa in Dwarka — Full Body Massage, Wherever You Are</h2>
+          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">Best Spa in Faridabad — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Dwarka. If you're tired, stressed, or need a refreshing break, our body spa Dwarka centre is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Spa Delhi — the best spa in Faridabad. If you're tired, stressed, or need a refreshing break, our Faridabad massage centre is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near Dwarka Mor, IGI Airport, and Dwarka Sector 21 Metro. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near NIT Faridabad and Sector 15. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -218,23 +218,23 @@ export default function DwarkaPage() {
       <section className="mx-auto max-w-6xl px-6 py-16 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#3a2e2a]">Dwarka</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#3a2e2a]">Faridabad</p>
             <div className="mt-3 h-0.5 w-10 bg-amber-600" />
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#3a2e2a] md:text-4xl">
-              Let Go of Every Knot With a Relaxing Massage at
+              Refresh Your Body With Relaxing Massage at
             </h2>
             <h3 className="mt-1 text-3xl font-bold leading-tight text-amber-600/80 md:text-4xl">
-              Spa in Dwarka
+              Spa in Faridabad
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Dwarka, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Dwarka is known for professional body massage by certified therapists.
+                At Spa Delhi in Faridabad, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, Noida, and Faridabad, our spa in Faridabad is known for professional body massage by certified therapists.
               </p>
               <p>
-                Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our spa Dwarka sec 7 and Dwarka sec 12 spa locations, we focus on hygiene, comfort, and customer care to give you the best experience every time.
+                Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our Faridabad massage centres, we focus on hygiene, comfort, and customer care to give you the best experience every time.
               </p>
               <p>
-                If you want a trusted body spa Dwarka experience, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Dwarka ticks all boxes. That's why we're the first choice for the best spa in Dwarka and across South West Delhi.
+                If you want a trusted body spa Faridabad has to offer, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Faridabad ticks all boxes. That's why we're the first choice for the best spa in Faridabad and across NCR.
               </p>
             </div>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -243,7 +243,7 @@ export default function DwarkaPage() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-96">
-            <Image src="/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg" alt="Luxury spa Dwarka treatment room" fill className="object-cover" />
+            <Image src="/images/fpkdl.com_960_1758980524_tranquil-oasis-with-plush-massage-table-adorned-with_1126694-2523.jpg" alt="Luxury spa Faridabad treatment room" fill className="object-cover" />
           </motion.div>
         </div>
       </section>
@@ -252,8 +252,8 @@ export default function DwarkaPage() {
       <section className="bg-[#fdf2e8] py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">About Our Dwarka Outlet</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Dwarka — Where Trust Meets Total Relaxation</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">About Our Faridabad Outlet</p>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Faridabad — A Trusted Body Massage &amp; Wellness Centre</h2>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -264,33 +264,33 @@ export default function DwarkaPage() {
               transition={{ duration: 0.5 }}
               className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[380px]"
             >
-              <Image src="/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg" alt="Luxury spa Dwarka treatment room" fill className="object-cover" />
+              <Image src="/images/luxurySpaRoom.jpg" alt="Best spa in Faridabad treatment room" fill className="object-cover" />
             </motion.div>
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Dwarka for guests across Dwarka Mor, Uttam Nagar, and Dwarka Sector 21 — a real spa Dwarka sec 7 and Dwarka sector 7 spa destination, not a generic neighbourhood parlour. Our body spa Dwarka service covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Spa Delhi is the best spa in Faridabad for guests across NIT Faridabad, Sector 15, and Ballabhgarh — a real massage centre, not a generic neighbourhood parlour. Our body spa Faridabad service covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaSpa /></div>
-                  <h3 className="text-base font-semibold text-[#3a2e2a]">Pure Luxury, Every Single Visit</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">A refined, premium ambience close to Dwarka Mor and IGI Airport.</p>
+                  <h3 className="text-base font-semibold text-[#3a2e2a]">Near NIT & Sector 15</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">A refined, premium ambience close to NIT Faridabad and Sector 15's commercial hub.</p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaLeaf /></div>
-                  <h3 className="text-base font-semibold text-[#3a2e2a]">Hands You Can Truly Trust</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Trained Indian and russian spa in Dwarka therapists deliver every session with care.</p>
+                  <h3 className="text-base font-semibold text-[#3a2e2a]">Certified Therapists</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Trained Indian and russian spa in Faridabad therapists deliver every session with care.</p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaHotel /></div>
-                  <h3 className="text-base font-semibold text-[#3a2e2a]">Relax Right Where You Are</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Prefer to stay in? Home spa and hotel spa near Dwarka are both available on request.</p>
+                  <h3 className="text-base font-semibold text-[#3a2e2a]">Home &amp; Hotel Spa</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Prefer to stay in? Home spa and hotel spa near Faridabad are both available on request.</p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaCheckCircle /></div>
-                  <h3 className="text-base font-semibold text-[#3a2e2a]">No Surprises, Just Honest Pricing</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">No hidden charges — book the best spa in Dwarka on WhatsApp with pricing confirmed upfront.</p>
+                  <h3 className="text-base font-semibold text-[#3a2e2a]">Transparent Pricing</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">No hidden charges — book the best spa in Faridabad on WhatsApp with pricing confirmed upfront.</p>
                 </motion.div>
               </div>
             </div>
@@ -303,20 +303,20 @@ export default function DwarkaPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Why Thousands Keep Coming Back to Spa Delhi in Dwarka</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Why Choose Spa Delhi in Faridabad?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Choosing a spa is about more than booking a massage. At our Dwarka outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
+              Choosing a spa is about more than booking a massage. At our Faridabad outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
             <p className="mt-4 leading-relaxed text-gray-700">
-              Whether you're coming from Dwarka Mor, Uttam Nagar, or just landed at IGI Airport, our spa experience is built around your comfort.
+              Whether you're coming from NIT Faridabad, Sector 15, or just want some personal time after work, our spa experience is built around your comfort.
             </p>
-            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Here's why guests keep choosing us:</h3>
+            <h3 className="mt-6 font-semibold text-[#3a2e2a]">Why guests choose us:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
               <li><span className="font-semibold text-[#3a2e2a]">Experienced Therapists</span> — Professional care, including Russian and foreigner therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#3a2e2a]">Range of Massage Therapies</span> — Full body, B2B, deep tissue, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#3a2e2a]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
-              <li><span className="font-semibold text-[#3a2e2a]">Convenient Location</span> — Minutes from Dwarka Mor, Dwarka Sector 21 Metro, and IGI Airport.</li>
-              <li><span className="font-semibold text-[#3a2e2a]">Body Spa Dwarka Home Service</span> — Same quality treatment delivered to your residence nearby.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Convenient Location</span> — Minutes from NIT Faridabad, Sector 15, and Neelam Chowk.</li>
+              <li><span className="font-semibold text-[#3a2e2a]">Night Spa in Faridabad</span> — Evening and night appointments booked in advance through our 24/7 help desk.</li>
               <li><span className="font-semibold text-[#3a2e2a]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
             </ul>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#3a2e2a] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#2b211d]">
@@ -327,22 +327,22 @@ export default function DwarkaPage() {
           <div className="grid grid-cols-2 gap-4">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
               <FaLeaf className="mx-auto text-3xl" />
-              <h4 className="mt-3 font-semibold">Truly Experienced Hands</h4>
+              <h4 className="mt-3 font-semibold">Experienced Therapists</h4>
               <p className="mt-2 text-sm text-white/85">Skilled therapists deliver personalised massage with expert care for complete relaxation.</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
               <FaRupeeSign className="mx-auto text-3xl" />
-              <h4 className="mt-3 font-semibold">₹1999 First-Visit Steal</h4>
+              <h4 className="mt-3 font-semibold">₹1999 First Visit Offer</h4>
               <p className="mt-2 text-sm text-white/85">Enjoy our first-visit offer with premium spa therapies and exceptional value.</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
               <FaClock className="mx-auto text-3xl" />
-              <h4 className="mt-3 font-semibold">Book Anytime, Day or Night</h4>
+              <h4 className="mt-3 font-semibold">24x7 Booking</h4>
               <p className="mt-2 text-sm text-white/85">Available 24x7 for outlet, home, and hotel spa bookings.</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-6 text-center text-white shadow-lg">
               <FaHeart className="mx-auto text-3xl" />
-              <h4 className="mt-3 font-semibold">100% Private &amp; Spotless Rooms</h4>
+              <h4 className="mt-3 font-semibold">Private &amp; Hygienic Rooms</h4>
               <p className="mt-2 text-sm text-white/85">Every session ensures complete hygiene, comfort, and privacy for every guest.</p>
             </motion.div>
           </div>
@@ -353,15 +353,15 @@ export default function DwarkaPage() {
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Meet the Expert Hands Behind Every Perfect Massage</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Meet Our Expert Massage Therapists in Faridabad</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
-            { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff3.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff12.jpg" },
-            { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff9.jpg" },
+            { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff5.jpg" },
+            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff10.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff1.jpg" },
+            { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff7.jpg" },
           ].map((t, index) => (
             <motion.div
               key={t.role}
@@ -371,7 +371,7 @@ export default function DwarkaPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Dwarka`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Spa Delhi Faridabad`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1f1712] via-[#1f1712]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}
@@ -390,7 +390,7 @@ export default function DwarkaPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Services</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Find Your Perfect Massage in Dwarka</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Explore Our Massage Services in Faridabad</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
@@ -409,7 +409,7 @@ export default function DwarkaPage() {
       {/* Hygiene & Amenities */}
       <section className="bg-[#fdf2e8] py-16">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spotless, Safe &amp; Professional — Spa in Dwarka Done Right</h2>
+          <h2 className="text-3xl font-bold text-[#3a2e2a] md:text-4xl">100% Hygienic &amp; Professional Spa in Faridabad — Your Safety First</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             From a hot shower to a full steam bath, these are the small details that turn a massage into a complete spa visit.
           </p>
@@ -440,7 +440,7 @@ export default function DwarkaPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Dwarka Pricing — Honest Rates, Zero Surprises</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Spa in Faridabad Pricing — Transparent &amp; Affordable</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
@@ -473,7 +473,7 @@ export default function DwarkaPage() {
       <section className="mx-auto max-w-4xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently Asked Questions</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Got Questions About Our Spa in Dwarka? We've Got Answers</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Your Spa in Faridabad Questions, Answered</h2>
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
@@ -502,25 +502,25 @@ export default function DwarkaPage() {
               <FaStar className="text-emerald-500" /> 24+ Outlets
             </span>
             <h2 className="mx-auto mt-4 max-w-3xl text-3xl font-bold text-[#3a2e2a] md:text-4xl">
-              24+ Spa Locations <span className="text-amber-700">Across Delhi NCR — Find Yours</span>
+              Spa Locations <span className="text-amber-700">Across Delhi NCR</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              Not based in Dwarka? We run 24+ outlets across Delhi NCR — find the one closest to you.
+              Not based in Faridabad? We run 24+ outlets across Delhi NCR — find the one closest to you.
             </p>
             <div className="mx-auto mt-6 h-0.5 w-16 bg-amber-300" />
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
             {[
-              { title: "Pitampura", href: "/spa-in-pitampura", image: "/images/fpkdl.com_960_1758981956_female-masseur-preparing-bed-massage-session_23-2150461392.jpg" },
-              { title: "Rohini", href: "/spa-in-rohini", image: "/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg" },
-              { title: "Rajouri Garden", href: "/spa-in-rajouri-garden", image: "/images/spa-in-Rajouri-Garden.webp" },
-              { title: "Karol Bagh", href: "/spa-in-karol-bagh", image: "/images/hotel4.jpg" },
-              { title: "Connaught Place", href: "/spa-in-connaught-place", image: "/images/spa-in-Connaught-place.png" },
-              { title: "Paharganj", href: "/spa-in-paharganj", image: "/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg" },
-              { title: "Lajpat Nagar", href: "/spa-in-lajpat-nagar", image: "/images/spa-in-lajpat-nagar.webp" },
-              { title: "Saket", href: "/spa-in-saket", image: "/images/Reflexology.jpg" },
-              { title: "Noida", href: "/spa-in-noida", image: "/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg" },
               { title: "Gurgaon", href: "/spa-in-gurgaon", image: "/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg" },
+              { title: "Noida", href: "/spa-in-noida", image: "/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg" },
+              { title: "Saket", href: "/spa-in-saket", image: "/images/Reflexology.jpg" },
+              { title: "Connaught Place", href: "/spa-in-connaught-place", image: "/images/spa-in-Connaught-place.png" },
+              { title: "Karol Bagh", href: "/spa-in-karol-bagh", image: "/images/staff10.jpg" },
+              { title: "Lajpat Nagar", href: "/spa-in-lajpat-nagar", image: "/images/spa-in-lajpat-nagar.webp" },
+              { title: "Rajouri Garden", href: "/spa-in-rajouri-garden", image: "/images/spa-in-Rajouri-Garden.webp" },
+              { title: "Rohini", href: "/spa-in-rohini", image: "/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg" },
+              { title: "Paharganj", href: "/spa-in-paharganj", image: "/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg" },
+              { title: "Dwarka", href: "/spa-in-dwarka", image: "/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg" },
             ].map((loc) => (
               <motion.a
                 key={loc.href}
@@ -553,8 +553,8 @@ export default function DwarkaPage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your visit</p>
-              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Your Relaxation Awaits — Book the Best Spa in Dwarka Today</h3>
-              <p className="mt-3 leading-relaxed text-white/80">Walk in near Dwarka Mor, or connect with us for a home or hotel spa booking anywhere in Dwarka and South West Delhi.</p>
+              <h3 className="mt-2 text-3xl font-bold md:text-4xl">Your Best Spa in Faridabad Is Just a Message Away</h3>
+              <p className="mt-3 leading-relaxed text-white/80">Walk in near NIT, or connect with us for a home or hotel spa booking anywhere in Faridabad and NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>
