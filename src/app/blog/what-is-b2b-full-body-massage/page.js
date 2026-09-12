@@ -28,6 +28,16 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What is a B2B Full Body Massage", item: "https://www.spadelhi.com/blog/what-is-b2b-full-body-massage" },
+  ],
+};
+
 const benefits = [
   {
     title: "Deep Relaxation",
@@ -115,6 +125,11 @@ const relatedBlogs = [
 export default function B2BMassageBlogPage() {
   return (
     <>
+      <script
+        id="breadcrumb-schema-blog-what-is-b2b-full-body-massage"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <style>{`
         html{
           scroll-behavior:smooth;

@@ -1,6 +1,16 @@
 import Bolgpage from "./Bolgpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+  ],
+};
+
 export const metadata = {
   title: "Spa & Massage Blog Delhi - Expert Wellness Guides | Spa Delhi",
   description: "Spa & massage blog for Delhi NCR readers covering massage types, wellness tips & spa guides. Trusted expert advice from Spa Delhi. Read our latest guides now!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Bolgpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-blog"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Bolgpage />
+    </>
+  );
 }

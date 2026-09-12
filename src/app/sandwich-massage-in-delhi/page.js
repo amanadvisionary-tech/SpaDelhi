@@ -1,6 +1,32 @@
 import Sandpage from "./Sandpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Sandwich Massage in Delhi", item: "https://www.spadelhi.com/sandwich-massage-in-delhi" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Sandwich Massage",
+  name: "Sandwich Massage in Delhi",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Delhi",
+  description:
+    "Sandwich massage in Delhi at our Karol Bagh spa for the perfect two-therapist session, with certified professionals in a hygienic setting.",
+};
+
 export const metadata = {
   title: "Sandwich Massage in Delhi - Starting Just From ₹1999 | Spa Delhi",
   description: "Sandwich massage in Delhi at our Karol Bagh spa for the perfect two-therapist session. Certified professionals, hygienic setting. Book your session today!",
@@ -26,5 +52,19 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Sandpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-sandwich-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-sandwich-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <Sandpage />
+    </>
+  );
 }

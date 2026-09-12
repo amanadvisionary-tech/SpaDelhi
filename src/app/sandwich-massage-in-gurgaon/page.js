@@ -48,6 +48,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Sandwich Massage in Gurgaon", item: "https://www.spadelhi.com/sandwich-massage-in-gurgaon" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Sandwich Massage",
+  name: "Sandwich Massage in Gurgaon",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Gurgaon",
+  description:
+    "Sandwich massage in Gurgaon near Cyber Hub for a unique two-therapist relaxation session, with certified therapists in a hygienic setting.",
+};
+
 export default function page() {
   return (
     <>
@@ -55,6 +80,16 @@ export default function page() {
         id="faq-schema-sandwich-gurgaon"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-sandwich-massage-in-gurgaon"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-sandwich-massage-in-gurgaon"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <SandwichMassageGurgaonPage />
     </>

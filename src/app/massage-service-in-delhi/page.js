@@ -1,6 +1,16 @@
 import Serpage from "./Serpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Massage Service in Delhi", item: "https://www.spadelhi.com/massage-service-in-delhi" },
+  ],
+};
+
 export const metadata = {
   title: "Massage Service in Delhi - By Top Certified Therapists | Spa Delhi",
   description: "Massage service in Delhi at the best spa centre with top certified therapists. Relaxing sessions across Delhi & NCR areas. Check availability and book now!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Serpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-massage-service-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Serpage />
+    </>
+  );
 }

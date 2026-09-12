@@ -1,6 +1,16 @@
 import Conpage from "./Conpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.spadelhi.com/contact" },
+  ],
+};
+
 export const metadata = {
   title: "Contact Spa Delhi - Book Luxury Body & Thai Massage | Spa Delhi",
   description: "Contact Spa Delhi for luxury body & Thai massage across Delhi NCR. Certified therapists, hygienic private rooms, quick response. Call or book your session today!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function contact() {
-  return <Conpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-contact"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Conpage />
+    </>
+  );
 }

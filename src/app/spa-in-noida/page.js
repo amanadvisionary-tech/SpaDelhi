@@ -58,6 +58,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Noida", item: "https://www.spadelhi.com/spa-in-noida" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -65,6 +74,11 @@ export default function page() {
         id="faq-schema-spa-in-noida"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-noida"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Noipage />
     </>

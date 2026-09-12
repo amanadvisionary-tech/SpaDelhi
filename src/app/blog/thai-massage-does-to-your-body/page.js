@@ -23,6 +23,16 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What Does Thai Massage Do to Your Body", item: "https://www.spadelhi.com/blog/thai-massage-does-to-your-body" },
+  ],
+};
+
 const benefits = [
   { title: "Stress Relief", description: "Helps your body relax and may leave you feeling calmer after the session." },
   { title: "Better Sleep", description: "A calming massage can support more restful sleep and better recovery." },
@@ -76,6 +86,11 @@ const relatedBlogs = [
 export default function ThaiMassageBlogPage() {
   return (
     <>
+      <script
+        id="breadcrumb-schema-blog-thai-massage-does-to-your-body"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <style>{`html { scroll-behavior: smooth; }`}</style>
       <main className="bg-[#FFF9F0] text-gray-800">
         <section className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">

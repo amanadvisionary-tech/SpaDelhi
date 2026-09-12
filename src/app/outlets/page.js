@@ -1,6 +1,16 @@
 import Outpage from "./Outpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Outlets", item: "https://www.spadelhi.com/outlets" },
+  ],
+};
+
 export const metadata = {
   title: "5-Star Hotel Spa Outlets in Delhi - Rohini & Pitampura | Spa Delhi",
   description: "Spa outlets in Delhi including Rohini & Pitampura at luxury 5-star hotels. Relaxing body massages by certified therapists. Find your nearest outlet - book now!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Outpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-outlets"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Outpage />
+    </>
+  );
 }

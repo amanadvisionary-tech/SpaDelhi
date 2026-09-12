@@ -1,6 +1,16 @@
 import Gallerypage from "./Gallerypage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Gallery", item: "https://www.spadelhi.com/gallery" },
+  ],
+};
+
 export const metadata = {
   title: "Spa Gallery Delhi - See Our Luxury Outlets & Ambience | Spa Delhi",
   description: "Spa gallery for Delhi's luxury outlets showcasing private suites & massage rooms. Premium 5-star hotel ambience across Delhi NCR. View photos & book a visit!",
@@ -26,6 +36,15 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Gallerypage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-gallery"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Gallerypage />
+    </>
+  );
 }
 

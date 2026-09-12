@@ -119,6 +119,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Kalkaji", item: "https://www.spadelhi.com/spa-in-kalkaji" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -126,6 +135,11 @@ export default function page() {
         id="faq-schema-kalkaji"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-kalkaji"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Spainkalkaji />
     </>

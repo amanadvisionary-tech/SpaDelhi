@@ -55,6 +55,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "B2B Massage in Delhi", item: "https://www.spadelhi.com/b2b-massage-in-delhi" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "B2B Massage",
+  name: "B2B Massage in Delhi",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Delhi",
+  description:
+    "Body to body massage in Delhi at 24+ outlets across Delhi NCR, with certified therapists, private rooms, and hotel and home spa options.",
+};
+
 export default function page() {
   return (
     <>
@@ -62,6 +87,16 @@ export default function page() {
         id="faq-schema-b2b-massage-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-b2b-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-b2b-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <B2Bpage />
     </>

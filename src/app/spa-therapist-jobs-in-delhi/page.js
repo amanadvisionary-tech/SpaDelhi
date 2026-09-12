@@ -1,6 +1,16 @@
 import Hotstone from "./Hotstone";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa Therapist Jobs in Delhi", item: "https://www.spadelhi.com/spa-therapist-jobs-in-delhi" },
+  ],
+};
+
 export const metadata = {
   title: "Spa Therapist Jobs in Delhi - Part & Full Time | Spa Delhi",
   description: "Spa therapist jobs in Delhi, Noida & Gurgaon with part-time and full-time openings. Join a trusted, growing wellness brand. Contact us to apply today!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Hotstone />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-spa-therapist-jobs-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Hotstone />
+    </>
+  );
 }

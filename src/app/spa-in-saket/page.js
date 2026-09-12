@@ -1,6 +1,16 @@
 import SpaInSaket from "./spainsaket";
 
 // src/app/spa-in-saket/page.js
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Saket", item: "https://www.spadelhi.com/spa-in-saket" },
+  ],
+};
+
 export const metadata = {
   title: "Spa in Saket - Luxury Body Massage Near Select Citywalk | Spa Delhi",
   description:
@@ -42,5 +52,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <SpaInSaket />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-spa-in-saket"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <SpaInSaket />
+    </>
+  );
 }

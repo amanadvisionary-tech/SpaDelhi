@@ -26,6 +26,16 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What Is the Difference Between Spa and Massage", item: "https://www.spadelhi.com/blog/what-is-the-difference-between-spa-and-massage" },
+  ],
+};
+
 const faqs = [
   {
     question: "Is a spa and massage the same thing?",
@@ -90,6 +100,11 @@ const relatedBlogs = [
 export default function SpaVsMassageBlogPage() {
   return (
     <>
+      <script
+        id="breadcrumb-schema-blog-what-is-the-difference-between-spa-and-massage"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <style>{`
         html {
           scroll-behavior: smooth;

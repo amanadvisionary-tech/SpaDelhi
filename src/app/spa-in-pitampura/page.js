@@ -112,6 +112,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Pitampura", item: "https://www.spadelhi.com/spa-in-pitampura" },
+  ],
+};
+
 export default function Page() {
   return (
     <>
@@ -119,6 +128,11 @@ export default function Page() {
         id="faq-schema-pitampura"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-pitampura"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Pitampurapage />
     </>

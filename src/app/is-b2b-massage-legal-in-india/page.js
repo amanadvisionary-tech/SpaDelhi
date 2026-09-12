@@ -2,6 +2,16 @@
 import Isb2bmassagelegal from "./Isb2bmassagelegal";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Is B2B Massage Legal in India", item: "https://www.spadelhi.com/is-b2b-massage-legal-in-india" },
+  ],
+};
+
 export const metadata = {
   title: "Is B2B Massage Legal in India - Know the Facts | Spa Delhi",
   description: "B2B massage legality in India explained - laws, risks & how to choose safely. Trusted, professional guidance from Spa Delhi in Delhi NCR. Read the full guide!",
@@ -22,5 +32,14 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Isb2bmassagelegal />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-is-b2b-massage-legal-in-india"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Isb2bmassagelegal />
+    </>
+  );
 }

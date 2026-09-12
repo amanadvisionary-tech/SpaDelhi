@@ -53,6 +53,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Couple Massage in Saket", item: "https://www.spadelhi.com/couple-massage-in-saket" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Couple Massage",
+  name: "Couple Massage in Saket",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Saket",
+  description:
+    "Couple massage in Saket near Select Citywalk Mall for a private, relaxing session together, with certified therapists in a hygienic setting.",
+};
+
 export default function page() {
   return (
     <>
@@ -60,6 +85,16 @@ export default function page() {
         id="faq-schema-couple-massage-saket"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-couple-massage-in-saket"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-couple-massage-in-saket"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <CoupleMassageSaketPage />
     </>

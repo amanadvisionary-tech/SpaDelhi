@@ -26,6 +26,16 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Spa in Connaught Place", item: "https://www.spadelhi.com/blog/spa-in-connaught-place" },
+  ],
+};
+
 const faqs = [
   {
     question: "Why choose a spa in Connaught Place for relaxation?",
@@ -80,6 +90,11 @@ const relatedBlogs = [
 export default function SpaInConnaughtPlacePage() {
   return (
     <>
+      <script
+        id="breadcrumb-schema-blog-spa-in-connaught-place"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <style>{`
         html{
           scroll-behavior:smooth;

@@ -1,6 +1,16 @@
 import Swedishvsdeeptissue from "./Swedishvsdeeptissue";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Swedish Massage vs Deep Tissue Massage", item: "https://www.spadelhi.com/swedish-massage-vs-deep-tissue-massage" },
+  ],
+};
+
 export const metadata = {
   title: "Swedish vs Deep Tissue Massage - Which Is Right for You | Spa Delhi",
   description: "Swedish massage vs deep tissue massage compared - key differences & benefits explained for Delhi readers. Trusted guidance from Spa Delhi's therapists. Read now!",
@@ -21,5 +31,14 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Swedishvsdeeptissue />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-swedish-massage-vs-deep-tissue-massage"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Swedishvsdeeptissue />
+    </>
+  );
 }

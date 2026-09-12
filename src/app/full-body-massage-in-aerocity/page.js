@@ -48,6 +48,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Full Body Massage in Aerocity", item: "https://www.spadelhi.com/full-body-massage-in-aerocity" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Full Body Massage",
+  name: "Full Body Massage in Aerocity",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Aerocity",
+  description:
+    "Full body massage in Aerocity near IGI Airport Terminal 3 for complete relaxation, with certified therapists and hotel or outlet options.",
+};
+
 export default function page() {
   return (
     <>
@@ -55,6 +80,16 @@ export default function page() {
         id="faq-schema-full-body-aerocity"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-full-body-massage-in-aerocity"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-full-body-massage-in-aerocity"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <FullBodyMassageAerocityPage />
     </>

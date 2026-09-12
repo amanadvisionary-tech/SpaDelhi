@@ -49,6 +49,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Deep Tissue Massage in Karol Bagh", item: "https://www.spadelhi.com/deep-tissue-massage-in-karol-bagh" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Deep Tissue Massage",
+  name: "Deep Tissue Massage in Karol Bagh",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Karol Bagh",
+  description:
+    "Deep tissue massage in Karol Bagh near Karol Bagh Metro for chronic pain and muscle knots, with certified therapists in private hygienic rooms.",
+};
+
 export default function page() {
   return (
     <>
@@ -56,6 +81,16 @@ export default function page() {
         id="faq-schema-deep-tissue-karol-bagh"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-deep-tissue-massage-in-karol-bagh"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-deep-tissue-massage-in-karol-bagh"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <DeepTissueKarolBaghPage />
     </>

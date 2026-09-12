@@ -26,6 +26,16 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Best Spa Services in Delhi NCR", item: "https://www.spadelhi.com/blog/best-spa-service-in-delhi-ncr" },
+  ],
+};
+
 const faqs = [
   {
     question: "1. What are the best spa services in Delhi NCR?",
@@ -80,6 +90,11 @@ const relatedBlogs = [
 export default function BestSpaServicesDelhiNCR() {
   return (
     <>
+    <script
+        id="breadcrumb-schema-best-spa-service-in-delhi-ncr"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
     <style>{`
         html{
           scroll-behavior:smooth;

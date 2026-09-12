@@ -48,6 +48,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Swedish Massage in Rajouri Garden", item: "https://www.spadelhi.com/swedish-massage-in-rajouri-garden" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Swedish Massage",
+  name: "Swedish Massage in Rajouri Garden",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Rajouri Garden",
+  description:
+    "Swedish massage in Rajouri Garden near City Square Mall for gentle, full body relaxation, with certified therapists in a hygienic setting.",
+};
+
 export default function page() {
   return (
     <>
@@ -55,6 +80,16 @@ export default function page() {
         id="faq-schema-swedish-rajouri-garden"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-swedish-massage-in-rajouri-garden"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-swedish-massage-in-rajouri-garden"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <SwedishMassageRajouriGardenPage />
     </>

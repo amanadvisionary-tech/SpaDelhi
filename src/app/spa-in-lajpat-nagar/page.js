@@ -1,6 +1,16 @@
 import Lajpatpage from "./Lajpatpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Lajpat Nagar", item: "https://www.spadelhi.com/spa-in-lajpat-nagar" },
+  ],
+};
+
 export const metadata = {
   title: "Spa in Lajpat Nagar - Best Body Massage Centre | Spa Delhi",
   description: "Spa in Lajpat Nagar offering B2B, full body & sandwich massage services. Trusted certified therapists in a comfortable setting. Book your session today!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Lajpatpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-spa-in-lajpat-nagar"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Lajpatpage />
+    </>
+  );
 }

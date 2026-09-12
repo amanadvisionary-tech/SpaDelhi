@@ -1,6 +1,16 @@
 import Healthbenefits from "./Healthbenefits";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Health Benefits of Sandwich Massage", item: "https://www.spadelhi.com/health-benefits-of-sandwich-massage" },
+  ],
+};
+
 export const metadata = {
   title: "Health Benefits of Sandwich Massage - Deep Relaxation | Spa Delhi",
   description: "Health benefits of sandwich massage in Delhi - deep relaxation, better circulation & pain relief from two therapists in sync. Learn more and book your session!",
@@ -21,5 +31,14 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Healthbenefits />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-health-benefits-of-sandwich-massage"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Healthbenefits />
+    </>
+  );
 }

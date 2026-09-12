@@ -123,51 +123,51 @@ const hotelOutlets = [
 const locations = [
   {
     name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
+    image: "/images/TheSuryaaNewDelhi(NFC).webp",
     description: "Lajpat Nagar the city is regarded to be the place of the most excellent massage treatments with professional attention and relaxing environment.",
-    link: "https://wa.me/9217255113"
+    link: "/spa-in-lajpat-nagar"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.webp",
     description: "Spa in Aerocity, in which Spa Delhi provides a wide range of luxury services and well-being to all clients.",
-    link: "https://wa.me/9217255113"
-  },
-  {
-    name: "Paschim Vihar",
-    image: "/images/TheParkConnaughtPlace.webp",
-    description: "Take a break and refuel at Paschim Vihar with Spa Delhi through a special massage session to regain your lost energy.",
-    link: "https://wa.me/9217255113"
+    link: "/spa-in-aerocity"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
-    description: "Experience a serene escape in Rohini with Spa Delhi’s expertly delivered massage services for body and mind.",
-    link: "https://wa.me/9217255113"
+    description: "Experience a serene escape in Rohini with Spa Delhi's expertly delivered massage services for body and mind.",
+    link: "/spa-in-rohini"
   },
   {
     name: "Paharganj",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
+    image: "/images/TheSuryaaNewDelhi(NFC).webp",
     description: "Get the high-quality spa in Paharganj, which are stress reliever and soothing.",
-    link: "https://wa.me/9217255113"
+    link: "/spa-in-paharganj"
   },
   {
     name: "Pitampura",
     image: "/images/NovotelNewDelhiAerocity.webp",
     description: "At Spa Delhi, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
-    link: "https://wa.me/9217255113"
+    link: "/spa-in-pitampura"
   },
   {
-    name: "Paschim Vihar",
+    name: "Dwarka",
     image: "/images/TheParkConnaughtPlace.webp",
-    description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/9217255113"
+    description: "Take a break and refuel in Dwarka with Spa Delhi through a special massage session to regain your lost energy.",
+    link: "/spa-in-dwarka"
   },
   {
-    name: "Rohini",
-    image: "/images/TheGrandNewDelhi.webp",
-    description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/9217255113"
+    name: "Noida",
+    image: "/images/TheParkConnaughtPlace.webp",
+    description: "Experience rejuvenation at our elegant spa in Noida, covering Sector 18 and Greater Noida.",
+    link: "/spa-in-noida"
+  },
+  {
+    name: "Greater Kailash",
+    image: "/images/jwmarriott.jpeg",
+    description: "Escape to serenity at our luxurious spa in Greater Kailash, covering both GK-1 and GK-2.",
+    link: "/spa-in-greater-kailash"
   }
 ];
 const teamMembers = [
@@ -272,17 +272,24 @@ export default function Outpage() {
   // Features for the 18+ section  
   const cities = [
 { name: 'DELHI', img: '/images/hotel3.webp', href: '/massage-service-in-delhi' },
-{ name: 'LAJPATNAGAR', img: '/images/lajpatnagahotel.avif', href: '/spa-in-lajpat-nagar' },
+{ name: 'LAJPAT NAGAR', img: '/images/lajpatnagahotel.avif', href: '/spa-in-lajpat-nagar' },
 { name: 'AEROCITY', img: '/images/RoseateHouse.jpg', href: '/spa-in-aerocity' },
-{ name: 'PASHIMVIVAR', img: '/images/paschimvihar.jpg', href: '/contact' },
-{ name: 'CP', img: '/images/JwMarriott_CP.jpg', href: '/spa-in-connaught-place' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg', href: '/contact' },
+{ name: 'CONNAUGHT PLACE', img: '/images/JwMarriott_CP.jpg', href: '/spa-in-connaught-place' },
 { name: 'GURGAON', img: '/images/holidayIn_CP.jpg', href: '/spa-in-gurgaon' },
+{ name: 'NOIDA', img: '/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg', href: '/spa-in-noida' },
 { name: 'KALKAJI', img: '/images/tajmahalhotel_lajpatnagar.jpg', href: '/spa-in-kalkaji' },
 { name: 'KAROL BAGH', img: '/images/paschimvihar.jpg', href: '/spa-in-karol-bagh' },
-{ name: 'MAHIPALPURE', img: '/images/hotel2.jpg', href: '/contact' },
-{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg', href: '/contact' },
+{ name: 'MAHIPALPUR', img: '/images/hotel2.jpg', href: '/spa-in-mahipalpur' },
+{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg', href: '/spa-in-rohini' },
 { name: 'GREATER KAILASH', img: '/images/jwmarriott.jpeg', href: '/spa-in-greater-kailash' },
+{ name: 'DWARKA', img: '/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg', href: '/spa-in-dwarka' },
+{ name: 'PITAMPURA', img: '/images/spa-in-pitampura.png', href: '/spa-in-pitampura' },
+{ name: 'PAHARGANJ', img: '/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg', href: '/spa-in-paharganj' },
+{ name: 'RAJOURI GARDEN', img: '/images/spa-in-Rajouri-Garden.webp', href: '/spa-in-rajouri-garden' },
+{ name: 'VASANT KUNJ', img: '/images/pexels-olly-3673941.jpg', href: '/spa-in-vasant-kunj' },
+{ name: 'JANAKPURI', img: '/images/pexels-pavel-danilyuk-9119782.jpg', href: '/spa-in-janakpuri' },
+{ name: 'UTTAM NAGAR', img: '/images/pexels-reza-khavarani-115341161-12310632.jpg', href: '/spa-in-uttam-nagar' },
+{ name: 'SAKET', img: '/images/Reflexology.jpg', href: '/spa-in-saket' },
 ]
   return (
     <>
@@ -848,19 +855,18 @@ View All Services
       
                     {/* Location Content */}
                     <div className="p-6 text-center">
-                      <h3 className="text-2xl font-bold text-amber-900 mb-2 font-serif">{location.name}</h3>
+                      <h3 className="text-2xl font-bold text-amber-900 mb-2 font-serif">
+                        <a href={location.link} className="hover:text-amber-600 transition-colors">{location.name}</a>
+                      </h3>
                       <p className="text-gray-700 text-base mb-4">{location.description}</p>
-                      {/* <a
+                      <a
                         href={location.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-5 rounded-full text-base transition-all"
+                        className="mb-3 inline-flex items-center gap-2 text-amber-700 font-medium hover:underline"
                       >
-                        <FaWhatsapp className="text-lg" />
-                        Book on WhatsApp
-                      </a> */}
-                      <a 
-                              href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                        View Spa in {location.name} →
+                      </a>
+                      <a
+                              href="https://t.me/+a5Bu6FBPN9FlOWM9"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"

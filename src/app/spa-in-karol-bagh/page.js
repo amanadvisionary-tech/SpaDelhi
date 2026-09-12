@@ -1,6 +1,16 @@
 import KarolBaghPage from "./KarolBaghPage";
 // src/app/spa-in-karol-bagh/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Karol Bagh", item: "https://www.spadelhi.com/spa-in-karol-bagh" },
+  ],
+};
+
 export const metadata = {
   title: "Spa in Karol Bagh - Full Body Massage From ₹1999 | Spa Delhi",
   description: "Spa in Karol Bagh, Central Delhi for full body, deep tissue & couple massage. Certified therapists in a private, hygienic setting. Book from ₹1999 today!",
@@ -21,5 +31,14 @@ export const metadata = {
 };
 
 export default function page() {
-  return <KarolBaghPage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-spa-in-karol-bagh"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <KarolBaghPage />
+    </>
+  );
 }

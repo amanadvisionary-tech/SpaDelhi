@@ -56,6 +56,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Full Body Massage in Delhi", item: "https://www.spadelhi.com/full-body-massage-in-delhi" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Full Body Massage",
+  name: "Full Body Massage in Delhi",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Delhi",
+  description:
+    "Affordable full body massage in Delhi at 24+ outlets, with luxury hotel and home spa options and certified therapists, from ₹1999.",
+};
+
 export default function page() {
   return (
     <>
@@ -63,6 +88,16 @@ export default function page() {
         id="faq-schema-full-body-massage-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-full-body-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-full-body-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <Fullbodypage />
     </>

@@ -1,6 +1,16 @@
 import Abpage from "./Abpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.spadelhi.com/about-us" },
+  ],
+};
+
 export const metadata = {
   title: "Best Spa in Delhi - 5-Star Outlets Across Delhi NCR | Spa Delhi",
   description: "Best spa in Delhi with 5-star outlets across Delhi NCR. Relaxing body, couple & ayurvedic therapies by certified therapists. Discover our story - book now!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Abpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-about-us"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Abpage />
+    </>
+  );
 }

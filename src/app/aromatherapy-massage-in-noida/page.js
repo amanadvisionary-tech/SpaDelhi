@@ -48,6 +48,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Aromatherapy Massage in Noida", item: "https://www.spadelhi.com/aromatherapy-massage-in-noida" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Aromatherapy Massage",
+  name: "Aromatherapy Massage in Noida",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Noida",
+  description:
+    "Aromatherapy massage in Noida near Sector 18 for essential oil stress relief and relaxation, delivered by certified therapists in a hygienic setting.",
+};
+
 export default function page() {
   return (
     <>
@@ -55,6 +80,16 @@ export default function page() {
         id="faq-schema-aromatherapy-noida"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-aromatherapy-massage-in-noida"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-aromatherapy-massage-in-noida"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <AromatherapyMassageNoidaPage />
     </>

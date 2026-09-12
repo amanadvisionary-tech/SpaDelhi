@@ -72,21 +72,18 @@ export default function Footer() {
     Our Locations
   </h4>
 
-  <ul className="space-y-4 text-gray-400">
+  <ul className="space-y-3 text-gray-400">
     {[
-      { name: 'Aerocity', link: '/spa-in-aerocity' },
-      { name: 'Connaught Place', link: '/spa-in-connaught-place' },
-      // { name: 'Noida', link: '/spa-in-noida' },
-      // { name: 'Gurugram', link: '/spa-in-gurgaon' },
+      { name: 'Gurgaon', link: '/spa-in-gurgaon' },
+      { name: 'Noida', link: '/spa-in-noida' },
+      { name: 'Paharganj', link: '/spa-in-paharganj' },
+      { name: 'Karol Bagh', link: '/spa-in-karol-bagh' },
       { name: 'Lajpat Nagar', link: '/spa-in-lajpat-nagar' },
-      { name: 'Saket', link: '/spa-in-saket' },
-      { name: 'Rajouri Garden', link: '/spa-in-rajouri-garden' },
-      // { name: 'Pitampura', link: '/spa-in-pitampura' },
     ].map((loc, i) => (
       <li key={i} className="flex items-start break-words">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5 mr-3 text-amber-500 flex-shrink-0 mt-0.5"
+          className="h-4 w-4 mr-2 text-amber-500 flex-shrink-0 mt-0.5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -114,10 +111,13 @@ export default function Footer() {
       </li>
     ))}
   </ul>
+  <a href="/outlets" className="mt-4 inline-block text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors">
+    View All Outlets →
+  </a>
 </div>
 
 
-    {/* 5-Star Hotels Section */}
+    {/* Quick Links Section */}
     <div className="min-w-0">
   <h4 className="text-lg font-semibold mb-6 text-amber-300">
     Quick Links
@@ -126,11 +126,9 @@ export default function Footer() {
   <ul className="space-y-4 text-gray-400">
     {[
       { name: 'Home', link: '/' },
-      { name: 'Services', link: '/massage-service-in-delhi' },
+      { name: 'All Services', link: '/massage-service-in-delhi' },
       { name: 'Outlets', link: '/outlets' },
-      // { name: 'Pricing', link: '/spa-price-in-delhi' },
-      { name: 'Blog', link: '/blog' },
-      // { name: 'Is B2B Massage Legal?', link: '/is-b2b-massage-legal-in-india' },
+      { name: 'Pricing', link: '/spa-price-in-delhi' },
       { name: 'Contact', link: '/contact' },
     ].map((item, i) => (
       <li key={i} className="flex items-center space-x-2">

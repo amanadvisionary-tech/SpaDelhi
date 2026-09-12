@@ -53,6 +53,31 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "B2B Massage in Connaught Place", item: "https://www.spadelhi.com/b2b-massage-in-connaught-place" },
+  ],
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "B2B Massage",
+  name: "B2B Massage in Connaught Place",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Spa Delhi",
+    telephone: "+91-9217255113",
+    url: "https://www.spadelhi.com/",
+  },
+  areaServed: "Connaught Place",
+  description:
+    "B2B massage in Connaught Place near Rajiv Chowk Metro for genuine body to body therapy, with certified therapists and private hygienic rooms.",
+};
+
 export default function page() {
   return (
     <>
@@ -60,6 +85,16 @@ export default function page() {
         id="faq-schema-b2b-connaught-place"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-b2b-massage-in-connaught-place"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="service-schema-b2b-massage-in-connaught-place"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <B2BMassageConnaughtPlacePage />
     </>

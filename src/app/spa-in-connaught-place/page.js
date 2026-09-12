@@ -1,6 +1,16 @@
 import Conaughtpage from "./Conaughtpage";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Connaught Place", item: "https://www.spadelhi.com/spa-in-connaught-place" },
+  ],
+};
+
 export const metadata = {
   title: "Spa in Connaught Place - Full Body Massage in C.P. | Spa Delhi",
   description: "Spa in Connaught Place for full body, sandwich & B2B massage in Central Delhi. Best certified therapists offer comfort and relaxation. Book your session now!",
@@ -26,5 +36,14 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
-  return <Conaughtpage />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-spa-in-connaught-place"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Conaughtpage />
+    </>
+  );
 }

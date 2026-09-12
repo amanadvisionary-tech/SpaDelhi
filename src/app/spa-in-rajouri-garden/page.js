@@ -113,6 +113,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Rajouri Garden", item: "https://www.spadelhi.com/spa-in-rajouri-garden" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -120,6 +129,11 @@ export default function page() {
         id="faq-schema-rajouri-garden"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-rajouri-garden"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <SpaInRajourigGrden />
     </>

@@ -115,6 +115,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Mahipalpur", item: "https://www.spadelhi.com/spa-in-mahipalpur" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -122,6 +131,11 @@ export default function page() {
         id="faq-schema-mahipalpur"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-mahipalpur"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <MahipalpurPage />
     </>

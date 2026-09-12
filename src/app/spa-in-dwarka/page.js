@@ -92,7 +92,7 @@ const faqSchema = {
 export const metadata = {
   title: "Spa in Dwarka - Full Body Massage Near IGI Airport | Spa Delhi",
   description:
-    "Spa in Dwarka for full body, deep tissue & couple massage near Dwarka Sector 21 & IGI Airport. Certified therapists, hygienic private rooms, trusted service. Book your session now!",
+    "Spa in Dwarka for full body, deep tissue & couple massage near IGI Airport. Certified therapists, hygienic private rooms. Book your session now!",
   keywords: [
     "spa in dwarka",
     "massage in dwarka",
@@ -115,7 +115,7 @@ export const metadata = {
   openGraph: {
     title: "Spa in Dwarka - Full Body Massage Near IGI Airport | Spa Delhi",
     description:
-      "Spa in Dwarka for full body, deep tissue & couple massage near Dwarka Sector 21 & IGI Airport. Certified therapists, hygienic private rooms, trusted service. Book your session now!",
+      "Spa in Dwarka for full body, deep tissue & couple massage near IGI Airport. Certified therapists, hygienic private rooms. Book your session now!",
     images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-dwarka",
@@ -129,6 +129,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Dwarka", item: "https://www.spadelhi.com/spa-in-dwarka" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -136,6 +145,11 @@ export default function page() {
         id="faq-schema-dwarka"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-dwarka"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <DwarkaPage />
     </>

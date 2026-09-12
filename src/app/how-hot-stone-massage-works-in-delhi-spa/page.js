@@ -1,6 +1,16 @@
 import Hotstonemassagework from "./Hotstonemassagework";
 // src/app/page.js
 // <-- NO "use client" here -->
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "How Hot Stone Massage Works", item: "https://www.spadelhi.com/how-hot-stone-massage-works-in-delhi-spa" },
+  ],
+};
+
 export const metadata = {
   title: "How Hot Stone Massage Works - Relieve Stress & Pain | Spa Delhi",
   description: "Hot stone massage in Delhi to relax muscles, reduce stress & ease pain. Trusted certified therapists at our best-rated spa in Delhi NCR. Book your session now!",
@@ -21,5 +31,14 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Hotstonemassagework />;
+  return (
+    <>
+      <script
+        id="breadcrumb-schema-how-hot-stone-massage-works-in-delhi-spa"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Hotstonemassagework />
+    </>
+  );
 }

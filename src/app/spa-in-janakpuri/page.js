@@ -84,7 +84,7 @@ const faqSchema = {
 export const metadata = {
   title: "Spa in Janakpuri - Full Body Massage Near Metro | Spa Delhi",
   description:
-    "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms, trusted service. Book your session today!",
+    "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms. Book today!",
   keywords: [
     "spa in janakpuri",
     "massage in janakpuri",
@@ -104,7 +104,7 @@ export const metadata = {
   openGraph: {
     title: "Spa in Janakpuri - Full Body Massage Near Metro | Spa Delhi",
     description:
-      "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms, trusted service. Book your session today!",
+      "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms. Book today!",
     images: ["https://www.spadelhi.com/images/pexels-pavel-danilyuk-9119782.jpg"],
     type: "website",
     url: "https://www.spadelhi.com/spa-in-janakpuri",
@@ -118,6 +118,15 @@ export const metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Janakpuri", item: "https://www.spadelhi.com/spa-in-janakpuri" },
+  ],
+};
+
 export default function page() {
   return (
     <>
@@ -125,6 +134,11 @@ export default function page() {
         id="faq-schema-janakpuri"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="breadcrumb-schema-spa-in-janakpuri"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <JanakpuriPage />
     </>
