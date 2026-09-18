@@ -744,7 +744,6 @@ View All Services
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />
-  <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-10 mix-blend-soft-light z-1" />
 
   <div className="relative z-10 max-w-6xl mx-auto text-[#FAF3E9]">
     {/* Elegant heading with decorative elements */}
@@ -935,7 +934,6 @@ View All Services
       
       {/* CTA Section */}
       {/* <section className="py-16 px-4 relative">
-        <div className="absolute inset-0 bg-[url('/texture.png')] opacity-10 z-0"></div>
         <div className="max-w-5xl mx-auto relative z-10 bg-gradient-to-r from-[#5d7a68] to-[#7d9c87] rounded-2xl p-12 text-center">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-serif font-light text-white mb-6">

@@ -368,10 +368,12 @@ export default function DeepTissueMassagePage() {
                   <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
                     <div className="bg-white p-6 rounded-2xl shadow-sm">
                       <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                        <img
+                        <Image
                           src="/images/2147816920.jpg"
                           alt="Deep Tissue Massage Technique for Muscle Relief"
-                          className="w-full h-full object-cover rounded-xl"
+                          fill
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          className="object-cover rounded-xl"
                         />
                         <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
                           Most Requested

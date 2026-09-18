@@ -76,7 +76,6 @@ const LuxuryHotelShowcase = ({
             className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-gradient-to-br from-amber-800 to-amber-900 min-h-[500px]"
           >
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-            <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
             <div className="relative z-10 p-8 h-full flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-start mb-6">

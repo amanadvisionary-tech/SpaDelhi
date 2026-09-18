@@ -308,10 +308,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     {/* Image section */}
     <div className="relative h-80 md:h-96 lg:h-[450px]">
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-        <img
+        <Image
           src="/images/couple-bathrobes-posing-embraced.jpg"
           alt="Couple Massage Spa"
-          className="w-full h-full object-cover"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover"
         />
       </div>
 

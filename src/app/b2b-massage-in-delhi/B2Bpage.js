@@ -86,7 +86,6 @@ export default function B2Bpage() {
     <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
-        <div className="absolute inset-0 bg-[url('/images/446979.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">

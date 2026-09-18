@@ -1404,7 +1404,6 @@ export default function Aboutpage({
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />
-  <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-10 mix-blend-soft-light z-1" />
 
   <div className="relative z-10 max-w-6xl mx-auto text-[#FAF3E9]">
     {/* Elegant heading with decorative elements */}
