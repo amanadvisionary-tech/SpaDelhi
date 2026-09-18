@@ -82,7 +82,7 @@ const hotelOutlets = [
       title: "Spa in Lajpat Nagar",
       location: "Central Market, Lajpat Nagar Metro Gate No. 1",
       phone: "+91 9217255113",
-       image: "/images/hb3.jpg",
+       image: "/images/spa-in-lajpat-nagar.webp",
     },
     {
       id: 2,
@@ -740,7 +740,7 @@ View All Services
 {/* 18+ Section */}
           <section 
   className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
-  style={{ backgroundImage: "url('/images/18+bodyspa.avif')" }}
+  style={{ backgroundImage: "url('/images/luxurySpaRoom.jpg')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />

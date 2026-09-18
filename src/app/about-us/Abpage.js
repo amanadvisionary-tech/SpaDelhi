@@ -103,7 +103,7 @@ const teamMembers = [
   {
     name: "Chelsea Foster",
     designation: "Spa Therapist",
-    image: "/images/spamodel.jpg",
+    image: "/images/staff1.jpg",
     socials: {
       facebook: "https://facebook.com",
       instagram: "https://instagram.com",
@@ -123,7 +123,7 @@ const teamMembers = [
   {
     name: "Haven West",
     designation: "Spa Therapist",
-    image: "/images/spamodel2.jpg",
+    image: "/images/staff2.jpg",
     socials: {
       facebook: "https://facebook.com",
       instagram: "https://instagram.com",
@@ -133,7 +133,7 @@ const teamMembers = [
   {
     name: "Avery Grace",
     designation: "Spa Therapist",
-    image: "/images/spaExpert4.jpg",
+    image: "/images/staff3.jpg",
     socials: {
       facebook: "https://facebook.com",
       instagram: "https://instagram.com",
@@ -251,7 +251,7 @@ const specialFeatures = [
 // const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
 
 export default function Abpage({
-  imageSrc = '/images/spa-hero.jpg',
+  imageSrc = '/images/staff5.jpg',
   alt = 'Relaxing spa treatment',
   title = 'Our Team of Certified Indian & International Therapists',
   subtitle = 'Rejuvenate your body and mind with our signature therapies designed for ultimate comfort and wellness.',
@@ -1417,7 +1417,7 @@ export default function Abpage({
                     {/* 18+ Exclusive Section */}
       <section 
   className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
-  style={{ backgroundImage: "url('/images/18+bodyspa.avif')" }}
+  style={{ backgroundImage: "url('/images/luxurySpaRoom.jpg')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />
