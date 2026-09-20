@@ -7,7 +7,7 @@
   import { Check } from "lucide-react";
   // import WhatsappFloat from '../components/WhatsappFloat';
   import WhatsappFloat from '../components/WhatsappFloat';
-  import { Spa, SpaOutlined, SelfImprovement, HealthAndSafety, Air } from '@mui/icons-material';
+  import { MdSpa as Spa, MdSelfImprovement as SelfImprovement, MdHealthAndSafety as HealthAndSafety, MdAir as Air } from 'react-icons/md';
   import { ArrowRight } from 'lucide-react';
 import { FaCrown } from 'react-icons/fa';
 import { FaSpa, FaHotel, FaStar, FaCheckCircle } from "react-icons/fa";

@@ -1,6 +1,4 @@
-import { WhatsApp } from "@mui/icons-material";
-import { Instagram, Linkedin, Youtube } from "lucide-react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 import { Hotel } from "lucide-react";
  
 
@@ -18,7 +16,7 @@ export default function Footer() {
 
   {
     name: "WhatsApp",
-    icon: <WhatsApp className="text-green-500 w-6 h-6" />,
+    icon: <FaWhatsapp className="text-green-500 w-6 h-6" />,
     link: "https://api.whatsapp.com/send?phone=919217255113"
   },
 
@@ -44,7 +42,7 @@ export default function Footer() {
         <span className="text-amber-500">Spa</span>
         <span className="ml-2">Delhi</span>
       </h3>
-      <p className="text-gray-400 mb-6">Luxury spa experiences for complete rejuvenation in the heart of Delhi.</p>
+      <p className="text-gray-300 mb-6">Luxury spa experiences for complete rejuvenation in the heart of Delhi.</p>
 
       {/* Icons: flex-wrap + gap so they don't overlap */}
       <div className="flex flex-wrap items-center justify-start gap-3">
@@ -72,7 +70,7 @@ export default function Footer() {
     Our Locations
   </h4>
 
-  <ul className="space-y-3 text-gray-400">
+  <ul className="space-y-3 text-gray-300">
     {[
       { name: 'Gurgaon', link: '/spa-in-gurgaon' },
       { name: 'Noida', link: '/spa-in-noida' },
@@ -123,7 +121,7 @@ export default function Footer() {
     Quick Links
   </h4>
 
-  <ul className="space-y-4 text-gray-400">
+  <ul className="space-y-4 text-gray-300">
     {[
       { name: 'Home', link: '/' },
       { name: 'All Services', link: '/massage-service-in-delhi' },
@@ -148,7 +146,7 @@ export default function Footer() {
     {/* Contact Us Section */}
     <div className="min-w-0">
       <h4 className="text-lg font-semibold mb-6 text-amber-300">Contact Us</h4>
-      <ul className="space-y-4 text-gray-400">
+      <ul className="space-y-4 text-gray-300">
         <li className="flex items-start">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3 text-amber-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -166,7 +164,7 @@ export default function Footer() {
   </div>
 
   {/* Bottom Copyright Section */}
-  <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 relative z-10">
+  <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-800 text-center text-gray-400 relative z-10">
     <p>&copy; {new Date().getFullYear()} Spa Delhi. All rights reserved.</p>
   </div>
 </footer>

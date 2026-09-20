@@ -69,6 +69,7 @@ export default function Navbar() {
             href="https://www.instagram.com/delhi.luxury_spa/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Follow Spa Delhi on Instagram"
           >
             <FaInstagram size={20} />
           </a>
@@ -76,6 +77,7 @@ export default function Navbar() {
             href="https://api.whatsapp.com/send?phone=919217255113"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Book on WhatsApp"
           >
             <FaWhatsapp size={20} />
           </a>

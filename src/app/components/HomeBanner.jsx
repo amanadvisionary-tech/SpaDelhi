@@ -41,16 +41,18 @@ export default function HomeBanner() {
                 src={slide.image}
                 alt={slide.title}
                 fill
+                sizes="100vw"
                 priority={i === 0}
+                loading={i === 0 ? undefined : "lazy"}
                 className="object-cover"
               />
 
               <div className="absolute inset-0 bg-black/50" />
 
               <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 z-10">
-                <h2 className="text-white text-2xl md:text-5xl font-bold max-w-3xl mb-6">
+                <p className="text-white text-2xl md:text-5xl font-bold max-w-3xl mb-6">
                   {slide.title}
-                </h2>
+                </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a

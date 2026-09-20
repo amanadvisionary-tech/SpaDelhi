@@ -101,6 +101,7 @@ export default function HomeTherapyest() {
     href={member.socials.whatsapp}
     target="_blank"
     rel="noopener noreferrer"
+    aria-label={`Message ${member.name} on WhatsApp`}
     className="text-gray-600 hover:text-green-600 transition"
   >
     <FaWhatsapp size={22} />
@@ -110,6 +111,7 @@ export default function HomeTherapyest() {
     href={member.socials.telegram}
     target="_blank"
     rel="noopener noreferrer"
+    aria-label={`Message ${member.name} on Telegram`}
     className="text-gray-600 hover:text-sky-500 transition"
   >
     <FaTelegramPlane size={22} />
