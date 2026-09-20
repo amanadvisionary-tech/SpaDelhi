@@ -290,6 +290,12 @@ export default function Outpage() {
 { name: 'JANAKPURI', img: '/images/pexels-pavel-danilyuk-9119782.jpg', href: '/spa-in-janakpuri' },
 { name: 'UTTAM NAGAR', img: '/images/pexels-reza-khavarani-115341161-12310632.jpg', href: '/spa-in-uttam-nagar' },
 { name: 'SAKET', img: '/images/Reflexology.jpg', href: '/spa-in-saket' },
+{ name: 'FARIDABAD', img: '/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg', href: '/spa-in-faridabad' },
+{ name: 'PASCHIM VIHAR', img: '/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg', href: '/spa-in-paschim-vihar' },
+{ name: 'PUNJABI BAGH', img: '/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg', href: '/spa-in-punjabi-bagh' },
+{ name: 'PREET VIHAR', img: '/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg', href: '/spa-in-preet-vihar' },
+{ name: 'LAXMI NAGAR', img: '/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg', href: '/spa-in-laxmi-nagar' },
+{ name: 'HAUZ KHAS', img: '/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg', href: '/spa-in-hauz-khas' },
 ]
   return (
     <>

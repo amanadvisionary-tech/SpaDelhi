@@ -11,6 +11,53 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is included in a couples massage in Delhi?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A couples massage in Delhi at Spa Delhi includes personalised treatment, calming oils, and a private room with two massage tables so you and your partner can relax together.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does a couple massage session last?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Most sessions run 60 to 90 minutes, with longer customised couple spa packages in Delhi also available.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the couple spa in Delhi offered in a private room?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, every couple massage spa Delhi session takes place in a dedicated private room designed for two, ensuring full privacy and comfort.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer couple spa in Delhi NCR, including Gurgaon and Noida?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our couple spa in Delhi NCR coverage includes outlets in Gurgaon and Noida in addition to Delhi.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What makes Spa Delhi the best couple spa in Delhi?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Experienced therapists, genuinely private rooms, quality oils, and transparent pricing make Spa Delhi a consistent choice for the best couple massage in Delhi.",
+      },
+    },
+  ],
+};
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -28,12 +75,25 @@ const serviceSchema = {
 };
 
 export const metadata = {
-  title: "Couple Massage in Delhi - Relax Together From ₹1999 | Spa Delhi",
-  description: "Couple massage in Delhi at our Karol Bagh spa for partners to relax together. Certified therapists, private hygienic rooms, trusted service. Book your slot now!",
-  keywords: ["couples massage in delhi", "couple massage delhi", "female to male massage delhi", "couple spa delhi"],
+  title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Spa Delhi",
+  description: "Couples massage in Delhi at our best couple spa outlets. Certified therapists, private hygienic rooms, couple spa packages across Delhi NCR. Book your slot now!",
+  keywords: [
+    "couples massage in delhi",
+    "couple spa in delhi",
+    "best couple spa in delhi",
+    "best couple spa in delhi ncr",
+    "couple spa in delhi ncr",
+    "best couple massage in delhi",
+    "best couple massage spa in delhi",
+    "couple body massage in delhi",
+    "couple body spa in delhi",
+    "couple massage spa delhi",
+    "couple spa packages delhi",
+    "female to male massage delhi",
+  ],
   openGraph: {
-    title: "Couple Massage in Delhi | Female to male Couple Massage",
-    description: "Looking for a couple massage in Delhi? Visit our spa in Karol bagh for the best couples massage. We have certified therapists to provide you perfect relaxation.",
+    title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Spa Delhi",
+    description: "Looking for the best couple spa in Delhi? Certified therapists, private rooms, and couple spa packages across Delhi, Gurgaon & Noida.",
     images: ["https://www.spadelhi.com/images/Couple%20Massage.webp"],
     type: "website",
   },
@@ -63,6 +123,11 @@ export default function page() {
         id="service-schema-couples-massage-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        id="faq-schema-couples-massage-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <Couplepage />
     </>

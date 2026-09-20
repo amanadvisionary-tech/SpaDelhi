@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { FaSpa, FaHotel, FaCrown, FaCheckCircle, FaStar,FaHotTub } from "react-icons/fa";
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 import WhatsappFloat from '../components/WhatsappFloat';
   import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
   import { AnimatePresence } from "framer-motion";
@@ -50,31 +51,29 @@ export default function Pricpage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   const faqs = [
-      
       {
-        question: "Where can I view Spa Price in Delhi?",
-        answer: "You can See spa prices on our pricing page. Our spa prices in Delhi are very affordable and competitive for our clients. We launch first-visit offers and seasonal discounts for spa sessions.",
+        question: "What is the spa price in Delhi for a first visit?",
+        answer: "Our spa price in Delhi starts from ₹1999 for a first-visit session. Pricing is transparent with no hidden charges, and we regularly run first-visit offers and seasonal discounts.",
         icon: <FaSpa className="text-teal-600" />
       },
       {
-        question: "What is the full Body massage price in karol bagh?",
-        answer: "Full body massage price in karol bagh is very affordable. You can contact our support team to provide the best prices for full body massage. Our full body massage started in just 1999.",
+        question: "What is the full body massage price in Karol Bagh?",
+        answer: "A full body massage at our Karol Bagh outlet starts from ₹1999. Reach out to our support team on WhatsApp for the exact price based on the treatment and duration you want.",
         icon: <FaHandSparkles className="text-teal-600" />
       },
-      
       {
         question: "Do you offer package discounts and combos?",
-        answer: "Yes, If you book a combo session then we will provide you extra discount on combo pack or more than one session. Check current deals on the Pricing page or during booking for the best value.",
+        answer: "Yes, booking a combo session or more than one treatment together unlocks an extra discount. Check the pricing packages above, or ask our team while booking for the best current deal.",
         icon: <FaLeaf className="text-teal-600" />
       },
       {
         question: "Do you run seasonal promotions on pricing?",
-        answer: "Yes we run seasonal and festival promotions. Where you can get huge discounts on combo packs and normal spa sessions. For more price related details show on the above.",
+        answer: "Yes, we run seasonal and festival promotions with discounts on both combo packs and regular sessions. Message us on WhatsApp for whatever offer is currently running.",
         icon: <FaSpa className="text-teal-600" />
       },
       {
-            question: "What are female to male spa prices in Noida?",
-            answer: "Noida is the best location to remove your work stress. Our female to male spa prices in noida are very affordable for all our clients and corporate employees. Call us on our number and book your relaxation time.",
+            question: "What are the spa prices in Noida?",
+            answer: "Our Noida outlet offers the same transparent pricing as Delhi, starting from ₹1999, with both male and female therapist options for corporate employees and residents nearby.",
             icon: <FaHotTub className="text-teal-600" />
           },
           {
@@ -116,27 +115,31 @@ export default function Pricpage() {
     const outlets = [
   {
     title: 'Aerocity',
-    description: 'Experience the ultimate spa in Aerocity Delhi without straining your wallet—our transparent spa price in Aerocity lists every Thai massage, couple spa and full-body ritual up-front, making us the best spa in Aerocity with price honesty. Open inside luxury hotels near IGI, we deliver 24×7 body-spa in Aerocity with price menus that start at just ₹1,999 and include free steam & shower.',
+    description: 'Our Aerocity outlet lists every Thai massage, couple spa, and full-body session with clear, upfront pricing — no surprises. Set inside luxury hotels near IGI Airport, we run 24×7 with sessions starting at ₹1,999, including a complimentary steam and shower.',
     image: '/images/RoseateHouse.jpg',
     link: 'https://api.whatsapp.com/send?phone=919217255113',
+    pageLink: '/spa-in-aerocity',
   },
   {
     title: 'New Friends Colony (NFC)',
-    description: 'Looking for a spa in New Friends Colony with price clarity? Our NFC centre lists every body-spa, Swedish and couple spa in New Friends Colony price board online, so “spa near me with price” searches end here. Rated best spa in NFC with price fairness, we offer hotel-style rooms, organic oils and late-night slots, keeping full-body massage in New Friends Colony price-friendly from ₹1,799.',
+    description: 'Our New Friends Colony centre publishes its full body-spa, Swedish, and couple massage pricing online, so there\'s nothing to guess before you arrive. Expect hotel-style rooms, organic oils, and late-night slots, with full body massage starting from ₹1,799.',
     image: '/images/fpkdl.com_960_1758981740_exterior-view-bellagio-caesars-palace-hotel-las-vegas-nevada-march-6-2024_943860-2321.jpg',
     link: 'https://api.whatsapp.com/send?phone=919217255113',
+    pageLink: null,
   },
   {
     title: 'Connaught Place',
-    description: 'Right on Janpath, our spa in Connaught Place with price transparency welcomes shoppers and office-goers alike. Check live Thai massage price in Connaught Place or book a couple spa in CP price plan starting ₹2,099; both include shower, steam & complimentary foot ritual. The centrally located retreat is voted best spa in Connaught Place with price honesty and 60-120 min body-spa in CP with price deals running daily.',
+    description: 'Right on Janpath, our Connaught Place outlet welcomes shoppers and office-goers with clear, upfront pricing. Book a Thai massage or a couple spa session from ₹2,099, both including a shower, steam, and complimentary foot ritual. Sessions run 60 to 120 minutes, daily.',
     image: '/images/pexels-pavel-danilyuk-9119782.jpg',
     link: 'https://api.whatsapp.com/send?phone=919217255113',
+    pageLink: '/spa-in-connaught-place',
   },
   {
     title: 'Grand Vasant Kunj',
-    description: 'Unwind at the luxury spa in Vasant Kunj with price tags you can trust. Hidden inside premium malls, we publish every full-body massage in Vasant Kunj price online—no hidden costs. Choose solo or couple spa in Vasant Kunj price packages from ₹1,899, enjoy Himalayan salt rooms, Thai therapists and free pickup within 5 km. It’s why locals call us the best spa in Vasant Kunj with price integrity and five-star hygiene.',
+    description: 'Tucked inside premium malls in Vasant Kunj, we publish every full-body massage rate online — no hidden costs. Solo and couple packages start from ₹1,899, with Himalayan salt rooms, Thai therapists, and free pickup within 5 km.',
     image: '/images/lajpatnagar.jpg',
     link: 'https://api.whatsapp.com/send?phone=919217255113',
+    pageLink: '/spa-in-vasant-kunj',
   },
 ];
 const teamMembers = [
@@ -220,9 +223,9 @@ const teamMembers = [
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-center px-4">
         <h1
-          className={`text-1xl md:text-3xl font-bold text-white leading-tight ${playfair.variable} font-serif`}
+          className={`text-3xl md:text-5xl font-bold text-white leading-tight ${playfair.variable} font-serif`}
         >
-         Discover Affordable Luxury. Explore Our Spa Service Prices Today!
+         Spa Price in Delhi — Clear, Honest Rates From ₹1999
         </h1>
         <p
           className={`mt-6 text-lg md:text-1xl text-white/90 font-light ${montserrat.variable}`}
@@ -393,7 +396,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Our Massage with <span className="text-amber-600">Full Service Price in Delhi, Noida and Gurgaon</span>
+                      Full Service Pricing — <span className="text-amber-600">Delhi, Noida &amp; Gurgaon</span>
                     </motion.h2>
                     <motion.p
                       className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -707,7 +710,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Best Spa in Delhi with Price <span className="text-amber-600">– Spa Price in Delhi that Fits Your Pocket</span>
+                      What's Included in <span className="text-amber-600">Every Session</span>
                     </motion.h2>
                     <motion.p
                       className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -737,7 +740,7 @@ const teamMembers = [
             <Flower2 className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Aroma Therapy</h3>
             <p className="text-gray-900">
-            Sweet smell oils like lavender and lemongrass go into skin, head feels light and mood turns happy. 60-minute aroma therapy is only ₹1,999 first visit, plus free steam. Search “spa price in Delhi” and you will see we are top.
+            Warm lavender and lemongrass oils ease tension and lift your mood. A 60-minute aromatherapy session is ₹1,999 on your first visit, with a complimentary steam included.
             </p>
           </div>
 
@@ -745,7 +748,7 @@ const teamMembers = [
             <Bath className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Luxury Spa Bath</h3>
             <p className="text-gray-900">
-              Big tub, warm water, rose petals and jet spray on back; feels like Goa holiday. We add free head massage. First-time guest pays only ₹1,999, so when you type “best spa in Delhi with price” you find this deal again.
+              A deep soaking tub with warm water, rose petals, and a jet spray for your back — plus a complimentary head massage. First-time guests pay just ₹1,999.
             </p>
           </div>
 
@@ -753,7 +756,7 @@ const teamMembers = [
             <HeartHandshake className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Healing Massage</h3>
             <p className="text-gray-900">
-              Strong but sweet hands press knots, blood runs fast and pain runs away. 60-minute healing massage costs ₹1,999 today, upgrade to 90 min only ₹499 extra. Google “full body massage in Delhi price” and our name pops first.
+              Firm, focused pressure releases muscle knots and improves circulation. A 60-minute healing massage is ₹1,999, with a 90-minute upgrade available for just ₹499 more.
             </p>
           </div>
 
@@ -775,7 +778,7 @@ const teamMembers = [
           className="space-y-6"
         >
           <h2 className="text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
-            Best Spa in Delhi with Price <span className="text-amber-600">– Clear Spa Price in Delhi for Thai, Couple & Full Body Massage</span>
+            Thai, Couple &amp; Full Body Massage <span className="text-amber-600">— Priced Simply</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             Confused about spa pricing in Delhi? We keep it simple with a clear price card and no hidden charges. Thai massage is a flat ₹1,999 for a full 60-minute session, with therapists using knees, elbows, and gentle stretches to release tension from your back. A couples spa session is just ₹3,998 for two people in the same private room, with soft music and a relaxing ambience — perfect for an anniversary treat. Every first-visit option — Swedish, aromatherapy, or deep tissue — is priced the same at ₹1,999, so you can pick based on what you need rather than your budget. Want more time? A 90-minute full body massage upgrade is just ₹499 extra, still one of the most affordable in the city. We're open 11 am to 10 pm, five minutes from the metro with free parking. Book on WhatsApp and pay after your session.
@@ -826,15 +829,15 @@ const teamMembers = [
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/185.jpg" // apni image ka path daalna
-              alt="Delhi Girl Lifestyle"
+              src="/images/luxurySpaRoom.jpg"
+              alt="Spa Pricing in Delhi - Private Treatment Room"
               width={600}
               height={600}
               className="object-cover rounded-3xl"
             />
           </div>
           <div className="absolute -bottom-6 -left-6 bg-amber-600 text-white px-6 py-3 rounded-2xl shadow-lg font-semibold">
-            #DelhiVibes
+            ₹1,999 First Visit
           </div>
         </motion.div>
       </div>
@@ -940,11 +943,10 @@ const teamMembers = [
                   className="space-y-6"
                 >
                   <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif">
-                   Massage with Full Service Price in Delhi – Only ₹1,999, Best Spa in Delhi with Price
-
+                   Full Body Massage in Delhi — Straightforward Pricing
                   </h2>
                   <p className="text-gray-700 text-lg">
-                    If you keep googling “massage with full service price in Delhi” and still feel confuse, just walk into our spa in Delhi with price written big on white board at gate. We promise no hidden cost, no tip force. For only ₹1,999 you get full 60-minute therapy—pick Swedish, aroma, deep-tissue or Thai—plus free steam shower, fresh towel and lemon-honey water. That is why Google shows us when you type best spa in Delhi with price again and again. Search full body massage in Delhi price and you will see our name on top because we give real muscle work, not just oil rub. Couples hunting couple spa in Delhi price pay only ₹3,998 for two people, same clean room, rose petals on table, soft music playing. Need longer time? 90-minute upgrade is just ₹499 extra, still cheapest body spa in Delhi with price you can find. We open 11 am to 10 pm, metro station only 5-minute walk, parking free. Friendly boys and girls at reception speak Hindi, English and Punjabi. Book on WhatsApp, get confirm in two minutes, pay after massage finish. Come once, feel light for full week—that is our simple promise.
+                    We keep our pricing simple, with the full rate posted at the door and no hidden charges or pressure to tip. Your first visit gets you a full 60-minute session — Swedish, aromatherapy, deep tissue, or Thai — for ₹1,999, along with a free steam shower, fresh towels, and lemon-honey water. Couples can book together for ₹3,998, in the same private room with soft music and rose petals on request. Want a longer session? A 90-minute upgrade is just ₹499 more. We're open 11 am to 10 pm, a five-minute walk from the metro, with free parking on-site. Reach out on WhatsApp, get your slot confirmed within minutes, and pay after your session.
                   </p>
                   
                   {/* <p className="text-gray-700 text-lg">
@@ -980,7 +982,7 @@ const teamMembers = [
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
-                    Best Spa in <span className="text-amber-600">Delhi Price</span>
+                    Best Spa in Delhi — <span className="text-amber-600">By the Numbers</span>
                   </motion.h2>
                   <motion.p
                     className="text-gray-600 max-w-2xl mx-auto text-lg"
@@ -989,7 +991,7 @@ const teamMembers = [
                     transition={{ delay: 0.1 }}
                     viewport={{ once: true }}
                   >
-                    Spa in Delhi with price—Thai, couple, full-body massage deals Aerocity NFC CP Vasant Kunj.
+                    Compare pricing across our Aerocity, New Friends Colony, Connaught Place &amp; Vasant Kunj outlets.
                   </motion.p>
                 </div>
             
@@ -1021,8 +1023,8 @@ const teamMembers = [
                         <p className="text-gray-700 text-base mb-4">
                           {outlet.description}
                         </p>
-                        <a 
-                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                        <a
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1030,6 +1032,11 @@ const teamMembers = [
                         <FaTelegram className="text-xl mr-3" />
                         Chat On Telegram
                       </a>
+                      {outlet.pageLink && (
+                        <Link href={outlet.pageLink} className="block mt-3 text-sm font-semibold text-amber-700 hover:underline">
+                          View full {outlet.title} outlet details →
+                        </Link>
+                      )}
                       </div>
                     </motion.div>
                   ))}
