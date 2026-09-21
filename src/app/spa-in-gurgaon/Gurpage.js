@@ -422,7 +422,7 @@ const SERVICES_RIGHT = [
                     </motion.h2>
                     
                     <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                      className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
@@ -575,7 +575,7 @@ whether you are here on business or for recreation; our services transform your 
         Our Massage <span className="text-amber-500">Services at Hotels in Gurgaon</span>
       </motion.h2>
       <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                      className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
@@ -1240,7 +1240,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                            </motion.h2>
                            
                            {/* <motion.p
-                             className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                             className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                              initial={{ opacity: 0, y: 20 }}
                              whileInView={{ opacity: 1, y: 0 }}
                              transition={{ delay: 0.4, duration: 0.5 }}

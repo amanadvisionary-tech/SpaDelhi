@@ -480,7 +480,7 @@ export default function Abpage({
                   </motion.h2>
                   
                   <motion.p
-                    className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                    className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
@@ -1016,7 +1016,7 @@ export default function Abpage({
           </motion.h2>
           
           <motion.p
-            className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+            className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
@@ -1081,7 +1081,7 @@ export default function Abpage({
               </div>
 
               {/* Description */}
-              <p className="text-amber-800/80 text-sm leading-relaxed mb-6">
+              <p className="text-amber-800 text-sm leading-relaxed mb-6">
                 {outlet.desc}
               </p>
               
@@ -1137,7 +1137,7 @@ export default function Abpage({
                     </motion.h2>
                     
                     <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                      className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}

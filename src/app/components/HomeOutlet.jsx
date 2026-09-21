@@ -116,7 +116,7 @@ export default function HomeOutlet() {
                </motion.h2>
                
                <motion.p
-                 className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                 className="text-amber-800 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                  initial={{ opacity: 0, y: 20 }}
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.4, duration: 0.5 }}

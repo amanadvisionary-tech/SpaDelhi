@@ -30,7 +30,7 @@ export default function HomeBannerCarousel({ slides }) {
               className="object-cover"
             />
 
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/60" />
 
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 z-10">
               <p className="text-white text-2xl md:text-5xl font-bold max-w-3xl mb-6">
