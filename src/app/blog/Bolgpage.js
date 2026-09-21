@@ -83,6 +83,20 @@ const blogs = [
   image: "/images/spa-treatments.jpg",
   link: "/blog/what-is-the-difference-between-spa-and-massage",
 },
+{
+  title: "Aromatherapy Massage Benefits: How Essential Oils Can Enhance Relaxation & Wellness",
+  description:
+    "Discover the top aromatherapy massage benefits, from stress relief and better sleep to muscle pain relief with essential oils like lavender. A complete guide to aroma relaxation massage.",
+  image: "/images/aromatherapy-featured-jpg.webp",
+  link: "/blog/aromatherapy-massage-benefits",
+},
+{
+  title: "Full Body Massage Price in Delhi: Complete, Honest Price Guide",
+  description:
+    "Confused about full body massage price in Delhi? Get a transparent breakdown of outlet, home, and couple massage charges, starting from ₹1,999, with no hidden costs.",
+  image: "/images/female-therapist-rehabilitation-center-giving-back-massage.jpg",
+  link: "/blog/full-body-massage-price-in-delhi",
+},
 ];
 
 export default function Bolgpage() {
