@@ -48,14 +48,29 @@ export default function Aeropage() {
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Can I book a hotel spa in Aerocity?",
-                        answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
+                        question: "Can I book a spa in Lemon Tree Aerocity?",
+                        answer: "Yes, Lemon Tree Premier Aerocity is one of our regular hotel outlets. Our therapist arrives directly at your room with all the equipment, so you can book a spa in Lemon Tree Aerocity along with JW Marriott, Novotel and Ibis Hotel.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {
                             question: "Can I pay online for my services?",
                             answer: "Yes, we offer secure online payment options through our website for your convenience.",
                             icon: <FaSpa className="text-teal-600" />
+                          },
+                          {
+                            question: "Do you offer a Russian spa in Aerocity?",
+                            answer: "Yes, our Aerocity russian spa sessions are handled by international therapists, including Russian, Afghani, and Uzbeki specialists, alongside our regular Indian-trained team. Message us on WhatsApp to request a russian spa aerocity session at your preferred hotel.",
+                            icon: <FaHandSparkles className="text-teal-600" />
+                          },
+                          {
+                            question: "Is there a spa near Aerocity that also covers nearby areas?",
+                            answer: "Yes, besides our aerocity spa outlets inside hotels like JW Marriott and Lemon Tree, we also cover nearby Mahipalpur and areas close to IGI Airport, so you will always find a massage spa in Aerocity within easy reach if you are searching for a spa near Aerocity.",
+                            icon: <FaLeaf className="text-teal-600" />
+                          },
+                          {
+                            question: "What makes Spa Delhi the best spa in Aerocity?",
+                            answer: "We are considered the best spa in Aerocity because of our certified therapists, transparent pricing, and presence across multiple spa in Aerocity hotels — including JW Marriott, Novotel, Lemon Tree, and Pullman — so you always get a consistent, premium experience.",
+                            icon: <FaCrown className="text-teal-600" />
                           },
                 ];
   const hotelOutlets = [
@@ -616,7 +631,7 @@ const topSteps = [
                                 </span>
                               </motion.h2>
                   <p className="text-gray-700 text-lg">
-                    Spa Delhi makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
+                    Spa Delhi makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. As one of the most trusted names for a massage spa in Aerocity, we cover every major spa in Aerocity hotels property, so wherever you are staying, our aerocity spa team is only a message away. Make your reservations now and spend a night that is memorable.
                   </p>
                   {/* <p className="text-gray-700 text-lg">
                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.

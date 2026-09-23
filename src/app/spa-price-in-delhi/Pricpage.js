@@ -81,6 +81,26 @@ export default function Pricpage() {
                 answer: "Yes, we offer secure online payment options through our website for your convenience.",
                 icon: <FaSpa className="text-teal-600" />
               },
+              {
+                question: "What is the full body massage at home in Delhi price?",
+                answer: "Full body massage at home in Delhi starts from ₹15,000 for a 90-minute session. This home service pricing is higher than an outlet visit because it includes therapist travel and equipment, but uses the same certified therapists and premium oils.",
+                icon: <FaHotel className="text-teal-600" />
+              },
+              {
+                question: "What affects body massage charges in Delhi?",
+                answer: "Body massage charges in Delhi depend on the outlet type (solo, hotel, or home), session duration, and the treatment you choose. Our spa charges in Delhi are always confirmed upfront on WhatsApp, so there are no hidden massage charges in Delhi once you arrive.",
+                icon: <FaCrown className="text-teal-600" />
+              },
+              {
+                question: "Do you offer spa services near The Leela Ambience Convention Hotel Delhi?",
+                answer: "While we are not affiliated with The Leela Ambience Convention Hotel Delhi specifically, we do offer home and hotel spa services across Delhi NCR, including areas near well-known hotels like this one. Our hotel outlet pricing starts from ₹13,999 — message us on WhatsApp with your exact location for the nearest available outlet.",
+                icon: <FaHotel className="text-teal-600" />
+              },
+              {
+                question: "How much does a couple spa in Delhi price?",
+                answer: "A couple spa in Delhi price at Spa Delhi is ₹3,998 for two people sharing the same private room, which works out to the same ₹1,999 per-person rate as a solo full body massage.",
+                icon: <HeartHandshake className="text-teal-600" />
+              },
     ];
 
   const pricingPlans = [
@@ -764,11 +784,101 @@ const teamMembers = [
       </div>
     </section>
             {/* //// */}
-      
+
+            {/* Body Massage & Spa Charges Breakdown */}
+            <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white relative overflow-hidden">
+              <div className="max-w-5xl mx-auto">
+                <div className="text-center mb-12">
+                  <motion.div
+                    className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                  >
+                    <FaStar className="text-amber-500" />
+                    Transparent Pricing
+                  </motion.div>
+                  <motion.h2
+                    className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                  >
+                    Body Massage &amp; Spa Charges in Delhi — <span className="text-amber-600">Full Price Breakdown</span>
+                  </motion.h2>
+                  <motion.p
+                    className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.1 }}
+                  >
+                    As one of the most transparent massage centers in Delhi with price listed openly for every treatment, we believe you shouldn&apos;t have to guess your final bill. Here is exactly what our body massage price in Delhi looks like, service by service.
+                  </motion.p>
+                </div>
+
+                <motion.div
+                  className="overflow-x-auto rounded-2xl border border-amber-200 shadow-lg"
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2 }}
+                >
+                  <table className="w-full min-w-[560px] text-left text-sm sm:text-base">
+                    <thead className="bg-amber-100 text-amber-900">
+                      <tr>
+                        <th className="px-4 py-3 font-semibold">Service</th>
+                        <th className="px-4 py-3 font-semibold">Duration</th>
+                        <th className="px-4 py-3 font-semibold">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-amber-100 bg-white text-gray-700">
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Full Body Massage in Delhi Price (Outlet)</td>
+                        <td className="px-4 py-3">60 Minutes</td>
+                        <td className="px-4 py-3 font-semibold text-amber-700">₹1,999</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Full Body Massage at Home in Delhi Price</td>
+                        <td className="px-4 py-3">90 Minutes</td>
+                        <td className="px-4 py-3 font-semibold text-amber-700">₹15,000</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Couple Spa in Delhi Price</td>
+                        <td className="px-4 py-3">60 Minutes, 2 People</td>
+                        <td className="px-4 py-3 font-semibold text-amber-700">₹3,998</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Hotel Spa Outlet</td>
+                        <td className="px-4 py-3">90 Minutes</td>
+                        <td className="px-4 py-3 font-semibold text-amber-700">₹13,999</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Premium Package (Massage + Steam + Facial)</td>
+                        <td className="px-4 py-3">60 Minutes</td>
+                        <td className="px-4 py-3 font-semibold text-amber-700">₹4,999</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </motion.div>
+
+                <motion.p
+                  className="mt-8 text-gray-700 text-lg leading-relaxed"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3 }}
+                >
+                  Wondering why spa charges in Delhi vary so much between parlours? Body massage cost in Delhi usually depends on the outlet type, session length, and whether you choose a solo, couple, or hotel spa experience. At Spa Delhi, the massage charges in Delhi you see above are exactly what you pay — no last-minute add-ons, no surprise service tax, and no pressure to upgrade once you&apos;re in the room. That is what makes us the best spa in Delhi with price you can actually trust before you walk in.
+                </motion.p>
+              </div>
+            </section>
+            {/* End Body Massage & Spa Charges Breakdown */}
+
             {/* /////? */}
     <section className="relative bg-white py-24 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        
+
         {/* Left Side Content */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}

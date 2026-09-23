@@ -97,6 +97,13 @@ const blogs = [
   image: "/images/female-therapist-rehabilitation-center-giving-back-massage.jpg",
   link: "/blog/full-body-massage-price-in-delhi",
 },
+{
+  title: "Hot Stone Massage Benefits: Advantages, Facial & Foot Uses Explained",
+  description:
+    "Discover the top hot stone massage benefits, from muscle relaxation and better circulation to the benefits of hot stone facial and foot massage.",
+  image: "/images/1627.jpg",
+  link: "/blog/hot-stone-massage-benefits",
+},
 ];
 
 export default function Bolgpage() {

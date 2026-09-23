@@ -296,6 +296,8 @@ export default function Outpage() {
 { name: 'PREET VIHAR', img: '/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg', href: '/spa-in-preet-vihar' },
 { name: 'LAXMI NAGAR', img: '/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg', href: '/spa-in-laxmi-nagar' },
 { name: 'HAUZ KHAS', img: '/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg', href: '/spa-in-hauz-khas' },
+{ name: 'GREATER NOIDA', img: '/images/Jaypee_Greens_Golf_Spa_Resort_Greater_Noida.jpg', href: '/spa-in-greater-noida' },
+{ name: 'DEFENCE COLONY', img: '/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg', href: '/spa-in-defence-colony' },
 ]
   return (
     <>
