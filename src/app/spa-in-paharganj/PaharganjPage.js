@@ -96,6 +96,11 @@ export default function PaharganjPage() {
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
+        <nav aria-label="Breadcrumb" className="relative z-10 mx-auto flex max-w-7xl items-center gap-2 px-6 pt-6 text-sm text-[#8a7a6d]">
+          <Link href="/" className="transition hover:text-amber-700">Home</Link>
+          <span className="text-amber-500/60">›</span>
+          <span className="font-medium text-[#3a2e2a]">Spa in Paharganj</span>
+        </nav>
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.02fr_0.98fr] lg:py-20">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="flex flex-col justify-center">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">

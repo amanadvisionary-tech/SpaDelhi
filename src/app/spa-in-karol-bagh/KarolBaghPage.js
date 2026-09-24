@@ -263,6 +263,12 @@ export default function KarolBaghPage() {
           <div className="absolute top-1/3 right-20 w-16 h-16 bg-amber-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
           <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div>
 
+          <nav aria-label="Breadcrumb" className="relative z-10 mx-auto flex max-w-7xl items-center gap-2 px-4 pt-6 text-sm text-gray-500">
+            <Link href="/" className="transition hover:text-amber-700">Home</Link>
+            <span className="text-amber-500/60">›</span>
+            <span className="font-medium text-gray-700">Spa in Karol Bagh</span>
+          </nav>
+
           <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center space-x-2 mb-6">

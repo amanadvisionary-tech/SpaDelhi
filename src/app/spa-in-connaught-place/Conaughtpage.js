@@ -327,7 +327,7 @@ export default function Conaughtpage() {
                 <div className="w-12 h-px bg-amber-600"></div>
               </div>
 
-              <h2 className="text-4xl md:text-5xl font-light text-gray-800">
+              <h1 className="text-4xl md:text-5xl font-light text-gray-800">
                 <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">
                   Luxury Massage
                 </span>
@@ -335,7 +335,7 @@ export default function Conaughtpage() {
                 <span className="block mt-2 font-medium">
                   Place at <span className="text-rose-600">Top Hotels</span>
                 </span>
-              </h2>
+              </h1>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                 Spa Delhi, the premier spa centre in Connaught Place, offers

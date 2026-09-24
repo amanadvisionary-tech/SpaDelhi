@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaTelegram } from "react-icons/fa";
@@ -22,7 +23,7 @@ export default function HomeLocations() {
     massage service. Reach out to us.
   </>
 ),
-    link: "https://wa.me/9217255113"
+    href: "/spa-in-lajpat-nagar"
   },
   {
     name: "Aerocity",
@@ -39,41 +40,41 @@ export default function HomeLocations() {
     . Get perfect massage service near Delhi airport. At Aerocity, we have
     foreign therapists from all across the world.
   </>),
-    link: "https://wa.me/9217255113"
+    href: "/spa-in-aerocity"
   },
   {
     name: "Connaught Place",
     image: "/images/TheParkConnaughtPlace.webp",
     description: ( <>
-    Looking for a spa in central Delhi? We have a 
+    Looking for a spa in central Delhi? We have a
     {" "}
     <a
       href="/spa-in-connaught-place"
       className="text-teal-600 font-semibold underline"
     >
-      spa in Connaught Place  
+      spa in Connaught Place
     </a>{" "}
      for giving extra ordinary massage service in the heart of Delhi.
 
     </>),
-    link: "https://wa.me/9217255113"
+    href: "/spa-in-connaught-place"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
     description: (
   <>
-    We have a massage outlet available at our Rohini location. Explore all our{" "}
+    We have a massage outlet available at our{" "}
     <a
-      href="/outlets"
+      href="/spa-in-rohini"
       className="text-teal-600 font-semibold underline"
     >
-      spa outlets in Delhi
+      spa in Rohini
     </a>
-    .
+    {" "}location. Explore all our spa outlets across Delhi NCR.
   </>
 ),
-    link: "https://wa.me/9217255113"
+    href: "/spa-in-rohini"
   }
 ];
 
